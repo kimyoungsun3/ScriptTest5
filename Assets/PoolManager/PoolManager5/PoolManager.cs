@@ -123,7 +123,7 @@ namespace PoolManager5{
 			GameObject _rtn = null;
 			GameObjectData _dataList 	= poolList [_prefab];
 			List<GameObject> _list 		= _dataList.list;
-			if (!_list [_dataList.front].activeInHierarchy) {
+			if (!_list [_dataList.front].activeSelf) {
 				//Not use gameobject > return data
 				_rtn = _list [_dataList.front];
 				//Debug.Log ("used > f");

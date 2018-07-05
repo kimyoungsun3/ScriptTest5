@@ -2,9 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-[CreateAssetMenu (menuName="Pluggleable/Action/Idle")]
-public class ActionIdle : Action {
-	public override void Act(ControllerState _cs){
-		Debug.Log ("ActionIdle");
+namespace ScriptableObjectTest{
+	[CreateAssetMenu (menuName="Pluggable/ScriptableObjectTest/ActionIdle")]
+	public class ActionIdle : Action {
+		public override void Act(ControllerState _cs){
+			Debug.Log ("ActionIdle");
+		}
 	}
 }

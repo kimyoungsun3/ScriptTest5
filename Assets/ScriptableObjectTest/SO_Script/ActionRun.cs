@@ -2,9 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-[CreateAssetMenu (menuName="Pluggleable/Action/Run")]
-public class ActionRun : Action {
-	public override void Act(ControllerState _cs){
-		Debug.Log ("ActionRun");
+namespace ScriptableObjectTest{
+	[CreateAssetMenu (menuName="Pluggable/ScriptableObjectTest/ActionRun")]
+	public class ActionRun : Action {
+		public override void Act(ControllerState _cs){
+			Debug.Log ("ActionRun");
+		}
 	}
 }

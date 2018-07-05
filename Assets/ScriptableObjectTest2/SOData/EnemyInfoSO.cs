@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 namespace ScriptableObjectTest2{
-	[CreateAssetMenu(menuName="ScriptableObjectTest2/EnemyInfoSO")]
+	[CreateAssetMenu(menuName="Pluggable/ScriptableObjectTest2/EnemyInfoSO")]
 	public class EnemyInfoSO : ScriptableObject {
 		public float health = 2f;
 		public float speed = 10f;
