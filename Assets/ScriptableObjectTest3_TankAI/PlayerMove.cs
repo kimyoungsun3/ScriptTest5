@@ -11,16 +11,21 @@ namespace ScriptableObjectTest3{
 		public int health;
 		protected bool isDead;
 		public System.Action callbackDeath;
+		Rigidbody rb;
 
 		void Start () {
 			trans = transform;
 			gameo = gameObject;
+			rb = GetComponent<Rigidbody> ();
 		}
 
 		void Update () {
 			move.Set (Input.GetAxisRaw ("Horizontal"), 0, Input.GetAxisRaw ("Vertical"));
 			move = move.normalized * speed * Time.deltaTime;
 			trans.Translate(move, Space.World);
+
+			rb.velocity = Vector3.zero;
+			rb.angularVelocity = Vector3.zero;
 		}
 
 		public void TakeHit(int _damage, Vector3 _hitPoint, Vector3 _hitDirection){

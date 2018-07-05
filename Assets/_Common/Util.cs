@@ -3,7 +3,13 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public static class Util{
-
+	public static Vector3 GetDirFromAngle(float _angle){
+		return new Vector3(
+			Mathf.Cos (_angle * Mathf.Deg2Rad),
+			Mathf.Sin (_angle * Mathf.Deg2Rad), 
+			0
+		);
+	}
 
 	//A -> B => xy 평면에서 바라보는 x축을 기준으로 각도.
 	public static float GetAngleFromDir(Vector3 _viewDir){

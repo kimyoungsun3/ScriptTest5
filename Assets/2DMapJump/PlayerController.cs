@@ -16,13 +16,15 @@ namespace DMapJump
         public float WAIT_TIME = .05f;
 
         float v, h;
-        Vector3 move, hitPoint;
+        Vector3 move, hitPoint, dirView;
         Transform trans;
         public float speed;
         Plane plane;
         Ray ray;
         Camera cam;
         float distance;
+		public float gunAngleStep = 5f;
+		[Range(1, 10)] public int gunCount = 1;
 
         void Awake()
         {
@@ -51,19 +53,32 @@ namespace DMapJump
             {
                 hitPoint = ray.GetPoint(distance);
                 hitPoint.z = 0;
+				dirView = hitPoint - trans.position;
                 //float _angle = Util.GetAngleFromDir(hitPoint - trans.position);
                 //trans.rotation = Quaternion.Euler(0, 0, _angle);
-                trans.rotation = Util.GetQuaternionFormDir(hitPoint - trans.position);
+				trans.rotation = Util.GetQuaternionFormDir(dirView);
+
+
             }
 
             trans.Translate(move * speed * Time.deltaTime, Space.World);
+
 
             if (Time.time > waitTime)
             {
                 waitTime = Time.time + WAIT_TIME;
                 if (Input.GetMouseButton(0))
                 {
-                    PoolManager.ins.Instantiate("PlayerBullet", spawnPoint.position, spawnPoint.rotation);
+					Quaternion _q;
+					float _angleTotal = (gunCount - 1) * gunAngleStep;
+					float _angle = Util.GetAngleFromDir(dirView) - _angleTotal / 2f;
+
+					for (int i = 0; i < gunCount; i++) {
+						_q = Quaternion.Euler (0, 0, _angle);
+						_angle += gunAngleStep;
+
+						PoolManager.ins.Instantiate ("PlayerBullet", spawnPoint.position, _q);
+					}
                 }
             }
 
@@ -71,14 +86,15 @@ namespace DMapJump
             if (Input.GetKeyDown(KeyCode.Z))
             {
                 EditorApplication.isPaused = !EditorApplication.isPaused;
-            }
+			}else if(Input.GetKeyDown(KeyCode.Tab)){
+				gunCount++;
+				if(gunCount > 10){
+					gunCount = 1;
+				}
+			}
+
             #endif
         }
 
-        //A -> B => xy 평면에서 바라보는 x축을 기준으로 각도.
-        public float GetAngleFromDir(Vector3 _viewDir)
-        {
-            return Mathf.Atan2(_viewDir.y, _viewDir.x) * Mathf.Rad2Deg;
-        }
     }
 }
