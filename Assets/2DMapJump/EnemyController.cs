@@ -50,7 +50,7 @@ namespace DMapJump
             }
 
             //Debug.Log(transPlayer + ":" + trans);
-            trans.rotation = Util.GetQuaternionFormDir(transPlayer.position - trans.position);
+			trans.rotation = Util.GetQuaternionFromDir2D(transPlayer.position - trans.position);
             trans.Translate(Vector3.right * speed * Time.deltaTime);
         }
     }

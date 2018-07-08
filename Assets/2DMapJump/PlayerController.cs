@@ -56,7 +56,7 @@ namespace DMapJump
 				dirView = hitPoint - trans.position;
                 //float _angle = Util.GetAngleFromDir(hitPoint - trans.position);
                 //trans.rotation = Quaternion.Euler(0, 0, _angle);
-				trans.rotation = Util.GetQuaternionFormDir(dirView);
+				trans.rotation = Util.GetQuaternionFromDir2D(dirView);
 
 
             }

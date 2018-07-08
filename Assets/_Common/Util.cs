@@ -16,10 +16,18 @@ public static class Util{
 		return Mathf.Atan2 (_viewDir.y, _viewDir.x) * Mathf.Rad2Deg;
     }
 
-    public static Quaternion GetQuaternionFormDir(Vector3 _viewDir)
-    {
-        return Quaternion.Euler(0, 0, Mathf.Atan2(_viewDir.y, _viewDir.x) * Mathf.Rad2Deg );
-    }
+    //public static Quaternion GetQuaternionFormDir(Vector3 _viewDir)
+    //{
+    //    return Quaternion.Euler(0, 0, Mathf.Atan2(_viewDir.y, _viewDir.x) * Mathf.Rad2Deg );
+    //}
+
+	public static Quaternion GetQuaternionFromDir2D(Vector3 _viewDir)
+	{
+		//float _angle = Mathf.Atan2 (_dir.y, _dir.x) * Mathf.Rad2Deg;
+		//	Quaternion _q = Quaternion.Euler (Vector3.forward * _angle);
+		//	return _q;
+		return Quaternion.Euler(0, 0, Mathf.Atan2(_viewDir.y, _viewDir.x) * Mathf.Rad2Deg );
+	}
 
     //A1, A2 사이각
     //PosNegAngle (Vector3.forward, Vector3.right, Vector3.up)
