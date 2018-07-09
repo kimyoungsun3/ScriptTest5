@@ -16,11 +16,13 @@ using System.Collections;
 using System.Collections.Generic;
 
 
-namespace PoolManager6{
+namespace PoolManager7{
 	public class PoolManager : MonoBehaviour {
 		[Header("메모리 프리펩")]
 		[Tooltip("메모리에 생성후에 메모리에 있는 프리펩을 비활성화 한다.")]
 		public Transform transMemoryPrefabRoot;
+		[Tooltip("AccessTime줄이면 새로생성시 풀검색을 자주함 > 속도 하락할 수 있음.")]
+		public float ACCESS_TIME = 2f;
 
 		[System.Serializable]
 		public class GameObjectInfo{
@@ -35,6 +37,7 @@ namespace PoolManager6{
 			public List<GameObject> list;
 			public int front 	= 0;
 			public int max 		= 0;
+			public float accessTime= 0;
 			//public List<PoolMaster> listScp;
 
 			public GameObjectData(List<GameObject> _list, int _max){
@@ -176,59 +179,95 @@ namespace PoolManager6{
 					_dataList.front = 0;
 				}
 			} else if (willGrow) {
-				//not found the pooling gameobject and create gameobject 
-				//GameObject _goTemp = Instantiate (_prefab, _pos, _qua) as GameObject; 
-				//이상하게 위치 잡고 생성하면 오류나고 이렇게 해야만 한다...
+				int _idx = CheckAccessTime (_dataList, _list);
+				if (_idx != -1) {
+					//Debug.Log (" > Enmpy find ");
+					//재검색... 빈곳 찾기....
+					_dataList.front = _idx;
 
-				//이것도 안된다. ㅠㅠ.
-				//Debug.Log ("create2 > .");
-				//GameObject _goTemp = Instantiate ((GameObject)_prefab, _pos, _qua) as GameObject; 			//유니티 자체가 멈춰버린다. ㅠㅠ
-				//GameObject _goTemp = Instantiate (_prefab, _pos, _qua) as GameObject; 						//유니티 자체가 멈춰버린다. ㅠㅠ
-				GameObject _goTemp = (Instantiate (_prefab.transform, _pos, _qua) as Transform).gameObject; 	//된다. ㅠㅠ.		
-				//Debug.Log ("create2 > I");
-				//Debug.Log("create2 > I" + _goTemp.transform.position + ":" + _pos);
+					_rtn = _list [_dataList.front];
+					//Debug.Log ("used > f");
+					_rtn.transform.position = _pos;	//순서가 중요.
+					_rtn.transform.rotation = _qua;
+					_rtn.SetActive (true);
+					//Debug.Log ("used > t");
 
-				//생성후(Awake, OnEnable) => 위치 음... 문제
-				//1. Instantiate 	-> 	Awake()
-				//				    	OnEnable() -> 충돌, 체크 할 수 있다....
-				//						*위치가 반영되었다고 생각했는데... > 순서 꼬임...
-				//2. pos, qut		-> 	이제 위치 반영... 
-				//GameObject _goTemp = Instantiate (_prefab);	
-				//_goTemp.transform.position = _pos;
-				//_goTemp.transform.rotation = _qua;
-				//Debug.Log ("create2 > I");
-				Transform _parent 	= transform;
-				bool _bUI 			= false;
-				FindGameObjectInfoToParent(_prefab, ref _parent, ref _bUI);
+					_dataList.front++;
+					if (_dataList.front >= _dataList.max) {
+						_dataList.front = 0;
+					}
+				}else{
+					//not found the pooling gameobject and create gameobject 
+					//GameObject _goTemp = Instantiate (_prefab, _pos, _qua) as GameObject; 
+					//이상하게 위치 잡고 생성하면 오류나고 이렇게 해야만 한다...
 
-				_goTemp.transform.SetParent (_parent);
-				if (_bUI) {
-					_goTemp.transform.localScale = Vector3.one;
+					//이것도 안된다. ㅠㅠ.
+					//Debug.Log ("create2 > .");
+					//GameObject _goTemp = Instantiate ((GameObject)_prefab, _pos, _qua) as GameObject; 			//유니티 자체가 멈춰버린다. ㅠㅠ
+					//GameObject _goTemp = Instantiate (_prefab, _pos, _qua) as GameObject; 						//유니티 자체가 멈춰버린다. ㅠㅠ
+					GameObject _goTemp = (Instantiate (_prefab.transform, _pos, _qua) as Transform).gameObject; 	//된다. ㅠㅠ.		
+					//Debug.Log ("create2 > I");
+					//Debug.Log("create2 > I" + _goTemp.transform.position + ":" + _pos);
+
+					//생성후(Awake, OnEnable) => 위치 음... 문제
+					//1. Instantiate 	-> 	Awake()
+					//				    	OnEnable() -> 충돌, 체크 할 수 있다....
+					//						*위치가 반영되었다고 생각했는데... > 순서 꼬임...
+					//2. pos, qut		-> 	이제 위치 반영... 
+					//GameObject _goTemp = Instantiate (_prefab);	
+					//_goTemp.transform.position = _pos;
+					//_goTemp.transform.rotation = _qua;
+					//Debug.Log ("create2 > I");
+					Transform _parent 	= transform;
+					bool _bUI 			= false;
+					FindGameObjectInfoToParent(_prefab, ref _parent, ref _bUI);
+
+					_goTemp.transform.SetParent (_parent);
+					if (_bUI) {
+						_goTemp.transform.localScale = Vector3.one;
+					}
+					_list.Insert (_dataList.front, _goTemp);
+					_goTemp.name += _dataList.max.ToString ();
+					_rtn = _goTemp;
+		            if (!_goTemp.activeInHierarchy)
+		            {
+		                _goTemp.SetActive(true);
+		                //Debug.Log(_goTemp.name + ":" + _goTemp.activeInHierarchy);
+		            }
+
+		            //Debug.Log ("add front:" + _dataList.front);
+
+		            _dataList.front++;
+					_dataList.max++;
+					if (_dataList.front >= _dataList.max) {
+						_dataList.front = 0;
+					}
+					//Debug.Log ("info front:" + _dataList.front + " max:" + _dataList.max);
 				}
-				_list.Insert (_dataList.front, _goTemp);
-				_goTemp.name += _dataList.max.ToString ();
-				_rtn = _goTemp;
-	            if (!_goTemp.activeInHierarchy)
-	            {
-	                _goTemp.SetActive(true);
-	                //Debug.Log(_goTemp.name + ":" + _goTemp.activeInHierarchy);
-	            }
-
-	            //Debug.Log ("add front:" + _dataList.front);
-
-	            _dataList.front++;
-				_dataList.max++;
-				if (_dataList.front >= _dataList.max) {
-					_dataList.front = 0;
-				}
-				//Debug.Log ("info front:" + _dataList.front + " max:" + _dataList.max);
 			} else {
 				Debug.LogWarning (" 성장이 아닌데 여유가 없다 > 논리 오류");
 			}
+			_dataList.accessTime 		= Time.time;
 
 			return _rtn;
 		}
 
+
+		int CheckAccessTime(GameObjectData _dataList, List<GameObject> _list){
+			int _rtn = -1;
+			if(Time.time < _dataList.accessTime + ACCESS_TIME){
+				return _rtn;
+			}
+
+			//Debug.Log ("Empty Find try");
+			for(int i = 0, iMax = _list.Count; i < iMax; i++){
+				if (!_list [i].activeInHierarchy) {
+					return i;
+				}
+			}
+
+			return _rtn;
+		}
 
 		//Prefab 정보 리스트에서 검색해서 부모찾기...
 		void FindGameObjectInfoToParent(GameObject _go, ref Transform _parent, ref bool _bUI){

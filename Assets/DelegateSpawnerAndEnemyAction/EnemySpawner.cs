@@ -1,10 +1,12 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using PoolManager6;
+//using System;
+using PoolManager7;
+//using Random=UnityEngine;
 
-namespace DelegateManager{
-
+namespace DelegateSpawnerAndEnemyAction{
+	
 	public class EnemySpawner : MonoBehaviour {
 		public List<Enemy> listEnemy = new List<Enemy> ();
 		Vector2 rangeMax;
@@ -48,7 +50,7 @@ namespace DelegateManager{
 
 
 		void CBPoint(Enemy _enemy, int _point){
-			Debug.Log ("Point Plus and List delete Enemy class");
+			//Debug.Log ("Point Plus and List delete Enemy class");
 
 			//1. Point Plus
 			point += _point;
@@ -56,7 +58,7 @@ namespace DelegateManager{
 
 			//2. List delete Enemey.
 			bool _b = listEnemy.Remove (_enemy);
-			Debug.Log (" > " + _b);
+			//Debug.Log (" > " + _b);
 		}
 
 		//-----------------------------------
@@ -71,7 +73,7 @@ namespace DelegateManager{
 		// Delete All Enemey
 		//-----------------------------------
 		public void DelAllEnemy(){
-			Debug.Log ("Delete All Enemy");
+			//Debug.Log ("Delete All Enemy");
 			for (int i = 0, iMax = listEnemy.Count; i < iMax; i++) {
 				listEnemy [i].Destroy ();
 			}

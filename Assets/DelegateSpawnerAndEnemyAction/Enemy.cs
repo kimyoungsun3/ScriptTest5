@@ -1,14 +1,14 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using PoolManager6;
+using PoolManager7;
 
-namespace DelegateManager{
+namespace DelegateSpawnerAndEnemyAction{
+	
 	public class Enemy : MonoBehaviour {
 		//public System.Func<Enemy, EnemySpawner> onDeath;
 		//System.Action cbIn;
-		//delegate
-		VOID_FUN_ENEMY cbDeath;
+		System.Action<Enemy, int> cbDeath;
 		public Vector2 rangeMax = new Vector2(.5f, .5f);
 		public List<EnemyBullet> listEnemyBullet = new List<EnemyBullet> ();
 		//---------------------------------------
@@ -19,7 +19,7 @@ namespace DelegateManager{
 		}
 
 		//---------------------------------------
-		public void InitFirst(VOID_FUN_ENEMY _cb){
+		public void InitFirst(System.Action<Enemy, int>  _cb){
 			cbDeath = _cb;
 		}
 
@@ -62,6 +62,7 @@ namespace DelegateManager{
 			}
 			listEnemyBullet.Clear ();
 		}
+
 		//-----------------------------------
 		void HitAndDeath(){
 			if (cbDeath != null) {

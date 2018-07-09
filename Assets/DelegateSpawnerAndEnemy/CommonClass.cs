@@ -3,6 +3,6 @@ using System.Collections.Generic;
 using UnityEngine;
 
 
-namespace DelegateManager{
+namespace DelegateSpawnerAndEnemy{
 	public delegate void VOID_FUN_ENEMY(Enemy _e, int _p);
 }

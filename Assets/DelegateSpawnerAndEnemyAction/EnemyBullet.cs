@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace DelegateManager{
+namespace DelegateSpawnerAndEnemyAction{
 	public class EnemyBullet : MonoBehaviour {
 		Enemy scpEnemy;
 
