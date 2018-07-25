@@ -14,7 +14,13 @@ public class AnimationPlay : MonoBehaviour {
 	void Update () {
 		if (Input.GetKeyDown(KeyCode.Alpha1)) {
 			Animation ani = GetComponent<UnityEngine.Animation> ();
-			ani.Play (ani.clip.name);
+			Debug.Log (ani + ":" + ani.clip.name + ":" + ani.isPlaying);
+			if (!ani.isPlaying) {
+				ani.Play (ani.clip.name);
+			}
+			Debug.Log (ani + ":" + ani.clip.name + ":" + ani.isPlaying);
+			//ani.Sample ();
+			//ani.Play("smoke");
 			//yield return new WaitForSeconds (ani.clip.length);
 		}		
 	}
