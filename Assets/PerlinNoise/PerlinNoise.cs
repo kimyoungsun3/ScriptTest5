@@ -26,7 +26,7 @@ namespace PerlinNoise{
 			GenerateTexture ();
 		}
 
-		Texture2D GenerateTexture(){
+		void GenerateTexture(){
 			Color _color;
 			for (int x = 0; x < width; x++) {
 				for (int y = 0; y < height; y++) {
@@ -36,7 +36,6 @@ namespace PerlinNoise{
 			}
 
 			texture.Apply ();
-			return texture;
 		}
 
 		Color CalculateColor(int x, int y){
