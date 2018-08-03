@@ -44,13 +44,35 @@ public static class Util{
 	//-------------------------------------------------------
 	// 포물선 공식....
 	// 아래의 식은 물리 공식에 입각한 식이다...
+	//
+	// Kinematic Equation
+	//  time(t), displament(s), accelation(a)
+	// [--------------------------------]
+	// initVelocity(u), finalVelocity(v), 
+	//
+	// 1. (u+v)/2 = s/t
+	// 2. u + at = v
+	// 3. s = ut + at^2/2
+	// 4. s = vt - at^2/2
+	// 5. u^2 + 2as = v^2
+	//
+	// pX  : A -> P
+	// pYZ : A -> P
+	// h   : 최고 높이.
+	// g   : 중력.
+	//
+	// 	up					right						down
+	// vUp:0				vRight:						vDown:
+	// tUp:Sqrt(-2h/g)		tRight:tUp + tDown *		tDown:Sqrt(2(pY - h)/g)
+	// aUp:g				aRight:0					aDown:g
+	// sUp:h				sRight:pX					sDown:pY - h
+	// uUp:Sqrt(-2gh) *		uRight:px / (tUp + tDown) *	uDown:0
 	//-------------------------------------------------------
 	public static StructInitData CalculateInitVelocityParabola(Vector3 _startPos, Vector3 _targetPos, float _h = 25f, float _gravity = -18f){
-		float _pY = _targetPos.y - _startPos.y;
-		Vector3 _pXZ = _targetPos - _startPos;
+		float _pY 		= _targetPos.y - _startPos.y;
+		Vector3 _pXZ 	= _targetPos - _startPos;
 		_pXZ.y = 0;
 		//Debug.Log ("pY:" + _pY + " pXZ:" + _pXZ);
-
 		float _timeRight= (Mathf.Sqrt ((-2f * _h) / _gravity) + Mathf.Sqrt (2f * (_pY - _h) / _gravity));
 		Vector3 _uUp 	= Mathf.Sqrt (-2f * _gravity * _h) * Vector3.up;
 		Vector3 _uRight = _pXZ / _timeRight;
