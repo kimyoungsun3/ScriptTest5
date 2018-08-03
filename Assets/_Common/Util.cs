@@ -39,4 +39,33 @@ public static class Util{
 		float _sign = Mathf.Sign (Vector3.Dot (_n, Vector3.Cross (_a1, _a2)));
 		return _sign * _angle;
 	}
+
+
+	//-------------------------------------------------------
+	// 포물선 공식....
+	// 아래의 식은 물리 공식에 입각한 식이다...
+	//-------------------------------------------------------
+	public static StructInitData CalculateInitVelocityParabola(Vector3 _startPos, Vector3 _targetPos, float _h = 25f, float _gravity = -18f){
+		float _pY = _targetPos.y - _startPos.y;
+		Vector3 _pXZ = _targetPos - _startPos;
+		_pXZ.y = 0;
+		//Debug.Log ("pY:" + _pY + " pXZ:" + _pXZ);
+
+		float _timeRight= (Mathf.Sqrt ((-2f * _h) / _gravity) + Mathf.Sqrt (2f * (_pY - _h) / _gravity));
+		Vector3 _uUp 	= Mathf.Sqrt (-2f * _gravity * _h) * Vector3.up;
+		Vector3 _uRight = _pXZ / _timeRight;
+		//Debug.Log ( "_timeRight:" + _timeRight + " _uUp:" + _uUp  " _uRight:" + _uRight );
+
+		Vector3 _velocity = _uUp + _uRight;
+		return new StructInitData(_velocity, _timeRight);
+	}
+
+	public struct StructInitData{
+		public readonly Vector3 initVelocity;
+		public readonly float time;
+		public StructInitData(Vector3 _v, float _t){
+			initVelocity = _v;
+			time = _t;
+		}
+	}
 }
