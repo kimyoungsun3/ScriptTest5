@@ -45,6 +45,8 @@ public class MoveController21 : MonoBehaviour {
 			bMoveForward = false;
 		}
 
+
+		//-----------------------
 		if (Input.GetKeyDown(KeyCode.Alpha1)) {
 			Bullet2 _bullet = Instantiate (bullet, spawnPoint[0].position, spawnPoint[0].rotation) as Bullet2;
 			//_bullet.transform.SetParent ();
@@ -55,8 +57,7 @@ public class MoveController21 : MonoBehaviour {
 				_bullet = Instantiate (bullet, spawnPoint [i].position, spawnPoint [i].rotation) as Bullet2;
 				//_bullet.transform.SetParent ();
 				_bullet.Init ();
-			}
-			
+			}			
 		}
 
 		if (bMoveForward) {

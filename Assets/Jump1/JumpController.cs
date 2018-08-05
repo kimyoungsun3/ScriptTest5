@@ -25,6 +25,10 @@ namespace JumpJump{
 				rb.AddForce (Vector3.up * jumpForce, ForceMode.Impulse);
 			}
 
+
+			//if (move == Vector3.zero && rb.velocity != Vector3.zero) {
+			//	rb.velocity = new Vector3(0, rb.velocity.y, 0);
+			//}
 		}
 
 		bool IsGround(){

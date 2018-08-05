@@ -19,7 +19,7 @@ public class ThirdPersonCamera2: MonoBehaviour {
 	float sensivityD = 10.0f;
 	Quaternion dirQ;
 	float wheel;
-	bool bMove;
+	//bool bMove;
 
 	void Start () {
 		trans = transform;
@@ -28,12 +28,12 @@ public class ThirdPersonCamera2: MonoBehaviour {
 		angleY = trans.eulerAngles.y;
 		angleX = trans.eulerAngles.x;
 
-		bMove = true;
+		//bMove = true;
 	}
 
 	void Update () {
 		if (Input.GetMouseButton (1)) {
-			bMove = true;
+			//bMove = true;
 			angleY += Input.GetAxis ("Mouse X") * sensivityY;//<-> 좌우이동 -> Y축이동...
 			angleX -= Input.GetAxis ("Mouse Y") * sensivityX;//    상하이동 -> X축이동...
 			//Debug.Log (angleY + ":"+ angleX);
@@ -43,7 +43,7 @@ public class ThirdPersonCamera2: MonoBehaviour {
 
 		wheel = Input.GetAxis ("Mouse ScrollWheel");
 		if (wheel != 0) {
-			bMove = true;
+			//bMove = true;
 			distance -= Input.GetAxis ("Mouse ScrollWheel") * sensivityD;
 			//Debug.Log (Input.GetAxis ("Mouse ScrollWheel"));
 
@@ -52,12 +52,12 @@ public class ThirdPersonCamera2: MonoBehaviour {
 	}
 
 	void LateUpdate(){
-		if(bMove){ 
-			bMove = false;
+		//if(bMove){ 
+			//bMove = false;
 			dirQ = Quaternion.Euler (angleX, angleY, 0);
 			trans.position = target.position + dirQ * Constant.V3_BACK * distance;
 			trans.LookAt (target.position);
 			//Debug.Log(Vector3.Distance(target.position, trans.position));
-		}
+		//}
 	}
 }
