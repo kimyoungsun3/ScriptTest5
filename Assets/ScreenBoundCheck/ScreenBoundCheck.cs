@@ -47,6 +47,11 @@ public class ScreenBoundCheck : MonoBehaviour {
 			Gizmos.color = Color.green;
 			Gizmos.DrawCube (_min, extends);
 			Gizmos.DrawCube (_max, extends);
+
+			//Gizmos.
+			Util.GizmosDrawBox(_min, _max, Color.green);
+			//Transform _t;
+			//Gizmos.
 		}
 	}
 }

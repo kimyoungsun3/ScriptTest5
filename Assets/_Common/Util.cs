@@ -90,4 +90,52 @@ public static class Util{
 			time = _t;
 		}
 	}
+
+	//---------------------------------------
+	//Gizmos extends Methord
+	//---------------------------------------
+	//Transform -> public class Transform (Extension Methord ok)
+	public static void TransformReset(this Transform _trans){
+		_trans.position = Vector3.zero;
+		_trans.rotation = Quaternion.identity;
+		_trans.localScale = Vector3.one;
+	}
+
+	//Gizmos -> public seal class Gizmos ( seal 클래스라서 Extension 불가능 )
+	//public static void GizmosDrawBox(this Gizmos _gizmos, Vector3 _leftBottom, Vector3 _rightTop){
+	//, Color _color = Color.green
+	public static void GizmosDrawBox(Vector3 _min, Vector3 _max, Color _color){
+		Vector3 _p1 = new Vector3 (_min.x, 	_min.y, 	_min.z);
+		Vector3 _p2 = new Vector3 (_max.x, 	_min.y, 	_min.z);
+		Vector3 _p3 = new Vector3 (_max.x, 	_max.y, 	_min.z);
+		Vector3 _p4 = new Vector3 (_min.x, 	_max.y, 	_min.z);
+
+		Gizmos.color = _color;
+		Gizmos.DrawLine (_p1, _p2);
+		Gizmos.DrawLine (_p2, _p3);
+		Gizmos.DrawLine (_p3, _p4);
+		Gizmos.DrawLine (_p4, _p1);
+	}
+
+	public static void GizmosDrawBounds(Bounds _bounds, Color _color){
+		//GizmosDrawBox (_bounds.center - _bounds.extents, _bounds.center + _bounds.extents, _color);
+		GizmosDrawBox (_bounds.min, _bounds.max, _color);
+	}
+
+	//----------------------------------------------------
+	public static bool CheckBoundsBoxing(Collider2D _col1, Collider2D _col2){
+		return _col1.bounds.Intersects (_col2.bounds);
+	}
+
+	public static bool CheckBoundsRay(Collider2D _col, Ray _ray){
+		return _col.bounds.IntersectRay (_ray);
+	}
+
+	public static bool CheckBoundsBoxing(Collider _col1, Collider _col2){
+		return _col1.bounds.Intersects (_col2.bounds);
+	}
+
+	public static bool CheckBoundsRay(Collider _col, Ray _ray){
+		return _col.bounds.IntersectRay (_ray);
+	}
 }
