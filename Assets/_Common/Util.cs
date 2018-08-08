@@ -127,15 +127,15 @@ public static class Util{
 		return _col1.bounds.Intersects (_col2.bounds);
 	}
 
-	public static bool CheckBoundsRay(Collider2D _col, Ray _ray){
-		return _col.bounds.IntersectRay (_ray);
+	public static bool CheckBoundsRay(Collider2D _col, Ray _ray, out float _distance){
+		return _col.bounds.IntersectRay (_ray, out _distance);
 	}
 
 	public static bool CheckBoundsBoxing(Collider _col1, Collider _col2){
 		return _col1.bounds.Intersects (_col2.bounds);
 	}
 
-	public static bool CheckBoundsRay(Collider _col, Ray _ray){
-		return _col.bounds.IntersectRay (_ray);
+	public static bool CheckBoundsRay(Collider _col, Ray _ray, out float _distance){
+		return _col.bounds.IntersectRay (_ray, out _distance);
 	}
 }

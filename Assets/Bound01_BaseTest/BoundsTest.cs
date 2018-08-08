@@ -2,9 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace BoundBaseTest{
+namespace Bound01{
 	public class BoundsTest : MonoBehaviour {
 		SpriteRenderer renderer;
+		public bool bChange;
 
 		void Start () {
 			renderer = GetComponent<SpriteRenderer> ();
@@ -14,7 +15,10 @@ namespace BoundBaseTest{
 			SpriteRenderer _r = GetComponent<SpriteRenderer> ();
 			//Debug.Log (_r);
 			if(_r != null){
-				Util.GizmosDrawBounds(_r.bounds, Color.green);
+				if(bChange)
+					Util.GizmosDrawBounds(_r.bounds, Color.green);
+				else
+					Gizmos2.DebugBounds (_r.bounds, Color.red);
 			}
 		}
 	}

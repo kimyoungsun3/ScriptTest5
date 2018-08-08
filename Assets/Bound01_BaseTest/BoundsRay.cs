@@ -2,13 +2,15 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace BoundBaseTest{
+namespace Bound01{
 	public class BoundsRay : MonoBehaviour {
 		public int count = 10;
 		public float radius = 20f;
 		public Transform prefab;
 		public List<BoxCollider2D> list = new List<BoxCollider2D> ();
-
+		public Vector3 hitPoint;
+		float distance = 0;
+		bool bHit;
 
 		void Start () {
 			Vector3 _pos;
@@ -31,10 +33,16 @@ namespace BoundBaseTest{
 				for (int i = 0, _count = list.Count; i < _count; i++) {
 					_col = list [i];
 
-					if (Util.CheckBoundsRay (_col, _ray)) {
+					if (Util.CheckBoundsRay (_col, _ray, out distance)) {
 						Debug.Log (_col.name);
+						hitPoint = _ray.GetPoint(distance);
+						bHit = true;
 					}
 				}
+			}
+
+			if (bHit) {
+				Gizmos2.DebugPoint (hitPoint, Color.green, 1.5f);
 			}
 		}
 	}
