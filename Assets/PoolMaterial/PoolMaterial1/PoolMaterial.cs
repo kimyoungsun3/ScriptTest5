@@ -31,7 +31,7 @@ namespace PoolMaterial1{
 			if (dicPools.ContainsKey (_srcSharedMaterial)) {
 				//Debug.LogError ("Same Material create");
 			}else{
-				//Debug.Log (_srcSharedMaterial);
+				Debug.Log (_srcSharedMaterial);
 				//register queue Material...
 				queueMat = new Queue<MaterialData> ();
 				dicPools.Add (_srcSharedMaterial, queueMat);
