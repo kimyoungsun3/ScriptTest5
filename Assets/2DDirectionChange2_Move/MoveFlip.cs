@@ -23,11 +23,11 @@ namespace DirectionChange2{
 			if (move.x > 0 && bFlipX != false) {
 				SubFlipX (false);
 				bFlipX = false;
-				Debug.Log (1);
+				//Debug.Log (1);
 			} else if (move.x < 0 && bFlipX != true) {
 				SubFlipX (true);
 				bFlipX = true;
-				Debug.Log (2);
+				//Debug.Log (2);
 			}
 		}
 
