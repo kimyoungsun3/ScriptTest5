@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace FSM3_Delegate{
+namespace FSM3{
 	public class FsmData<T>{
 		public T t;
 		public System.Action cbIn;
@@ -27,6 +27,10 @@ namespace FSM3_Delegate{
 		public void AddState(T _t, System.Action _cbIn, System.Action _cbOut){
 			AddState (_t, _cbIn, null, _cbOut);
 		}
+
+		//public void AddState(T _t, System.Action _cbIn, System.Action _cbLoop, System.Action _cbOut){
+		//	AddState (_t, _cbIn, _cbLoop, _cbOut);
+		//}
 
 		public void AddState(T _t, System.Action _cbIn, System.Action _cbLoop, System.Action _cbOut){
 			if (dicFun.ContainsKey (_t)) {
@@ -62,12 +66,18 @@ namespace FSM3_Delegate{
 			//callback setting
 			FsmData<T> _s = dicFun[curState];
 			cbIn 	= _s.cbIn;
-			//cbLoop= _s.cbLoop;
+			cbLoop	= _s.cbLoop;
 			cbOut 	= _s.cbOut;
 
 			//pIn start
 			if (cbIn != null) {
 				cbIn ();
+			}
+		}
+
+		void Update(){
+			if (cbLoop != null) {
+				cbLoop ();
 			}
 		}
 	}

@@ -3,8 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 
 
-namespace FSM4_Delegate{
-	public class FSMCubeNoAuto : FSMNoUpdate<FSMCubeNoAuto.STATE> {
+namespace FSM4{
+	public class FSMCubeAuto : FSMAutoUpdate<FSMCubeAuto.STATE> {
 		public enum STATE{
 			None, Move, Rotate, Wait
 		};
@@ -24,12 +24,6 @@ namespace FSM4_Delegate{
 			MoveState (STATE.Move);
 		}
 
-		void Update(){
-			if (cbModify != null) {
-				cbModify ();
-			}
-		}
-
 		//-----------------------------
 		//Move
 		//-----------------------------
@@ -39,7 +33,7 @@ namespace FSM4_Delegate{
 		}
 
 		void modifyMove(){
-			if (Input.GetKeyDown(KeyCode.Space) || (trans.position == newPos)) {
+			if (trans.position == newPos) {
 				MoveState (STATE.Rotate);
 				return;
 			}
@@ -57,7 +51,7 @@ namespace FSM4_Delegate{
 		}
 
 		void modifyRotate(){
-			if (Input.GetKeyDown(KeyCode.Space) || trans.rotation == newQ) {
+			if (trans.rotation == newQ) {
 				MoveState (STATE.Wait);
 				return;
 			}
@@ -74,7 +68,7 @@ namespace FSM4_Delegate{
 		}
 
 		void modifyWait(){
-			if (Input.GetKeyDown(KeyCode.Space) || Time.time > waitNextTime) {
+			if (Time.time > waitNextTime) {
 				MoveState (STATE.Move);
 				return;
 			}

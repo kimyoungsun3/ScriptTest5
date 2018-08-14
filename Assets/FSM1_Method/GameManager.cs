@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 
 namespace FSM1_Method{
-	public class FSMTest : MonoBehaviour {
+	public class GameManager : MonoBehaviour {
 		GAME_STATE gamestate = GAME_STATE.None;
 		public Text text;
 		int count;

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace GameManager4{
+namespace FSM5{
 	public class GameManager : FSM<GAME_STATE> {
 		
 		#region Variable Zone
@@ -13,12 +13,13 @@ namespace GameManager4{
 		}
 		#endregion
 
+		[Header("개발링크")]
 		#region 게임 Instance 클래스...
+		public FsmCube cube;
 		//PlayerPlatformerController player;
 		//EnemySpawner enemySpawner;
 		//public bool bPause;
 
-		[Header("개발링크")]
 		public Ui_XXXX 				uiXXXX;
 		//public Ui_Result 			uiResult;
 		//public VirtualJoystick	uiJoystick;
@@ -97,6 +98,7 @@ namespace GameManager4{
 		public void pInGaming(){
 			uiXXXX.SetActive2 (true);
 			uiXXXX.SetMessage ("Gaming");
+			cube.gameObject.SetActive (true);
 
 			//uiSceneInfo.SetActive2 (false);
 			//uiResult.SetActive2 (false);
@@ -124,6 +126,7 @@ namespace GameManager4{
 		//-----------------------------------------------------------
 		void pInResult(){
 			//Spawn Wave -> pInGame...
+			cube.gameObject.SetActive (false);
 			uiXXXX.SetActive2 (true);
 			uiXXXX.SetMessage ("Game Result");
 		}

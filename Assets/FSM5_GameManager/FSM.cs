@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace GameManager4{
+namespace FSM5{
 	public class FSMData<T>{
 		public T t;
 		public System.Action cbIn;

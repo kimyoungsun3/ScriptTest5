@@ -3,14 +3,14 @@ using System.Collections.Generic;
 using UnityEngine;
 
 
-namespace FSM4_Delegate{
-	public class FSMNoUpdate<T> : MonoBehaviour {
+namespace FSM4{
+	public class FSMAutoUpdate<T> : MonoBehaviour {
 		//T 상태값...
 		//Ready -> pInReady, modifyReady, outReady
 		Dictionary<T, StateInfo> dicState = new Dictionary<T, StateInfo> ();
 		T beforeState, currentState;//, nextState;
-		VOID_FUN_VOID cbIn, cbOut;
-		public VOID_FUN_VOID cbModify;
+		VOID_FUN_VOID cbIn, cbModify, cbOut;
+
 
 		public void AddState(T _t, VOID_FUN_VOID _pIn, VOID_FUN_VOID _pIng, VOID_FUN_VOID _pOut)
 		{
@@ -53,11 +53,11 @@ namespace FSM4_Delegate{
 			}
 		}
 
-		//void Update(){
-		//	if (cbModify != null) {
-		//		cbModify ();
-		//	}
-		//}
+		void Update(){
+			if (cbModify != null) {
+				cbModify ();
+			}
+		}
 
 		//------------------------------------------------
 		class StateInfo{

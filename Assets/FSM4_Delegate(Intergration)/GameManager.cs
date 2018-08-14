@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace FSM4_Delegate{
+namespace FSM4{
 	public class FSMTest : FSMAutoUpdate<GAME_STATE> {
 		public Text text;
 		int count;
