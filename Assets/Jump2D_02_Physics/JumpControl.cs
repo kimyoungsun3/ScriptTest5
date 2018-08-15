@@ -5,14 +5,14 @@ using UnityEngine;
 namespace Jump2D_02{
 	public class JumpControl : MonoBehaviour {
 		public float moveForce 	= 365f;			// Amount of force added to move the player left and right.
-		public float maxSpeed 	= 5f;				// The fastest the player can travel in the x axis.
+		public float maxSpeed 	= 5f;			// The fastest the player can travel in the x axis.
 		public float jumpForce = 1000f;			// Amount of force added when the player jumps.
 
 		Animator animator;
 		Rigidbody2D rb2d;
 		bool grounded = false;
 		bool bJump;
-		bool facingRight = true;			// For determining which way the player is currently facing.
+		bool facingRight = true;				// For determining which way the player is currently facing.
 		public Transform transGround;
 		public LayerMask groundMask;
 
@@ -33,27 +33,40 @@ namespace Jump2D_02{
 		void FixedUpdate(){
 			float h = Input.GetAxis("Horizontal");
 
-			// The Speed animator parameter is set to the absolute value of the horizontal input.
+			//------------------------------------
+			//2. Animation 
+			//------------------------------------
 			animator.SetFloat ("velocityX", Mathf.Abs (h));
-
-			// If the player is changing direction (h has a different sign to velocity.x) or hasn't reached maxSpeed yet...
-			if (h * rb2d.velocity.x < maxSpeed) {
-				rb2d.AddForce (Vector2.right * h * moveForce);
+			if (h > 0 && !facingRight) {
+				Flip ();
+			} else if (h < 0 && facingRight) {
+				Flip ();
 			}
 
-			// If the player's horizontal velocity is greater than the maxSpeed...
-			if (Mathf.Abs (rb2d.velocity.x) > maxSpeed) {
-				rb2d.velocity = new Vector2 (
-					Mathf.Sign (rb2d.velocity.x) * maxSpeed, 
-					rb2d.velocity.y
-				);
-			}
-			
-			if(h > 0 && !facingRight)
-				Flip();
-			else if(h < 0 && facingRight)
-				Flip();
+			//------------------------------------
+			//3. Move
+			//------------------------------------
+			if (h != 0) 
+			{
+				if (h * rb2d.velocity.x < maxSpeed) {
+					rb2d.AddForce (Vector2.right * h * moveForce);
+				}
 
+				// If the player's horizontal velocity is greater than the maxSpeed...
+				if (Mathf.Abs (rb2d.velocity.x) > maxSpeed) {
+					rb2d.velocity = new Vector2 ( Mathf.Sign (rb2d.velocity.x) * maxSpeed, rb2d.velocity.y );
+				}
+			} 
+			else 
+			{
+				//Not move and Not x value....
+				rb2d.velocity = new Vector2( 0, rb2d.velocity.y );
+			}
+
+
+			//------------------------------------
+			//4. Jump
+			//------------------------------------
 			if(bJump)
 			{
 				animator.SetTrigger("Jump");

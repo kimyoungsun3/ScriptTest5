@@ -58,8 +58,10 @@ namespace Jump2D_01{
 			Vector2 _moveAlongGround = new Vector2 (groundNormal.y, -groundNormal.x);
 			Vector2 _move = _moveAlongGround * _deltaPosition.x;
 
+			//Debug.Log ("---------x----------");
 			Movement (_move, false);
 			_move = Vector2.up * _deltaPosition.y;
+			//Debug.Log ("---------y---------");
 			Movement (_move, true);
 		}
 
@@ -83,9 +85,12 @@ namespace Jump2D_01{
 						}
 					}
 
-					float _projection = Vector2.Dot (velocity, _currentNormal);
-					if (_projection < 0) {
-						velocity -= _projection * _currentNormal;
+					if(_yMovement){
+						float _projection = Vector2.Dot (velocity, _currentNormal);
+						if (_projection < 0) {
+							velocity -= _projection * _currentNormal;
+							//Debug.Log (" > " + _projection);
+						}
 					}
 
 					float _modifiedDistance = hitBufferList [i].distance - shellRadius;

@@ -46,12 +46,14 @@ namespace Jump2D_01{
 			//		velocity.y = velocity.y * 0.5f;
 			//	}
 			//}
+			//Debug.Log (grounded);
 			if (Input.GetButtonDown("Jump") && grounded) {
-					velocity.y = jumpTakeOffSpeed;
-			} else if (Input.GetButtonUp("Jump")) {
-				if (velocity.y > 0) {
-					velocity.y = velocity.y * 0.5f;
-				}
+				//Debug.Log (" > jump"); 
+				velocity.y = jumpTakeOffSpeed;
+			//} else if (Input.GetButtonUp("Jump")) {
+			//	if (velocity.y > 0) {
+			//		velocity.y = velocity.y * 0.5f;
+			//	}
 			}
 
 			//-------------------------------------------
