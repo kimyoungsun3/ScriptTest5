@@ -3,13 +3,13 @@ using System.Collections.Generic;
 using UnityEngine;
 
 namespace MoveFixedOrUpdate{
-	public class MoveUpdate : MonoBehaviour {
+	public class MoveUpdate2 : MonoBehaviour {
 		public float moveSpeed;
 		Vector3 moveDir;
-		//float height;
+		Rigidbody rb;
 
 		void Start () {
-			//height = transform.position.y;
+			rb = GetComponent<Rigidbody> ();
 		}
 
 		void Update () {
@@ -27,7 +27,8 @@ namespace MoveFixedOrUpdate{
 				//Debug.Log (" > ");
 				moveDir.Set (_h, 0, _v);
 				moveDir = moveDir.normalized;
-				transform.Translate (moveDir * moveSpeed * Time.deltaTime);
+				//transform.Translate (moveDir * moveSpeed * Time.deltaTime);
+				rb.MovePosition(transform.position + moveDir * moveSpeed * Time.deltaTime);
 			}
 		}
 	}

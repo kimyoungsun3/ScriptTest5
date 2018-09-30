@@ -8,6 +8,7 @@ namespace Jump3D_01{
 		public float gravity 	= -9.81f;
 		public float jumpForce 	= 10f;
 		public float moveSpeed 	= 3f;
+		public float turnSpeed = 180f;
 		//public float checkRadius = 0.01f;
 		//public Transform transCheckPoint;
 		//public LayerMask checkMask;
@@ -38,9 +39,14 @@ namespace Jump3D_01{
 				velocity.y = jumpForce;
 			}
 
-			//Keyboard move + Velocity  -> Controller move
-			velocity.Set (Input.GetAxisRaw ("Horizontal") * moveSpeed, velocity.y, Input.GetAxisRaw ("Vertical") * moveSpeed);
-			controller.Move (velocity * Time.deltaTime);
+			//1. 이동방향...
+			velocity.Set (0, velocity.y, Input.GetAxisRaw ("Vertical") * moveSpeed);
+
+			//2. 회전하기...
+			transform.Rotate(Vector3.up * Input.GetAxisRaw ("Horizontal") * turnSpeed * Time.deltaTime);
+
+			//3. 회전방향으로 이동...
+			controller.Move (transform.rotation * velocity * Time.deltaTime);
 			
 		}
 	}
