@@ -68,24 +68,14 @@ namespace SoundManager4{
 			//}
 			//DontDestroyOnLoad (gameObject);
 			ins = this;
+			Init ();
 		}
 
-		void Start(){
-			if (!bInit) {
-				Init ();
-			}
-		}
-
-		bool bInit = false;
 		public void Init(){
-			if (bInit)
-				return;
-
 			for (int i = 0, iMax = soundDataList.Count; i < iMax; i++) {
 				soundDataList[i].Init ();
 				//Debug.Log (i + ":" + soundDataList [i].name +":"+ soundDataList [i].hashID);
 			}
-			bInit = true;
 		}
 
 		//Play("xxx", true)   -> xxx 1번 loop
