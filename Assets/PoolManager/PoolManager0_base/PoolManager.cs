@@ -29,6 +29,8 @@ namespace PoolManager0{
 		void Awake(){
 			if (ins == null) {
 				ins = this;
+			} else {
+				Debug.Log ("Null 아이야?");
 			}
 
 			init ();

@@ -10,6 +10,7 @@ namespace PoolManager0{
 		public int cursor = 0;
 		public Transform firePoint; 
 		string[] strNames;
+		//public GameObject prefabBullet;
 
 		void Start(){
 			Debug.Log ("1,2 커서가 변경된다.");
@@ -37,6 +38,7 @@ namespace PoolManager0{
 			if (Input.GetMouseButtonDown (0)) {
 				//이름을 알면 직접, 전 Pooling에 순서대로...
 				GameObject _obj = PoolManager.ins.Instantiate (strNames[cursor], firePoint.position, firePoint.rotation);
+				//GameObject _obj = Instantiate (prefabBullet, firePoint.position, firePoint.rotation);
 				Rigidbody _rb = _obj.GetComponent<Rigidbody> ();
 				_rb.velocity = firePoint.forward * fireSpeed;
 			}
