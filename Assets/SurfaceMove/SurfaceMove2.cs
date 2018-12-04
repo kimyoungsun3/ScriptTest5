@@ -27,6 +27,10 @@ public class SurfaceMove2 : MonoBehaviour {
 		//scale = trans.lossyScale;
 		nextTime = 0;
 		rigidbody = GetComponent<Rigidbody> ();
+
+
+		Debug.Log (Vector3.Cross (Vector3.right, Vector3.up));
+		Debug.Log (Vector3.Cross (Vector3.up, Vector3.right));
 		
 	}
 

@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 public static class Util{
 	public static Vector3 GetDirFromAngle(float _angle){
@@ -90,6 +91,26 @@ public static class Util{
 			time = _t;
 		}
 	}
+	//---------------------------------------
+	// Event Listener extends Methord
+	//---------------------------------------
+	//EventTrigger -> public class EventTrigger (Extension Methord ok)
+	public static void AddListener( this EventTrigger _trigger, 
+		EventTriggerType _type, 
+		System.Action<PointerEventData> _on )
+	{
+		//EventTrigger trigger = _go.GetComponent<EventTrigger>();
+		EventTrigger.Entry _entry = new EventTrigger.Entry();
+		_entry.eventID = _type;
+		_entry.callback.AddListener ((data) => { _on((PointerEventData)data); });
+		_trigger.triggers.Add(_entry);
+		//EventTrigger trigger = _go.GetComponent<EventTrigger>();
+		//EventTrigger.Entry entry = new EventTrigger.Entry();
+		//entry.eventID = EventTriggerType.PointerDown;
+		//entry.callback.AddListener((data) => { OnMouseUpCircle((PointerEventData)data); });
+		//trigger.triggers.Add(entry);
+	}
+
 
 	//---------------------------------------
 	//Gizmos extends Methord
