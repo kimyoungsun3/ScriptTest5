@@ -137,6 +137,7 @@ namespace SoundManager5{
 		}
 
 
+		/*
 		#if UNITY_EDITOR
 		[Space]
 		[Header("Debug Data")]
@@ -162,5 +163,6 @@ namespace SoundManager5{
 			}
 		}
 		#endif
+		*/
 	}
 }

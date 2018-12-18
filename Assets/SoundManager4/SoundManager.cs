@@ -17,6 +17,7 @@ namespace SoundManager4{
 
 			public void Init(){
 				hashID = Animator.StringToHash (name);
+				//Debug.Log (name + " -> " + hashID);
 			}
 
 			public void Play(bool _bLoop, float _pitch, int _clipIdx = -1){
