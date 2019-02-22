@@ -40,7 +40,6 @@ namespace BulletPattern{
 			missileTurnSpeed = _missileTurnSpeed;
 		}
 
-
 		void Update () {
 			if (Time.time <= waitTime1) {
 				return;
