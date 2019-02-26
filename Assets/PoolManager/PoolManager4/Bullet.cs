@@ -40,8 +40,8 @@ namespace PM4{
 		float moveDistance;
 		Vector3 oldPosition;
 		void Update(){
-			ray.origin = transform.position;
-			ray.direction = transform.forward;
+			ray.origin		= transform.position;
+			ray.direction	= transform.forward;
 
 			moveDistance = moveSpeed * Time.deltaTime + plusCheckRadius;
 			Debug.DrawLine (transform.position, transform.position + transform.forward * moveDistance, Color.red);
@@ -65,7 +65,6 @@ namespace PM4{
 			if (bDebug) {
 				Debug.DrawLine (oldPosition, transform.position, Color.red); 
 			}
-
 		}
 	}
 }
