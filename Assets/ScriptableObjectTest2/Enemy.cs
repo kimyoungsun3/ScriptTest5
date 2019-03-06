@@ -5,21 +5,46 @@ using UnityEngine;
 namespace ScriptableObjectTest2{
 	public class Enemy : MonoBehaviour {
 		public EnemyInfoSO infoSO;
-		bool bRefresh = true;
 		public TextMesh text;
+		float hp, speed;
+		Vector3 pos;
+		Quaternion rot;
+		bool bRefresh;
 
+		private void Start()
+		{
+			pos = transform.position;
+			rot = transform.rotation;
+			ResetData();
+		}
 
-		void Update(){
-			if (bRefresh) {
-				bRefresh = !bRefresh;
-				text.text = infoSO.health + "/" + infoSO.speed;
+		private void ResetData()
+		{
+			transform.position = pos;
+			transform.rotation = rot;
+
+			hp		= infoSO.health;
+			speed	= infoSO.speed;
+
+			bRefresh = true;
+		}
+
+		private void Update()
+		{
+			hp -= Time.deltaTime;
+			transform.Translate(Vector3.forward * speed * Time.deltaTime);
+
+			if (bRefresh)
+			{
+				bRefresh = false;
+				text.text = infoSO.ToString();
 			}
 		}
 
-		public void OnMouseDown(){
-			infoSO.health += 1;
-			infoSO.speed += 1;
-			bRefresh = true;
+
+		public void OnMouseDown()
+		{
+			ResetData();
 			Debug.Log (this + ":" + infoSO.ToString ());
 		}
 	}

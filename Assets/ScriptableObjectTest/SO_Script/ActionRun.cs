@@ -3,10 +3,19 @@ using System.Collections.Generic;
 using UnityEngine;
 
 namespace ScriptableObjectTest{
-	[CreateAssetMenu (menuName="Pluggable/ScriptableObjectTest/ActionRun")]
-	public class ActionRun : Action {
-		public override void Act(ControllerState _cs){
-			Debug.Log ("ActionRun");
+	[CreateAssetMenu(menuName ="Pluggable/ScriptableObjectTest/ActionRun")]
+	public class ActionRun : Action
+	{
+		public override void Act(ControllerState _monoScp)
+		{
+			Debug.Log(this + " >> ActionRun " + _monoScp);
 		}
 	}
+
+	//[CreateAssetMenu (menuName="Pluggable/ScriptableObjectTest/ActionRun")]
+	//public class ActionRun : Action {
+	//	public override void Act(ControllerState _cs){
+	//		Debug.Log ("ActionRun");
+	//	}
+	//}
 }
