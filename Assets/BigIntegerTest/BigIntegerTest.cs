@@ -66,9 +66,12 @@ namespace BigIntegerTest{
 		void StringToBigInteger2(){
 			BigInteger _b1 = new BigInteger (1);
 			BigInteger _b2 = new BigInteger (10);
+			BigInteger _bb = new BigInteger();
+			string _str;
 			for (int i = 0; i < LOOP_MAX; i++) {
 				_b1 = _b1 * _b2;
-				Debug.Log (_b1 + ":" + ToStringKR (_b1));
+				_str = ToStringKR(_b1, ref _bb);
+				Debug.Log (_b1 + ":" + _bb + _str);
 			}
 		}
 
@@ -96,19 +99,22 @@ namespace BigIntegerTest{
 			"az",  
 		};
 
-		public static string ToStringKR(BigInteger _big){
+		public static string ToStringKR(BigInteger _big, ref BigInteger _refBig){
 			string _str = "";
 			int _idx = 0;
 			BigInteger _b1 = new BigInteger (1000);
 			BigInteger _b2 = new BigInteger (1000);
+			_refBig = _big;
 
 			while (true) {
-				if (_big <= _b1) {
+				if (_big <= _b1)
+				{
 					_str = arrDanga [_idx];
 					break;
 				}
 
 				_b1 = _b1 * _b2;
+				_refBig = _refBig / _b2;
 				_idx++;
 			}
 
