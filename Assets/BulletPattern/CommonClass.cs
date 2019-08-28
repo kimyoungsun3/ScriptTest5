@@ -10,7 +10,8 @@ namespace BulletPattern{
 		Missile
 	};
 	public enum SpawnType { 
-		Circle, 
+		Circle,
+		Circle2,
 		Arc
 	};
 

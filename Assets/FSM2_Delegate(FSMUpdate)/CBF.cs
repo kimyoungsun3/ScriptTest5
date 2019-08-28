@@ -5,7 +5,7 @@ using UnityEngine;
 namespace FSM2_Delegate{
 	public class CBF : FSMObject<CBF.CBSTATE> {
 		public enum CBSTATE{
-			None, Move, Rotate, Wait
+			None, Move, Rotate, Wait, Scale
 		};
 		Transform trans;
 		Vector3  newPos;
@@ -18,6 +18,7 @@ namespace FSM2_Delegate{
 			AddState (CBSTATE.Move, 	pInMove, 	modifyMove, 	null);
 			AddState (CBSTATE.Rotate, 	pInRotate, 	modifyRotate, 	null);
 			AddState (CBSTATE.Wait,		pInWait, 	modifyWait, 	null);
+			AddState(CBSTATE.Scale,		pInScale,	modifyScale,	null);
 
 			MoveState (CBSTATE.Move);
 		}
@@ -67,8 +68,38 @@ namespace FSM2_Delegate{
 
 		void modifyWait(){
 			if (Time.time > waitNextTime) {
-				MoveState (CBSTATE.Move);
+				MoveState (CBSTATE.Scale);
 				return;
+			}
+		}
+		//-----------------------------
+		//Scale
+		//-----------------------------
+		int dir;
+		float speed;
+		void pInScale()
+		{
+			dir = Random.Range(0, 2);
+			speed = 0f;
+		}
+
+		void modifyScale()
+		{
+			if (speed > 1f)
+			{
+				MoveState(CBSTATE.Move);
+				return;
+			}
+
+			speed += Time.deltaTime;
+			switch (dir)
+			{
+				case 0:
+					trans.localScale = Vector3.Lerp(Vector3.one, Vector3.one / 2f, speed);
+					break;
+				case 1:
+					trans.localScale = Vector3.Lerp(Vector3.one, Vector3.one * 2f, speed);
+					break;
 			}
 		}
 	}

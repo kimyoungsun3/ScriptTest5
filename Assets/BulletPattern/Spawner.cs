@@ -36,12 +36,15 @@ namespace BulletPattern{
 			//if (Input.GetKeyDown (KeyCode.Space)) {
 			if(Input.GetMouseButtonDown(0)){
 				switch (spawnType) {
-				case SpawnType.Circle:
-					StartCoroutine( SpawnCircle () );
-					break;
-				case SpawnType.Arc:
-					StartCoroutine( SpawnArc () );
-					break;
+					case SpawnType.Circle:
+						StartCoroutine(SpawnCircle());
+						break;
+					case SpawnType.Circle2:
+						StartCoroutine(SpawnCircle2());
+						break;
+					case SpawnType.Arc:
+						StartCoroutine(SpawnArc());
+						break;
 				}
 			}			
 		}
@@ -153,6 +156,81 @@ namespace BulletPattern{
 				_angle += _rotateStep;
 				yield return _w;
  
+			}
+		}
+
+		IEnumerator SpawnCircle2()
+		{
+			Vector3 _center = transform.position;
+			Vector3 _pos = Vector3.zero;
+			Quaternion _qua;
+			SpawnInfo _info = listSpawnInfo[index];
+
+			//circle class info
+			int _amount = _info.circleAmount;
+			WaitForSeconds _w = ((_info.circleGapTime <= 0) ? null : (new WaitForSeconds(_info.circleGapTime)));
+			int _count = _info.circleCount;
+			float _radius = _info.circleRadius;
+			float _rotateStep = _info.circleRotateStep;
+			float _rotate;
+
+			BulletType _bulletType = _info.bulletType;
+			float _delay = _info.bulletDelayTime;
+			float _speed = _info.bulletSpeed;
+			float _changeTime = _info.bulletSpeedChangeTime;
+			float _changeSpeed = _info.bulletSpeedChangeSpeed;
+			float _missileTime = _info.bulletMissleTime;
+			float _missileTurnInter = _info.bulletMissleTurnInter;
+
+			float _angleStep = 360f / _count;
+			float _angle = -90;                 //0' 부터해야하나 아래부터 해야하므로...
+			for (int k = 0; k < _amount; k++)
+			{
+				for (int i = 0; i < _count; i++)
+				{
+					_pos.Set(
+						Mathf.Cos(_angle * Mathf.Deg2Rad),
+						Mathf.Sin(_angle * Mathf.Deg2Rad),
+						0
+					);
+					Debug.Log (i + " a:" + _pos);
+					_pos = _pos.normalized;
+					_pos = _center + _pos * _radius;
+					_qua = Quaternion.Euler(0, 0, _angle);
+
+					EnemyBullet _scp = PoolManager.ins.Instantiate("EnemyBullet", _pos, _qua).GetComponent<EnemyBullet>();
+					_scp.SetInfo(target, _bulletType, _delay, _speed, _changeTime, _changeSpeed, _missileTime, _missileTurnInter);
+
+
+
+					//Debug.Log (i + ":" + _angle + ":" + _scp.transform.eulerAngles.z + ":" + _pos);
+					_angle += _angleStep;
+				}
+
+
+				for (int i = 0; i < _count; i++)
+				{
+					_pos.Set(
+						Mathf.Cos(_angle * Mathf.Deg2Rad),
+						Mathf.Sin(_angle * Mathf.Deg2Rad),
+						0
+					);
+					Debug.Log(i + " a:" + _pos);
+					_pos = _pos.normalized;
+					_pos = _center + _pos * _radius;
+					_qua = Quaternion.Euler(0, 0, _angle);
+
+					EnemyBullet _scp = PoolManager.ins.Instantiate("EnemyBullet", _pos, _qua).GetComponent<EnemyBullet>();
+					_scp.SetInfo(target, _bulletType, _delay, _speed, _changeTime, _changeSpeed, _missileTime, _missileTurnInter);
+
+
+
+					//Debug.Log (i + ":" + _angle + ":" + _scp.transform.eulerAngles.z + ":" + _pos);
+					_angle -= _angleStep;
+				}
+				_angle += _rotateStep;
+				yield return _w;
+
 			}
 		}
 

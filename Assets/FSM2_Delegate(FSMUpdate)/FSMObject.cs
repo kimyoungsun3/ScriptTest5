@@ -54,6 +54,7 @@ namespace FSM2_Delegate{
 		}
 
 		void Update(){
+			//Debug.Log(currentState);
 			if (cbModify != null) {
 				cbModify ();
 			}
