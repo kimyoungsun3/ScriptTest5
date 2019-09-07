@@ -46,7 +46,7 @@ public class RollingCube : MonoBehaviour {
 		moveParent.position = _basePoint;
 		moveParent.rotation = Quaternion.identity;
 		transform.SetParent(moveParent);
-		Debug.Log("_axis:" + _axis);
+		//Debug.Log("_axis:" + _axis);
 
 		Quaternion _startQ	= moveParent.rotation;
 		Vector3 _endEuler	= moveParent.rotation.eulerAngles - _axis * 90f;

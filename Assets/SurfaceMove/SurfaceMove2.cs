@@ -7,7 +7,7 @@ using UnityEngine;
 public class SurfaceMove2 : MonoBehaviour {
 	public LayerMask mask;
 	public float speed = 3f, speedTurn = 180f;
-	public float distance = 100f;
+	public float distance = 2f;
 	public SurfaceBullet bulletPrefab;
 	public Transform spawn;
 	public float intervalTime = 0.3f;
