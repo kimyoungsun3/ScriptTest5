@@ -30,7 +30,6 @@ public class UIJoyStick3 : MonoBehaviour {
 		goBG = tranBG.gameObject;
 
 		VisibleObject (false);
-
 	}
 
 
@@ -47,7 +46,6 @@ public class UIJoyStick3 : MonoBehaviour {
 			//Debug.Log ("OnPress:" + lastPos + ":" + (UICamera.currentCamera.transform.rotation * Vector3.back) + ":" + -UICamera.currentCamera.transform.forward);
 			bPress = _pressed;
 			bVisibleSetting = true;
-
 		}
 	}
 

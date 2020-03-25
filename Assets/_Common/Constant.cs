@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public enum GAME_STATE {
+public enum eGameState {
 	None,
 	Ready, 
 	Round, 
@@ -34,7 +34,7 @@ public class Constant {
 	public static readonly Vector3 V3_ZERO 		= Vector3.zero; 
 
 	public static readonly Vector2 V2_ONE 		= Vector2.one; 
-	public static readonly Vector2 V2_ZERO 		= Vector2.zero; 
+	public static readonly Vector2 V2_ZERO 		= Vector2.zero;
 
 
 	//public static readonly int SPAWNER_MATERIAL_POOL_INIT_COUNT 		= 3;
@@ -54,5 +54,7 @@ public class Constant {
 	//public const int WEAPON_ATTACT_ANGLE = 20;
 
 	//GameData
+
+	public const bool DEBUG_ENEMY = false;
 	
 }

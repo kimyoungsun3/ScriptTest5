@@ -1,0 +1,3547 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Localizing xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Data>
+		<UniqueID>10001</UniqueID>
+		<Korean>루 시</Korean>
+		<English>LUCY</English>
+		<Japenese>ルーシー</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>10002</UniqueID>
+		<Korean>엘 리 나</Korean>
+		<English>ELINA</English>
+		<Japenese>エリナ</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>10003</UniqueID>
+		<Korean>마 리 아</Korean>
+		<English>MARIA</English>
+		<Japenese>マリア</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>10004</UniqueID>
+		<Korean>스 칼 렛</Korean>
+		<English>SCARLET</English>
+		<Japenese>スカーレット</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>10005</UniqueID>
+		<Korean>카 밀 라</Korean>
+		<English>CAMILLA</English>
+		<Japenese>カミラ</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>10006</UniqueID>
+		<Korean>레 이 나</Korean>
+		<English>RAINA</English>
+		<Japenese>レイナ</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>10007</UniqueID>
+		<Korean>카 엘</Korean>
+		<English>CHAEL</English>
+		<Japenese>カエル</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>10008</UniqueID>
+		<Korean>마 린</Korean>
+		<English>MARIN</English>
+		<Japenese>マリン</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>10009</UniqueID>
+		<Korean>지크프리트</Korean>
+		<English>Siegfried</English>
+		<Japenese>ジークフリート</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>10010</UniqueID>
+		<Korean>디오메데스</Korean>
+		<English>Diomedes</English>
+		<Japenese>ディオメーデス</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>10011</UniqueID>
+		<Korean>프라이야</Korean>
+		<English>Freya</English>
+		<Japenese>フレーヤ</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>10012</UniqueID>
+		<Korean>헤카테</Korean>
+		<English>Hecate</English>
+		<Japenese>ヘカテ</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>10013</UniqueID>
+		<Korean>아이리스</Korean>
+		<English>Iris</English>
+		<Japenese>アイリス</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>20000</UniqueID>
+		<Korean>기사</Korean>
+		<English>Knight</English>
+		<Japenese>騎士</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>20001</UniqueID>
+		<Korean>전사</Korean>
+		<English>Warrior</English>
+		<Japenese>戦士</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>20002</UniqueID>
+		<Korean>사제</Korean>
+		<English>Priest</English>
+		<Japenese>司祭</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>20003</UniqueID>
+		<Korean>마법사</Korean>
+		<English>Wizard</English>
+		<Japenese>魔法士</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>20004</UniqueID>
+		<Korean>창술사</Korean>
+		<English>Lancer</English>
+		<Japenese>槍術士</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>20005</UniqueID>
+		<Korean>마법사</Korean>
+		<English>Wizard</English>
+		<Japenese>魔法士</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>20006</UniqueID>
+		<Korean>검투사</Korean>
+		<English>Gladiator</English>
+		<Japenese>剣闘士</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>20007</UniqueID>
+		<Korean>마법사</Korean>
+		<English>Wizard</English>
+		<Japenese>魔法士</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>20008</UniqueID>
+		<Korean>팔랑크스</Korean>
+		<English>Phalanx</English>
+		<Japenese>ファランクス</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>20009</UniqueID>
+		<Korean>팔라딘</Korean>
+		<English>Paladin</English>
+		<Japenese>パラディン</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>20010</UniqueID>
+		<Korean>아처</Korean>
+		<English>Archer</English>
+		<Japenese>射手</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>20011</UniqueID>
+		<Korean>비숍</Korean>
+		<English>Bishop</English>
+		<Japenese>司教</Japenese>
+	</Data>
+
+
+
+	<Data>
+		<UniqueID>20100</UniqueID>
+		<Korean>룬나이트</Korean>
+		<English>Runic Knight</English>
+		<Japenese>ーンナイト</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>20101</UniqueID>
+		<Korean>크루세이더</Korean>
+		<English>Crusader</English>
+		<Japenese>十字軍</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>20102</UniqueID>
+		<Korean>성직자</Korean>
+		<English>Priest</English>
+		<Japenese>祭司</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>20103</UniqueID>
+		<Korean>소서러</Korean>
+		<English>Sorcerer</English>
+		<Japenese>ソザーラ</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>20104</UniqueID>
+		<Korean>창기사</Korean>
+		<English>Spear Knight</English>
+		<Japenese>父の記事</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>20105</UniqueID>
+		<Korean>소서러</Korean>
+		<English>Sorcerer</English>
+		<Japenese>ソザーラ</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>20106</UniqueID>
+		<Korean>챔피언</Korean>
+		<English>Champion</English>
+		<Japenese>チャンピオン</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>20107</UniqueID>
+		<Korean>소서러</Korean>
+		<English>Sorcerer</English>
+		<Japenese>ソザーラ</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>20108</UniqueID>
+		<Korean>용기사</Korean>
+		<English>Dragon Knight</English>
+		<Japenese>竜騎士</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>20109</UniqueID>
+		<Korean>로얄가드</Korean>
+		<English>Royal Guard</English>
+		<Japenese>王宮衛兵</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>20110</UniqueID>
+		<Korean>레인저</Korean>
+		<English>Ranger</English>
+		<Japenese>レンジャー</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>20111</UniqueID>
+		<Korean>아크비숍</Korean>
+		<English>Arcbishop</English>
+		<Japenese>大司教</Japenese>
+	</Data>
+
+	<Data>
+		<UniqueID>Skill_Dash</UniqueID>
+		<Korean>소드 대시</Korean>
+		<English>Sword Dash</English>
+		<Japenese>ソードダッシュ</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>Skill_Dash_Physics</UniqueID>
+		<Korean>소드 대시</Korean>
+		<English>Sword Dash</English>
+		<Japenese>ソードダッシュ</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>Skill_Dash_Light</UniqueID>
+		<Korean>소드 대시</Korean>
+		<English>Sword Dash</English>
+		<Japenese>ソードダッシュ</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>Skill_Charge_Fire</UniqueID>
+		<Korean>챠지 스탭</Korean>
+		<English>Charge Step</English>
+		<Japenese>チャージステップ</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>Skill_Pike_Fire</UniqueID>
+		<Korean>파이크 스탭</Korean>
+		<English>Pike Step</English>
+		<Japenese>パイクステップ</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>Skill_Pike_Fire1</UniqueID>
+		<Korean>파이크 스탭</Korean>
+		<English>Pike Step</English>
+		<Japenese>パイクステップ</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>Skill_Crash</UniqueID>
+		<Korean>소드 슬래쉬</Korean>
+		<English>Sword Slash</English>
+		<Japenese>ソードスラッシュ</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>Skill_Crash_Physics</UniqueID>
+		<Korean>소드 슬래쉬</Korean>
+		<English>Sword Slash</English>
+		<Japenese>ソードスラッシュ</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>Skill_Crash_Light</UniqueID>
+		<Korean>소드 슬래쉬</Korean>
+		<English>Sword Slash</English>
+		<Japenese>ソードスラッシュ</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>Skill_Judgement_Lightning</UniqueID>
+		<Korean>저지먼트</Korean>
+		<English>Judgement</English>
+		<Japenese>ジャッジメント</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>Skill_Whirlwind</UniqueID>
+		<Korean>휠 윈드</Korean>
+		<English>Whirlwind</English>
+		<Japenese>ホワールウィンド</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>Skill_Heal</UniqueID>
+		<Korean>힐</Korean>
+		<English>Heal</English>
+		<Japenese>ヒール</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>Skill_Blade_Light</UniqueID>
+		<Korean>블레이드</Korean>
+		<English>Blade</English>
+		<Japenese>ブレイド</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>Skill_Storm</UniqueID>
+		<Korean>스 톰</Korean>
+		<English>Storm</English>
+		<Japenese>ストーム</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>Skill_Storm_Physics</UniqueID>
+		<Korean>스 톰</Korean>
+		<English>Storm</English>
+		<Japenese>ストーム</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>Skill_Storm_Light</UniqueID>
+		<Korean>스 톰</Korean>
+		<English>Storm</English>
+		<Japenese>ストーム</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>Skill_HealWind</UniqueID>
+		<Korean>힐윈드</Korean>
+		<English>Heal Wind</English>
+		<Japenese>ヒールウィンド</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>Skill_Fire</UniqueID>
+		<Korean>파이어</Korean>
+		<English>Fire</English>
+		<Japenese>ファイア</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>Skill_Lightning</UniqueID>
+		<Korean>라이트닝</Korean>
+		<English>Lightning</English>
+		<Japenese>ライトニング</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>Skill_Ice</UniqueID>
+		<Korean>아이스</Korean>
+		<English>Ice</English>
+		<Japenese>アイス</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>Skill_FireBall</UniqueID>
+		<Korean>파이어볼</Korean>
+		<English>Fireball</English>
+		<Japenese>ファイアボール</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>Skill_LightningBall</UniqueID>
+		<Korean>라이트닝볼</Korean>
+		<English>Lightning Ball</English>
+		<Japenese>ライトニングボール</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>Skill_IceBall</UniqueID>
+		<Korean>아이스볼</Korean>
+		<English>Ice Ball</English>
+		<Japenese>アイスボール</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>Skill_Buff_Shield</UniqueID>
+		<Korean>굳건한 의지</Korean>
+		<English>Strong Will</English>
+		<Japenese>不屈の意志</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>Skill_Buff_Rage</UniqueID>
+		<Korean>격렬한 분노</Korean>
+		<English>Furious Rage</English>
+		<Japenese>激烈な怒り</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>Skill_Buff_Fury</UniqueID>
+		<Korean>수르트의 격노</Korean>
+		<English>Fury of Surtur</English>
+		<Japenese>スルトの激怒</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>Skill_Spear_Smash</UniqueID>
+		<Korean>스피어 스매쉬</Korean>
+		<English>Spear smash</English>
+		<Japenese>スピアスマッシュ</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>Skill_Spear_Strike</UniqueID>
+		<Korean>스피어 스트라이크</Korean>
+		<English>Spear strike</English>
+		<Japenese>スピアストライク</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>Skill_Debuff_Wither</UniqueID>
+		<Korean>쇠약</Korean>
+		<English>Wither</English>
+		<Japenese>衰弱</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>Skill_Shield_Smash</UniqueID>
+		<Korean>실드 스매쉬</Korean>
+		<English>Shield smash</English>
+		<Japenese>シールドスマッシュ</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>Skill_Sword_Crash</UniqueID>
+		<Korean>소드 크래쉬</Korean>
+		<English>Sword crash</English>
+		<Japenese>ソードクラッシュ</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>Skill_Arrow_Crash</UniqueID>
+		<Korean>연사</Korean>
+		<English>Arrow fire</English>
+		<Japenese>連写</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>Skill_Arrow_Rain</UniqueID>
+		<Korean>화살비</Korean>
+		<English>Arrow rain</English>
+		<Japenese>矢印の雨</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>Skill_Buff_Haste</UniqueID>
+		<Korean>헤이스트</Korean>
+		<English>Haste</English>
+		<Japenese>急いで</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>Skill_Rotating_Slash</UniqueID>
+		<Korean>회전 베기</Korean>
+		<English>Rotating slash</English>
+		<Japenese>回転スラッシュ</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>Skill_Smash_Strike</UniqueID>
+		<Korean>스매쉬 스트라이크</Korean>
+		<English>Smash strike</English>
+		<Japenese>スマッシュストライク</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>Skill_Concentrated_Attack</UniqueID>
+		<Korean>집중 공격</Korean>
+		<English>Concentrated attack</English>
+		<Japenese>集中攻撃</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>Skill_Water</UniqueID>
+		<Korean>워터 스트라이크</Korean>
+		<English>Water strike</English>
+		<Japenese>ウォーターストライキ</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>Skill_Buff_Strong</UniqueID>
+		<Korean>신성한 축복</Korean>
+		<English>Divine Blessing</English>
+		<Japenese>新生</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>Skill_Debuff_Registant</UniqueID>
+		<Korean>징벌</Korean>
+		<English>Reckoning</English>
+		<Japenese>杖</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>Skill_Dash_DSC</UniqueID>
+		<Korean>전방의 적들에게 일직선으로 돌진하여 공격력의 %d% 만큼 피해를 줍니다.</Korean>
+		<English>Charges straight to the enemies in front of you, causing damage by %d% of attack power.</English>
+		<Japenese>前方の敵に一直線に突進し、攻撃力%d%ぐらいダメージを与えます</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>Skill_Dash_Physics_DSC</UniqueID>
+		<Korean>전방의 적들에게 일직선으로 돌진하여 공격력의 %d% 만큼 피해를 줍니다.</Korean>
+		<English>Charges straight to the enemies in front of you, causing damage by %d% of attack power.</English>
+		<Japenese>前方の敵に一直線に突進し、攻撃力%d%ぐらいダメージを与えます</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>Skill_Dash_Light_DSC</UniqueID>
+		<Korean>전방의 적들에게 일직선으로 돌진하여 공격력의 %d% 만큼 피해를 줍니다.</Korean>
+		<English>Charges straight to the enemies in front of you, causing damage by %d% of attack power.</English>
+		<Japenese>前方の敵に一直線に突進し、攻撃力%d%ぐらいダメージを与えます</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>Skill_Charge_Fire_DSC</UniqueID>
+		<Korean>전방의 적들에게  일직선으로 돌격하여 공격력의 %d% 만큼 피해를 줍니다.</Korean>
+		<English>Charges straight to the enemies in front of you, causing damage by %d% of attack power.</English>
+		<Japenese>前方の敵に一直線に突進し、攻撃力%d%ぐらいダメージを与えます</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>Skill_Pike_Fire_DSC</UniqueID>
+		<Korean>전방 두명의 적을 관통해 찔러 공격력의 %d% 만큼 피해를 줍니다.</Korean>
+		<English>Penetrates through two enemies in front of you, causing damage by %d% of attack power.</English>
+		<Japenese>前方二人の敵を刺し貫き、攻撃力%d%ぐらいダメージを与えます</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>Skill_Pike_Fire1_DSC</UniqueID>
+		<Korean>전방 두명의 적을 관통해 찔러 공격력의 %d% 만큼 피해를 줍니다.</Korean>
+		<English>Penetrates through two enemies in front of you, causing damage by %d% of attack power.</English>
+		<Japenese>前方二人の敵を刺し貫き、攻撃力%d%ぐらいダメージを与えます</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>Skill_Crash_DSC</UniqueID>
+		<Korean>단일 적을 연속으로 베어 공격력의 %d% 만큼 피해를 줍니다.</Korean>
+		<English>Consecutive cuts to a single enemy, causing damage by %d% of attack power.</English>
+		<Japenese>単一の敵を切り続け、攻撃力%d%ぐらいダメージを与えます</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>Skill_Crash_Physics_DSC</UniqueID>
+		<Korean>단일 적을 연속으로 베어 공격력의 %d% 만큼 피해를 줍니다.</Korean>
+		<English>Consecutive cuts to a single enemy, causing damage by %d% of attack power.</English>
+		<Japenese>単一の敵を切り続け、攻撃力%d%ぐらいダメージを与えます</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>Skill_Crash_Light_DSC</UniqueID>
+		<Korean>단일 적을 연속으로 베어 공격력의 %d% 만큼 피해를 줍니다.</Korean>
+		<English>Consecutive cuts to a single enemy, causing damage by %d% of attack power.</English>
+		<Japenese>単一の敵を切り続け、攻撃力%d%ぐらいダメージを与えます</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>Skill_Judgement_Lightning_DSC</UniqueID>
+		<Korean>단일 적을 내려 찍어 공격력의 %d% 만큼 피해를 주고 {20}% 확률로 {1}턴간 스턴상태로 만듭니다.</Korean>
+		<English>Cuts down a single enemy to cause damage of %d% of attack power and {20}% chance of stunning for {1} turn.</English>
+		<Japenese>単一の敵を振り下ろし攻撃力%d%ぐらいダメージを与えて、 {20}%の確率で{1}ターンの間スタニング状態にさせます</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>Skill_Whirlwind_DSC</UniqueID>
+		<Korean>전방 적들에게 강한 회전 공격으로 공격력의 %d% 만큼 피해를 줍니다.</Korean>
+		<English>Attack enemies in front with a strong spinning attack, causing damage by %d% of attack power.</English>
+		<Japenese>前方の敵に強い回転攻撃で、攻撃力%d%ぐらいダメージを与えます</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>Skill_Heal_DSC</UniqueID>
+		<Korean>단일 아군에게 회복마법을 걸어 Hp의 %d%만큼 회복시킵니다.</Korean>
+		<English>Heals single ally with magic, recovering %d% of Hp</English>
+		<Japenese>単一の味方に回復魔法をかけて、Hpの %d%ぐらい回復させます</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>Skill_Blade_Light_DSC</UniqueID>
+		<Korean>멀리있는 적에게 검기를 날려 공격력의 %d% 만큼 피해를 줍니다.</Korean>
+		<English>Throws sword at a distant enemy, causing damage by %d% of attack power.</English>
+		<Japenese>遠くにいる敵に剣を投げ、攻撃力 %d%ぐらいダメージを与えます</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>Skill_Storm_DSC</UniqueID>
+		<Korean>자신 주위를 둘러싼 모든 적에게 강한 회전베기로 %d% 만큼 강력한 피해를 줍니다.</Korean>
+		<English>Spin sword to all enemies around you, causing damage by %d% of attack power.</English>
+		<Japenese>自分の周りを囲んだすべての敵に強い回転斬りで、%d%ぐらい強力なダメージを与えます</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>Skill_Storm_Physics_DSC</UniqueID>
+		<Korean>자신 주위를 둘러싼 모든 적에게 강한 회전베기로 %d% 만큼 강력한 피해를 줍니다.</Korean>
+		<English>Spin sword to all enemies around you, causing damage by %d% of attack power.</English>
+		<Japenese>自分の周りを囲んだすべての敵に強い回転斬りで、%d%ぐらい強力なダメージを与えます</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>Skill_Storm_Light_DSC</UniqueID>
+		<Korean>자신 주위를 둘러싼 모든 적에게 강한 회전베기로 %d% 만큼 강력한 피해를 줍니다.</Korean>
+		<English>Spin sword to all enemies around you, causing damage by %d% of attack power.</English>
+		<Japenese>自分の周りを囲んだすべての敵に強い回転斬りで、%d%ぐらい強力なダメージを与えます</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>Skill_HealWind_DSC</UniqueID>
+		<Korean>다수의 아군에게 회복마법을 걸어 Hp의 %d%만큼 회복시킵니다.</Korean>
+		<English>Heals allies with magic, recovering %d% of Hp</English>
+		<Japenese>多数の味方に回復魔法をかけて、Hpの %d%ぐらい回復させます</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>Skill_Fire_DSC</UniqueID>
+		<Korean>단일 적에게 강력한 화염마법을 날려 공격력의 %d%만큼 피해를 줍니다.</Korean>
+		<English>Strong fire magic to single enemy, causing damage by %d% of attack power.</English>
+		<Japenese>単一の敵に強力な火魔法を放ち、攻撃力%d%ぐらいダメージを与えます</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>Skill_Lightning_DSC</UniqueID>
+		<Korean>단일 적에게 강력한 전격마법을 날려 공격력의 %d%만큼 피해를 줍니다.</Korean>
+		<English>Strong lightning magic to single enemy, causing damage by %d% of attack power.</English>
+		<Japenese>単一の敵に強力な雷魔法を放ち、攻撃力%d%ぐらいダメージを与えます</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>Skill_Ice_DSC</UniqueID>
+		<Korean>단일 적에게 강력한 아이스마법을 날려 공격력의 %d%만큼 피해를 줍니다.</Korean>
+		<English>Strong frost magic to single enemy, causing damage by %d% of attack power.</English>
+		<Japenese>単一の敵に強力な氷魔法を放ち、攻撃力%d%ぐらいダメージを与えます</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>Skill_FireBall_DSC</UniqueID>
+		<Korean>다수의 적에게 강력한 화염마법을 날려 공격력의 %d%만큼 피해를 줍니다.</Korean>
+		<English>Strong fire magic to enemies, causing damage by %d% of attack power.</English>
+		<Japenese>多数の敵に強力な火魔法を放ち、攻撃力%d%ぐらいダメージを与えます</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>Skill_LightningBall_DSC</UniqueID>
+		<Korean>다수의 적에게 강력한 전격마법을 날려 공격력의 %d%만큼 피해를 줍니다.</Korean>
+		<English>Strong lightning magic to enemies, causing damage by %d% of attack power.</English>
+		<Japenese>多数の敵に強力な雷魔法を放ち、攻撃力%d%ぐらいダメージを与えます</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>Skill_IceBall_DSC</UniqueID>
+		<Korean>다수의 적에게 강력한 아이스마법을 날려 공격력의 %d%만큼 피해를 줍니다.</Korean>
+		<English>Strong frost magic to single enemies, causing damage by %d% of attack power.</English>
+		<Japenese>多数の敵に強力な氷魔法を放ち、攻撃力%d%ぐらいダメージを与えます</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>Skill_Buff_Shield_DSC</UniqueID>
+		<Korean>자신의 모든 속성 저항력을 {1}턴간 {8}만큼 증가시킵니다.</Korean>
+		<English>Increases all of your attribute resistances by {8} during {1} turn.</English>
+		<Japenese>自分のすべての属性抵抗力を{1}ターンの間{8}ぐらい増加させます</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>Skill_Buff_Rage_DSC</UniqueID>
+		<Korean>자신의 기본 공격력을 {1}턴간 {14}%만큼 증가시킵니다</Korean>
+		<English>Increases your base attack power by {14}% for {1} turn.</English>
+		<Japenese>自分の基本的な攻撃力を{1}ターンの間{14}%ぐらい増加させます</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>Skill_Buff_Fury_DSC</UniqueID>
+		<Korean>자신의 치명타확률을 {1}턴간 {5}%만큼 증가시킵니다</Korean>
+		<English>Increases your fatal blow percentage by {5}% for {1} turn.</English>
+		<Japenese>自分の打撃確率を{1}ターンの間{5}%ぐらい増加させます</Japenese>
+	</Data>
+
+
+	<Data>
+		<UniqueID>Skill_Spear_Smash_DSC</UniqueID>
+		<Korean>전방 적들에게 내려찍어 공격력의 %d% 만큼 피해를 줍니다.</Korean>
+		<English>Spear down to enemies in front of you to damage %d% of damage.</English>
+		<Japenese>前方の敵に槍に降りて撮って攻撃力の%d％ほどダメージを与えます。</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>Skill_Spear_Strike_DSC</UniqueID>
+		<Korean>전방 두명의 적을 관통해 찔러 저항력을 무시하고 공격력의 %d% 만큼 피해를 입힙니다.</Korean>
+		<English>Punches through two enemies in front of you and inflicts %d% damage, ignoring resistance.</English>
+		<Japenese>これから二人の敵を貫通して刺し攻撃力の%d％ほど抵抗力を無視してダメージを与えます。</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>Skill_Debuff_Wither_DSC</UniqueID>
+		<Korean>자신 주위를 둘러싼 모든 적에게 저주를 내려 {27}% 만큼 공격력을 {1}턴 간 감소시킵니다.</Korean>
+		<English>Curse all enemies around you, reducing {27}% of your attack damage by {1} turns.</English>
+		<Japenese>自分の周りを取り巻くすべての敵に呪いを降り{27}％ほど攻撃力を{1}ターンの間減少させます。</Japenese>
+	</Data>
+
+	<Data>
+		<UniqueID>Skill_Shield_Smash_DSC</UniqueID>
+		<Korean>전방 적들에게 방패로 강타하여 공격력의 %d% 만큼 피해를 주고 {20}% 확률로 {1}턴간 스턴상태로 만듭니다.</Korean>
+		<English>Attacks enemies with a shield that inflicts %d% damage and stuns a {20}% chance for {1} turns</English>
+		<Japenese>前方の敵に盾で攻撃して攻撃力の%d％ほどダメージを与えて{1}ターンの間、{20}％の確率でスタン状態にします。</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>Skill_Sword_Crash_DSC</UniqueID>
+		<Korean>전방 적들에게 강한 회전베기로 %d% 만큼 강력한 피해를 줍니다.</Korean>
+		<English>Inflicts %d% more damage on forward enemies with a powerful rotating slash</English>
+		<Japenese>強力な回転スラッシュで前方の敵に%d％のダメージを与えます。</Japenese>
+	</Data>
+
+
+	<Data>
+		<UniqueID>Skill_Arrow_Crash_DSC</UniqueID>
+		<Korean>단일 적을 연속으로 화살을 쏴 공격력의 %d% 만큼 피해를 줍니다.</Korean>
+		<English>Shoots a single enemy in a row and deals %d% damage.</English>
+		<Japenese>単一敵連続で矢を撃つ攻撃力の%d％ほどダメージを与えます。</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>Skill_Arrow_Rain_DSC</UniqueID>
+		<Korean>다수의 적에게 화살의비를 내려 공격력의 %d%만큼 피해를 줍니다.</Korean>
+		<English>화살 비는 다수의 적에게 떨어지고 %d% 데미지를 입 힙니다.</English>
+		<Japenese>多数の敵に矢印の雨を降りて攻撃力の%d％ほどダメージを与えます。</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>Skill_Buff_Haste_DSC</UniqueID>
+		<Korean>자신의 이동력을 {1}턴간 {4}만큼 증가시킵니다</Korean>
+		<English>Increases your movement power by {4} for {1} turn</English>
+		<Japenese>自分の移動力を{1}ターンの間、{4}増加させます</Japenese>
+	</Data>
+
+	<Data>
+		<UniqueID>Skill_Rotating_Slash_DSC</UniqueID>
+		<Korean>자신 주위를 둘러싼 모든 적에게 강한 회전베기로 %d% 만큼 강력한 피해를 줍니다.</Korean>
+		<English>Give strong damage to all the enemies surrounding yourself with a strong Rotating slash, %d% of the attack power.</English>
+		<Japenese>自分の周りを取り巻くすべての敵に強い回転スラッシュで%d％の攻撃力分の強力なダメージを与えます。</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>Skill_Smash_Strike_DSC</UniqueID>
+		<Korean>전방의 적들에게 일직선으로 내려찍어 공격력의 %d% 만큼 피해를 줍니다.</Korean>
+		<English>Shoots a sword in a straight line and inflicts %d% damage to enemies in front of you.</English>
+		<Japenese>直線的に剣を降りて打って前方の敵に%d％の攻撃力分ダメージを与えます。</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>Skill_Concentrated_Attack_DSC</UniqueID>
+		<Korean>자신의 관통력을 {1}턴간 {22}%만큼 증가시킵니다</Korean>
+		<English>Increases your penetration by {22}% for {1} turns</English>
+		<Japenese>自分の貫通力を{1}ターンの間、{22}％増加させます。</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>Skill_Water_DSC</UniqueID>
+		<Korean>단일 적에게 강력한 물 마법을 날려 공격력의 %d%만큼 피해를 줍니다.</Korean>
+		<English>Strong water magic to single enemy, causing damage by %d% of attack power.</English>
+		<Japenese>単一の敵に強力な氷魔法を放ち、攻撃力%d%ぐらいダメージを与えます</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>Skill_Buff_Strong_DSC</UniqueID>
+		<Korean>단일 아군에게 버프 마법을 걸어 공격력의 {27}%만큼 {1}턴 간 증가시킵니다.</Korean>
+		<English>Increases the attack power by {27}% for {1} turns by buffing one of your ally.</English>
+		<Japenese>味方{1}人に補助魔法をかけて攻撃力の{27}％ほど5ターンの間に増加させます。</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>Skill_Debuff_Registant_DSC</UniqueID>
+		<Korean>다수의 적에게 저주를 내려 모든 속성 저항력을 {8}%만큼 {1}턴 간 감소시킵니다.</Korean>
+		<English>Curse a number of enemies and reduce all attribute resistances by {8}% {1} turn.</English>
+		<Japenese>多数の敵に呪いを降りて、すべての属性抵抗力を{8}％ほど{1}ターンの間減少させます。</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>40001</UniqueID>
+		<Korean>우드 소드</Korean>
+		<English>Wood Sword</English>
+		<Japenese>ウッドソード</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>40002</UniqueID>
+		<Korean>노말 소드</Korean>
+		<English>Normal Sword</English>
+		<Japenese>ノーマルソード</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>40003</UniqueID>
+		<Korean>브로드 소드</Korean>
+		<English>Broad Sword</English>
+		<Japenese>ブロードソード</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>40004</UniqueID>
+		<Korean>쇼트 소드</Korean>
+		<English>Short Sword</English>
+		<Japenese>ショートソード</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>40005</UniqueID>
+		<Korean>롱 소드</Korean>
+		<English>Long Sword</English>
+		<Japenese>ロングソード</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>40006</UniqueID>
+		<Korean>아밍 소드</Korean>
+		<English>Arming Sword</English>
+		<Japenese>アーミングソード</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>40007</UniqueID>
+		<Korean>워리어 소드</Korean>
+		<English>Warrior Sword</English>
+		<Japenese>ウォーリアソード</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>40008</UniqueID>
+		<Korean>스켈레톤 소드</Korean>
+		<English>Skeleton Sword</English>
+		<Japenese>スケルトンソード</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>40009</UniqueID>
+		<Korean>나이트 소드</Korean>
+		<English>Night Sword</English>
+		<Japenese>ナイトソード</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>40010</UniqueID>
+		<Korean>성검 듀란달</Korean>
+		<English>Holy Sword of Durandal</English>
+		<Japenese>聖剣デュランダル</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>40101</UniqueID>
+		<Korean>우드 완드</Korean>
+		<English>Wood Wand</English>
+		<Japenese>ウッドワンド</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>40102</UniqueID>
+		<Korean>노말 완드</Korean>
+		<English>Normal Wand</English>
+		<Japenese>ノーマルワンド</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>40103</UniqueID>
+		<Korean>견습생 완드</Korean>
+		<English>Apprentice Wand</English>
+		<Japenese>研修生ワンド</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>40104</UniqueID>
+		<Korean>스피어 완드</Korean>
+		<English>Spear Wand</English>
+		<Japenese>スピアワンド</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>40105</UniqueID>
+		<Korean>프리즘 완드</Korean>
+		<English>Prism Wand</English>
+		<Japenese>プリズムワンド</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>40106</UniqueID>
+		<Korean>크로스 완드</Korean>
+		<English>Cross Wand</English>
+		<Japenese>クロスワンド</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>40107</UniqueID>
+		<Korean>프리스트 완드</Korean>
+		<English>Priest Wand</English>
+		<Japenese>プリーストワンド</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>40108</UniqueID>
+		<Korean>엔레멘탈 완드</Korean>
+		<English>Elemental Wand</English>
+		<Japenese>エレメンタルワンド</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>40109</UniqueID>
+		<Korean>프리스트 완드</Korean>
+		<English>Priest Wand</English>
+		<Japenese>プリーストワンド</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>40110</UniqueID>
+		<Korean>호트 클레어</Korean>
+		<English>Haute Claire</English>
+		<Japenese>オートクレア</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>40201</UniqueID>
+		<Korean>우드 스태프</Korean>
+		<English>Wood Staff</English>
+		<Japenese>ウッドスタッフ</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>40202</UniqueID>
+		<Korean>노말 스태프</Korean>
+		<English>Normal Staff</English>
+		<Japenese>ノーマルスタッフ</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>40203</UniqueID>
+		<Korean>견습생 스태프</Korean>
+		<English>Apprentice Staff</English>
+		<Japenese>研修生スタッフ</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>40204</UniqueID>
+		<Korean>헤비 스태프</Korean>
+		<English>Heavy Staff</English>
+		<Japenese>ヘビースタッフ</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>40205</UniqueID>
+		<Korean>마나 스태프</Korean>
+		<English>Mana Staff</English>
+		<Japenese>マナスタッフ</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>40206</UniqueID>
+		<Korean>사파이어 스태프</Korean>
+		<English>Sapphire Staff</English>
+		<Japenese>サファイアスタッフ</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>40207</UniqueID>
+		<Korean>미스틱 스태프</Korean>
+		<English>Mystic Staff</English>
+		<Japenese>ミスティックスタッフ</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>40208</UniqueID>
+		<Korean>위자드 스태프</Korean>
+		<English>Wizard Staff</English>
+		<Japenese>ウィザードスタッフ</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>40209</UniqueID>
+		<Korean>세이지 스태프</Korean>
+		<English>Sage Staff</English>
+		<Japenese>セージスタッフ</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>40210</UniqueID>
+		<Korean>스키드 블라드니르</Korean>
+		<English>Skidbladnir</English>
+		<Japenese>スキードブラドニル</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>40301</UniqueID>
+		<Korean>우드 스피어</Korean>
+		<English>Wood Spear</English>
+		<Japenese>ウッドスピア</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>40302</UniqueID>
+		<Korean>글레이브</Korean>
+		<English>Glaive</English>
+		<Japenese>グレイブ</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>40303</UniqueID>
+		<Korean>아이언 스피어</Korean>
+		<English>Iron Spear</English>
+		<Japenese>アイアンスピア</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>40304</UniqueID>
+		<Korean>윙드 스피어</Korean>
+		<English>Winged Spear</English>
+		<Japenese>ウィングスピア</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>40305</UniqueID>
+		<Korean>프라메아</Korean>
+		<English>Framea</English>
+		<Japenese>フラメア</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>40306</UniqueID>
+		<Korean>할베르트</Korean>
+		<English>Halbert</English>
+		<Japenese>ハルバート</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>40307</UniqueID>
+		<Korean>폴 액스</Korean>
+		<English>Pole Axe</English>
+		<Japenese>ポールアックス</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>40308</UniqueID>
+		<Korean>사브르 할베르트</Korean>
+		<English>Sabre Halbert</English>
+		<Japenese>サーベルハルバート</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>40309</UniqueID>
+		<Korean>랜스</Korean>
+		<English>Lance</English>
+		<Japenese>ランス</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>40310</UniqueID>
+		<Korean>롱기누스의 창</Korean>
+		<English>Lance of Longinus</English>
+		<Japenese>ロンギヌスの槍</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>40401</UniqueID>
+		<Korean>우드 투핸드</Korean>
+		<English>Wood Two Hand</English>
+		<Japenese>ウッドツーハンド</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>40402</UniqueID>
+		<Korean>노말 투핸드</Korean>
+		<English>Normal Two Hand</English>
+		<Japenese>ノーマルツーハンド</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>40403</UniqueID>
+		<Korean>아이언 투핸드</Korean>
+		<English>Iron Two Hand</English>
+		<Japenese>アイアンツーハンド</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>40404</UniqueID>
+		<Korean>글라디우스</Korean>
+		<English>Gladius</English>
+		<Japenese>グラディウス</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>40405</UniqueID>
+		<Korean>바스타드 소드</Korean>
+		<English>Bastard Sword</English>
+		<Japenese>バスタードソード</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>40406</UniqueID>
+		<Korean>스파타</Korean>
+		<English>Spatha</English>
+		<Japenese>スパータ</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>40407</UniqueID>
+		<Korean>클레이모어</Korean>
+		<English>Claymore</English>
+		<Japenese>クレイモア</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>40408</UniqueID>
+		<Korean>프랑베르주</Korean>
+		<English>Flam beruegu</English>
+		<Japenese>フランベルジュ</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>40409</UniqueID>
+		<Korean>엑서큐셔너스</Korean>
+		<English>Executioner's</English>
+		<Japenese>エクスキューショナーズ</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>40410</UniqueID>
+		<Korean>거인 슈르트의 검</Korean>
+		<English>Surtr's Sword of Flame</English>
+		<Japenese>巨人スルトの剣</Japenese>
+	</Data>
+  <Data>
+    <UniqueID>40501</UniqueID>
+    <Korean>우드 보우</Korean>
+    <English>Wood Bow</English>
+    <Japenese>ウッドボウ</Japenese>
+  </Data>
+  <Data>
+    <UniqueID>40502</UniqueID>
+    <Korean>노말 보우</Korean>
+    <English>Normal Bow</English>
+    <Japenese>ノーマルボウ</Japenese>
+  </Data>
+  <Data>
+    <UniqueID>40503</UniqueID>
+    <Korean>견습생 보우</Korean>
+    <English>Apprentice Bow</English>
+    <Japenese>研修生ボウ</Japenese>
+  </Data>
+  <Data>
+    <UniqueID>40504</UniqueID>
+    <Korean>헤비 보우</Korean>
+    <English>Heavy Bow</English>
+    <Japenese>ヘビーボウ</Japenese>
+  </Data>
+  <Data>
+    <UniqueID>40505</UniqueID>
+    <Korean>롱 보우</Korean>
+    <English>Long Bow</English>
+    <Japenese>ロングボウ</Japenese>
+  </Data>
+  <Data>
+    <UniqueID>40506</UniqueID>
+    <Korean>헌터 보우</Korean>
+    <English>hunter Bow</English>
+    <Japenese>ハンターボウ</Japenese>
+  </Data>
+  <Data>
+    <UniqueID>40507</UniqueID>
+    <Korean>엘븐 보우</Korean>
+    <English>Elven Bow</English>
+    <Japenese>エルフンボウ</Japenese>
+  </Data>
+  <Data>
+    <UniqueID>40508</UniqueID>
+    <Korean>엘레멘탈 보우</Korean>
+    <English>Elemental Bow</English>
+    <Japenese>エレメンタルボウ</Japenese>
+  </Data>
+  <Data>
+    <UniqueID>40509</UniqueID>
+    <Korean>사이클론 보우</Korean>
+    <English>Cyclone Bow</English>
+    <Japenese>サイクロンボウ</Japenese>
+  </Data>
+  <Data>
+    <UniqueID>40510</UniqueID>
+    <Korean>사릉가</Korean>
+    <English>Sarnga</English>
+    <Japenese>サルガ</Japenese>
+  </Data>
+	<Data>
+		<UniqueID>50101</UniqueID>
+		<Korean>천 셔츠</Korean>
+		<English>Cloth Shirt</English>
+		<Japenese>布のシャツ</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>50102</UniqueID>
+		<Korean>천 경갑</Korean>
+		<English>Cloth Greaves</English>
+		<Japenese>布のすねあて</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>50103</UniqueID>
+		<Korean>나무 경갑</Korean>
+		<English>Wood Greaves</English>
+		<Japenese>木のすねあて</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>50104</UniqueID>
+		<Korean>철제 흉갑</Korean>
+		<English>Iron Breastplate</English>
+		<Japenese>鉄製胸甲</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>50105</UniqueID>
+		<Korean>스케일 메일</Korean>
+		<English>Scale Mail</English>
+		<Japenese>スケイルメイル</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>50106</UniqueID>
+		<Korean>골드 스케일</Korean>
+		<English>Gold Scale</English>
+		<Japenese>ゴールドスケイル</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>50107</UniqueID>
+		<Korean>브리건딘</Korean>
+		<English>Brigandine</English>
+		<Japenese>ブリガンダイン</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>50108</UniqueID>
+		<Korean>플레이트 아머</Korean>
+		<English>Plate Armor</English>
+		<Japenese>プレートアーマー</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>50109</UniqueID>
+		<Korean>골드 플레이트</Korean>
+		<English>Gold Plate</English>
+		<Japenese>ゴールドプレート</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>50110</UniqueID>
+		<Korean>홍염의 갑옷</Korean>
+		<English>Armor of Red Flame</English>
+		<Japenese>紅炎の鎧</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>50111</UniqueID>
+		<Korean>대지의 갑옷</Korean>
+		<English>Armor of Earth</English>
+		<Japenese>大地の鎧</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>50112</UniqueID>
+		<Korean>나이트 아머</Korean>
+		<English>Knight Armor</English>
+		<Japenese>ナイトアーマー</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>50113</UniqueID>
+		<Korean>아마돈 플레이트</Korean>
+		<English>Armadon Plate</English>
+		<Japenese>アマドンプレート</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>70001</UniqueID>
+		<Korean>HP물약(소)</Korean>
+		<English>HP Potion (Small)</English>
+		<Japenese>HP水薬(小)</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>70002</UniqueID>
+		<Korean>MP물약(소)</Korean>
+		<English>MP Potion (Small)</English>
+		<Japenese>MP水薬(小)</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>70003</UniqueID>
+		<Korean>경험치구슬(1단계)</Korean>
+		<English>Exp Marble (Level 1)</English>
+		<Japenese>経験値玉（レベル1）</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>70004</UniqueID>
+		<Korean>경험치구슬(2단계)</Korean>
+		<English>Exp Marble (Level 2)</English>
+		<Japenese>経験値玉（レベル2）</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>70005</UniqueID>
+		<Korean>경험치구슬(3단계)</Korean>
+		<English>Exp Marble (Level 3)</English>
+		<Japenese>経験値玉（レベル3）</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>70006</UniqueID>
+		<Korean>경험치구슬(4단계)</Korean>
+		<English>Exp Marble (Level 4)</English>
+		<Japenese>経験値玉（レベル4）</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>70007</UniqueID>
+		<Korean>경험치구슬(5단계)</Korean>
+		<English>Exp Marble (Level 5)</English>
+		<Japenese>経験値玉（レベル5）</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>70008</UniqueID>
+		<Korean>경험치구슬(6단계)</Korean>
+		<English>Exp Marble (Level 6)</English>
+		<Japenese>経験値玉（レベル6）</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>70001_DSC</UniqueID>
+		<Korean>Hp를 30%로 회복합니다.</Korean>
+		<English>Restores Hp to 30%.</English>
+		<Japenese>Hpを 30%に回復します</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>70002_DSC</UniqueID>
+		<Korean>Mp를 30%로 회복합니다.</Korean>
+		<English>Restores Mp to 30%.</English>
+		<Japenese>Mpを 30%に回復します</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>70003_DSC</UniqueID>
+		<Korean>경험치를 1000 획득합니다.</Korean>
+		<English>Gain 1,000 Exp.</English>
+		<Japenese>経験値を1000獲得します</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>70004_DSC</UniqueID>
+		<Korean>경험치를 5000 획득합니다</Korean>
+		<English>Gain 5,000 Exp.</English>
+		<Japenese>経験値を5000獲得します</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>70005_DSC</UniqueID>
+		<Korean>경험치를 30000 획득합니다</Korean>
+		<English>Gain 30,000 Exp.</English>
+		<Japenese>経験値を30000獲得します</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>70006_DSC</UniqueID>
+		<Korean>경험치를 200000 획득합니다</Korean>
+		<English>Gain 200,000 Exp.</English>
+		<Japenese>経験値を200000獲得します</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>70007_DSC</UniqueID>
+		<Korean>경험치를 1000000 획득합니다</Korean>
+		<English>Gain 1,000,000 Exp.</English>
+		<Japenese>経験値を1000000獲得します</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>70008_DSC</UniqueID>
+		<Korean>경험치를 5000000 획득합니다</Korean>
+		<English>Gain 5,000,000 Exp.</English>
+		<Japenese>経験値を5000000獲得します</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>80001</UniqueID>
+		<Korean>슬 라 임</Korean>
+		<English>Slime</English>
+		<Japenese>スライム</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>80002</UniqueID>
+		<Korean>오   크</Korean>
+		<English>Orc</English>
+		<Japenese>オーク</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>80003</UniqueID>
+		<Korean>쫄따구 고블린</Korean>
+		<English>Soldier Goblin</English>
+		<Japenese>軍人ゴブリン</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>80004</UniqueID>
+		<Korean>허접 고블린</Korean>
+		<English>Weak Goblin</English>
+		<Japenese>か弱いゴブリン</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>80005</UniqueID>
+		<Korean>복수의  슬라임</Korean>
+		<English>Vengeful Slime</English>
+		<Japenese>復讐のスライム</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>80006</UniqueID>
+		<Korean>고블린</Korean>
+		<English>Goblin</English>
+		<Japenese>ゴブリン</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>80007</UniqueID>
+		<Korean>복수의  고블린</Korean>
+		<English>Vengeful Goblin</English>
+		<Japenese>復讐のゴブリン</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>80008</UniqueID>
+		<Korean>소맥 왕국  탈영병</Korean>
+		<English>Kingdom deserter</English>
+		<Japenese>ソマックス王国の脱走兵</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>80009</UniqueID>
+		<Korean>야 습 의  오 크</Korean>
+		<English>Night Orc</English>
+		<Japenese>夜襲のオーク</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>80010</UniqueID>
+		<Korean>야습의  고블린</Korean>
+		<English>Night Goblin</English>
+		<Japenese>夜襲のゴブリン</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>80011</UniqueID>
+		<Korean>습 격 의  오 크</Korean>
+		<English>Attack Orc</English>
+		<Japenese>襲撃のオーク</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>80012</UniqueID>
+		<Korean>습격의  고블린</Korean>
+		<English>Attack Goblin</English>
+		<Japenese>襲撃のゴブリン</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>80013</UniqueID>
+		<Korean>추격 의  오 크</Korean>
+		<English>Pursuit Orc</English>
+		<Japenese>追撃のオーク</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>80014</UniqueID>
+		<Korean>추격의  고블린</Korean>
+		<English>Pursuit Goblin</English>
+		<Japenese>追撃のゴブリン</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>80015</UniqueID>
+		<Korean>스켈레톤 궁수</Korean>
+		<English>Skeleton Archer</English>
+		<Japenese>スケルトン射手</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>80016</UniqueID>
+		<Korean>추격의 고블린 궁수</Korean>
+		<English>Goblin Archer</English>
+		<Japenese>追撃のゴブリン射手</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>80017</UniqueID>
+		<Korean>돌격대장 고린</Korean>
+		<English>Captain Gorin</English>
+		<Japenese>突撃大将ゴリン</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>80018</UniqueID>
+		<Korean>스켈레톤</Korean>
+		<English>Skeleton</English>
+		<Japenese>スケルトン</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>80019</UniqueID>
+		<Korean>동굴 슬라임</Korean>
+		<English>Cave Slime</English>
+		<Japenese>洞窟のスライム</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>80020</UniqueID>
+		<Korean>오크 정찰병</Korean>
+		<English>Orc Scout</English>
+		<Japenese>オーク偵察兵</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>80021</UniqueID>
+		<Korean>정찰의 고블린 궁수</Korean>
+		<English>Goblin Scout Archer</English>
+		<Japenese>偵察のゴブリン射手</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>80022</UniqueID>
+		<Korean>전장의 오크</Korean>
+		<English>Battle Orc</English>
+		<Japenese>戦場のオーク</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>80023</UniqueID>
+		<Korean>전장의 고블린 궁수</Korean>
+		<English>Battle Goblin Archer</English>
+		<Japenese>戦場のゴブリン射手</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>80024</UniqueID>
+		<Korean>돌격대장 고린</Korean>
+		<English>Captain Gorin</English>
+		<Japenese>突撃大将ゴリン</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>80025</UniqueID>
+		<Korean>네스마 제국병사</Korean>
+		<English>Imperial Soldier</English>
+		<Japenese>ネスマ帝国兵士</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>80026</UniqueID>
+		<Korean>네스마 제국장교</Korean>
+		<English>Imperial Officer</English>
+		<Japenese>ネスマ帝国士官</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>80027</UniqueID>
+		<Korean>마 린</Korean>
+		<English>Marine</English>
+		<Japenese>マリン</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>80028</UniqueID>
+		<Korean>네스마 마법사</Korean>
+		<English>Sorcerer</English>
+		<Japenese>ネスマ魔法士</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>80029</UniqueID>
+		<Korean>라임숲 고블린 궁수</Korean>
+		<English>Goblin Archer</English>
+		<Japenese>ライム森のゴブリン射手</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>80030</UniqueID>
+		<Korean>라임숲 고블린</Korean>
+		<English>Forest Goblin</English>
+		<Japenese>ライム森のゴブリン</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>80031</UniqueID>
+		<Korean>라임숲 오 크</Korean>
+		<English>Forest Orc</English>
+		<Japenese>ライム森のオーク</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>80032</UniqueID>
+		<Korean>라임숲 오우거</Korean>
+		<English>Forest Ogre</English>
+		<Japenese>ライム森のオーガ</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>80033</UniqueID>
+		<Korean>고블린 주술사</Korean>
+		<English>Goblin Sorcerer</English>
+		<Japenese>ゴブリン呪術師</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>80034</UniqueID>
+		<Korean>라임숲 슬라임</Korean>
+		<English>Forest Slime</English>
+		<Japenese>ライム森のスライム</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>80035</UniqueID>
+		<Korean>심연의 슬라임</Korean>
+		<English>Abyss Slime</English>
+		<Japenese>深淵のスライム</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>80036</UniqueID>
+		<Korean>심연의 박쥐</Korean>
+		<English>Abyss Bat</English>
+		<Japenese>深淵のこうもり</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>80037</UniqueID>
+		<Korean>심연의 스켈레톤</Korean>
+		<English>Abyss Skeleton</English>
+		<Japenese>深淵のスケルトン</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>80038</UniqueID>
+		<Korean>스켈레톤 궁수</Korean>
+		<English>Skeleton Archer</English>
+		<Japenese>スケルトン射手</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>80039</UniqueID>
+		<Korean>스켈레톤 워리어</Korean>
+		<English>Skeleton Warrior</English>
+		<Japenese>スケルトンウォーリア</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>80040</UniqueID>
+		<Korean>불멸자 리치킹</Korean>
+		<English>Immortal Lich King</English>
+		<Japenese>不滅者リッチキング</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>80041</UniqueID>
+		<Korean>스톤 골렘</Korean>
+		<English>Stone Golem</English>
+		<Japenese>ストーンゴーレム</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>80042</UniqueID>
+		<Korean>스 파 라 임</Korean>
+		<English>SPALIME</English>
+		<Japenese>スパライム</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>80043</UniqueID>
+		<Korean>오크 워리어</Korean>
+		<English>Orc Warrior</English>
+		<Japenese>オークウォーリア</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>80044</UniqueID>
+		<Korean>바이킹 슬라임</Korean>
+		<English>Viking Slime</English>
+		<Japenese>バイキングスライム</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>80045</UniqueID>
+		<Korean>오크 주술사</Korean>
+		<English>Orc Sorcerer</English>
+		<Japenese>オーク呪術師</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>81001</UniqueID>
+		<Korean>(정예)슬 라 임</Korean>
+		<English>(Elite) Slime</English>
+		<Japenese>(精鋭)スライム</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>81002</UniqueID>
+		<Korean>(정예)오  크</Korean>
+		<English>(Elite) Orc</English>
+		<Japenese>(精鋭)オーク</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>81003</UniqueID>
+		<Korean>(정예)쫄따구 고블린</Korean>
+		<English>(Elite) Soldier Goblin</English>
+		<Japenese>(精鋭)軍人ゴブリン</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>81004</UniqueID>
+		<Korean>(정예)허접 고블린</Korean>
+		<English>(Elite) Weak Goblin</English>
+		<Japenese>(精鋭)か弱いゴブリン</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>81005</UniqueID>
+		<Korean>(정예)복수의 슬라임</Korean>
+		<English>(Elite) Vengeful Slime</English>
+		<Japenese>(精鋭)復讐のスライム</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>81006</UniqueID>
+		<Korean>(정예)고블린</Korean>
+		<English>(Elite) Goblin</English>
+		<Japenese>(精鋭)ゴブリン</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>81007</UniqueID>
+		<Korean>(정예)복수의 고블린</Korean>
+		<English>(Elite) Vengeful Goblin</English>
+		<Japenese>(精鋭)復讐のゴブリン</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>81008</UniqueID>
+		<Korean>(정예)소맥왕국 탈영병</Korean>
+		<English>(Elite) Kingdom deserter</English>
+		<Japenese>(精鋭)ソマックス王国の脱走兵</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>81009</UniqueID>
+		<Korean>(정예)야습의 오크</Korean>
+		<English>(Elite) Night Orc</English>
+		<Japenese>(精鋭)夜襲のオーク</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>81010</UniqueID>
+		<Korean>(정예)야습의 고블린</Korean>
+		<English>(Elite) Night Goblin</English>
+		<Japenese>(精鋭)夜襲のゴブリン</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>81011</UniqueID>
+		<Korean>(정예)습격의 오크</Korean>
+		<English>(Elite) Attack Orc</English>
+		<Japenese>(精鋭)襲撃のオーク</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>81012</UniqueID>
+		<Korean>(정예)습격의 고블린</Korean>
+		<English>(Elite) Attack Goblin</English>
+		<Japenese>(精鋭)襲撃のゴブリン</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>81013</UniqueID>
+		<Korean>(정예)추격의 오크</Korean>
+		<English>(Elite) Pursuit Orc</English>
+		<Japenese>(精鋭)追撃のオーク</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>81014</UniqueID>
+		<Korean>(정예)추격의 고블린</Korean>
+		<English>(Elite) Pursuit Goblin</English>
+		<Japenese>(精鋭)追撃のゴブリン</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>81015</UniqueID>
+		<Korean>(정예)스켈레톤 궁수</Korean>
+		<English>(Elite) Skeleton Archer</English>
+		<Japenese>(精鋭)スケルトン射手</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>81016</UniqueID>
+		<Korean>(정예)추격의 고블린궁수</Korean>
+		<English>(Elite) Goblin Archer</English>
+		<Japenese>(精鋭)追撃のゴブリン射手</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>81017</UniqueID>
+		<Korean>(정예)돌격대장 고린</Korean>
+		<English>(Elite) Captain Gorin</English>
+		<Japenese>(精鋭)突撃大将ゴリン</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>81018</UniqueID>
+		<Korean>(정예)스켈레톤</Korean>
+		<English>(Elite) Skeleton</English>
+		<Japenese>(精鋭)スケルトン</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>81019</UniqueID>
+		<Korean>(정예)동굴 슬라임</Korean>
+		<English>(Elite) Cave Slime</English>
+		<Japenese>(精鋭)洞窟のスライム</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>81020</UniqueID>
+		<Korean>(정예)오크 정찰병</Korean>
+		<English>(Elite) Orc Scout</English>
+		<Japenese>(精鋭)オーク偵察兵</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>81021</UniqueID>
+		<Korean>(정예)정찰의 고블린궁수</Korean>
+		<English>(Elite) Goblin Archer</English>
+		<Japenese>(精鋭)偵察のゴブリン射手</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>81022</UniqueID>
+		<Korean>(정예)전장의 오크</Korean>
+		<English>(Elite) Battle Orc</English>
+		<Japenese>(精鋭)戦場のオーク</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>81023</UniqueID>
+		<Korean>(정예)전장의 고블린궁수</Korean>
+		<English>(Elite) Battle Goblin Archer</English>
+		<Japenese>(精鋭)戦場のゴブリン射手</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>81024</UniqueID>
+		<Korean>(정예)돌격대장 고린</Korean>
+		<English>(Elite) Captain Gorin</English>
+		<Japenese>(精鋭)突撃大将ゴリン</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>81025</UniqueID>
+		<Korean>(정예)네스마 제국병사</Korean>
+		<English>(Elite) Imperial Soldier</English>
+		<Japenese>(精鋭)ネスマ帝国兵士</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>81026</UniqueID>
+		<Korean>(정예)네스마 제국장교</Korean>
+		<English>(Elite) Imperial Officer</English>
+		<Japenese>(精鋭)ネスマ帝国士官</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>81027</UniqueID>
+		<Korean>(정예)마 린</Korean>
+		<English>(Elite) Marine</English>
+		<Japenese>(精鋭)マリン</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>81028</UniqueID>
+		<Korean>(정예)네스마 마법사</Korean>
+		<English>(Elite) Nesma Sorcerer</English>
+		<Japenese>(精鋭)ネスマ魔法士</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>81029</UniqueID>
+		<Korean>(정예)라임숲 고블린궁수</Korean>
+		<English>(Elite) Forest Goblin Archer</English>
+		<Japenese>(精鋭)ライム森のゴブリン射手</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>81030</UniqueID>
+		<Korean>(정예)라임숲 고블린</Korean>
+		<English>(Elite) Forest Goblin</English>
+		<Japenese>(精鋭)ライム森のゴブリン</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>81031</UniqueID>
+		<Korean>(정예)라임숲 오크</Korean>
+		<English>(Elite) Forest Orc</English>
+		<Japenese>(精鋭)ライム森のオーク</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>81032</UniqueID>
+		<Korean>(정예)라임숲 오우거</Korean>
+		<English>(Elite) Forest Ogre</English>
+		<Japenese>(精鋭)ライム森のオーガ</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>81033</UniqueID>
+		<Korean>(정예)고블린 주술사</Korean>
+		<English>(Elite) Goblin Sorcerer</English>
+		<Japenese>(精鋭)ゴブリン呪術師</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>81034</UniqueID>
+		<Korean>(정예)라임숲 슬라임</Korean>
+		<English>(Elite) Forest Slime</English>
+		<Japenese>(精鋭)ライム森のスライム</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>81035</UniqueID>
+		<Korean>(정예)심연의 슬라임</Korean>
+		<English>(Elite) Abyss Slime</English>
+		<Japenese>(精鋭)深淵のスライム</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>81036</UniqueID>
+		<Korean>(정예)심연의 박쥐</Korean>
+		<English>(Elite) Abyss Bat</English>
+		<Japenese>(精鋭)深淵のこうもり</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>81037</UniqueID>
+		<Korean>(정예)심연의 스켈레톤</Korean>
+		<English>(Elite) Abyss Skeleton</English>
+		<Japenese>(精鋭)深淵のスケルトン</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>81038</UniqueID>
+		<Korean>(정예)스켈레톤 궁수</Korean>
+		<English>(Elite) Skeleton Archer</English>
+		<Japenese>(精鋭)スケルトン射手</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>81039</UniqueID>
+		<Korean>(정예)스켈레톤 워리어</Korean>
+		<English>(Elite) Skeleton Warrior</English>
+		<Japenese>(精鋭)スケルトンウォーリア</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>81040</UniqueID>
+		<Korean>(정예)불멸자 리치킹</Korean>
+		<English>(Elite) Immortal Lich King</English>
+		<Japenese>(精鋭)不滅者リッチキング</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>81041</UniqueID>
+		<Korean>(정예)스톤 골렘</Korean>
+		<English>(Elite) Stone Golem</English>
+		<Japenese>(精鋭)ストーンゴーレム</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>81042</UniqueID>
+		<Korean>(정예)스 파 라 임</Korean>
+		<English>(Elite) SPALIME</English>
+		<Japenese>(精鋭)スパライム</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>81043</UniqueID>
+		<Korean>(정예)오크 워리어</Korean>
+		<English>(Elite) Orc Warrior</English>
+		<Japenese>(精鋭)オークウォーリア</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>81044</UniqueID>
+		<Korean>(정예)바이킹 슬라임</Korean>
+		<English>(Elite) Viking Slime</English>
+		<Japenese>(精鋭)バイキングスライム</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>81045</UniqueID>
+		<Korean>(정예)오크 주술사</Korean>
+		<English>(Elite) Orc Sorcerer</English>
+		<Japenese>(精鋭)オーク呪術師</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>80046</UniqueID>
+		<Korean>오크 라이더</Korean>
+		<English>Orc Rider</English>
+		<Japenese>オークライダー</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>80047</UniqueID>
+		<Korean>울프</Korean>
+		<English>Wolf</English>
+		<Japenese>ウルフ</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>80048</UniqueID>
+		<Korean>사막 고블린궁수</Korean>
+		<English>Desert Goblin Archer</English>
+		<Japenese>砂漠のゴブリン射手</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>80049</UniqueID>
+		<Korean>사막 오우거</Korean>
+		<English>Desert Ogre</English>
+		<Japenese>砂漠のオーガ</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>80050</UniqueID>
+		<Korean>사막 병사</Korean>
+		<English>Desert Soldier</English>
+		<Japenese>砂漠兵士</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>80051</UniqueID>
+		<Korean>사막 궁수</Korean>
+		<English>Desert Archer</English>
+		<Japenese>砂漠射手</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>80052</UniqueID>
+		<Korean>사막 전사</Korean>
+		<English>Desert Warrior</English>
+		<Japenese>砂漠戦士</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>80053</UniqueID>
+		<Korean>사막 울프</Korean>
+		<English>Desert Wolf</English>
+		<Japenese>砂漠のウルフ</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>80054</UniqueID>
+		<Korean>사막 오크 주술사</Korean>
+		<English>Desert Orc Sorcerer</English>
+		<Japenese>砂漠のオーク呪術師</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>80055</UniqueID>
+		<Korean>사막 오크 라이더</Korean>
+		<English>Desert Orc Rider</English>
+		<Japenese>砂漠のオークライダー</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>80056</UniqueID>
+		<Korean>분노한 사막 오우거</Korean>
+		<English>Raging Desert Ogre</English>
+		<Japenese>激怒した砂漠のオーガ</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>80057</UniqueID>
+		<Korean>크리드 사막 병사</Korean>
+		<English>Creed Desert Soldier</English>
+		<Japenese>クリードの砂漠兵士</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>80058</UniqueID>
+		<Korean>크리드 사막 궁수</Korean>
+		<English>Creed Desert Archer</English>
+		<Japenese>クリードの砂漠射手</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>80059</UniqueID>
+		<Korean>크리드 사막 전사</Korean>
+		<English>Creed Desert Warrior</English>
+		<Japenese>クリードの砂漠戦士</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>80060</UniqueID>
+		<Korean>카 밀 라</Korean>
+		<English>Camilla</English>
+		<Japenese>カミラ</Japenese>
+	</Data>
+        <Data>
+		<UniqueID>80061</UniqueID>
+		<Korean>십자군 전사</Korean>
+		<English>Warrior.Crusades</English>
+		<Japenese>十字軍戦士</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>80062</UniqueID>
+		<Korean>십자군 궁수</Korean>
+		<English>Archer.Crusades</English>
+		<Japenese>十字軍射手</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>80063</UniqueID>
+		<Korean>십자군 기사</Korean>
+		<English>Knights.Crusades</English>
+		<Japenese>十字軍記事</Japenese>
+	</Data>
+        <Data>
+		<UniqueID>80064</UniqueID>
+		<Korean>울프</Korean>
+		<English>Wolf</English>
+		<Japenese>ウルフ</Japenese>
+	</Data>
+        <Data>
+		<UniqueID>80065</UniqueID>
+		<Korean>십자군 마법사</Korean>
+		<English>Sorcerer.Crusades</English>
+		<Japenese>十字軍魔法士</Japenese>
+	</Data>
+        <Data>
+		<UniqueID>80066</UniqueID>
+		<Korean>레 이 나</Korean>
+		<English>RAINA</English>
+		<Japenese>レイナ</Japenese>
+	</Data>
+      <Data>
+		<UniqueID>80067</UniqueID>
+		<Korean>십자군 전사</Korean>
+		<English>Warrior.Crusades</English>
+		<Japenese>十字軍戦士</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>80068</UniqueID>
+		<Korean>십자군 궁수</Korean>
+		<English>Archer.Crusades</English>
+		<Japenese>十字軍射手</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>80069</UniqueID>
+		<Korean>십자군 기사</Korean>
+		<English>Knights.Crusades</English>
+		<Japenese>十字軍記事</Japenese>
+	</Data>
+        <Data>
+		<UniqueID>80070</UniqueID>
+		<Korean>울프</Korean>
+		<English>Wolf</English>
+		<Japenese>ウルフ</Japenese>
+	</Data>
+        <Data>
+		<UniqueID>80071</UniqueID>
+		<Korean>십자군 마법사</Korean>
+		<English>Sorcerer.Crusades</English>
+		<Japenese>十字軍魔法士</Japenese>
+	</Data>
+        <Data>
+		<UniqueID>80072</UniqueID>
+		<Korean>레 이 나</Korean>
+		<English>RAINA</English>
+		<Japenese>レイナ</Japenese>
+	</Data>
+        <Data>
+		<UniqueID>80073</UniqueID>
+		<Korean>십자군 사령관</Korean>
+		<English>Commander.Crusades</English>
+		<Japenese>十字軍司令官</Japenese>
+	</Data>
+        <Data>
+		<UniqueID>81061</UniqueID>
+		<Korean>(정예)십자군 전사</Korean>
+		<English>(Elite)Warrior.Crusades</English>
+		<Japenese>(精鋭)十字軍戦士</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>81062</UniqueID>
+		<Korean>(정예)십자군 궁수</Korean>
+		<English>(Elite)Archer.Crusades</English>
+		<Japenese>(精鋭)十字軍射手</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>81063</UniqueID>
+		<Korean>(정예)십자군 기사</Korean>
+		<English>(Elite)Knights.Crusades</English>
+		<Japenese>(精鋭)十字軍記事</Japenese>
+	</Data>
+        <Data>
+		<UniqueID>81064</UniqueID>
+		<Korean>(정예)울프</Korean>
+		<English>(Elite)Wolf</English>
+		<Japenese>(精鋭)ウルフ</Japenese>
+	</Data>
+        <Data>
+		<UniqueID>81065</UniqueID>
+		<Korean>(정예)십자군 마법사</Korean>
+		<English>(Elite)Sorcerer.Crusades</English>
+		<Japenese>(精鋭)十字軍魔法士</Japenese>
+	</Data>
+        <Data>
+		<UniqueID>81066</UniqueID>
+		<Korean>(정예)레 이 나</Korean>
+		<English>(Elite)RAINA</English>
+		<Japenese>(精鋭)レイナ</Japenese>
+	</Data>
+        <Data>
+		<UniqueID>81067</UniqueID>
+		<Korean>(정예)십자군 전사</Korean>
+		<English>(Elite)Warrior.Crusades</English>
+		<Japenese>(精鋭)十字軍戦士</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>81068</UniqueID>
+		<Korean>(정예)십자군 궁수</Korean>
+		<English>(Elite)Archer.Crusades</English>
+		<Japenese>(精鋭)十字軍射手</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>81069</UniqueID>
+		<Korean>(정예)십자군 기사</Korean>
+		<English>(Elite)Knights.Crusades</English>
+		<Japenese>(精鋭)十字軍記事</Japenese>
+	</Data>
+        <Data>
+		<UniqueID>81070</UniqueID>
+		<Korean>(정예)울프</Korean>
+		<English>(Elite)Wolf</English>
+		<Japenese>(精鋭)ウルフ</Japenese>
+	</Data>
+        <Data>
+		<UniqueID>81071</UniqueID>
+		<Korean>(정예)십자군 마법사</Korean>
+		<English>(Elite)Sorcerer.Crusades</English>
+		<Japenese>(精鋭)十字軍魔法士</Japenese>
+	</Data>
+        <Data>
+		<UniqueID>81072</UniqueID>
+		<Korean>(정예)레 이 나</Korean>
+		<English>(Elite)RAINA</English>
+		<Japenese>(精鋭)レイナ</Japenese>
+	</Data>
+        <Data>
+		<UniqueID>81073</UniqueID>
+		<Korean>(정예)십자군 사령관</Korean>
+		<English>(Elite)Commander.Crusades</English>
+		<Japenese>(精鋭)十字軍司令官</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>81046</UniqueID>
+		<Korean>(정예)오크 라이더</Korean>
+		<English>(Elite) Orc Rider</English>
+		<Japenese>(精鋭)オークライダー</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>81047</UniqueID>
+		<Korean>(정예)울프</Korean>
+		<English>(Elite) Wolf</English>
+		<Japenese>(精鋭)ウルフ</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>81048</UniqueID>
+		<Korean>(정예)사막 고블린궁수</Korean>
+		<English>(Elite) Desert Goblin Archer</English>
+		<Japenese>(精鋭)砂漠のゴブリン射手</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>81049</UniqueID>
+		<Korean>(정예)사막 오우거</Korean>
+		<English>(Elite) Desert Ogre</English>
+		<Japenese>(精鋭)砂漠のオーガ</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>81050</UniqueID>
+		<Korean>(정예)사막 병사</Korean>
+		<English>(Elite) Desert Soldier</English>
+		<Japenese>(精鋭)砂漠兵士</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>81051</UniqueID>
+		<Korean>(정예)사막 궁수</Korean>
+		<English>(Elite) Desert Archer</English>
+		<Japenese>(精鋭)砂漠射手</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>81052</UniqueID>
+		<Korean>(정예)사막 전사</Korean>
+		<English>(Elite) Desert Warrior</English>
+		<Japenese>(精鋭)砂漠戦士</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>81053</UniqueID>
+		<Korean>(정예)사막 울프</Korean>
+		<English>(Elite) Desert Wolf</English>
+		<Japenese>(精鋭)砂漠のウルフ</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>81054</UniqueID>
+		<Korean>(정예)사막 오크주술사</Korean>
+		<English>(Elite) Desert Orc Sorcerer</English>
+		<Japenese>(精鋭)砂漠のオーク呪術師</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>81055</UniqueID>
+		<Korean>(정예)사막 오크라이더</Korean>
+		<English>(Elite) Desert Orc Rider</English>
+		<Japenese>(精鋭)砂漠のオークライダー</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>81056</UniqueID>
+		<Korean>(정예)분노한 사막오우거</Korean>
+		<English>(Elite) Raging Desert Ogre</English>
+		<Japenese>(精鋭)激怒した砂漠のオーガ</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>81057</UniqueID>
+		<Korean>(정예)크리드 사막병사</Korean>
+		<English>(Elite) Creed Desert Soldier</English>
+		<Japenese>(精鋭)クリードの砂漠兵士</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>81058</UniqueID>
+		<Korean>(정예)크리드 사막궁수</Korean>
+		<English>(Elite) Creed Desert Archer</English>
+		<Japenese>(精鋭)クリードの砂漠射手</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>81059</UniqueID>
+		<Korean>(정예)크리드 사막전사</Korean>
+		<English>(Elite) Creed Desert Warrior</English>
+		<Japenese>(精鋭)クリードの砂漠戦士</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>81060</UniqueID>
+		<Korean>(정예)카 밀 라</Korean>
+		<English>(Elite) Camilla</English>
+		<Japenese>(精鋭)カミラ</Japenese>
+	</Data>     
+	<Data>
+		<UniqueID>82024</UniqueID>
+		<Korean>(지옥)돌격대장 고린</Korean>
+		<English>(Hell) Assault Captain Gorin</English>
+		<Japenese>(地獄)突撃大将ゴリン</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>82032</UniqueID>
+		<Korean>(지옥)라임숲 오우거</Korean>
+		<English>(Hell) Lime Forest Ogre</English>
+		<Japenese>(地獄)ライム森のオーガ</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>82027</UniqueID>
+		<Korean>(지옥)마 린</Korean>
+		<English>(Hell) Marine</English>
+		<Japenese>(地獄)マリン</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>82040</UniqueID>
+		<Korean>(지옥)불멸자 리치킹</Korean>
+		<English>(Hell) Immortal Lich King</English>
+		<Japenese>(地獄)不滅者リッチキング</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>82042</UniqueID>
+		<Korean>(지옥)스 파 라 임</Korean>
+		<English>(Hell) SPALIME</English>
+		<Japenese>(地獄)スパライム</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>82041</UniqueID>
+		<Korean>(지옥)스톤 골렘</Korean>
+		<English>(Hell) Stone Golem</English>
+		<Japenese>(地獄)ストーンゴーレム</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>82000</UniqueID>
+		<Korean>발록</Korean>
+		<English>Balrog</English>
+		<Japenese>バルログ</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>90001</UniqueID>
+		<Korean>명예의 활</Korean>
+		<English>Bow of Honor</English>
+		<Japenese>名誉の弓</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>90002</UniqueID>
+		<Korean>승리의 활</Korean>
+		<English>Bow of Victory</English>
+		<Japenese>勝利の弓</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>90003</UniqueID>
+		<Korean>하늘의 활</Korean>
+		<English>Bow of the Sky</English>
+		<Japenese>空の弓</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>90004</UniqueID>
+		<Korean>원탁의 활</Korean>
+		<English>Bow of the Round Table</English>
+		<Japenese>円卓の弓</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>90005</UniqueID>
+		<Korean>로빈의 활</Korean>
+		<English>Bow of Robin</English>
+		<Japenese>ロビンの弓</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>90006</UniqueID>
+		<Korean>아서의 활</Korean>
+		<English>Bow of Arthur</English>
+		<Japenese>アーサーの弓</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>90007</UniqueID>
+		<Korean>요우케이넨의 활</Korean>
+		<English>Bow of Yohkainen</English>
+		<Japenese>ヨウケイネンの弓</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>90008</UniqueID>
+		<Korean>비슈누의 활</Korean>
+		<English>Bow of Vishnu</English>
+		<Japenese>ヴィシュヌの弓</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>90009</UniqueID>
+		<Korean>아폴론의활</Korean>
+		<English>Bow of Apollon</English>
+		<Japenese>アポロンの弓</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>90101</UniqueID>
+		<Korean>명예의 재화</Korean>
+		<English>Goods of Honor</English>
+		<Japenese>名誉の財貨</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>90102</UniqueID>
+		<Korean>승리의 재화</Korean>
+		<English>Goods of Victory</English>
+		<Japenese>勝利の財貨</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>90103</UniqueID>
+		<Korean>하늘의 재화</Korean>
+		<English>Goods of the Sky</English>
+		<Japenese>空の財貨</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>90104</UniqueID>
+		<Korean>원탁의 재화</Korean>
+		<English>Goods of the Round Table</English>
+		<Japenese>円卓の財貨</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>90105</UniqueID>
+		<Korean>알라딘의 재화</Korean>
+		<English>Goods of Aladdin</English>
+		<Japenese>アラジンの財貨</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>90106</UniqueID>
+		<Korean>만수르의 재화</Korean>
+		<English>Goods of Mansour</English>
+		<Japenese>マンスールの財貨</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>90107</UniqueID>
+		<Korean>미다스의 재화</Korean>
+		<English>Goods of Midas</English>
+		<Japenese>ミダスの財貨</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>90108</UniqueID>
+		<Korean>스마우그의 재화</Korean>
+		<English>Goods of Smaug</English>
+		<Japenese>スマウグの財貨</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>90109</UniqueID>
+		<Korean>플루토스의 재화</Korean>
+		<English>Goods of Plutus</English>
+		<Japenese>プルトスの財貨</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>90201</UniqueID>
+		<Korean>명예의 도끼</Korean>
+		<English>Axe of Honor</English>
+		<Japenese>名誉の斧</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>90202</UniqueID>
+		<Korean>승리의 도끼</Korean>
+		<English>Axe of Victory</English>
+		<Japenese>勝利の斧</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>90203</UniqueID>
+		<Korean>하늘의 도끼</Korean>
+		<English>Axe of the Sky</English>
+		<Japenese>空の斧</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>90204</UniqueID>
+		<Korean>원탁의 도끼</Korean>
+		<English>Axe of the Round Table</English>
+		<Japenese>円卓の斧</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>90205</UniqueID>
+		<Korean>거인의 도끼</Korean>
+		<English>Axe of Giant</English>
+		<Japenese>巨人の斧</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>90206</UniqueID>
+		<Korean>서리거인의 도끼</Korean>
+		<English>Axe of Frost Giant</English>
+		<Japenese>霜の巨人の斧</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>90207</UniqueID>
+		<Korean>크로노스의도끼</Korean>
+		<English>Axe of Kronos</English>
+		<Japenese>クロノスの斧</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>90208</UniqueID>
+		<Korean>베르겔미르도끼</Korean>
+		<English>Axe of Bergelmir</English>
+		<Japenese>ベルゲルミルの斧</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>90209</UniqueID>
+		<Korean>유미르의 도끼</Korean>
+		<English>Axe of Ymir</English>
+		<Japenese>ユミルの斧</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>90301</UniqueID>
+		<Korean>명예의 갑옷</Korean>
+		<English>Armor of Honor</English>
+		<Japenese>名誉の鎧</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>90302</UniqueID>
+		<Korean>승리의 갑옷</Korean>
+		<English>Armor of Victory</English>
+		<Japenese>勝利の鎧</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>90303</UniqueID>
+		<Korean>하늘의 갑옷</Korean>
+		<English>Armor of the Sky</English>
+		<Japenese>空の鎧</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>90304</UniqueID>
+		<Korean>원탁의 갑옷</Korean>
+		<English>Armor of the Round Table</English>
+		<Japenese>円卓の鎧</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>90305</UniqueID>
+		<Korean>아서의 갑옷</Korean>
+		<English>Armor of Arthur</English>
+		<Japenese>アーサーの鎧</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>90306</UniqueID>
+		<Korean>성 조지의 갑옷</Korean>
+		<English>Armor of Saint George</English>
+		<Japenese>セント・ジョージの鎧</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>90307</UniqueID>
+		<Korean>아룽그림의 갑옷</Korean>
+		<English>Armor of Arngrim</English>
+		<Japenese>アルングリンの鎧</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>90308</UniqueID>
+		<Korean>지크프리트의갑옷</Korean>
+		<English>Armor of Siegfried</English>
+		<Japenese>ジークフリートの鎧</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>90309</UniqueID>
+		<Korean>프레이의갑옷</Korean>
+		<English>Armor of Freyr</English>
+		<Japenese>フレイの鎧</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>90401</UniqueID>
+		<Korean>명예의 검</Korean>
+		<English>Sword of Honor</English>
+		<Japenese>名誉の剣</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>90402</UniqueID>
+		<Korean>승리의 검</Korean>
+		<English>Sword of Victory</English>
+		<Japenese>勝利の剣</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>90403</UniqueID>
+		<Korean>하늘의 검</Korean>
+		<English>Sword of the Sky</English>
+		<Japenese>空の剣</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>90404</UniqueID>
+		<Korean>원탁의 검</Korean>
+		<English>Sword of the Round Table</English>
+		<Japenese>円卓の剣</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>90405</UniqueID>
+		<Korean>란슬롯의 검</Korean>
+		<English>Sword of Lancelot</English>
+		<Japenese>ランスロットの剣</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>90406</UniqueID>
+		<Korean>아서의 검</Korean>
+		<English>Sword of Arthur</English>
+		<Japenese>アーサーの剣</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>90407</UniqueID>
+		<Korean>베오울프의검</Korean>
+		<English>Sword of Beowulf</English>
+		<Japenese>ベオウルフの剣</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>90408</UniqueID>
+		<Korean>헤임달의 검</Korean>
+		<English>Sword of Heimdal</English>
+		<Japenese>ヘイムダルの剣</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>90409</UniqueID>
+		<Korean>프레이의 검</Korean>
+		<English>Sword of Freyr</English>
+		<Japenese>フレイの剣</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>90501</UniqueID>
+		<Korean>명예의 서</Korean>
+		<English>Book of Honor</English>
+		<Japenese>名誉の書</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>90502</UniqueID>
+		<Korean>승리의 서</Korean>
+		<English>Book of Victory</English>
+		<Japenese>勝利の書</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>90503</UniqueID>
+		<Korean>하늘의 서</Korean>
+		<English>Book of the Sky</English>
+		<Japenese>空の書</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>90504</UniqueID>
+		<Korean>원탁의 서</Korean>
+		<English>Book of the Round Table</English>
+		<Japenese>円卓の書</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>90505</UniqueID>
+		<Korean>현자의 서</Korean>
+		<English>Book of the Wise</English>
+		<Japenese>賢者の書</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>90506</UniqueID>
+		<Korean>멀린의 서</Korean>
+		<English>Book of Merlin</English>
+		<Japenese>マーリンの書</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>90507</UniqueID>
+		<Korean>유미르의 서</Korean>
+		<English>Book of Ymir</English>
+		<Japenese>ユミルの書</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>90508</UniqueID>
+		<Korean>가브리엘의 서</Korean>
+		<English>Book of Gabriel</English>
+		<Japenese>ガブリエルの書</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>90509</UniqueID>
+		<Korean>창세기의 서</Korean>
+		<English>Book of Genisis</English>
+		<Japenese>創世記の書</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>90601</UniqueID>
+		<Korean>명예의 스태프</Korean>
+		<English>Staff of Honor</English>
+		<Japenese>名誉のスタッフ</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>90602</UniqueID>
+		<Korean>승리의 스태프</Korean>
+		<English>Staff of Victory</English>
+		<Japenese>勝利のスタッフ</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>90603</UniqueID>
+		<Korean>하늘의 스태프</Korean>
+		<English>Staff of the Sky</English>
+		<Japenese>空のスタッフ</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>90604</UniqueID>
+		<Korean>원탁의 스태프</Korean>
+		<English>Staff of the Round Table</English>
+		<Japenese>円卓のスタッフ</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>90605</UniqueID>
+		<Korean>현자의 스태프</Korean>
+		<English>Staff of the Wise</English>
+		<Japenese>賢者のスタッフ</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>90606</UniqueID>
+		<Korean>멀린의 스태프</Korean>
+		<English>Staff of Merlin</English>
+		<Japenese>マーリンのスタッフ</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>90607</UniqueID>
+		<Korean>로키의 스태프</Korean>
+		<English>Staff of Loki</English>
+		<Japenese>ロキのスタッフ</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>90608</UniqueID>
+		<Korean>가이아의 스태프</Korean>
+		<English>Staff of Gaia</English>
+		<Japenese>ガイアのスタッフ</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>90609</UniqueID>
+		<Korean>오딘의 스태프</Korean>
+		<English>Staff of Odin</English>
+		<Japenese>オーディンのスタッフ</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>95001</UniqueID>
+		<Korean>A accessory kor</Korean>
+		<English>A accessory eng</English>
+		<Japenese>A accessory jap</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>95002</UniqueID>
+		<Korean>B accessory kor</Korean>
+		<English>B accessory eng</English>
+		<Japenese>B accessory jap</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>95003</UniqueID>
+		<Korean>C accessory kor</Korean>
+		<English>C accessory eng</English>
+		<Japenese>C accessory jap</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>90001_DSC</UniqueID>
+		<Korean>명예로운 활</Korean>
+		<English>Honorable Bow</English>
+		<Japenese>名誉な弓</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>90002_DSC</UniqueID>
+		<Korean>승리를 부르는 활</Korean>
+		<English>Victorious Bow</English>
+		<Japenese>勝利を呼ぶ弓</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>90003_DSC</UniqueID>
+		<Korean>하늘의 계시를 받은 활</Korean>
+		<English>Bow from Heaven</English>
+		<Japenese>神のお告げを受けた弓</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>90004_DSC</UniqueID>
+		<Korean>원탁의 기사의 활</Korean>
+		<English>Bow of Knights of the Round Table</English>
+		<Japenese>円卓の騎士の弓</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>90005_DSC</UniqueID>
+		<Korean>로빈 훗이 사용했다는 활</Korean>
+		<English>Bow of Robin Hood</English>
+		<Japenese>ロビンフッドが使用した弓</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>90006_DSC</UniqueID>
+		<Korean>아서가 사용했다는 활</Korean>
+		<English>Bow of King Arthur</English>
+		<Japenese>アーサーが使用した弓</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>90007_DSC</UniqueID>
+		<Korean>요우케이넨의 저주가 담긴 활</Korean>
+		<English>Bow cursed by Yohkainen</English>
+		<Japenese>呪われたヨウケイネンの弓</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>90008_DSC</UniqueID>
+		<Korean>최고신 비슈누가 사용한 활</Korean>
+		<English>Bow of Vishnu</English>
+		<Japenese>最高神ヴィシュヌが使用した弓</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>90009_DSC</UniqueID>
+		<Korean>태양신 아폴론의 활</Korean>
+		<English>Bow of Sun God Apollo</English>
+		<Japenese>太陽の神アポロンの弓</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>90101_DSC</UniqueID>
+		<Korean>명예와 맞바꾼 재화</Korean>
+		<English>Goods exchanged for Honor</English>
+		<Japenese>名誉と引き換えた財貨</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>90102_DSC</UniqueID>
+		<Korean>전장의 승리로 얻은 재화</Korean>
+		<English>Goods from Battlefield Victory</English>
+		<Japenese>戦場の勝利で得た財貨</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>90103_DSC</UniqueID>
+		<Korean>하늘의 계시로 얻은 재화</Korean>
+		<English>Goods from Heaven</English>
+		<Japenese>神のお告げで得た財貨</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>90104_DSC</UniqueID>
+		<Korean>원탁의 기사들의 재화</Korean>
+		<English>Goods from Knights of the Round Table</English>
+		<Japenese>円卓の騎士の財貨</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>90105_DSC</UniqueID>
+		<Korean>어느동굴에 있다는 알라딘의재화</Korean>
+		<English>Goods of Aladdin in a Cave</English>
+		<Japenese>ある洞窟にいるアラジンの財貨</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>90106_DSC</UniqueID>
+		<Korean>이세계에 대부호의 재화</Korean>
+		<English>The great wealth of this world</English>
+		<Japenese>この世界の大富豪の財貨</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>90107_DSC</UniqueID>
+		<Korean>모든것을 황금으로 바꾼다는 미다스의 재화</Korean>
+		<English>Goods of Midas that changes everything into gold</English>
+		<Japenese>あらゆるものを金に変えるミダスの財貨</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>90108_DSC</UniqueID>
+		<Korean>골드 드래곤의 재화</Korean>
+		<English>Goods of the Gold Dragon</English>
+		<Japenese>ゴールドドラゴンの財貨</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>90109_DSC</UniqueID>
+		<Korean>풍요의신 플루토스의 재화</Korean>
+		<English>Goods of the God of Wealth Plutus</English>
+		<Japenese>富の神プルートスの財貨</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>90201_DSC</UniqueID>
+		<Korean>명예로운 도끼</Korean>
+		<English>Honorable Axe</English>
+		<Japenese>名誉な斧</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>90202_DSC</UniqueID>
+		<Korean>승리를 부르는 도끼</Korean>
+		<English>Victorious Axe</English>
+		<Japenese>勝利を呼ぶ斧</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>90203_DSC</UniqueID>
+		<Korean>하늘의 계시를 받은 도끼</Korean>
+		<English>Axe from Heaven</English>
+		<Japenese>神のお告げを受けた斧</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>90204_DSC</UniqueID>
+		<Korean>원탁의 기사의 도끼</Korean>
+		<English>Axe of Knights of the Round Table</English>
+		<Japenese>円卓の騎士の斧</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>90205_DSC</UniqueID>
+		<Korean>거인이 사용한 도끼</Korean>
+		<English>Axe of Giant</English>
+		<Japenese>巨人が使用した斧</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>90206_DSC</UniqueID>
+		<Korean>서리거인이 사용한 도끼</Korean>
+		<English>Axe of Frost Giant</English>
+		<Japenese>霜の巨人が使用した斧</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>90207_DSC</UniqueID>
+		<Korean>티탄 크로노스의 도끼</Korean>
+		<English>Axe of Titan Kronos</English>
+		<Japenese>ティタンクロノスの斧</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>90208_DSC</UniqueID>
+		<Korean>시조 서리거인의 도끼</Korean>
+		<English>Axe of Original Frost Giant</English>
+		<Japenese>元祖霜の巨人の斧</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>90209_DSC</UniqueID>
+		<Korean>원초 거인 유미르의 대지를 가르는 도끼</Korean>
+		<English>Axe of Ymir that split the Earth</English>
+		<Japenese>原初巨人ユミルの大地を裂く斧</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>90301_DSC</UniqueID>
+		<Korean>명예로운 갑옷</Korean>
+		<English>Honorable Armor</English>
+		<Japenese>名誉な鎧</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>90302_DSC</UniqueID>
+		<Korean>승리를 부르는 갑옷</Korean>
+		<English>Victorious Armor</English>
+		<Japenese>勝利を呼ぶ鎧</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>90303_DSC</UniqueID>
+		<Korean>하늘의 계시를 받은 갑옷</Korean>
+		<English>Armor from Heaven</English>
+		<Japenese>神のお告げを受けた鎧</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>90304_DSC</UniqueID>
+		<Korean>원탁의 기사의 갑옷</Korean>
+		<English>Armor of Knights of the Round Table</English>
+		<Japenese>円卓の騎士の鎧</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>90305_DSC</UniqueID>
+		<Korean>아서가 입었다는 갑옷</Korean>
+		<English>Armor of King Arthur</English>
+		<Japenese>アーサーが着ていた鎧</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>90306_DSC</UniqueID>
+		<Korean>성 조지가 드래곤을 잡을때 입었던 갑옷</Korean>
+		<English>Armor that Saint George wore when he caught a dragon</English>
+		<Japenese>セント・ジョージがドラゴンを捕らえた時、着ていた鎧</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>90307_DSC</UniqueID>
+		<Korean>티르빙을 막았다는 아룽그림의 갑옷</Korean>
+		<English>Armor of Arngrim that blocked Tyrfing</English>
+		<Japenese>ティルヴィングを防いだアルングリンの鎧</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>90308_DSC</UniqueID>
+		<Korean>용의피로 저주를 받은 지크프리트의 갑옷</Korean>
+		<English>Armor of Siegfried cursed by Dragon Blood</English>
+		<Japenese>ドラゴンの血で呪われたジークフリードの鎧</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>90309_DSC</UniqueID>
+		<Korean>주신 프레이가 사용했다는 갑옷</Korean>
+		<English>Armor of Freyr</English>
+		<Japenese>主神フレイが使用した鎧</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>90401_DSC</UniqueID>
+		<Korean>명예로운 검</Korean>
+		<English>Honorable Sword</English>
+		<Japenese>名誉な剣</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>90402_DSC</UniqueID>
+		<Korean>승리를 부르는 검</Korean>
+		<English>Victorious Sword</English>
+		<Japenese>勝利を呼ぶ剣</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>90403_DSC</UniqueID>
+		<Korean>하늘의 계시를 받은 검</Korean>
+		<English>Sword from Heaven</English>
+		<Japenese>神のお告げを受けた剣</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>90404_DSC</UniqueID>
+		<Korean>원탁의 기사의 검</Korean>
+		<English>Sword of Knights of the Round Table</English>
+		<Japenese>円卓の騎士の剣</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>90405_DSC</UniqueID>
+		<Korean>란슬롯이 사용했다는 검</Korean>
+		<English>Sword of Lancelot</English>
+		<Japenese>ランスロットが使用した剣</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>90406_DSC</UniqueID>
+		<Korean>아서가 애용했다는 검</Korean>
+		<English>Sword of Arthur</English>
+		<Japenese>アーサーが愛用した剣</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>90407_DSC</UniqueID>
+		<Korean>영웅 베오울프가 사용한 검</Korean>
+		<English>Sword of Hero Beowulf</English>
+		<Japenese>英雄ベオウルフが使用した剣</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>90408_DSC</UniqueID>
+		<Korean>아스가르드의 문을 지키는 검</Korean>
+		<English>Sword that guards the Gates of Asgard</English>
+		<Japenese>アスガルドの門を守る剣</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>90409_DSC</UniqueID>
+		<Korean>주신 프레이가 사용한 거인을 쓰러뜨는 검</Korean>
+		<English>Sword of Freyr that defeats Giants</English>
+		<Japenese>主神フレイが使用した巨人をやっつける剣</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>90501_DSC</UniqueID>
+		<Korean>명예로운 서적</Korean>
+		<English>Honorable Book</English>
+		<Japenese>名誉な書籍</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>90502_DSC</UniqueID>
+		<Korean>승리를 부르는 서적</Korean>
+		<English>Victorious Book</English>
+		<Japenese>勝利を呼ぶ書籍</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>90503_DSC</UniqueID>
+		<Korean>하늘의 계시를 받은 서적</Korean>
+		<English>Book from Heaven</English>
+		<Japenese>神のお告げを受けた書籍</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>90504_DSC</UniqueID>
+		<Korean>원탁의 기사의 서적</Korean>
+		<English>Book of the Knights of the Round Table</English>
+		<Japenese>円卓の騎士の書籍</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>90505_DSC</UniqueID>
+		<Korean>현자가 썼다는 서적</Korean>
+		<English>Book of the Wise</English>
+		<Japenese>賢者が書いた書籍</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>90506_DSC</UniqueID>
+		<Korean>멀린의 모든지식이 담긴 서적</Korean>
+		<English>Book of all the Knowledge of Merlin</English>
+		<Japenese>マーリンのあらゆる知識が盛り込まれた書籍</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>90507_DSC</UniqueID>
+		<Korean>원초 거인 유미르의 지식이 담긴 서적</Korean>
+		<English>Book with Knowledge of Original Giant Ymir</English>
+		<Japenese>原初巨人ユミルの知識が盛り込まれた書籍</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>90508_DSC</UniqueID>
+		<Korean>대천사 가브리엘이 섰다는 서적</Korean>
+		<English>Book of Archangel Gabriel</English>
+		<Japenese>大天使ガブリエルが書いた書籍</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>90509_DSC</UniqueID>
+		<Korean>창세기의 모든 지식이 담긴 서적</Korean>
+		<English>Book with all the knowledge of Genesis</English>
+		<Japenese>創世記のあらゆる知識が盛り込まれた書籍</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>90601_DSC</UniqueID>
+		<Korean>명예로운 스태프</Korean>
+		<English>Honorable Staff</English>
+		<Japenese>名誉なスタッフ</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>90602_DSC</UniqueID>
+		<Korean>승리를 부르는 스태프</Korean>
+		<English>Victorious Staff</English>
+		<Japenese>勝利を呼ぶスタッフ</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>90603_DSC</UniqueID>
+		<Korean>하늘의 계시를 받은 스태프</Korean>
+		<English>Staff from Heaven</English>
+		<Japenese>神のお告げを受けたスタッフ</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>90604_DSC</UniqueID>
+		<Korean>원탁의 기사의 스태프</Korean>
+		<English>Staff of the Round Table</English>
+		<Japenese>円卓の騎士のスタッフ</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>90605_DSC</UniqueID>
+		<Korean>현자가 사용했다는 스태프</Korean>
+		<English>Staff of the Wise</English>
+		<Japenese>賢者が使ったスタッフ</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>90606_DSC</UniqueID>
+		<Korean>멀린이 애용했다는 스태프</Korean>
+		<English>Staff of Merlin</English>
+		<Japenese>マーリンが愛用したスタッフ</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>90607_DSC</UniqueID>
+		<Korean>끝내는 자 로키의 스태프</Korean>
+		<English>Staff of Loki</English>
+		<Japenese>終わらせる者ロキのスタッフ</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>90608_DSC</UniqueID>
+		<Korean>대지의 모신 가이아의 스태프</Korean>
+		<English>Staff of Gaia</English>
+		<Japenese>大地の母神ガイアのスタッフ</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>90609_DSC</UniqueID>
+		<Korean>주신 오딘의 스태프</Korean>
+		<English>Staff of Odin</English>
+		<Japenese>主神オーディンのスタッフ</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>85001</UniqueID>
+		<Korean>Test1</Korean>
+		<English>Test1</English>
+		<Japenese>Test1</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>85002</UniqueID>
+		<Korean>불멸자 리치킹</Korean>
+		<English>Immortal Lich King</English>
+		<Japenese>不滅者リッチキング</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>85003</UniqueID>
+		<Korean>스켈레톤 워리어</Korean>
+		<English>Skeleton Warrior</English>
+		<Japenese>スケルトンウォーリア</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>85004</UniqueID>
+		<Korean>스켈레톤 궁수</Korean>
+		<English>Skeleton Archer</English>
+		<Japenese>スケルトン射手</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>85005</UniqueID>
+		<Korean>사막 병사</Korean>
+		<English>Desert Soldier</English>
+		<Japenese>砂漠兵士</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>85006</UniqueID>
+		<Korean>사막 궁수</Korean>
+		<English>Desert Archer</English>
+		<Japenese>砂漠射手</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>85007</UniqueID>
+		<Korean>사막 전사</Korean>
+		<English>Desert Warrior</English>
+		<Japenese>砂漠戦士</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>85008</UniqueID>
+		<Korean>슬 라 임</Korean>
+		<English>Slime</English>
+		<Japenese>スライム</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>85009</UniqueID>
+		<Korean>바이킹 슬라임</Korean>
+		<English>Viking Slime</English>
+		<Japenese>バイキングスライム</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>85010</UniqueID>
+		<Korean>스 파 라 임</Korean>
+		<English>SPALIME</English>
+		<Japenese>スパライム</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>85011</UniqueID>
+		<Korean>고블린 궁수</Korean>
+		<English>Goblin Archer</English>
+		<Japenese>ゴブリン射手</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>85012</UniqueID>
+		<Korean>고블린 전사</Korean>
+		<English>Goblin Warrior</English>
+		<Japenese>ゴブリン戦士</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>85013</UniqueID>
+		<Korean>돌격대장 고린</Korean>
+		<English>Assault Captain Gorin</English>
+		<Japenese>突撃大将ゴリン</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>85014</UniqueID>
+		<Korean>고 블 린</Korean>
+		<English>Goblin</English>
+		<Japenese>ゴブリン</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>85015</UniqueID>
+		<Korean>고블린 주술사</Korean>
+		<English>Goblin Sorcerer</English>
+		<Japenese>ゴブリン呪術師</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>85016</UniqueID>
+		<Korean>오 우 거</Korean>
+		<English>Ogre</English>
+		<Japenese>オーガ</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>85017</UniqueID>
+		<Korean>오크 주술사</Korean>
+		<English>Orc Sorcerer</English>
+		<Japenese>オーク呪術師</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>85018</UniqueID>
+		<Korean>오크 워리어</Korean>
+		<English>Orc Warrior</English>
+		<Japenese>オークウォーリア</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>85019</UniqueID>
+		<Korean>스톤 골렘</Korean>
+		<English>Stone Golem</English>
+		<Japenese>ストーンゴーレム</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>85020</UniqueID>
+		<Korean>네스마 마법사</Korean>
+		<English>Nesma Sorcerer</English>
+		<Japenese>ネスマ魔法士</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>85021</UniqueID>
+		<Korean>네스마 제국병사</Korean>
+		<English>Nesma Imperial Soldier</English>
+		<Japenese>ネスマ帝国兵士</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>85022</UniqueID>
+		<Korean>네스마 제국장교</Korean>
+		<English>Nesma Imperial Officer</English>
+		<Japenese>ネスマ帝国仕官</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>1000</UniqueID>
+		<Korean>윙크 페이스\n(루시)</Korean>
+		<English>Wink\n(Lucy)</English>
+		<Japenese>ウィンク顔\n(ルーシー)</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>1001</UniqueID>
+		<Korean>눈웃음 페이스\n(루시)</Korean>
+		<English>Smile with Eyes\n(Lucy)</English>
+		<Japenese>微笑み顔\n(ルーシー)</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>1008</UniqueID>
+		<Korean>당황 페이스\n(루시)</Korean>
+		<English>Embarrassed\n(Lucy)</English>
+		<Japenese>パニック顔\n(ルーシー)</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>1002</UniqueID>
+		<Korean>윙크 페이스\n(엘리나)</Korean>
+		<English>Wink\n(Elena)</English>
+		<Japenese>ウィンク顔\n(エリナ)</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>1003</UniqueID>
+		<Korean>눈웃음 페이스\n(엘리나)</Korean>
+		<English>Smile with Eyes\n(Elena)</English>
+		<Japenese>微笑み顔\n(エリナ)</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>1009</UniqueID>
+		<Korean>당황 페이스\n(엘리나)</Korean>
+		<English>Embarrassed\n(Elena)</English>
+		<Japenese>パニック顔\n(エリナ)</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>1004</UniqueID>
+		<Korean>눈 반짝 페이스\n(마리아)</Korean>
+		<English>Eyes Sparkling\n(Maria)</English>
+		<Japenese>キラキラ目顔\n(マリア)</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>1005</UniqueID>
+		<Korean>난감 페이스\n(마리아)</Korean>
+		<English>Awkward\n(Maria)</English>
+		<Japenese>困った顔\n(マリア)</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>1006</UniqueID>
+		<Korean>눈감은 페이스\n(스칼렛)</Korean>
+		<English>Eyes Closed\n(Scarlet)</English>
+		<Japenese>目を閉じた顔\n(スカーレット)</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>1007</UniqueID>
+		<Korean>윙크 페이스\n(스칼렛)</Korean>
+		<English>Wink\n(Scarlet)</English>
+		<Japenese>ウィンク顔\n(スカーレット)</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>1010</UniqueID>
+		<Korean>눈 똘망 페이스\n(스칼렛)</Korean>
+		<English>Shiny Eyes\n(Scarlet)</English>
+		<Japenese>キラキラ目顔\n(スカーレット)</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>2000</UniqueID>
+		<Korean>롤빵 양갈래 헤어\n(루시)</Korean>
+		<English>Twin Buns Hair\n(Lucy)</English>
+		<Japenese>ロールパン風ツインテールヘア\n(ルーシー)</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>2001</UniqueID>
+		<Korean>바니걸 헤어\n(루시)</Korean>
+		<English>Bunny Girl Hair\n(Lucy)</English>
+		<Japenese>バニーガールヘア\n(ルーシー)</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>2008</UniqueID>
+		<Korean>한쪽 묶음 헤어\n(루시)</Korean>
+		<English>Hair tied one side\n(Lucy)</English>
+		<Japenese>ポニーテールヘア\n(ルーシー)</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>2009</UniqueID>
+		<Korean>양쪽 묶음 헤어\n(루시)</Korean>
+		<English>Hair tied both sides\n(Lucy)</English>
+		<Japenese>ツインテールヘア\n(ルーシー)</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>2010</UniqueID>
+		<Korean>양머리 헤어\n(루시)</Korean>
+		<English>Cinnamon Bun Hair\n(Lucy)</English>
+		<Japenese>羊頭風ヘア\n(ルーシー)</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>2002</UniqueID>
+		<Korean>꽃무늬 머리핀헤어\n(엘리나)</Korean>
+		<English>Flower Hairpin Hair\n(Elena)</English>
+		<Japenese>花柄ヘアピンヘア\n(エリナ)</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>2003</UniqueID>
+		<Korean>바니걸 헤어\n(엘리나)</Korean>
+		<English>Bunny Girl Hair\n(Elena)</English>
+		<Japenese>バニーガールヘア\n(エリナ)</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>2004</UniqueID>
+		<Korean>모자벗은 헤어\n(마리아)</Korean>
+		<English>Hat off Hair\n(Maria)</English>
+		<Japenese>帽子を脱いだヘア\n(マリア)</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>2005</UniqueID>
+		<Korean>바니걸 헤어\n(마리아)</Korean>
+		<English>Bunny Girl Hair\n(Maria)</English>
+		<Japenese>バニーガールヘア\n(マリア)</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>2006</UniqueID>
+		<Korean>리본 머리띠 헤어\n(스칼렛)</Korean>
+		<English>Ribbon Hairband Hair\n(Scarlet)</English>
+		<Japenese>リボンヘアバンドヘア\n(スカーレット)</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>2007</UniqueID>
+		<Korean>바니걸 헤어\n(스칼렛)</Korean>
+		<English>Bunny Girl Hair\n(Scarlet)</English>
+		<Japenese>バニーガールヘア\n(スカーレット)</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>2011</UniqueID>
+		<Korean>바니걸 헤어\n(카밀라)</Korean>
+		<English>Bunny Girl Hair\n(Camilla)</English>
+		<Japenese>バニーガールヘア\n(カミラ)</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>2012</UniqueID>
+		<Korean>바니걸 헤어\n(마린)</Korean>
+		<English>Bunny Girl Hair\n(Marine)</English>
+		<Japenese>バニーガールヘア\n(マリン)</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>3000</UniqueID>
+		<Korean>교복\n(루시)</Korean>
+		<English>School Uniform\n(Lucy)</English>
+		<Japenese>制服\n(ルーシー)</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>3001</UniqueID>
+		<Korean>바니걸\n(루시)</Korean>
+		<English>Bunny Girl\n(Lucy)</English>
+		<Japenese>バニーガール\n(ルーシー)</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>3008</UniqueID>
+		<Korean>발두르의갑옷\n(루시)</Korean>
+		<English>Armor of Baldur\n(Lucy)</English>
+		<Japenese>バルドゥルの鎧\n(ルーシー)</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>3002</UniqueID>
+		<Korean>교복\n(엘리나)</Korean>
+		<English>School Uniform\n(Elena)</English>
+		<Japenese>制服\n(エリナ)</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>3003</UniqueID>
+		<Korean>바니걸\n(엘리나)</Korean>
+		<English>Bunny Girl\n(Elena)</English>
+		<Japenese>バニーガール\n(エリナ)</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>3009</UniqueID>
+		<Korean>헤라클레스의갑옷\n(엘리나)</Korean>
+		<English>Armor of Hercules\n(Elena)</English>
+		<Japenese>ヘラクレスの鎧\n(エリナ)</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>3004</UniqueID>
+		<Korean>교복\n(마리아)</Korean>
+		<English>School Uniform\n(Maria)</English>
+		<Japenese>制服\n(マリア)</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>3005</UniqueID>
+		<Korean>바니걸\n(마리아)</Korean>
+		<English>Bunny Girl\n(Maria)</English>
+		<Japenese>バニーガール\n(マリア)</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>3010</UniqueID>
+		<Korean>테미스의로브\n(마리아)</Korean>
+		<English>Robe of Themis\n(Maria)</English>
+		<Japenese>テミスのローブ\n(マリア)</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>3006</UniqueID>
+		<Korean>교복\n(스칼렛)</Korean>
+		<English>School Uniform\n(Scarlet)</English>
+		<Japenese>制服\n(スカーレット)</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>3007</UniqueID>
+		<Korean>바니걸\n(스칼렛)</Korean>
+		<English>Bunny Girl\n(Scarlet)</English>
+		<Japenese>バニーガール\n(スカーレット)</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>3011</UniqueID>
+		<Korean>케이론의 로브\n(스칼렛)</Korean>
+		<English>Robe of Chiron\n(Scarlet)</English>
+		<Japenese>ケイロンのローブ\n(スカーレット)</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>3012</UniqueID>
+		<Korean>바니걸\n(카밀라)</Korean>
+		<English>Bunny Girl Hair\n(Camilla)</English>
+		<Japenese>バニーガール\n(カミラ)</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>3013</UniqueID>
+		<Korean>바니걸\n(마린)</Korean>
+		<English>Bunny Girl\n(Marine)</English>
+		<Japenese>バニーガール\n(マリン)</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>1000_DSC</UniqueID>
+		<Korean>윙크를 하는 루시 얼굴</Korean>
+		<English>Lucy Face Winking</English>
+		<Japenese>ウィンクするルーシーの顔</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>1001_DSC</UniqueID>
+		<Korean>웃고있는 루시 얼굴</Korean>
+		<English>Lucy Face Smiling</English>
+		<Japenese>微笑んでいるルーシーの顔</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>1008_DSC</UniqueID>
+		<Korean>당황한 루시 얼굴</Korean>
+		<English>Lucy Face Embarrassed</English>
+		<Japenese>パニクったルーシーの顔</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>1002_DSC</UniqueID>
+		<Korean>윙크를 하는 엘리나 얼굴</Korean>
+		<English>Elena Face Winking</English>
+		<Japenese>ウィンクするエリナの顔</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>1003_DSC</UniqueID>
+		<Korean>웃고있는 엘리나 얼굴</Korean>
+		<English>Elena Face Smiling</English>
+		<Japenese>微笑んでいるエリナの顔</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>1009_DSC</UniqueID>
+		<Korean>당황한 엘리나 얼굴</Korean>
+		<English>Elena Face Embarrassed</English>
+		<Japenese>パニクったエリナの顔</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>1004_DSC</UniqueID>
+		<Korean>좋은걸 발견한 마리아 얼굴</Korean>
+		<English>Maria Face when finding something good</English>
+		<Japenese>良いものを発見したかのようなマリアの顔</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>1005_DSC</UniqueID>
+		<Korean>난감한 마리아 얼굴</Korean>
+		<English>Maria Face Troublesome</English>
+		<Japenese>困っているマリアの顔</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>1006_DSC</UniqueID>
+		<Korean>눈감은 스칼렛 얼굴</Korean>
+		<English>Scarlet Face Eyes Closed</English>
+		<Japenese>目を閉じたスカーレットの顔</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>1007_DSC</UniqueID>
+		<Korean>윙크를 하는 스칼렛 얼굴</Korean>
+		<English>Scarlet Face Winking</English>
+		<Japenese>ウィンクするスカーレットの顔</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>1010_DSC</UniqueID>
+		<Korean>안광이 추가된 스칼렛 얼굴</Korean>
+		<English>Scarlet Face Eyes Glittering</English>
+		<Japenese>キラキラ目のスカーレットの顔</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>2000_DSC</UniqueID>
+		<Korean>롤빵 양갈래한 루시 헤어</Korean>
+		<English>Lucy Hair Twin Buns</English>
+		<Japenese>ロールパン風ツインテールのルーシーヘア</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>2001_DSC</UniqueID>
+		<Korean>바니걸 헤어밴드를한 루시 헤어</Korean>
+		<English>Lucy Hair Bunny Girl Hairband</English>
+		<Japenese>バニーガールヘアバンドを付けたルーシーヘア</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>2008_DSC</UniqueID>
+		<Korean>한쪽으로 묶은 루시 헤어</Korean>
+		<English>Lucy Hair Tied One Side</English>
+		<Japenese>ポニーテールのルーシーヘア</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>2009_DSC</UniqueID>
+		<Korean>양쪽으로 묶은 루시 헤어</Korean>
+		<English>Lucy Hair Tied Both Sides</English>
+		<Japenese>ツインテールのルーシーヘア</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>2010_DSC</UniqueID>
+		<Korean>양머리로 묶은 루시 헤어</Korean>
+		<English>Lucy Hair Cinnamon Buns</English>
+		<Japenese>羊頭風に縛ったルーシーヘア</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>2002_DSC</UniqueID>
+		<Korean>꽃무늬 머리핀한 엘리나 헤어</Korean>
+		<English>Elena Hair Flower Hairpin</English>
+		<Japenese>花柄ヘアピンを付けたエリナヘア</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>2003_DSC</UniqueID>
+		<Korean>바니걸 헤어밴드를한 엘리나 헤어</Korean>
+		<English>Elena Hair Bunny Girl Hairband</English>
+		<Japenese>バニーガールヘアバンドを付けたエリナヘア</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>2004_DSC</UniqueID>
+		<Korean>모자 벗은 마리아 헤어</Korean>
+		<English>Maria Hair Hat Off</English>
+		<Japenese>帽子を脱いだマリアヘア</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>2005_DSC</UniqueID>
+		<Korean>바니걸 헤어밴드를한 마리아 헤어</Korean>
+		<English>Maria Hair Bunny Girl Hairband</English>
+		<Japenese>バニーガールヘアバンドを付けたマリアヘア</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>2006_DSC</UniqueID>
+		<Korean>리본 머리띠한 스칼렛 헤어</Korean>
+		<English>Scarlet Hair Ribbon Hairband</English>
+		<Japenese>リボンヘアバンドを付けたスカレットヘア</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>2007_DSC</UniqueID>
+		<Korean>바니걸 헤어밴드를한 스칼렛 헤어</Korean>
+		<English>Scarlet Hair Bunny Girl Hairband</English>
+		<Japenese>バニーガールヘアバンドを付けたスカーレットヘア</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>2011_DSC</UniqueID>
+		<Korean>바니걸 헤어밴드를한 카밀라 헤어</Korean>
+		<English>Camilla Hair Bunny Girl Hairband</English>
+		<Japenese>バニーガールヘアバンドを付けたカミラヘア</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>2012_DSC</UniqueID>
+		<Korean>바니걸 헤어밴드를한 마린 헤어</Korean>
+		<English>Marine Hair Bunny Girl Hairband</English>
+		<Japenese>バニーガールヘアバンドを付けたマリンヘア</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>3000_DSC</UniqueID>
+		<Korean>교복입은 루시 복장</Korean>
+		<English>Lucy in School Uniform</English>
+		<Japenese>制服を着たルーシー服装</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>3001_DSC</UniqueID>
+		<Korean>바니걸 루시 복장</Korean>
+		<English>Lucy in Bunny Girl Outfit</English>
+		<Japenese>バニーガールルーシー服装</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>3008_DSC</UniqueID>
+		<Korean>빛의신 발두르의갑옷</Korean>
+		<English>God of Light Baldur's Armor</English>
+		<Japenese>光の神バルドゥルの鎧</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>3002_DSC</UniqueID>
+		<Korean>교복입은 엘리나 복장</Korean>
+		<English>Elena in School Uniform</English>
+		<Japenese>制服を着たエリナ服装</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>3003_DSC</UniqueID>
+		<Korean>바니걸 엘리나 복장</Korean>
+		<English>Elena in Bunny Girl Outfit</English>
+		<Japenese>バニーガールエリナ服装</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>3009_DSC</UniqueID>
+		<Korean>영웅 헤라클레스의 갑옷</Korean>
+		<English>Armor of Hero Hercules</English>
+		<Japenese>英雄ヘラクレスの鎧</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>3004_DSC</UniqueID>
+		<Korean>교복입은 마리아 복장</Korean>
+		<English>Maria in School Uniform</English>
+		<Japenese>制服を着たマリア服装</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>3005_DSC</UniqueID>
+		<Korean>바니걸 마리아 복장</Korean>
+		<English>Maria in Bunny Girl Outfit</English>
+		<Japenese>バニーガールマリア服装</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>3010_DSC</UniqueID>
+		<Korean>여신 테미스의 로브</Korean>
+		<English>Robe of Goddess Themis</English>
+		<Japenese>女神テミスのローブ</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>3006_DSC</UniqueID>
+		<Korean>교복입은 스칼렛 복장</Korean>
+		<English>Scarlet in School Uniform</English>
+		<Japenese>制服を着たスカーレット服装</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>3007_DSC</UniqueID>
+		<Korean>바니걸 스칼렛 복장</Korean>
+		<English>Scarlet in Bunny Girl Outfit</English>
+		<Japenese>バニーガールスカーレット服装</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>3011_DSC</UniqueID>
+		<Korean>현자 케이론의 로브</Korean>
+		<English>Robe of Chiron the Wise</English>
+		<Japenese>賢者ケイロンのローブ</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>3012_DSC</UniqueID>
+		<Korean>바니걸 카밀라 복장</Korean>
+		<English>Camilla in Bunny Girl Outfit</English>
+		<Japenese>バニーガールカミラ服装</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>3013_DSC</UniqueID>
+		<Korean>바니걸 마린 복장</Korean>
+		<English>Marine in Bunny Girl Outfit</English>
+		<Japenese>バニーガールマリン服装</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GRADE_NAME_N</UniqueID>
+		<Korean>N(노멀)</Korean>
+		<English>N(Normal)</English>
+		<Japenese>N（ノーマル）</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GRADE_NAME_R</UniqueID>
+		<Korean>R(레어)</Korean>
+		<English>R(Rare)</English>
+		<Japenese>R（レア）</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GRADE_NAME_SR</UniqueID>
+		<Korean>SR(슈퍼레어)</Korean>
+		<English>SR(Super Rare)</English>
+		<Japenese>SR(スーパーレア）</Japenese>
+	</Data>
+</Localizing>

@@ -13,7 +13,7 @@ public class AnimationPlay : MonoBehaviour {
 
 	void Update () {
 		if (Input.GetKeyDown(KeyCode.Alpha1)) {
-			Animation ani = GetComponent<UnityEngine.Animation> ();
+			Animation ani = GetComponent<Animation> ();
 			Debug.Log (ani + ":" + ani.clip.name + ":" + ani.isPlaying);
 			if (!ani.isPlaying) {
 				ani.Play (ani.clip.name);

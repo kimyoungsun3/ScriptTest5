@@ -5,54 +5,50 @@ using UnityEngine;
 
 public class WebCamera : MonoBehaviour {
 
-	private RawImage image;
-	private WebCamTexture cam;
-	private AspectRatioFitter arf;
-
-
+	private RawImage rawImage;
+	private WebCamTexture webCamTexture;
+	private AspectRatioFitter aspectRationFitter;
 
 
 	// Use this for initialization
-	void Start () {
-		arf = GetComponent< AspectRatioFitter > ();
-
-		image = GetComponent<RawImage>();
-		cam = new WebCamTexture(Screen.width, Screen.height);
-		image.texture = cam;
-		cam.Play();
+	void Start ()
+	{
+		rawImage			= GetComponent<RawImage>();
+		aspectRationFitter	= GetComponent< AspectRatioFitter > ();
+		webCamTexture		= new WebCamTexture(Screen.width, Screen.height);
+		rawImage.texture	= webCamTexture;
+		webCamTexture.Play();
 	}
 
 	// Update is called once per frame
 	void Update () {
-		if(cam.width < 100)
+		if(webCamTexture.width < 100)
 		{
 			return;
 		}
 
-		float cwNeeded = -cam.videoRotationAngle;
-		if (cam.videoVerticallyMirrored)
+		float cwNeeded = -webCamTexture.videoRotationAngle;
+		if (webCamTexture.videoVerticallyMirrored)
 			cwNeeded += 180f;
 
-		image.rectTransform.localEulerAngles = new Vector3(0f, 0f, cwNeeded);
+		rawImage.rectTransform.localEulerAngles = new Vector3(0f, 0f, cwNeeded);
 
-		float videoRatio = (float)cam.width / (float)cam.height;
-		arf.aspectRatio = videoRatio;
+		float videoRatio = (float)webCamTexture.width / (float)webCamTexture.height;
+		aspectRationFitter.aspectRatio = videoRatio;
 
-		if (cam.videoVerticallyMirrored)
+		if (webCamTexture.videoVerticallyMirrored)
 		{
-			image.uvRect = new Rect(1, 0, -1, 1);
+			rawImage.uvRect = new Rect(1, 0, -1, 1);
 		}
 		else
 		{
-			image.uvRect = new Rect(0, 0, 1, 1);
+			rawImage.uvRect = new Rect(0, 0, 1, 1);
 		}
-
 	}
 	public void goLoad()
 	{
-		cam.Stop();
+		webCamTexture.Stop();
 		//EnemyDeadState.i = 9;
 		Application.LoadLevel("LoadScene");
-
 	}
 }

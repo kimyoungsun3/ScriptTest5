@@ -5,12 +5,14 @@ using UnityEngine;
 namespace CollisionDetect3{
 	public class CollisionDetect : MonoBehaviour {
 
-		void OnCollisionEnter(Collision _col){
-			Debug.Log ("OnCollisionEnter:" + this + ":" + _col.gameObject.tag);
+		void OnCollisionEnter(Collision _col)
+		{
+			Debug.Log (this + " <OnCollisionEnter> " + _col.gameObject.name);
 		}
 
-		void OnTriggerEnter(Collider _col){
-			Debug.Log ("OnTriggerEnter:"  + this + ":" + _col.gameObject.tag);
+		void OnTriggerEnter(Collider _col)
+		{
+			Debug.Log(this + " <OnTriggerEnter> " + _col.gameObject.name);
 		}
 	}
 }

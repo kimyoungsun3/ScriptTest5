@@ -399,7 +399,13 @@ public static class Gizmos2
 	{
 		DebugCircle(position, Vector3.up, Color.white, radius, duration, depthTest);
 	}
-	
+
+	public static void DebugCircle(Vector3 position, float radius, Color _color, float duration = 0, bool depthTest = true)
+	{
+		DebugCircle(position, Vector3.up, _color, radius, duration, depthTest);
+	}
+
+
 	/// <summary>
 	/// 	- Debugs a wire sphere.
 	/// </summary>

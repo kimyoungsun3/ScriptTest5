@@ -4,17 +4,17 @@ using UnityEngine;
 using UnityEngine.UI;
 
 namespace FSM4{
-	public class FSMTest : FSMAutoUpdate<GAME_STATE> {
+	public class FSMTest : FSMAutoUpdate<eGameState> {
 		public Text text;
 		int count;
 		// Use this for initialization
 		void Start () {
-			AddState (GAME_STATE.Ready, 	pInReady, 	modifyReady, 	pOutReady);
-			AddState (GAME_STATE.Round, 	pInRound, 	modifyRound, 	null);
-			AddState (GAME_STATE.Gaming, 	pInGaming, 	modifyGaming, 	null);
-			AddState (GAME_STATE.Result, 	pInResult, 	modifyResult, 	null);
+			AddState (eGameState.Ready, 	pInReady, 	modifyReady, 	pOutReady);
+			AddState (eGameState.Round, 	pInRound, 	modifyRound, 	null);
+			AddState (eGameState.Gaming, 	pInGaming, 	modifyGaming, 	null);
+			AddState (eGameState.Result, 	pInResult, 	modifyResult, 	null);
 
-			MoveState (GAME_STATE.Ready);
+			MoveState (eGameState.Ready);
 		}
 
 		//----------------------
@@ -26,7 +26,7 @@ namespace FSM4{
 
 		void modifyReady(){
 			if (Input.GetKeyDown(KeyCode.Space)) {
-				MoveState (GAME_STATE.Round);
+				MoveState (eGameState.Round);
 				return;
 			}
 
@@ -47,7 +47,7 @@ namespace FSM4{
 
 		void modifyRound(){
 			if (Input.GetKeyDown(KeyCode.Space)) {
-				MoveState (GAME_STATE.Gaming);
+				MoveState (eGameState.Gaming);
 				return;
 			}
 
@@ -64,7 +64,7 @@ namespace FSM4{
 
 		void modifyGaming(){
 			if (Input.GetKeyDown(KeyCode.Space)) {
-				MoveState (GAME_STATE.Result);
+				MoveState (eGameState.Result);
 				return;
 			}
 
@@ -83,7 +83,7 @@ namespace FSM4{
 
 		void modifyResult(){
 			if (Input.GetKeyDown(KeyCode.Space)) {
-				MoveState (GAME_STATE.Ready);
+				MoveState (eGameState.Ready);
 				return;
 			}
 		}

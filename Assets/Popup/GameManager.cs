@@ -38,6 +38,14 @@ namespace Popup
 			});
 			while (_bWait) yield return null;
 
+			Debug.Log(" >> 5");
+			_bWait = true;
+			Ui_PopupYesNo2.instance.ShowPopup((EnumSelect _select) =>
+			{
+				_bWait = false;
+				Debug.Log(" >> YN선택:" + _select);
+			});
+			while (_bWait) yield return null;
 		}
 
 		IEnumerator Co_Init2()

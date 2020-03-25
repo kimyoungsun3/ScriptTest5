@@ -128,7 +128,7 @@ namespace DMapJump3
 					Vector3 _p = spawnPoint.position + hitView / 2f;
 					Quaternion _q = Util.GetQuaternionFromDir2D (hitView);
 					float _d = hitView.magnitude;
-					ParticleSystem _particle = PoolManager.ins.Instantiate ("LineEffect", _p, _q).GetComponent<ParticleSystem> ();
+					ParticleSystem _particle = PoolManager.ins.Instantiate ("LineEffect2", _p, _q).GetComponent<ParticleSystem> ();
 					var _shape = _particle.shape;					
 					_shape.radius = hitView.magnitude / 2f;
 					var _emission = _particle.emission;

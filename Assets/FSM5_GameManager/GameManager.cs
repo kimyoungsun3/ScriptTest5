@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 namespace FSM5{
-	public class GameManager : FSM<GAME_STATE> {
+	public class GameManager : FSM<eGameState> {
 		
 		#region Variable Zone
 		private static GameManager ins_;
@@ -67,11 +67,11 @@ namespace FSM5{
 		}
 
 		void Start () {
-			AddState(GAME_STATE.Ready, 	pInReady, 	ModifyReady, 	null);
-			AddState(GAME_STATE.Gaming, pInGaming, 	ModifyGaming, 	null);
-			AddState(GAME_STATE.Result, pInResult, 	ModifyResult, 	null);
+			AddState(eGameState.Ready, 	pInReady, 	ModifyReady, 	null);
+			AddState(eGameState.Gaming, pInGaming, 	ModifyGaming, 	null);
+			AddState(eGameState.Result, pInResult, 	ModifyResult, 	null);
 
-			MoveState(GAME_STATE.Ready);
+			MoveState(eGameState.Ready);
 		}
 
 		//-----------------------------------------------------------
@@ -87,7 +87,7 @@ namespace FSM5{
 
 		void ModifyReady(){
 			if (Input.anyKeyDown) {
-				MoveState(GAME_STATE.Gaming);
+				MoveState(eGameState.Gaming);
 				return;
 			}
 		}
@@ -116,7 +116,7 @@ namespace FSM5{
 
 		void ModifyGaming(){
 			if (Input.anyKeyDown) {
-				MoveState(GAME_STATE.Result);
+				MoveState(eGameState.Result);
 				return;
 			}
 		}
@@ -133,7 +133,7 @@ namespace FSM5{
 
 		void ModifyResult(){
 			if (Input.anyKeyDown) {
-				MoveState(GAME_STATE.Ready);
+				MoveState(eGameState.Ready);
 				return;
 			}
 		}

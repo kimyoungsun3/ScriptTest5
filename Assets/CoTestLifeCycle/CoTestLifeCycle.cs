@@ -5,10 +5,13 @@ using UnityEngine;
 public class CoTestLifeCycle : MonoBehaviour {
 
 	void Awake(){
+		Debug.Log(this + " Awake");
 		StartCoroutine (CoAwake());
 	}
 
-	void Start () {
+	void Start ()
+	{
+		Debug.Log(this + " Start");
 		StartCoroutine (CoStart());
 	}
 

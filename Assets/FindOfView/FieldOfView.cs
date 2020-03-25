@@ -11,11 +11,11 @@ public class FieldOfView : MonoBehaviour {
 	public float angleMax = 60f;
 
 	void Start(){
-		StartCoroutine (FindObject (0.5f));
+		StartCoroutine (Co_FindObject (0.5f));
 	}
 
 
-	IEnumerator FindObject(float _waitTime){
+	IEnumerator Co_FindObject(float _waitTime){
 		int _len;
 		Transform _tran;
 		Vector3 _dir;

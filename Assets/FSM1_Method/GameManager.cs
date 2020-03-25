@@ -5,15 +5,16 @@ using UnityEngine.UI;
 
 namespace FSM1_Method{
 	public class GameManager : MonoBehaviour {
-		GAME_STATE gamestate = GAME_STATE.None;
+		public eGameState gamestate = eGameState.None;
 		public Text text;
 		int count;
 
 		void Start () {
-			initData ();
-			pInReady ();
+			InitData ();
+			InReady ();
 		}
-		void initData(){
+
+		void InitData(){
 			Debug.Log ("Init Game data, file load, xx");
 		}
 
@@ -23,17 +24,17 @@ namespace FSM1_Method{
 			//Debug.Log (gamestate);
 			switch (gamestate) {
 			//case GAME_STATE.None:
-			case GAME_STATE.Ready:
+			case eGameState.Ready:
 				modifyReady ();
 				break;
-			case GAME_STATE.Round:
-				modifyRound ();
+			case eGameState.Round:
+				ModifyRound ();
 				break;
-			case GAME_STATE.Gaming:
-				modifyGaming ();
+			case eGameState.Gaming:
+				ModifyGaming ();
 				break;
-			case GAME_STATE.Result:
-				modifyResult ();
+			case eGameState.Result:
+				ModifyResult ();
 				break;
 			}
 		}
@@ -42,14 +43,16 @@ namespace FSM1_Method{
 		//-----------------------------------------------------------
 		//Ready
 		//-----------------------------------------------------------
-		void pInReady(){
-			gamestate = GAME_STATE.Ready;
-			count = 0;
+		void InReady()
+		{
+			Debug.Log("InReady >> resource read");
+			gamestate	= eGameState.Ready;
+			count		= 0;
 		}
 
 		void modifyReady(){
 			if (Input.anyKeyDown) {
-				outReady ();
+				InRound ();
 				return;
 			}
 
@@ -57,22 +60,24 @@ namespace FSM1_Method{
 			text.text = "Ready" + count++;
 		}
 
-		void outReady(){
-			pInRound ();
-		}
+		//void outReady(){
+		//	pInRound ();
+		//}
 
 
 		//-----------------------------------------------------------
 		//Round
 		//-----------------------------------------------------------
-		void pInRound(){
-			gamestate = GAME_STATE.Round;
+		void InRound()
+		{
+			Debug.Log("InRound >> resource read");
+			gamestate = eGameState.Round;
 			count = 0;
 		}
 
-		void modifyRound(){
+		void ModifyRound(){
 			if (Input.anyKeyDown) {
-				pInGaming();
+				InGaming();
 				return;
 			}
 
@@ -80,50 +85,52 @@ namespace FSM1_Method{
 			text.text = "Round" + count++;
 		}
 
-		#region
-
 
 		//-----------------------------------------------------------
 		//Gaming
 		//-----------------------------------------------------------
-		void pInGaming(){
-			gamestate = GAME_STATE.Gaming;
-			count = 0;
+		void InGaming()
+		{
+			Debug.Log("InGaming >> resource read");
+			gamestate	= eGameState.Gaming;
+			count		= 0;
 		}
 
-		void modifyGaming(){
+		void ModifyGaming(){
 			if (Input.anyKeyDown) {
-				pInResult();
+				InResult();
 				return;
 			}
 
 			//~~~ unlimit run
 			text.text = "Gaming" + count++;
 		}
-		#endregion
 
-
-
+		#region result
 		//-----------------------------------------------------------
 		//Result
 		//-----------------------------------------------------------
-		void pInResult(){
-			gamestate = GAME_STATE.Result;
-			count = 0;
+		void InResult()
+		{
+			Debug.Log("InResult >> resource read");
+			gamestate	= eGameState.Result;
+			count		= 0;
 		}
 
-		void modifyResult(){
+		void ModifyResult(){
 			if (Input.anyKeyDown) {
-				outResult ();
+				OutResult ();
 				return;
 			}
 			//~~~ unlimit run
 			text.text = "Result" + count++;
 		}
 
-		void outResult(){
-			//Debug.Log ("Resource release");
-			pInReady ();
+		void OutResult()
+		{
+			Debug.Log ("OutResult >> Resource release");
+			InReady();
 		}
+		#endregion // result
 	}
 }

@@ -52,6 +52,8 @@ namespace SpriteAnimationPreview
 
         void OnDisable()
         {
+			if (timeControl == null) return;
+			//Debug.Log(timeControl);
             timeControl.OnDisable();
             timeControl = null;
             DestroyImmediate(baseEditor);

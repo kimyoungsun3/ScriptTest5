@@ -8,9 +8,8 @@ namespace tk2d_parallel{
 
 		// Use this for initialization
 		void Start () {
-			trans = transform;
-			scpPlayer = GameObject.FindGameObjectWithTag ("Player").GetComponent<Player> ();
-		
+			trans		= transform;
+			scpPlayer	= GameObject.FindGameObjectWithTag ("Player").GetComponent<Player> ();
 		}
 		
 		// Update is called once per frame

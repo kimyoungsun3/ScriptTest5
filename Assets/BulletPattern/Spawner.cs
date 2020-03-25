@@ -193,7 +193,7 @@ namespace BulletPattern{
 						Mathf.Sin(_angle * Mathf.Deg2Rad),
 						0
 					);
-					Debug.Log (i + " a:" + _pos);
+					//Debug.Log (i + " a:" + _pos);
 					_pos = _pos.normalized;
 					_pos = _center + _pos * _radius;
 					_qua = Quaternion.Euler(0, 0, _angle);
@@ -215,7 +215,7 @@ namespace BulletPattern{
 						Mathf.Sin(_angle * Mathf.Deg2Rad),
 						0
 					);
-					Debug.Log(i + " a:" + _pos);
+					//Debug.Log(i + " a:" + _pos);
 					_pos = _pos.normalized;
 					_pos = _center + _pos * _radius;
 					_qua = Quaternion.Euler(0, 0, _angle);

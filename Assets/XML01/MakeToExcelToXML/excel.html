@@ -1,0 +1,1125 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0034)https://urajilator.tistory.com/482 -->
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" type="text/css" href="./excel_files/lightbox.min.css"><link rel="stylesheet" type="text/css" href="./excel_files/font.css"><link rel="stylesheet" type="text/css" href="./excel_files/content.css"><!--[if lt IE 9]><script src="https://t1.daumcdn.net/tistory_admin/lib/jquery/jquery-1.12.4.min.js"></script><![endif]--><!--[if gte IE 9]>
+<!--><script src="./excel_files/jquery-3.2.1.min.js.다운로드"></script><!--<![endif]-->
+<script src="./excel_files/lightbox-plus-jquery.min.js.다운로드"></script>
+<script>
+lightbox.options.fadeDuration = 200;
+lightbox.options.resizeDuration = 200;
+lightbox.options.wrapAround = false;
+lightbox.options.albumLabel = "%1 / %2";
+</script>
+<script>var tjQuery = jQuery.noConflict(true);</script><style type="text/css">.tt_article_useless_p_margin p {padding-top:0 !important;padding-bottom:0 !important;margin-top:0 !important;margin-bottom:0 !important;}</style><meta name="referrer" content="always"><link rel="icon" href="https://t1.daumcdn.net/tistory_admin/static/top/favicon_0630.ico"><link rel="apple-touch-icon" href="https://img1.daumcdn.net/thumb/C180x180/?fname=https%3A%2F%2Ft1.daumcdn.net%2Fcfile%2Ftistory%2F18721E3B4E8AFD2021">
+<link rel="apple-touch-icon" sizes="76x76" href="https://img1.daumcdn.net/thumb/C76x76/?fname=https%3A%2F%2Ft1.daumcdn.net%2Fcfile%2Ftistory%2F18721E3B4E8AFD2021">
+<link rel="apple-touch-icon" sizes="120x120" href="https://img1.daumcdn.net/thumb/C120x120/?fname=https%3A%2F%2Ft1.daumcdn.net%2Fcfile%2Ftistory%2F18721E3B4E8AFD2021">
+<link rel="apple-touch-icon" sizes="152x152" href="https://img1.daumcdn.net/thumb/C152x152/?fname=https%3A%2F%2Ft1.daumcdn.net%2Fcfile%2Ftistory%2F18721E3B4E8AFD2021"><meta name="description" content="&lt; 엑셀(Excel) 파일을 XML 파일로 변환 저장하는 방법 &gt; 아래 내용은 저의 허가 같은거 필요없이, 자유롭게 복사, 수정, 편집, 배포하여도 괜찮습니다. ※ XML 변환 작업에 사용한 아래 테스트 파일을 다운로드 받..">
+
+<!-- BEGIN OPENGRAPH -->
+<link rel="canonical" href="https://urajilator.tistory.com/482"><meta property="og:type" content="article"><meta property="og:url" content="https://urajilator.tistory.com/482"><meta property="og:site_name" content="&quot;만인은 밥 앞에 평등하다.&quot; - 우라질레이터 사마 황상규 -"><meta property="og:title" content="[정보] 엑셀(Excel) 파일을 XML 파일로 변환 저장하는 방법"><meta name="by" content="우라질레이터"><meta property="og:description" content="&lt; 엑셀(Excel) 파일을 XML 파일로 변환 저장하는 방법 &gt; 아래 내용은 저의 허가 같은거 필요없이, 자유롭게 복사, 수정, 편집, 배포하여도 괜찮습니다. ※ XML 변환 작업에 사용한 아래 테스트 파일을 다운로드 받.."><meta property="og:image" content="https://img1.daumcdn.net/thumb/R800x0/?scode=mtistory2&amp;fname=https%3A%2F%2Ft1.daumcdn.net%2Fcfile%2Ftistory%2F1354F10B4CB58EEC09">
+<!-- END OPENGRAPH -->
+
+
+
+<!-- BEGIN TWITTERCARD -->
+<meta name="twitter:card" content="summary_large_image"><meta name="twitter:site" content="@TISTORY"><meta name="twitter:title" content="[정보] 엑셀(Excel) 파일을 XML 파일로 변환 저장하는 방법"><meta name="twitter:description" content="&lt; 엑셀(Excel) 파일을 XML 파일로 변환 저장하는 방법 &gt; 아래 내용은 저의 허가 같은거 필요없이, 자유롭게 복사, 수정, 편집, 배포하여도 괜찮습니다. ※ XML 변환 작업에 사용한 아래 테스트 파일을 다운로드 받.."><meta property="twitter:image" content="https://img1.daumcdn.net/thumb/R800x0/?scode=mtistory2&amp;fname=https%3A%2F%2Ft1.daumcdn.net%2Fcfile%2Ftistory%2F1354F10B4CB58EEC09">
+<!-- END TWITTERCARD -->
+
+
+
+<!-- BEGIN DAUMAPP -->
+<meta property="dg:plink" content="https://urajilator.tistory.com/482"><meta name="plink" content="https://urajilator.tistory.com/482"><meta name="title" content="[정보] 엑셀(Excel) 파일을 XML 파일로 변환 저장하는 방법"><meta name="article:media_name" content="&quot;만인은 밥 앞에 평등하다.&quot; - 우라질레이터 사마 황상규 -"><meta property="article:mobile_url" content="https://urajilator.tistory.com/m/482"><meta property="article:pc_url" content="https://urajilator.tistory.com/482"><meta property="article:mobile_view_url" content="https://urajilator.tistory.com/m/482"><meta property="article:pc_view_url" content="https://urajilator.tistory.com/482"><meta property="article:talk_channel_view_url" content="https://urajilator.tistory.com/m/482"><meta property="article:pc_service_home" content="https://www.tistory.com"><meta property="article:mobile_service_home" content="https://www.tistory.com/m"><meta property="article:txid" content="408419_482"><meta property="article:published_time" content="2010-10-13T20:14:19+09:00"><meta property="og:regDate" content="20101013201419"><meta property="article:modified_time" content="2010-10-13T20:31:12+09:00">
+<!-- END DAUMAPP -->
+
+
+
+<!-- BEGIN STRUCTURED_DATA -->
+<script type="application/ld+json">{"@context":"http:\/\/schema.org","@type":"BlogPosting","mainEntityOfPage":{"@id":"https:\/\/urajilator.tistory.com\/482"},"url":"https:\/\/urajilator.tistory.com\/482","headline":"[\uc815\ubcf4] \uc5d1\uc140(Excel) \ud30c\uc77c\uc744 XML \ud30c\uc77c\ub85c \ubcc0\ud658 \uc800\uc7a5\ud558\ub294 \ubc29\ubc95","description":"< \uc5d1\uc140(Excel) \ud30c\uc77c\uc744 XML \ud30c\uc77c\ub85c \ubcc0\ud658 \uc800\uc7a5\ud558\ub294 \ubc29\ubc95 > \uc544\ub798 \ub0b4\uc6a9\uc740 \uc800\uc758 \ud5c8\uac00 \uac19\uc740\uac70 \ud544\uc694\uc5c6\uc774, \uc790\uc720\ub86d\uac8c \ubcf5\uc0ac, \uc218\uc815, \ud3b8\uc9d1, \ubc30\ud3ec\ud558\uc5ec\ub3c4 \uad1c\ucc2e\uc2b5\ub2c8\ub2e4. \u203b XML \ubcc0\ud658 \uc791\uc5c5\uc5d0 \uc0ac\uc6a9\ud55c \uc544\ub798 \ud14c\uc2a4\ud2b8 \ud30c\uc77c\uc744 \ub2e4\uc6b4\ub85c\ub4dc \ubc1b..","author":{"@type":"Person","name":"\uc6b0\ub77c\uc9c8\ub808\uc774\ud130"},"image":{"@type":"ImageObject","url":"https:\/\/img1.daumcdn.net\/thumb\/R800x0\/?scode=mtistory2&fname=https%3A%2F%2Ft1.daumcdn.net%2Fcfile%2Ftistory%2F1354F10B4CB58EEC09","width":"800px","height":"800px"},"datePublished":"20101013T20:14:19+09:00","dateModified":"20101013T20:31:12+09:00","publisher":{"@type":"Organization","name":"TISTORY","logo":{"@type":"ImageObject","url":"https:\/\/t1.daumcdn.net\/tistory_admin\/static\/images\/openGraph\/opengraph.png","width":"800px","height":"800px"}}}</script>
+<!-- END STRUCTURED_DATA -->
+
+
+
+<link rel="alternate" type="application/rss+xml" title="&quot;만인은 밥 앞에 평등하다.&quot; - 우라질레이터 사마 황상규 -" href="https://urajilator.tistory.com/rss">
+<link rel="stylesheet" media="screen" type="text/css" href="./excel_files/style.css">
+<link rel="shortcut icon" href="https://urajilator.tistory.com/favicon.ico">
+<title>"만인은 밥 앞에 평등하다." - 우라질레이터 사마 황상규 - :: [정보] 엑셀(Excel) 파일을 XML 파일로 변환 저장하는 방법</title>
+
+<style type="text/css">
+		#daumSearchBox {
+			height: 21px;
+			background-image : url(//i1.daumcdn.net/imgsrc.search/search_all/show/tistory/plugin/bg_search2_2.gif);
+			margin: 5px auto ;
+			padding: 0;
+		}
+		#daumSearchBox input {
+			background: none;
+			margin : 0;
+			padding : 0;
+			border : 0;
+		}
+		#daumSearchBox #daumLogo {
+			width: 34px;
+			height: 21px;
+			float: left;
+			margin-right: 5px;
+			background-image : url(//i1.daumcdn.net/img-media/tistory/img/bg_search1_2_2010ci.gif);
+		}
+		#daumSearchBox #show_q {
+			background-color: transparent;
+			border: none;
+			font: 12px Gulim, Sans-serif;
+			color: #555;
+			margin-top: 4px;
+			margin-right: 15px;
+			float: left;
+		}
+
+		#daumSearchBox #show_btn {
+			background-image : url(//i1.daumcdn.net/imgsrc.search/search_all/show/tistory/plugin/bt_search_2.gif);
+			width: 37px;
+			height: 21px;
+			float: left;
+			margin:0;
+			cursor:pointer;
+			text-indent:-1000em;
+		}
+	</style>
+<link rel="stylesheet" type="text/css" href="./excel_files/style(1).css">
+<script type="text/javascript" src="./excel_files/profile.js.다운로드"></script>
+<script type="text/javascript">
+        
+        window.TistoryBlog = {
+            basePath: "",
+            url: "https://urajilator.tistory.com",
+            tistoryUrl: "https://urajilator.tistory.com",
+			manageUrl: 'https://urajilator.tistory.com/manage',
+            token: 't2/kiFPU4R6ivuykkDRsSQ=='
+        };
+        var servicePath = "";
+        var blogURL = "";
+    </script>
+
+	<script> (function() { window.orgjQuery = window.jQuery; window.jQuery = tjQuery })()</script>
+    <script type="text/javascript" defer="" src="./excel_files/reaction-button-container.min.js.다운로드"></script>
+    <script src="./excel_files/uoclike.min.js.다운로드"></script>
+	<script> (function() { window.jQuery = window.orgjQuery; delete window.orgjQuery })()</script>
+    <script>
+		(function($) {
+			$.fn.extend({
+				size: function () {
+					return this.length
+				}
+			});
+			$.fn.UOCLike.defaults.updateServiceCategory = true;
+					})(tjQuery)
+    </script>
+        <script type="text/javascript" src="./excel_files/base.js.다운로드"></script>
+        <link rel="stylesheet" type="text/css" href="./excel_files/dialog.css">
+            <link rel="stylesheet" type="text/css" href="./excel_files/font(1).css">
+    <link rel="stylesheet" type="text/css" href="./excel_files/postBtn.css">
+        <link rel="stylesheet" type="text/css" href="./excel_files/tistory.css">
+        <script src="./excel_files/kakao.min.js.다운로드"></script><script type="text/javascript" async="" src="./excel_files/td.min.js.다운로드"></script></head>
+
+<body>
+	<div id="wrap">
+		<script type="text/javascript">
+	(function() {
+		if (!window.T) {
+			window.T = {}
+		}
+		window.T.config = {"TOP_SSL_URL":"https:\/\/www.tistory.com","PREVIEW":false,"ROLE":"guest","PREV_PAGE":"\/483","NEXT_PAGE":"\/481","BLOG":{"isDormancy":false,"title":"\"\ub9cc\uc778\uc740 \ubc25 \uc55e\uc5d0 \ud3c9\ub4f1\ud558\ub2e4.\" - \uc6b0\ub77c\uc9c8\ub808\uc774\ud130 \uc0ac\ub9c8 \ud669\uc0c1\uaddc -"},"NEED_COMMENT_LOGIN":false,"COMMENT_LOGIN_CONFIRM_MESSAGE":"","LOGIN_URL":"https:\/\/www.tistory.com\/auth\/login\/?redirectUrl=http%3A%2F%2Furajilator.tistory.com%2F482","DEFAULT_URL":"https:\/\/urajilator.tistory.com","USER":{"name":null,"homepage":null},"ROLE_GROUP":"visitor","SUBSCRIPTION":{"status":"none","isConnected":false,"isProcessing":false,"isPending":false,"isWait":false,"isNone":true},"IS_LOGIN":false,"HAS_BLOG":false,"TOP_URL":"http:\/\/www.tistory.com"};
+		window.appInfo = {"domain":"tistory.com","topUrl":"https:\/\/www.tistory.com","loginUrl":"https:\/\/www.tistory.com\/auth\/login","logoutUrl":"https:\/\/www.tistory.com\/auth\/logout"};
+
+        window.initData = {};
+        
+	})();
+</script>
+
+<script type="text/javascript" src="./excel_files/common.js.다운로드"></script>
+<div style="margin:0; padding:0; border:none; background:none; float:none; clear:none; z-index:0"></div>
+			<div class="header_bg">
+				<div id="header">
+					<img src="./excel_files/18721E3B4E8AFD2021" alt="블로그 이미지" class="blog_img">
+					<h1 class="blog_title"><a href="https://urajilator.tistory.com/">"만인은 밥 앞에 평등하다." - 우라질레이터 사마 황상규 -</a></h1>
+					<p class="blog_description">urajilation@gmail.com</p>
+					<div class="blogger">by 우라질레이터</div>
+				</div>
+			</div>
+
+			<hr>
+
+			<div class="sidebar1">
+				<div class="sidebar_inside">
+					<div class="sidebar">
+						<ul id="header_menu">
+							<li class="tag"><a href="https://urajilator.tistory.com/tag">Tag</a></li>
+							<li class="location"><a href="https://urajilator.tistory.com/location">Location Log</a></li>
+							<li class="guest"><a href="https://urajilator.tistory.com/guestbook">Guest Book</a></li>
+							<li class="admin"><a href="https://urajilator.tistory.com/manage">Admin</a></li>
+							<li class="write"><a href="https://urajilator.tistory.com/manage/entry/post">Write</a></li>
+						</ul>
+						
+							<!-- 카테고리 모듈 -->
+								<div class="module">
+									<h3 class="title_category">Article Category</h3>
+									<div class="contents"><script type="text/javascript">
+	//<![CDATA[
+	var expanded = false;
+	function expandTree() {
+								expandFolder(126918, true);
+																					}
+
+	function expandFolder(category, expand) {
+		var oLevel1 = document.getElementById("category_" + category);
+		var oImg = oLevel1.getElementsByTagName("img")[0];
+		switch (expand) {
+			case true:
+				oImg.src = "https://t1.daumcdn.net/tistory_admin/assets/blog/2bcf0c329d13f2c766a84c84cf2dad9a9af9ec30/blogs/image/tree/folder_gray/tab_opened.gif";
+				showLayer("category_" + category + "_children");
+				return true;
+			case false:
+				oImg.src = "https://t1.daumcdn.net/tistory_admin/assets/blog/2bcf0c329d13f2c766a84c84cf2dad9a9af9ec30/blogs/image/tree/folder_gray/tab_closed.gif";
+				hideLayer("category_" + category + "_children");
+				return true;
+		}
+		return false;
+	}
+
+	function toggleFolder(category) {
+		var oLevel1 = document.getElementById("category_" + category);
+		var oImg = oLevel1.getElementsByTagName("img")[0];
+		switch (oImg.src.substr(oImg.src.length - 10, 6)) {
+			case "isleaf":
+				return true;
+			case "closed":
+				oImg.src = "https://t1.daumcdn.net/tistory_admin/assets/blog/2bcf0c329d13f2c766a84c84cf2dad9a9af9ec30/blogs/image/tree/folder_gray/tab_opened.gif";
+				tt_showLayer("category_" + category + "_children");
+				expanded = true;
+				return true;
+			case "opened":
+				oImg.src = "https://t1.daumcdn.net/tistory_admin/assets/blog/2bcf0c329d13f2c766a84c84cf2dad9a9af9ec30/blogs/image/tree/folder_gray/tab_closed.gif";
+				tt_hideLayer("category_" + category + "_children");
+				expanded = false;
+				return true;
+		}
+		return false;
+	}
+	var selectedNode = 0;
+	function selectNode(category) {
+
+		try {
+			var root = document.getElementById('treeComponent');
+			var prevSelectedNode= root.getAttribute('currentselectednode');
+			var oLevel = document.getElementById("category_" + selectedNode);
+			var oChild = oLevel.getElementsByTagName("table")[0];
+
+			oChild.style.color = "#b4d2de";
+						oChild.style.backgroundColor = "#transparent"
+			root.setAttribute('currentselectednode',category);
+			document.getElementById('text_'+selectedNode).style.color="#b4d2de";
+
+			var oLevel = document.getElementById("category_" + category);
+			var oChild = oLevel.getElementsByTagName("table")[0];
+			oChild.style.color = "#b4d2de";
+						oChild.style.backgroundColor = "#6faab8"
+			document.getElementById('text_'+category).style.color="#b4d2de";
+
+			selectedNode = category;
+		} catch(e) {
+		}
+	}
+
+	function setTreeStyle(skin) {
+		try {
+			treeNodes = document.getElementsByName("treeNode");
+			for(var i=0; i<treeNodes.length; i++) {
+				if( ('category_'+selectedNode) == (treeNodes[i].getAttribute('id').value) ) {
+					var oLevel = document.getElementById('category_'+i);
+					var oChild = oLevel.getElementsByTagName("table")[0];
+					oChild.style.color ='#'+skin['activeItemColor'];
+					if (skin['activeItemBgColor'] != '' && skin['activeItemBgColor'] != undefined) {
+						oChild.style.backgroundColor ='#'+skin['activeItemBgColor'];
+					} else {
+						oChild.style.backgroundColor ="";
+					}
+				} else{
+					var oLevel = document.getElementById("category_" + i);
+					var oChild = oLevel.getElementsByTagName("table")[0];
+					oChild.style.color ='#'+skin['colorOnTree'];
+					oChild.style.backgroundColor ='#'+skin['bgColorOnTree'];
+					var oLevel = document.getElementById('text_'+i).style.color='#'+skin['colorOnTree'];
+				}
+			}
+		} catch(e) {
+		}
+	}
+	//]]>
+</script>
+
+
+<table id="treeComponent" cellpadding="0" cellspacing="0" style="width: 100%;"><tbody><tr>
+	<td>
+		<table id="category_0" cellpadding="0" cellspacing="0"><tbody><tr>
+			<td class="ib" style="font-size: 1px"><img src="./excel_files/tab_top.gif" width="16" onclick="expandTree()" alt="" style="display:block"></td>
+			<td valign="top" style="font-size:9pt; padding-left:3px">
+				<table id="imp0" cellpadding="0" cellspacing="0" style="background-color: #transparent;"><tbody><tr>
+										<td class="branch3" onclick="window.location.href=&#39;/category&#39;">
+						<div id="text_0" style=" color: #b4d2de;">우라질레이터						<span class="c_cnt">(1517)</span>						</div>
+					</td>
+				</tr></tbody></table>
+			</td>
+		</tr></tbody></table>
+
+					<table id="category_126918" cellpadding="0" cellspacing="0"><tbody><tr>
+					<td class="ib" style="width:39px; font-size: 1px; background-image: url(&#39;https://t1.daumcdn.net/tistory_admin/assets/blog/2bcf0c329d13f2c766a84c84cf2dad9a9af9ec30/blogs/image/tree/folder_gray/navi_back_noactive.gif"><a class="click" onclick="toggleFolder(&#39;126918&#39;)"><img src="./excel_files/tab_closed.gif" width="39" alt=""></a></td>
+					<td>
+						<table cellpadding="0" cellspacing="0" style="background-color: #transparent;"><tbody><tr>
+								<td class="branch3" onclick="window.location.href=&#39;/category/My%20Life&#39;"><div id="text_126918" style="color: #b4d2de;">My Life <span class="c_cnt">(1346)</span></div></td>
+							</tr></tbody></table>
+					</td>
+				</tr></tbody></table>
+			<div id="category_126918_children" style="display:none">
+									<table id="category_692190" cellpadding="0" cellspacing="0"><tbody><tr>
+							<td style="width:39px; font-size: 1px"><img src="./excel_files/navi_back_active.gif" width="17" height="18" alt=""><img src="./excel_files/tab_treed.gif" width="22" alt=""></td>
+							<td>
+								<table onclick="window.location.href=&#39;/category/My%20Life/2019%EB%85%84&#39;" cellpadding="0" cellspacing="0" style="background-color: #transparent;"><tbody><tr>
+										<td class="branch3"><div id="text_692190" style="color: #b4d2de;">2019년 <span class="c_cnt">(53)</span></div></td>
+									</tr></tbody></table>
+							</td>
+						</tr></tbody></table>
+										<table id="category_647278" cellpadding="0" cellspacing="0"><tbody><tr>
+							<td style="width:39px; font-size: 1px"><img src="./excel_files/navi_back_active.gif" width="17" height="18" alt=""><img src="./excel_files/tab_treed.gif" width="22" alt=""></td>
+							<td>
+								<table onclick="window.location.href=&#39;/category/My%20Life/2018%EB%85%84&#39;" cellpadding="0" cellspacing="0" style="background-color: #transparent;"><tbody><tr>
+										<td class="branch3"><div id="text_647278" style="color: #b4d2de;">2018년 <span class="c_cnt">(112)</span></div></td>
+									</tr></tbody></table>
+							</td>
+						</tr></tbody></table>
+										<table id="category_604053" cellpadding="0" cellspacing="0"><tbody><tr>
+							<td style="width:39px; font-size: 1px"><img src="./excel_files/navi_back_active.gif" width="17" height="18" alt=""><img src="./excel_files/tab_treed.gif" width="22" alt=""></td>
+							<td>
+								<table onclick="window.location.href=&#39;/category/My%20Life/2017%EB%85%84&#39;" cellpadding="0" cellspacing="0" style="background-color: #transparent;"><tbody><tr>
+										<td class="branch3"><div id="text_604053" style="color: #b4d2de;">2017년 <span class="c_cnt">(53)</span></div></td>
+									</tr></tbody></table>
+							</td>
+						</tr></tbody></table>
+										<table id="category_544936" cellpadding="0" cellspacing="0"><tbody><tr>
+							<td style="width:39px; font-size: 1px"><img src="./excel_files/navi_back_active.gif" width="17" height="18" alt=""><img src="./excel_files/tab_treed.gif" width="22" alt=""></td>
+							<td>
+								<table onclick="window.location.href=&#39;/category/My%20Life/2016%EB%85%84&#39;" cellpadding="0" cellspacing="0" style="background-color: #transparent;"><tbody><tr>
+										<td class="branch3"><div id="text_544936" style="color: #b4d2de;">2016년 <span class="c_cnt">(36)</span></div></td>
+									</tr></tbody></table>
+							</td>
+						</tr></tbody></table>
+										<table id="category_500224" cellpadding="0" cellspacing="0"><tbody><tr>
+							<td style="width:39px; font-size: 1px"><img src="./excel_files/navi_back_active.gif" width="17" height="18" alt=""><img src="./excel_files/tab_treed.gif" width="22" alt=""></td>
+							<td>
+								<table onclick="window.location.href=&#39;/category/My%20Life/2015%EB%85%84&#39;" cellpadding="0" cellspacing="0" style="background-color: #transparent;"><tbody><tr>
+										<td class="branch3"><div id="text_500224" style="color: #b4d2de;">2015년 <span class="c_cnt">(51)</span></div></td>
+									</tr></tbody></table>
+							</td>
+						</tr></tbody></table>
+										<table id="category_445128" cellpadding="0" cellspacing="0"><tbody><tr>
+							<td style="width:39px; font-size: 1px"><img src="./excel_files/navi_back_active.gif" width="17" height="18" alt=""><img src="./excel_files/tab_treed.gif" width="22" alt=""></td>
+							<td>
+								<table onclick="window.location.href=&#39;/category/My%20Life/2014%EB%85%84&#39;" cellpadding="0" cellspacing="0" style="background-color: #transparent;"><tbody><tr>
+										<td class="branch3"><div id="text_445128" style="color: #b4d2de;">2014년 <span class="c_cnt">(12)</span></div></td>
+									</tr></tbody></table>
+							</td>
+						</tr></tbody></table>
+										<table id="category_403235" cellpadding="0" cellspacing="0"><tbody><tr>
+							<td style="width:39px; font-size: 1px"><img src="./excel_files/navi_back_active.gif" width="17" height="18" alt=""><img src="./excel_files/tab_treed.gif" width="22" alt=""></td>
+							<td>
+								<table onclick="window.location.href=&#39;/category/My%20Life/2013%EB%85%84&#39;" cellpadding="0" cellspacing="0" style="background-color: #transparent;"><tbody><tr>
+										<td class="branch3"><div id="text_403235" style="color: #b4d2de;">2013년 <span class="c_cnt">(116)</span></div></td>
+									</tr></tbody></table>
+							</td>
+						</tr></tbody></table>
+										<table id="category_326072" cellpadding="0" cellspacing="0"><tbody><tr>
+							<td style="width:39px; font-size: 1px"><img src="./excel_files/navi_back_active.gif" width="17" height="18" alt=""><img src="./excel_files/tab_treed.gif" width="22" alt=""></td>
+							<td>
+								<table onclick="window.location.href=&#39;/category/My%20Life/2012%EB%85%84&#39;" cellpadding="0" cellspacing="0" style="background-color: #transparent;"><tbody><tr>
+										<td class="branch3"><div id="text_326072" style="color: #b4d2de;">2012년 <span class="c_cnt">(152)</span></div></td>
+									</tr></tbody></table>
+							</td>
+						</tr></tbody></table>
+										<table id="category_326073" cellpadding="0" cellspacing="0"><tbody><tr>
+							<td style="width:39px; font-size: 1px"><img src="./excel_files/navi_back_active.gif" width="17" height="18" alt=""><img src="./excel_files/tab_treed.gif" width="22" alt=""></td>
+							<td>
+								<table onclick="window.location.href=&#39;/category/My%20Life/2011%EB%85%84&#39;" cellpadding="0" cellspacing="0" style="background-color: #transparent;"><tbody><tr>
+										<td class="branch3"><div id="text_326073" style="color: #b4d2de;">2011년 <span class="c_cnt">(269)</span></div></td>
+									</tr></tbody></table>
+							</td>
+						</tr></tbody></table>
+										<table id="category_326074" cellpadding="0" cellspacing="0"><tbody><tr>
+							<td style="width:39px; font-size: 1px"><img src="./excel_files/navi_back_active.gif" width="17" height="18" alt=""><img src="./excel_files/tab_treed.gif" width="22" alt=""></td>
+							<td>
+								<table onclick="window.location.href=&#39;/category/My%20Life/2010%EB%85%84&#39;" cellpadding="0" cellspacing="0" style="background-color: #transparent;"><tbody><tr>
+										<td class="branch3"><div id="text_326074" style="color: #b4d2de;">2010년 <span class="c_cnt">(312)</span></div></td>
+									</tr></tbody></table>
+							</td>
+						</tr></tbody></table>
+										<table id="category_326075" cellpadding="0" cellspacing="0"><tbody><tr>
+							<td style="width:39px; font-size: 1px"><img src="./excel_files/navi_back_active.gif" width="17" height="18" alt=""><img src="./excel_files/tab_treed_end.gif" width="22" alt=""></td>
+							<td>
+								<table onclick="window.location.href=&#39;/category/My%20Life/2009%EB%85%84&#39;" cellpadding="0" cellspacing="0" style="background-color: #transparent;"><tbody><tr>
+										<td class="branch3"><div id="text_326075" style="color: #b4d2de;">2009년 <span class="c_cnt">(180)</span></div></td>
+									</tr></tbody></table>
+							</td>
+						</tr></tbody></table>
+								</div>
+						<table id="category_130727" cellpadding="0" cellspacing="0"><tbody><tr>
+					<td class="ib" style="width:39px; font-size: 1px; background-image: url(&#39;https://t1.daumcdn.net/tistory_admin/assets/blog/2bcf0c329d13f2c766a84c84cf2dad9a9af9ec30/blogs/image/tree/folder_gray/navi_back_noactive.gif"><a class="click" onclick="toggleFolder(&#39;130727&#39;)"><img src="./excel_files/tab_isleaf.gif" width="39" alt=""></a></td>
+					<td>
+						<table cellpadding="0" cellspacing="0" style="background-color: #transparent;"><tbody><tr>
+								<td class="branch3" onclick="window.location.href=&#39;/category/Files&#39;"><div id="text_130727" style="color: #b4d2de;">Files <span class="c_cnt">(46)</span></div></td>
+							</tr></tbody></table>
+					</td>
+				</tr></tbody></table>
+			<div id="category_130727_children" style="display:none">
+							</div>
+						<table id="category_273287" cellpadding="0" cellspacing="0"><tbody><tr>
+					<td class="ib" style="width:39px; font-size: 1px; background-image: url(&#39;https://t1.daumcdn.net/tistory_admin/assets/blog/2bcf0c329d13f2c766a84c84cf2dad9a9af9ec30/blogs/image/tree/folder_gray/navi_back_noactive.gif"><a class="click" onclick="toggleFolder(&#39;273287&#39;)"><img src="./excel_files/tab_isleaf.gif" width="39" alt=""></a></td>
+					<td>
+						<table cellpadding="0" cellspacing="0" style="background-color: #transparent;"><tbody><tr>
+								<td class="branch3" onclick="window.location.href=&#39;/category/%EC%9E%AC%EB%AF%B8%EC%9E%88%EB%8A%94%20%EB%AA%BD%EA%B3%A8%EC%96%B4&#39;"><div id="text_273287" style="color: #b4d2de;">재미있는 몽골어 <span class="c_cnt">(116)</span></div></td>
+							</tr></tbody></table>
+					</td>
+				</tr></tbody></table>
+			<div id="category_273287_children" style="display:none">
+							</div>
+						<table id="category_308385" cellpadding="0" cellspacing="0"><tbody><tr>
+					<td class="ib" style="width:39px; font-size: 1px; background-image: url(&#39;https://t1.daumcdn.net/tistory_admin/assets/blog/2bcf0c329d13f2c766a84c84cf2dad9a9af9ec30/blogs/image/tree/folder_gray/navi_back_noactive_end.gif"><a class="click" onclick="toggleFolder(&#39;308385&#39;)"><img src="./excel_files/tab_isleaf.gif" width="39" alt=""></a></td>
+					<td>
+						<table cellpadding="0" cellspacing="0" style="background-color: #transparent;"><tbody><tr>
+								<td class="branch3" onclick="window.location.href=&#39;/category/%ED%94%84%EB%A1%9C%ED%95%84&#39;"><div id="text_308385" style="color: #b4d2de;">프로필 <span class="c_cnt">(5)</span></div></td>
+							</tr></tbody></table>
+					</td>
+				</tr></tbody></table>
+			<div id="category_308385_children" style="display:none">
+							</div>
+				</td>
+</tr></tbody></table></div>
+								</div>
+							
+							<!-- 공지사항 모듈 -->
+								
+									<div class="module module_notice">
+										<h3 class="title_notice">Notice</h3>
+										<ul class="contents">
+											
+										</ul>
+									</div>
+								
+							
+							<!-- 최근 포스트 모듈 -->
+								<div class="module">
+									<h3 class="title_article">Recent Article</h3>
+									<ul class="contents">
+										
+											<li>
+												<a href="https://urajilator.tistory.com/1609"> 디스크닥터 목견인기 c..</a>
+												<span class="count"><span id="commentCountOnRecentEntries1609"></span></span>
+											</li>
+										
+
+											<li>
+												<a href="https://urajilator.tistory.com/1608"> 당신이 잠든 사이에도</a>
+												<span class="count"><span id="commentCountOnRecentEntries1608"></span></span>
+											</li>
+										
+
+											<li>
+												<a href="https://urajilator.tistory.com/1607"> 뒷머리가 찌릿찌릿 아..</a>
+												<span class="count"><span id="commentCountOnRecentEntries1607"></span></span>
+											</li>
+										
+
+											<li>
+												<a href="https://urajilator.tistory.com/1606"> 하산토록 하여라.</a>
+												<span class="count"><span id="commentCountOnRecentEntries1606"></span></span>
+											</li>
+										
+
+											<li>
+												<a href="https://urajilator.tistory.com/1605"> 편의점</a>
+												<span class="count"><span id="commentCountOnRecentEntries1605"></span></span>
+											</li>
+										
+									</ul>
+								</div>
+							
+							<!-- 최근 댓글 모듈 -->
+								<div class="module">
+									<h3 class="title_comment">Recent Comment</h3>
+									<ul class="contents">
+										
+											<li>
+												<a href="https://urajilator.tistory.com/1419#comment11663647">노인들 치아 나쁘죠?아..</a>
+												<!--
+												<div class="source">
+													<span class="author">vf2416</span> <span class="date">2019</span>
+												</div>
+												-->
+											</li>
+										
+
+											<li>
+												<a href="https://urajilator.tistory.com/1137#comment11650010">분무기로 락스뿌리면..</a>
+												<!--
+												<div class="source">
+													<span class="author">지나가다</span> <span class="date">2019</span>
+												</div>
+												-->
+											</li>
+										
+
+											<li>
+												<a href="https://urajilator.tistory.com/1586#comment11613717">weq</a>
+												<!--
+												<div class="source">
+													<span class="author">qweqwe</span> <span class="date">2019</span>
+												</div>
+												-->
+											</li>
+										
+
+											<li>
+												<a href="https://urajilator.tistory.com/1562#comment11593620">위치 : 부산시 1호선..</a>
+												<!--
+												<div class="source">
+													<span class="author">우라질레이터</span> <span class="date">2019</span>
+												</div>
+												-->
+											</li>
+										
+
+											<li>
+												<a href="https://urajilator.tistory.com/1562#comment11593431">혹시 약국 이름 알수있..</a>
+												<!--
+												<div class="source">
+													<span class="author">yu</span> <span class="date">2019</span>
+												</div>
+												-->
+											</li>
+										
+
+											<li>
+												<a href="https://urajilator.tistory.com/1541#comment11587344">기억이 안나서, 인터넷..</a>
+												<!--
+												<div class="source">
+													<span class="author">우라질레이터</span> <span class="date">2019</span>
+												</div>
+												-->
+											</li>
+										
+
+											<li>
+												<a href="https://urajilator.tistory.com/1541#comment11585645">안녕하세요  굴삭기필..</a>
+												<!--
+												<div class="source">
+													<span class="author">이삭</span> <span class="date">2019</span>
+												</div>
+												-->
+											</li>
+										
+
+											<li>
+												<a href="https://urajilator.tistory.com/1562#comment11543341">네. 맞습니다. 임팩타..</a>
+												<!--
+												<div class="source">
+													<span class="author">우라질레이터</span> <span class="date">2019</span>
+												</div>
+												-->
+											</li>
+										
+
+											<li>
+												<a href="https://urajilator.tistory.com/1562#comment11543149">혹시 임팩타민프리미엄..</a>
+												<!--
+												<div class="source">
+													<span class="author">ㅇ</span> <span class="date">2019</span>
+												</div>
+												-->
+											</li>
+										
+
+											<li>
+												<a href="https://urajilator.tistory.com/1119#comment11427348">야 ♫♫♬</a>
+												<!--
+												<div class="source">
+													<span class="author">야 씨발</span> <span class="date">2019</span>
+												</div>
+												-->
+											</li>
+										
+									</ul>
+								</div>
+							
+					</div>
+					<div class="clear"></div>
+				</div>
+			</div>
+
+			<div id="content">
+				<!-- 글 검색 결과 -->
+				
+
+				<!-- 댓글 검색 결과 -->
+				
+
+				<!-- 지역 로그 -->
+				
+
+				<!-- 태그 -->
+				
+
+				<!-- 방명록 -->
+				
+
+				<!-- 공지사항 -->
+				
+
+				<!-- 보호글 -->
+				
+
+				<!-- 포스팅 본문 -->
+				
+					<div class="article">
+						<div class="article_head">
+							<h2 class="title"><a href="https://urajilator.tistory.com/482">[정보] 엑셀(Excel) 파일을 XML 파일로 변환 저장하는 방법</a></h2> <span class="separate">|</span>
+							<span class="article_info">
+								<a href="https://urajilator.tistory.com/category/My%20Life/2010%EB%85%84" class="category">My Life/2010년</a> <span class="date">2010. 10. 13. 20:14</span>
+							</span>
+						</div>
+						<div class="wrap_article_admin">
+							
+							<div class="article_author">
+								Posted by 우라질레이터
+							</div>
+						</div>
+						<div class="article_post">
+							<div style="TEXT-ALIGN: center"><strong><span style="FONT-SIZE: 14pt"><font color="#193da9">&lt; 엑셀(Excel) 파일을 XML 파일로 변환 저장하는 방법 &gt;</font></span></strong><br>
+</div>
+<div><br>
+아래 내용은 저의 허가 같은거 필요없이,<br>
+<font color="#193da9"><strong><u>자유롭게 복사, 수정,&nbsp;편집, 배포하여도 괜찮습니다.</u></strong></font><br>
+<br>※ XML 변환 작업에 사용한 아래 테스트 파일을 다운로드 받아서 사용해보세요.</div>
+<div style="TEXT-ALIGN: left"><div class="imageblock center" style="text-align: center; clear: both;"><a href="https://urajilator.tistory.com/attachment/cfile7.uf@11152F2F4CB5941044FC0B.xls"><img src="./excel_files/xls.gif" alt="" style="vertical-align: middle;"> 출석부.xls</a></div><div class="imageblock center" style="text-align: center; clear: both;"><a href="https://urajilator.tistory.com/attachment/cfile25.uf@18122B2F4CB5941B4041D5.xml"><img src="./excel_files/unknown.gif" alt="" style="vertical-align: middle;"> schema.xml</a></div><br>
+1. 출석부. xls : 첨부파일 다운로드 하세요.<br>
+2. schema.xml <br>
+- 첨부파일 다운로드 하거나, 아래를 복사하여 schema.xml로 저장후 사용하세요<br>
+-------------------------------------------------------------------</div>
+<div>&lt;?xml version="1.0" encoding="UTF-8"?&gt;<br>
+&lt;root&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;student&gt;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;code/&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;name/&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;absent/&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;country/&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;/student&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;student&gt;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;code/&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;name/&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;absent/&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;country/&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;/student&gt;<br>
+&lt;/root&gt;<br>
+-------------------------------------------------------------------<br>
+<br><strong><font color="#193da9">1. 엑셀 원본 파일을 Open한다.</font></strong><br>
+(1) 샘플 파일 :&nbsp;출석부.xls<br>
+<div class="imageblock center" style="text-align: center; clear: both;"><img src="./excel_files/1354F10B4CB58EEC09" style="cursor: pointer;max-width:100%;height:auto" onclick="open_img(&#39;https://t1.daumcdn.net/cfile/tistory/1354F10B4CB58EEC09?original&#39;)" width="530" height="520" alt="" filename="01.엑셀파일(출석부).jpg" filemime="image/jpeg"></div><br>
+<font color="#193da9"><strong>2. 메모장에서 변환할 XML 스키마를 만든다.</strong></font><br>
+(1) 샘플 파일 :&nbsp;schema.xml<br>
+(2) 주의 사항<br>
+<font color="#193da9">&nbsp;- <u>아래 샘플의 &lt;student&gt; 엘리먼트는 반드시 2개 적어주어야 한다</u>.<br>
+&nbsp;&nbsp;&nbsp;&nbsp; <u>2개 이상 생성해야만 반복되는 요소로 인식하기 때문이다.<br>
+</u></font>&nbsp;-&nbsp;<font color="#193da9"><u>엘리먼트(elemnet) 이름을 한글로 하면 xml 맵 로드시 오류가 발생하므로</u>,<br>
+&nbsp;&nbsp; <u>엘리먼트 이름은 영문으로 작성한다</u></font>.<br>
+<div class="imageblock center" style="text-align: center; clear: both;"><img src="./excel_files/1254F10B4CB58EED0A" style="cursor: pointer;max-width:100%;height:auto" onclick="open_img(&#39;https://t1.daumcdn.net/cfile/tistory/1254F10B4CB58EED0A?original&#39;)" width="530" height="248" alt="" filename="02.schema.jpg" filemime="image/jpeg"></div><br>
+<strong><font color="#193da9">3. 매핑할 XML 스키마 파일을 호출한다.<br>
+</font></strong>(1) 위치 : <font color="#193da9"><strong>데이터 -&gt; XML -&gt; XML 원본</strong></font><br>
+<div class="imageblock center" style="text-align: center; clear: both;"><img src="./excel_files/1354F10B4CB58EED0B" style="cursor: pointer;max-width:100%;height:auto" onclick="open_img(&#39;https://t1.daumcdn.net/cfile/tistory/1354F10B4CB58EED0B?original&#39;)" width="530" height="453" alt="" filename="03.XML-원본-호출.jpg" filemime="image/jpeg"></div><br>
+<strong><font color="#193da9">4. XML 맵 파일을 추가한다.<br>
+</font></strong>(1) XML 원본 메뉴를 선택하면, 우측에 작은 탭화면이 보이고,<br>
+&nbsp;&nbsp;&nbsp;&nbsp; 하단에 "<font color="#193da9"><strong>XML 맵" 버튼을 클릭</strong></font>하면,<br>
+&nbsp;&nbsp;&nbsp;&nbsp;<strong><font color="#193da9"> XML 맵 팝업 화면</font></strong>이 나타난다<br>
+<div class="imageblock center" style="text-align: center; clear: both;"><img src="./excel_files/1554F10B4CB58EEE0C" style="cursor: pointer;max-width:100%;height:auto" onclick="open_img(&#39;https://t1.daumcdn.net/cfile/tistory/1554F10B4CB58EEE0C?original&#39;)" width="530" height="451" alt="" filename="04.XML-매핑.jpg" filemime="image/jpeg"></div><br>
+<strong><font color="#193da9">5. XML 스키마 추가한다.<br>
+</font></strong>(1) 샘플 파일 :&nbsp;schema.xml<div class="imageblock center" style="text-align: center; clear: both;"><img src="./excel_files/1654F10B4CB58EEE0D" style="cursor: pointer;max-width:100%;height:auto" onclick="open_img(&#39;https://t1.daumcdn.net/cfile/tistory/1654F10B4CB58EEE0D?original&#39;)" width="530" height="287" alt="" filename="05.XML-매핑-파일-열기.jpg" filemime="image/jpeg"></div><br>
+<strong><font color="#193da9">6. XML 맵을 추가하면&nbsp;아래 화면처럼 된다.</font></strong><br>
+<div class="imageblock" style="display:inline;"><img src="./excel_files/1754F10B4CB58EEE0E" style="cursor: pointer;max-width:100%;height:auto" onclick="open_img(&#39;https://t1.daumcdn.net/cfile/tistory/1754F10B4CB58EEE0E?original&#39;)" width="476" height="239" alt="" filename="06.XML-맵.jpg" filemime="image/jpeg"></div><br>
+<br><strong><font color="#193da9">7. 메모장에서 변환할 XML 스키마를 만든다.<br>
+</font></strong>(1) 우측의 탭에서 student 엘리먼트를 선택후 드래그하여,<br>
+&nbsp;&nbsp;&nbsp;&nbsp; 좌측의 엑셀 데이타 화면에서 처음 위치(예제에서는 "학번")으로 드래그한다.<br>
+<div class="imageblock center" style="text-align: center; clear: both;"><img src="./excel_files/1954F10B4CB58EEF0F" style="cursor: pointer;max-width:100%;height:auto" onclick="open_img(&#39;https://t1.daumcdn.net/cfile/tistory/1954F10B4CB58EEF0F?original&#39;)" width="530" height="450" alt="" filename="07.스키마-매핑.jpg" filemime="image/jpeg"></div><br>
+(2) 드래그하면 엑셀데이타 부분이 전체가 선택되면서 파란색 테두리로 둘러진다.<br>
+<div class="imageblock center" style="text-align: center; clear: both;"><img src="./excel_files/1715D42F4CB593762E" style="cursor: pointer;max-width:100%;height:auto" onclick="open_img(&#39;https://t1.daumcdn.net/cfile/tistory/1715D42F4CB593762E?original&#39;)" width="530" height="450" alt="" filename="07-1.스키마-매핑.jpg" filemime="image/jpeg"></div><br>
+<br><strong><font color="#193da9">8. 다른 이름으로 저장한다.<br>
+</font><font color="#193da9">(1) 파일 형식은 "<u>XML 데이타 (*.xml)</u>"을 선택한다.</font></strong><br>
+<div class="imageblock center" style="text-align: center; clear: both;"><img src="./excel_files/1854F10B4CB58EEF10" style="cursor: pointer;max-width:100%;height:auto" onclick="open_img(&#39;https://t1.daumcdn.net/cfile/tistory/1854F10B4CB58EEF10?original&#39;)" width="530" height="326" alt="" filename="08.다른이름으로-xml-저장.jpg" filemime="image/jpeg"></div><br>
+<strong><font color="#193da9">9. 메모장으로 방금전에 저장한 xml 파일을 연다<br>
+</font></strong>(1) 샘플 파일 : 출석부.xml<br>
+<div class="imageblock center" style="text-align: center; clear: both;"><img src="./excel_files/1954F10B4CB58EEF11" style="cursor: pointer;max-width:100%;height:auto" onclick="open_img(&#39;https://t1.daumcdn.net/cfile/tistory/1954F10B4CB58EEF11?original&#39;)" width="530" height="461" alt="" filename="09.저장된-xml.jpg" filemime="image/jpeg"></div></div><div class="container_postbtn #post_button_group">
+    <div class="postbtn_like">
+        
+    <script>
+        window.ReactionButtonType = 'reaction';
+        window.ReactionApiUrl = '//urajilator.tistory.com/reaction';
+        window.ReactionReqBody = {
+            entryId: 482        }
+    </script>
+    <div class="wrap_btn" id="reaction-482"><button class="btn_post uoc-icon"><div class="uoc-icon"><span class="ico_postbtn ico_like">좋아요</span><span class="txt_like uoc-count">공감</span></div></button></div>
+    <script src="./excel_files/reaction-button-container.min.js.다운로드"></script>
+        <div class="wrap_btn wrap_btn_share">
+    <button type="button" class="btn_post sns_btn btn_share" data-thumbnail-url="https://img1.daumcdn.net/thumb/R800x0/?scode=mtistory2&amp;fname=https%3A%2F%2Ft1.daumcdn.net%2Fcfile%2Ftistory%2F1354F10B4CB58EEC09" data-title="[정보] 엑셀(Excel) 파일을 XML 파일로 변환 저장하는 방법" data-description="&lt; 엑셀(Excel) 파일을 XML 파일로 변환 저장하는 방법 &gt; 아래 내용은 저의 허가 같은거 필요없이, 자유롭게 복사, 수정, 편집, 배포하여도 괜찮습니다. ※ XML 변환 작업에 사용한 아래 테스트 파일을 다운로드 받.." data-profile-image="https://t1.daumcdn.net/cfile/tistory/18721E3B4E8AFD2021" data-profile-name="우라질레이터" data-pc-url="https://urajilator.tistory.com/482" data-relative-pc-url="/482" data-blog-title="&quot;만인은 밥 앞에 평등하다.&quot; - 우라질레이터 사마 황상규 -">
+        <span class="ico_postbtn ico_share">공유하기</span>
+    </button>
+</div>
+                <div class="wrap_btn wrap_btn_etc" data-entry-id="482" data-entry-visibility="public" data-category-visibility="public">
+    <button type="button" class="btn_post btn_etc2"><span class="ico_postbtn ico_etc">글 요소</span></button>
+</div>
+    </div>
+    <button type="button" class="btn_menu_toolbar btn_subscription  #subscribe" data-blog-id="408419" data-url="https://urajilator.tistory.com/482" data-device="web_pc">
+    <em class="txt_state">구독하기</em>
+    <strong class="txt_tool_id">"만인은 밥 앞에 평등하다." - 우라질레이터 사마 황상규 -</strong>
+    <span class="img_common_tistory ico_check_type1"></span>
+</button>
+    <div class="postbtn_ccl" data-ccl-type="3">
+    <a href="https://creativecommons.org/licenses/by/4.0/deed.ko" target="_blank" class="link_ccl">
+        <span class="bundle_ccl">
+            <span class="ico_postbtn ico_ccl1">저작자표시</span>        </span>
+    </a>
+</div>
+    <!--
+<rdf:RDF xmlns="http://web.resource.org/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    <Work rdf:about="">
+        <license rdf:resource="http://creativecommons.org/licenses/by-fr/2.0/kr/" />
+    </Work>
+    <License rdf:about="http://creativecommons.org/licenses/by-fr/">
+        <permits rdf:resource="http://web.resource.org/cc/Reproduction"/>
+        <permits rdf:resource="http://web.resource.org/cc/Distribution"/>
+        <requires rdf:resource="http://web.resource.org/cc/Notice"/>
+        <requires rdf:resource="http://web.resource.org/cc/Attribution"/>
+                <permits rdf:resource="http://web.resource.org/cc/DerivativeWorks"/>
+                    </License>
+</rdf:RDF>
+-->
+</div>
+						</div>
+
+						
+
+						<div class="article_guest">
+							<a href="https://urajilator.tistory.com/482#tb" onclick="toggleLayerForEntry(482, &#39;trackback&#39;); return false"><span id="trackbackCount482">Trackback <span class="count">0</span></span></a> And
+							<a href="https://urajilator.tistory.com/482#rp" onclick=""><span id="commentCount482_0">Comment <span class="count">3</span></span></a>
+						</div>
+
+						<div id="entry482Trackback" style="display:none">
+							<div class="article_action">
+								
+							</div>
+						</div>
+
+						<div id="entry482Comment">
+							<div class="article_action">
+								<div>
+									
+										<ol class="reply">
+											
+												<li id="comment2970304">
+													<div class="rp_general">
+														<strong class="author">김남준</strong> <span class="date">2010.10.18 17:11</span>
+														<a href="https://urajilator.tistory.com/482#comment2970304"><img src="./excel_files/btn_add.gif" alt="address" class="btn_img"></a>
+														<a href="https://urajilator.tistory.com/482#" onclick="deleteComment(2970304);return false"><img src="./excel_files/btn_del.gif" alt="edit &amp; del" class="btn_img"></a>
+														<a href="https://urajilator.tistory.com/482#" onclick="commentComment(2970304); return false"><img src="./excel_files/btn_reply.gif" alt="reply" class="btn_img"></a>
+														<p class="description">훌륭하군~~</p>
+													</div>
+													
+												</li>
+											
+												<li id="comment8094779">
+													<div class="rp_general">
+														<strong class="author">최성훈</strong> <span class="date">2013.11.14 21:22</span>
+														<a href="https://urajilator.tistory.com/482#comment8094779"><img src="./excel_files/btn_add.gif" alt="address" class="btn_img"></a>
+														<a href="https://urajilator.tistory.com/482#" onclick="deleteComment(8094779);return false"><img src="./excel_files/btn_del.gif" alt="edit &amp; del" class="btn_img"></a>
+														<a href="https://urajilator.tistory.com/482#" onclick="commentComment(8094779); return false"><img src="./excel_files/btn_reply.gif" alt="reply" class="btn_img"></a>
+														<p class="description">고맙습니다. 이거 유용하네요..</p>
+													</div>
+													
+												</li>
+											
+												<li id="comment8642619">
+													<div class="rp_general">
+														<strong class="author">이주희</strong> <span class="date">2014.07.20 12:25</span>
+														<a href="https://urajilator.tistory.com/482#comment8642619"><img src="./excel_files/btn_add.gif" alt="address" class="btn_img"></a>
+														<a href="https://urajilator.tistory.com/482#" onclick="deleteComment(8642619);return false"><img src="./excel_files/btn_del.gif" alt="edit &amp; del" class="btn_img"></a>
+														<a href="https://urajilator.tistory.com/482#" onclick="commentComment(8642619); return false"><img src="./excel_files/btn_reply.gif" alt="reply" class="btn_img"></a>
+														<p class="description">고맙습니다~<br>
+유익한 내용 잘 보았고<br>
+복사. 수정. 편집. 배포도 허용해 주셔서 감사합니다..^-^</p>
+													</div>
+													
+												</li>
+											
+										</ol>
+									
+								</div>
+
+								<form method="post" action="https://urajilator.tistory.com/comment/add/482" onsubmit="return false" style="margin: 0">
+									<div class="article_write_top_left">
+										<div class="article_write_top_right">
+											<div class="article_write">
+												<div class="article_write_author">
+													
+														
+															<div class="name">
+																<label for="name"><!--Name--><img src="./excel_files/img_name.gif" alt="name" class="label_img"></label><input type="text" name="name" value="">
+															</div>
+															<div class="pass">
+																<label for="password"><!--Password--><img src="./excel_files/img_pass.gif" alt="password" class="label_img"></label><input type="password" name="password" value="">
+															</div>
+															<div class="home">
+																<label for="homepage"><!--Homepage--><img src="./excel_files/img_home.gif" alt="home" class="label_img"></label><input type="text" name="homepage" value="https://">
+															</div>
+														
+														<div class="secret">
+															<label for="secret"><!--Secret--><img src="./excel_files/img_secret.gif" alt="secret" class="label_img"></label><input type="checkbox" name="secret">
+														</div>
+													
+												</div>
+												<div class="article_write_write">
+													<div class="textarea">
+														<textarea name="comment" rows="10" cols="50"></textarea>
+													</div>
+													<div class="submit">
+														<input type="image" value="댓글 달기" src="./excel_files/btn_submit.gif" onclick="addComment(this, 482); return false;">
+													</div>
+												</div>
+												<div class="clear"><img src="./excel_files/clear.gif" alt=""></div>
+											</div>
+										</div>
+									</div>
+									<div class="article_write_bottom_left"><div class="article_write_bottom_right"><img src="./excel_files/clear.gif" alt=""></div></div>
+								</form>
+
+							</div>
+						</div><script type="text/javascript">loadedComments[482]=true;findFragmentAndHighlight(482)</script>
+					</div>
+				
+
+				<!-- 페이징 -->
+				
+					<div class="paging">
+						<a href="https://urajilator.tistory.com/483" class=""><img src="./excel_files/btn_prev.gif" alt="prev" class="paging_img"></a>
+							
+							<span class="separate">|</span> <a href="https://urajilator.tistory.com/1609"> <span>1</span></a>
+							
+							<span class="separate">|</span> <a> <span>···</span></a>
+							
+							<span class="separate">|</span> <a href="https://urajilator.tistory.com/486"> <span>1074</span></a>
+							
+							<span class="separate">|</span> <a href="https://urajilator.tistory.com/485"> <span>1075</span></a>
+							
+							<span class="separate">|</span> <a href="https://urajilator.tistory.com/484"> <span>1076</span></a>
+							
+							<span class="separate">|</span> <a href="https://urajilator.tistory.com/483"> <span>1077</span></a>
+							
+							<span class="separate">|</span> <a> <span class="selected">1078</span></a>
+							
+							<span class="separate">|</span> <a href="https://urajilator.tistory.com/481"> <span>1079</span></a>
+							
+							<span class="separate">|</span> <a href="https://urajilator.tistory.com/480"> <span>1080</span></a>
+							
+							<span class="separate">|</span> <a href="https://urajilator.tistory.com/479"> <span>1081</span></a>
+							
+							<span class="separate">|</span> <a href="https://urajilator.tistory.com/478"> <span>1082</span></a>
+							
+							<span class="separate">|</span> <a> <span>···</span></a>
+							
+							<span class="separate">|</span> <a href="https://urajilator.tistory.com/1"> <span>1517</span></a>
+							
+						<span class="separate">|</span> <a href="https://urajilator.tistory.com/481" class=""><img src="./excel_files/btn_next.gif" alt="next" class="paging_img"></a>
+					</div>
+				
+			</div>
+
+			<hr>
+
+			<div class="sidebar2">
+				<div class="sidebar_inside">
+					<div class="sidebar">
+						
+							<!-- 태그목록 모듈 -->
+								<div class="module module_tag">
+									<h3 class="title_tag">Tag Cloud</h3>
+									<ul class="contents">
+										
+											<li><a href="https://urajilator.tistory.com/tag/%EC%88%A0" class="cloud1"> 술</a></li>
+										
+											<li><a href="https://urajilator.tistory.com/tag/%EB%A7%9B%EC%A7%91" class="cloud5"> 맛집</a></li>
+										
+									</ul>
+								</div>
+							
+							<!-- 달력 모듈 -->
+								<div class="module module_calendar">
+									<h3 class="title_calendar">Calendar</h3>
+									<div class="contents">
+												<table class="tt-calendar" cellpadding="0" cellspacing="1" style="width: 100%; table-layout: fixed">
+			<caption class="cal_month">
+				<a href="https://urajilator.tistory.com/archive/202002" title="1개월 앞의 달력을 보여줍니다.">«</a>
+				&nbsp;
+				<a href="https://urajilator.tistory.com/archive/202003" title="현재 달의 달력을 보여줍니다.">2020/03</a>
+				&nbsp;
+				<a href="https://urajilator.tistory.com/archive/202004" title="1개월 뒤의 달력을 보여줍니다.">»</a>
+			</caption>
+			<thead>
+			<tr>
+				<th class="cal_week2">일</th>
+				<th class="cal_week1">월</th>
+				<th class="cal_week1">화</th>
+				<th class="cal_week1">수</th>
+				<th class="cal_week1">목</th>
+				<th class="cal_week1">금</th>
+				<th class="cal_week1">토</th>
+			</tr>
+			</thead>
+			<tbody>
+					<tr class="cal_week">
+			<td class=" cal_day cal_day_sunday cal_day3">1</td>
+			<td class=" cal_day cal_day3">2</td>
+			<td class=" cal_day cal_day3">3</td>
+			<td class=" cal_day cal_day3">4</td>
+			<td class=" cal_day cal_day3">5</td>
+			<td class=" cal_day cal_day3">6</td>
+			<td class=" cal_day cal_day3">7</td>
+		</tr>
+		<tr class="cal_week">
+			<td class=" cal_day cal_day_sunday cal_day3">8</td>
+			<td class=" cal_day cal_day3">9</td>
+			<td class=" cal_day cal_day3">10</td>
+			<td class=" cal_day cal_day3"><a class="cal_click" href="https://urajilator.tistory.com/archive/20200311">11</a></td>
+			<td class=" cal_day cal_day3">12</td>
+			<td class=" cal_day cal_day3"><a class="cal_click" href="https://urajilator.tistory.com/archive/20200313">13</a></td>
+			<td class=" cal_day cal_day3">14</td>
+		</tr>
+		<tr class="cal_week cal_current_week">
+			<td class=" cal_day cal_day_sunday cal_day4">15</td>
+			<td class=" cal_day cal_day3">16</td>
+			<td class=" cal_day cal_day3">17</td>
+			<td class=" cal_day cal_day3">18</td>
+			<td class=" cal_day cal_day3">19</td>
+			<td class=" cal_day cal_day3">20</td>
+			<td class=" cal_day cal_day3">21</td>
+		</tr>
+		<tr class="cal_week">
+			<td class=" cal_day cal_day_sunday cal_day3">22</td>
+			<td class=" cal_day cal_day3">23</td>
+			<td class=" cal_day cal_day3">24</td>
+			<td class=" cal_day cal_day3">25</td>
+			<td class=" cal_day cal_day3">26</td>
+			<td class=" cal_day cal_day3">27</td>
+			<td class=" cal_day cal_day3">28</td>
+		</tr>
+		<tr class="cal_week">
+			<td class=" cal_day cal_day_sunday cal_day3">29</td>
+			<td class=" cal_day cal_day3">30</td>
+			<td class=" cal_day cal_day3">31</td>
+			<td class="cal_day2">&nbsp;</td>
+			<td class="cal_day2">&nbsp;</td>
+			<td class="cal_day2">&nbsp;</td>
+			<td class="cal_day2">&nbsp;</td>
+		</tr>
+			</tbody>
+		</table>
+		
+									</div>
+								</div>
+							
+							<!-- 최근 보관함 모듈 -->
+								<div class="module">
+									<h3 class="title_archive">Archive</h3>
+									<ul class="contents">
+										
+											<li>
+												<a href="https://urajilator.tistory.com/archive/202003">2020/03</a>
+												<span class="count">(3)</span>
+											</li>
+										
+
+											<li>
+												<a href="https://urajilator.tistory.com/archive/202002">2020/02</a>
+												<span class="count">(2)</span>
+											</li>
+										
+
+											<li>
+												<a href="https://urajilator.tistory.com/archive/202001">2020/01</a>
+												<span class="count">(2)</span>
+											</li>
+										
+
+											<li>
+												<a href="https://urajilator.tistory.com/archive/201910">2019/10</a>
+												<span class="count">(3)</span>
+											</li>
+										
+
+											<li>
+												<a href="https://urajilator.tistory.com/archive/201909">2019/09</a>
+												<span class="count">(4)</span>
+											</li>
+										
+									</ul>
+								</div>
+							
+							<!-- 링크 모듈 -->
+								<div class="module module_link">
+									<h3 class="title_link">My Link</h3>
+									<ul class="contents">
+										
+									</ul>
+								</div>
+							
+					</div>
+					<div class="clear"></div>
+
+					<hr>
+
+					<div id="footer">
+						<div class="module_search">
+							
+								<input type="text" name="search" value="" onkeypress="if (event.keyCode == 13) { try{window.location.href=&#39;/search/&#39;+looseURIEncode(document.getElementsByName(&#39;search&#39;)[0].value);document.getElementsByName(&#39;search&#39;)[0].value=&#39;&#39;;return false;}catch(e){} }" class="input_search"><input value="검색" type="image" src="./excel_files/btn_search.gif" onclick="try{window.location.href=&#39;/search/&#39;+looseURIEncode(document.getElementsByName(&#39;search&#39;)[0].value);document.getElementsByName(&#39;search&#39;)[0].value=&#39;&#39;;return false;}catch(e){}">
+							
+						</div>
+
+						<div class="module_banner">
+							<a href="http://www.tistory.com/"><img src="./excel_files/tistoryBanner01.png" alt="tistory" class="banner"></a><br>
+							<a href="http://www.tistory.com/join" class="sign">티스토리 가입하기!</a><br>
+							<img src="./excel_files/icon_rss.gif" alt="rss" class="rss_img"> <a href="https://urajilator.tistory.com/rss" onclick="window.open(this.href); return false" class="rss">RSS FEED</a>
+						</div>
+
+						<div class="menu">
+							<a href="https://urajilator.tistory.com/tag">태그</a> :
+							<a href="https://urajilator.tistory.com/location">지역로그</a> :
+							<a href="https://urajilator.tistory.com/guestbook">방명록</a> :
+							<a href="https://urajilator.tistory.com/manage">관리자</a> :
+							<a href="https://urajilator.tistory.com/manage/entry/post">글쓰기</a>
+						</div>
+
+						<span class="title">Total</span> <span class="hit">830,497</span> :
+						<span class="title">Today</span> <span class="hit">44</span> :
+						<span class="title">Yesterday</span> <span class="hit">153</span> <span class="separate">|</span>
+
+						<span class="copyright">
+							<a href="https://urajilator.tistory.com/"> 우라질레이터</a>'s Blog is powered by <a href="http://daum.net/" onclick="window.open(this.href); return false">Daum</a>  / Designed by <a href="http://www.tistory.com/">Tistory</a>
+						</span>
+					</div>
+				</div>
+			</div>
+		
+	</div>
+<script>
+    (function($) {
+        $("body").bind('copy', function (e) {
+
+            var url = document.location.href,
+                decodedUrl = decodeURI(url),
+                selection = window.getSelection();
+
+
+            if (typeof window.getSelection == "undefined") {//IE8 or earlier...
+                event.preventDefault();
+
+                var pagelink = '\n\n 출처: ' + decodedUrl,
+                    copytext = selection + pagelink;
+
+                if (window.clipboardData) {
+                    window.clipboardData.setData('Text', copytext);
+                }
+                return;
+            }
+            var body_element = document.getElementsByTagName('body')[0];
+
+            //if the selection is short let's not annoy our users
+            if (("" + selection).length < 30) return;
+
+            //create a div outside of the visible area
+            var newdiv = document.createElement('div');
+            newdiv.style.position = 'absolute';
+            newdiv.style.left = '-99999px';
+            body_element.appendChild(newdiv);
+            newdiv.appendChild(selection.getRangeAt(0).cloneContents());
+
+            //we need a <pre> tag workaround
+            //otherwise the text inside "pre" loses all the line breaks!
+            if (selection.getRangeAt(0).commonAncestorContainer.nodeName == "PRE") {
+                newdiv.innerHTML = "<pre>" + newdiv.innerHTML + "</pre>";
+            }
+
+            newdiv.innerHTML += '<br /><br />출처: <a href="' + url + '">' + escapeHTML(decodedUrl) + '</a> ["만인은 밥 앞에 평등하다." - 우라질레이터 사마 황상규 -]';
+
+            selection.selectAllChildren(newdiv);
+
+            window.setTimeout(function () {
+                body_element.removeChild(newdiv);
+            }, 200);
+        });
+    })(tjQuery);
+</script><script type="text/javascript">
+var _tiq = 'undefined' !== typeof _tiq ? _tiq : [];
+_tiq.push(['__setConfig', {enableScroll:true, enableClick:true, enableButton:true}]);
+_tiq.push(["__setParam", "svcdomain", "user.tistory.com"]);
+(function(d) {
+	var se = d.createElement('script'); se.type = 'text/javascript'; se.async = true;
+	se.src = location.protocol + '//m2.daumcdn.net/tiara/js/td.min.js';
+	var s = d.getElementsByTagName('head')[0]; s.appendChild(se);
+})(document);
+_tiq.push(['__setParam', 'param_ex', JSON.stringify({"userId":"374353","blogId":"408419","role":"guest","filterTarget":false,"entryId":"482"})]);
+_tiq.push(['__trackPageview']);
+_tiq.push(['__content', 't_content', {
+'c_id':'408419_482', 
+'c_title':'[정보] 엑셀(Excel) 파일을 XML 파일로 변환 저장하는 방법', 
+'type':'article', 
+'author':'', 
+'author_id':'374353', 
+'cp':'\"만인은 밥 앞에 평등하다.\" - 우라질레이터 사마 황상규 -', 
+'cp_id':'408419', 
+'regdata':'2010-10-13 20:14:19', 
+'plink':'https://urajilator.tistory.com/482', 
+'media':'pcweb', 
+}]);
+var addEvent = function (evt, fn) { window.addEventListener ? window.addEventListener(evt, fn, false) : window.attachEvent('on' + evt, fn); };
+var removeEvent = function(evt, fn) { window.removeEventListener ? window.removeEventListener(evt, fn, false) : window.detachEvent('on' + evt, fn);};
+var ua = navigator.userAgent.toLowerCase(); var isIOS = /iP[ao]d|iPhone/i.test(ua);
+var contentExStat = function() {
+		_tiq.push(['__content', 't_content_ex', {
+			'data_type':'usage'
+, 'meta': {
+'c_id':'408419_482', 
+'c_title':'[정보] 엑셀(Excel) 파일을 XML 파일로 변환 저장하는 방법', 
+'type':'article', 
+'author':'', 
+'author_id':'374353', 
+'cp':'\"만인은 밥 앞에 평등하다.\" - 우라질레이터 사마 황상규 -', 
+'cp_id':'408419', 
+'regdata':'2010-10-13 20:14:19', 
+'plink':'https://urajilator.tistory.com/482', 
+'media':'pcweb', 
+}
+}]);
+		removeEvent(isIOS ? 'pagehide' : 'beforeunload', contentExStat);
+};
+addEvent(isIOS ? 'pagehide' : 'beforeunload', contentExStat);
+</script>
+<script type="text/javascript">window.roosevelt_params_queue = window.roosevelt_params_queue || []; window.roosevelt_params_queue.push({channel_id: "dk", channel_label: 'tistory'});</script>
+<script type="text/javascript" src="./excel_files/roosevelt_dk_bt.js.다운로드" async=""></script>            <script type="text/javascript" src="./excel_files/tiara.min.js.다운로드"></script>
+            <script type="text/javascript">window.tiara = {"svcDomain":"user.tistory.com","section":"\uae00\ubdf0","trackPage":"\uae00\ubdf0_\ubcf4\uae30","page":"\uae00\ubdf0","key":"408419-482","customProps":{"userId":0,"blogId":"408419","role":"guest","filterTarget":false,"trackPage":"\uae00\ubdf0_\ubcf4\uae30","entryId":"482"},"entry":{"entryId":"482","categoryName":"2010\ub144","categoryId":"326074","author":"374353","authorId":"374353","image":"374353","plink":"\/482","tags":[],"key":"408419-482"},"sentryDsn":"https:\/\/24d2f6a6e88f4e84885403aabdbd1c7c:e0a560324995426d8fde4d509d4b5ce9@sentry.kakao.com\/894"};</script>
+            <script type="text/javascript" src="./excel_files/tiara.min.js(1).다운로드"></script>
+                        <script type="text/javascript">
+                window.roosevelt_params_queue = window.roosevelt_params_queue || [{channel_id: 'dk', channel_label: 'tistory'}];
+            </script>
+            <script type="text/javascript" src="./excel_files/roosevelt_dk_bt.js.다운로드" async=""></script><script type="text/javascript">if(window.console!=undefined){setTimeout(console.log.bind(console,"%cTISTORY","font:8em Arial;color:#EC6521;font-weight:bold"),0);setTimeout(console.log.bind(console,"%c  나를 표현하는 블로그","font:2em sans-serif;color:#333;"),0);}</script><iframe style="position:absolute;width:1px;height:1px;left:-100px;top:-100px" src="./excel_files/api.html" id="editEntry"></iframe><div id="tistoryEtcLayer" class="layer_post" style="display: none;"></div><div id="tistorySnsLayer" class="layer_post" style="display: none;"><div class="bundle_post"><a href="https://urajilator.tistory.com/482#none" class="btn_mark" data-service="facebook"><span class="ico_sns ico_fb"></span>페이스북으로 공유</a><a href="https://urajilator.tistory.com/482#none" class="btn_mark" data-service="kakaotalk"><span class="ico_sns ico_kt"></span>카카오톡으로 공유</a><a href="https://urajilator.tistory.com/482#none" class="btn_mark" data-service="kakaostory"><span class="ico_sns ico_ks"></span>카카오스토리로 공유</a><a href="https://urajilator.tistory.com/482#none" class="btn_mark" data-service="twitter"><span class="ico_sns ico_tw"></span>트위터로 공유</a><a href="https://urajilator.tistory.com/482#none" class="btn_mark" data-service="url"><span class="ico_sns ico_url"></span>URL 복사</a><span class="ico_postbtn ico_arrbt"></span></div></div>
+
+<div id="lightboxOverlay" class="lightboxOverlay" style="display: none;"></div><div id="lightbox" class="lightbox" style="display: none;"><div class="lb-outerContainer"><div class="lb-container"><img class="lb-image" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="><div class="lb-nav"><a class="lb-prev" href="https://urajilator.tistory.com/482"></a><a class="lb-next" href="https://urajilator.tistory.com/482"></a></div><div class="lb-loader"><a class="lb-cancel"></a></div></div></div><div class="lb-dataContainer"><div class="lb-data"><div class="lb-details"><span class="lb-caption"></span><span class="lb-number"></span></div><div class="lb-closeContainer"><a class="lb-close"></a></div></div></div></div></body></html>

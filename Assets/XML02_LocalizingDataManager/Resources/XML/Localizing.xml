@@ -1,0 +1,3969 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Localizing xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Data>
+		<UniqueID>INTO_GAMEVERSION_CHECK</UniqueID>
+		<Korean>게임 버전{0} 확인 중 입니다…</Korean>
+		<English>Checking game version</English>
+		<Japenese>ゲームバージョン確認中です…</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>INTO_GAMEVERSION_CHECK_COMPLETE</UniqueID>
+		<Korean>게임 버전 확인 완료.</Korean>
+		<English>Game version check complete.</English>
+		<Japenese>ゲームバージョン確認完了</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>INTO_GAMEVERSION_CHECK_FAILED</UniqueID>
+		<Korean>게임 버전이 낮습니다. 최신 버전으로 다운로드해주세요.</Korean>
+		<English>Please download the latest version.</English>
+		<Japenese>ゲームバージョンが低いです。最新バージョンをダウンロードしてください</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>INTO_GAMEVERSION_CHECK_REQUST</UniqueID>
+		<Korean>최신 버전으로 다운로드 해주세요.</Korean>
+		<English>Please download the latest version.</English>
+		<Japenese>最新バージョンをダウンロードしてください</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>INTRO_GOOGLE_CHECK_LOGIN</UniqueID>
+		<Korean>구글 로그인 확인 중 입니다…</Korean>
+		<English>Checking Google login</English>
+		<Japenese>Googleアカウントでのログイン確認中です…</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>INTRO_GOOGLE_CHECK_COMPLETE</UniqueID>
+		<Korean>구글 로그인 확인 완료.</Korean>
+		<English>Google login complete.</English>
+		<Japenese>Googleアカウントでのログイン確認完了</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>INTRO_GOOGLE_CHECK_FAILED</UniqueID>
+		<Korean>구글 로그인에 실패하셨습니다. 다시 접속 요청을 하시겠습니까?\n(구글 플레이 서비스를 최신버전으로 유지해주세요.)</Korean>
+		<English>Google login failed. Try Again?\n(Please keep Google Play service up to date.)</English>
+		<Japenese>Googleアカウントでのログインに失敗しました。再接続を要請しますか？</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>INTRO_NICKNAME_DEFAULT_TEXT</UniqueID>
+		<Korean>터치후 닉네임을 입력하세요.</Korean>
+		<English>Touch and Enter Nickname</English>
+		<Japenese>タッチ.ニックネームを入力してください</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>INTRO_NICKNAME_LENGTH_ERROR</UniqueID>
+		<Korean>한글1~10자,영문 및 숫자 1~10자까지 혼용해서 입력할 수 있습니다.</Korean>
+		<English>Enter 1~10 characters with Korean, Letters(a-z), numbers.</English>
+		<Japenese>ハングル1～10字、アルファベッド及び数字1～10字まで混ぜて入力できます。</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>INTRO_NICKANME_OVERLAP</UniqueID>
+		<Korean>이미 사용 중인 닉네임입니다.</Korean>
+		<English>This nickname is taken. Try another.</English>
+		<Japenese>既に使用中のニックネームです。</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>INTRO_LOADING</UniqueID>
+		<Korean>로딩 중..</Korean>
+		<English>Loading</English>
+		<Japenese>ローディング中..</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOADING_TIP_1</UniqueID>
+		<Korean>자동전투 시에는 유틸 스킬과 소모 물약을 사용하지 않습니다.</Korean>
+		<English>You can't use utility skills and potions during autoplay.</English>
+		<Japenese>オートプレイの時はユーティリティスキルと水薬を使用しません</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOADING_TIP_2</UniqueID>
+		<Korean>조작이 너무 어렵다면 화면 상단에 자동전투를 터치해보세요.</Korean>
+		<English>If you have difficulties, touch autoplay at the top of the screen.</English>
+		<Japenese>操作が難しい場合、画面上部のオートプレイを押してください</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOADING_TIP_3</UniqueID>
+		<Korean>각각의 스킬 버튼을 누르고 있으면 스킬 툴팁이 나옵니다.</Korean>
+		<English>Press and hold each skill button to bring up the tooltip.</English>
+		<Japenese>各々のスキルボタンを押せば、スキルツールチップが出ます</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOADING_TIP_4</UniqueID>
+		<Korean>정면, 측면, 후면에 따라 대미지가 다르게 들어갑니다.</Korean>
+		<English>Damage is applied differently depending on the front, side, and back attacks.</English>
+		<Japenese>正面、側面，後面によってダメージが異なります</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOADING_TIP_5</UniqueID>
+		<Korean>클리어할 수 없는 스테이지를 만나면 이미 클리어한 스테이지에서 성장 후 도전해보세요.</Korean>
+		<English>If you can't clear a stage, try growing more on a stage you cleared and try again.</English>
+		<Japenese>クリアできないステージに出会ったら既にクリアしたステージで成長させた後挑戦してください</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOADING_TIP_6</UniqueID>
+		<Korean>강해지는 방법으로는 레벨업,장비획득,장비강화,스킬강화,유물구매가 있습니다.</Korean>
+		<English>To get stronger, level up, gain equipment, upgrade equipment, upgrade skills, or purchase items.</English>
+		<Japenese>強くなる方法はレベルアップ、装備獲得、装備強化、スキル強化、遺物購入があります</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOADING_TIP_7</UniqueID>
+		<Korean>가방에서는 장비를 장착하거나 강화 할수있습니다.</Korean>
+		<English>You can attach or upgrade equipment in the bag.</English>
+		<Japenese>カバンからは装備を装着したり、強化したりすることができます</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOADING_TIP_8</UniqueID>
+		<Korean>바닥에 범위가 활성화 된 상태에서 화면을 드래그해보세요.화면이 이동합니다.</Korean>
+		<English>Try dragging the screen while the range is active on the bottom. The screen will move.</English>
+		<Japenese>スクリーンに範囲が活性化された状態で画面をドラッグしてください。画面が移動します。</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOADING_TIP_9</UniqueID>
+		<Korean>캐릭터의 기본 속성과 몬스터의 속성 저항력을 비교해보세요.속성 저항력만큼 대미지가 감소합니다.</Korean>
+		<English>Compare the basic attributes of the character with the resistance of monsters. Damage is reduced by attribute resistance.</English>
+		<Japenese>キャラクターの基本的な属性とモンスターの属性抵抗力を比較してみてください。属性抵抗力ほどダメージが減少します。</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOADING_TIP_10</UniqueID>
+		<Korean>몬스터는 캐릭터를 공격할 때마다 분노 게이지가 상승하고 분노 게이지가 가득 차면 강해집니다.</Korean>
+		<English>Monster's anger gauge increases when they attack a character and become stronger when their gauge is full.</English>
+		<Japenese>モンスターはキャラクターを攻撃するたび激怒ゲージが上昇して激怒ゲージが溜まると強くなります</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOADING_TIP_11</UniqueID>
+		<Korean>로비에서 캐릭터를 터치하면 알바하기를 시킬 수 있어요.</Korean>
+		<English>Touch a character in the lobby, to work part time.</English>
+		<Japenese>ロビーでキャラクターをタッチするとバイトをさせることができます。</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOADING_TIP_12</UniqueID>
+		<Korean>장비 강화는 실패해도 부서지지 않아요.</Korean>
+		<English>Even if you fail to strengthen an equipment, it won't break.</English>
+		<Japenese>装備強化は失敗しても壊れません</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOADING_TIP_13</UniqueID>
+		<Korean>스테이지에서 소모 물약은 캐릭터마다 1회만 사용 가능합니다.</Korean>
+		<English>On stage, each character can use only one potion.</English>
+		<Japenese>ステージで水薬はキャラクターごとに１回だけ使用できます。</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOADING_STORY_1</UniqueID>
+		<Korean>택틱스랜드의 여주인공.\n\n쓰리 캐슬연합에서 운영하는\n길드 학원출신.\n\n길드학원에서 가르치는 똑같은 것들에\n대한 회의감을 가지게 되고\n새로운것을 찾아 여행을 시작하게된다.\n\n심벌:백색날개(자유)</Korean>
+		<English>The heroine of Tactics Land.\n\nfrom the Guild School\nrun by the Union of Three Castles.\n\nSkeptical about\n the same things taught from Guild School\nshe starts a journey to find new things.\n\nSymbol:White Wings(Freedom)</English>
+		<Japenese>タクティクスランドのヒロイン.\n\nスリーキャッスル連合で運営する\nギルド学園出身。\n\nギルド学園で同じことを教える事に\n対する懐疑心を持つようになり、\n新しいものを求めて旅を始めるようになる。\n\nシンボル：白翼（自由）</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOADING_STORY_2</UniqueID>
+		<Korean>소맥왕국의 마지막 공주\n\n마도세력에 의해 소맥왕국이\n침공당하고 루시의 도움으로\n간신히 살아남게 된다.\n\n자신의 나라와 백성을 되찾기위해\n동료를 구하고있다.\n\n심벌:뽑아든 검(정의)</Korean>
+		<English>The last princess of the SOMAX kingdom\n\nwhile MADO forces invade\nthe kingdom she barely survives\nwith the help of Lucy.\n\nTo reclaim her kingdom and people\nshe seeks colleagues.\n\nSymbol: Sword drawn(Justice)</English>
+		<Japenese>ソマックス王国の最後の姫\n\nマド勢力によってソマックス王国が\n侵攻されルーシーのおかげで\n何とか生き延びる\n\n自分の国と民を取り戻すために\n仲間を探している\n\nシンボル：引き抜いた剣（正義）</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOADING_STORY_3</UniqueID>
+		<Korean>대지의 신 가이아를 섬기는 사제\n\n신탁을 받고 여행 도중\n패잔병들에게 괴롭힘을 당하다 \n루시 일행의 도움을 받게 된다.\n\n이후 마도군의 야습을 루시에게 알려주게 되고\n엔트리 마을을 빠져나오면서 동료가 된다.\n사제면서도 술을 좋아하고 항상 미소 짓고 있다.\n\n심벌:십자가(치유)</Korean>
+		<English>Priest serving Gaia, the Earth God\n\nreceived an oracle to go on a journey\nharassed by runaway troops\nis rescued by Lucy.\n\nAfter that, informs Lucy about the Mado attack\nbecome colleagues leaving the entry town.\nEven though a priest, likes to drink and always smiles.\n\nSymbol:Cross(Healing)</English>
+		<Japenese>大地の神ガイアを仕える司祭\n\n神託を受けて旅の途中\n敗残兵達にいじめられている所を\nルーシー一行が助けてくれる。\n\nその後マド軍の夜討ちをルーシーに知らせて\nエントリー村を抜け出て仲間になる\n司祭でありながらも酒好きでいつも笑っている\n\nシンボル：十字架（治癒）</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOADING_STORY_4</UniqueID>
+		<Korean>미래를 내다보는 점술사\n\n에투에서 작은 점술집을\n운영하는 유명한 점술사였지만\n자신의 점술집 옆에 마린이\n대형 점술집을 세워서 망하게 된다.\n\n이후 크리드 혁명군에 합류하고\n 루시 일행을 크리드 혁명군으로 이끌어준다.\n\n심벌:마녀모자(진실과거짓)</Korean>
+		<English>A fortune-teller who sees the future\n\nwho is famous and\nruns a small fortune shop in Etoo\nis ruined when Marine\nopens a big fortune shop next door.\n\nLater joins the Creed Revolutionary Army\nand leads Lucy and friends to them.\n\nSymbol: Witch Hat (true and false)</English>
+		<Japenese>未来を見据える点術師\n\nエトゥで小さい占い屋を\n運営する有名な点術師だったけれど\nマリンが私の店の隣に\n大型占い屋を建ててしまい私の店は潰れてしまう\nその後クーリド革命軍に合流して\nルーシー一行をクリード革命軍に導いてくれる。\n\nシンボル：魔女の帽子（真実と嘘）</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>SELECTSTAGE_STAGE</UniqueID>
+		<Korean>스테이지</Korean>
+		<English>Stage</English>
+		<Japenese>ステージ</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>SELECTSTAGE_BACK</UniqueID>
+		<Korean>뒤로</Korean>
+		<English>Back</English>
+		<Japenese>バック</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>SELECTSTAGE_BATTLE</UniqueID>
+		<Korean>전투 편성</Korean>
+		<English>Battle Info</English>
+		<Japenese>戦闘編成</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>SELECTSTAGE_BATTLE_DEFAULT_CHARACTER</UniqueID>
+		<Korean>강제 출진</Korean>
+		<English>Forced</English>
+		<Japenese>強制出陣</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>SELECTSTAGE_BATTLE_LIMIT_CHARACTER</UniqueID>
+		<Korean>출진 제한</Korean>
+		<English>Limit</English>
+		<Japenese>出陣制限</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>SELECTSTAGE_BATTLE_COUNT</UniqueID>
+		<Korean>출진 수</Korean>
+		<English>Count</English>
+		<Japenese>出陣数</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>SELECTSTAGE_BATTLE_START</UniqueID>
+		<Korean>출 진</Korean>
+		<English>Battle Start</English>
+		<Japenese>出陣</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>SELECTSTAGE_BATTLE_REPEAT</UniqueID>
+		<Korean>반복 입장</Korean>
+		<English>Repeat Entry</English>
+		<Japenese>繰り返し入場</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>SELECTSTAGE_BATTLE_SET_REPEAT</UniqueID>
+		<Korean>반복 설정</Korean>
+		<English>Repeat Settings</English>
+		<Japenese>繰り返し設定</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>SELECTSTAGE_BATTLE_SET_REPEAT_COUNT</UniqueID>
+		<Korean>횟수</Korean>
+		<English>Count</English>
+		<Japenese>回数</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>SELECTSTAGE_BATTLE_SET_REPEAT_DSC</UniqueID>
+		<Korean>반복 횟수를 설정합니다.\n반복 입장 시 적용되며 날개가 부족하거나\n플레이 도중 게임오버가 되면\n 반복 기능이 중단됩니다.</Korean>
+		<English>Repeat count settings.\nApplies to repeat entries, but the repeat feature stops\nwhen you don't have enough wings\nor when the game is over while playing.</English>
+		<Japenese>繰り返し回数を設定します。\n繰り返し入場時に適用され、翼が足りなかったり\nプレイ中にゲームオーバーになったら\n繰り返し機能が中断されます</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>SELECTSTAGE_BATTLE_FAILED_MESSGE_1</UniqueID>
+		<Korean>더이상 출진 할 수 없습니다.</Korean>
+		<English>You can not leave anymore.</English>
+		<Japenese>これ以上出陣できません</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>SELECTSTAGE_BATTLE_FAILED_MESSGE_2</UniqueID>
+		<Korean>출진 캐릭터를 선택하십시오.</Korean>
+		<English>Please choose a character.</English>
+		<Japenese>出陣キャラクターを選んでください</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>SELECTSTAGE_BATTLE_FAILED_MESSGE_3</UniqueID>
+		<Korean>날개가 부족합니다.</Korean>
+		<English>Not enough wings.</English>
+		<Japenese>翼が足りません</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>SELECTSTAGE_NORMALMODE</UniqueID>
+		<Korean>노말모드</Korean>
+		<English>NormalMode</English>
+		<Japenese>ノーマルモード</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>SELECTSTAGE_HARDMODE</UniqueID>
+		<Korean>하드모드</Korean>
+		<English>HardMode</English>
+		<Japenese>ハードモード</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>SELECTSTAGE_AREA_NAME_1</UniqueID>
+		<Korean>소맥 왕국</Korean>
+		<English>SOMAX Kingdom</English>
+		<Japenese>ソマックス王国</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>SELECTSTAGE_AREA_NAME_2</UniqueID>
+		<Korean>네스마 동부</Korean>
+		<English>NESMA East</English>
+		<Japenese>ネスマ東部</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>SELECTSTAGE_AREA_NAME_3</UniqueID>
+		<Korean>네스마 서부</Korean>
+		<English>NESMA West</English>
+		<Japenese>ネスマ西部</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>SELECTSTAGE_AREA_NAME_4</UniqueID>
+		<Korean>라임숲</Korean>
+		<English>LIME Forest</English>
+		<Japenese>ライム森</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>SELECTSTAGE_AREA_NAME_5</UniqueID>
+		<Korean>드래이그 산맥</Korean>
+		<English>Drake Mountain</English>
+		<Japenese>バドル平原</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>SELECTSTAGE_AREA_NAME_6</UniqueID>
+		<Korean>바드르 평원</Korean>
+		<English>Badr Plain</English>
+		<Japenese>ドレイク山脈</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_VICTORY</UniqueID>
+		<Korean>승리 조건</Korean>
+		<English>Victory Condition</English>
+		<Japenese>勝利の条件</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>STAGE_VICTORY_MESSAGE_1</UniqueID>
+		<Korean>모든 적을 처치하세요.</Korean>
+		<English>Destroy all enemies.</English>
+		<Japenese>全ての敵をやっつけてください</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>STAGE_VICTORY_MESSAGE_2</UniqueID>
+		<Korean>제한된 턴수를 넘기지마세요.</Korean>
+		<English>Do not exceed the limited number of turns.</English>
+		<Japenese>制限されたターン数を超えないでください</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>STAGE_VICTORY_MESSAGE_3</UniqueID>
+		<Korean>엘리나 생존.</Korean>
+		<English>Elena survives.</English>
+		<Japenese>エリナ生存</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>STAGE_VICTORY_MESSAGE_4</UniqueID>
+		<Korean>마리아 생존.</Korean>
+		<English>Maria survives.</English>
+		<Japenese>マリア生存</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>STAGE_VICTORY_MESSAGE_5</UniqueID>
+		<Korean>루시 생존.</Korean>
+		<English>Lucy survives.</English>
+		<Japenese>ルーシー生存</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>STAGE_VICTORY_MESSAGE_6</UniqueID>
+		<Korean>스칼렛 생존.</Korean>
+		<English>Scarlett survives.</English>
+		<Japenese>スカーレット生存</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TWO_SPEED</UniqueID>
+		<Korean>&gt;&gt;&gt;\n2배속</Korean>
+		<English>&gt;&gt;&gt; \nSpeed x 2</English>
+		<Japenese>&gt;&gt;&gt;\n2倍速</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_THREE_SPEED</UniqueID>
+		<Korean>&gt;&gt;&gt;\n3배속</Korean>
+		<English>&gt;&gt;&gt; \nSpeed x 3</English>
+		<Japenese>&gt;&gt;&gt;\n3倍速</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_ENERMY_COUNT</UniqueID>
+		<Korean>남은 적 카운트 :</Korean>
+		<English>Enemy Count :</English>
+		<Japenese>残りの敵カウント：</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_CLOSE_CONTINUE</UniqueID>
+		<Korean>계속하기</Korean>
+		<English>Continue</English>
+		<Japenese>続ける</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_EXIT</UniqueID>
+		<Korean>나가기</Korean>
+		<English>Exit</English>
+		<Japenese>終了</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_GUI_TURNOVER</UniqueID>
+		<Korean>턴 종료</Korean>
+		<English>Turn Over</English>
+		<Japenese>ターン終了</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_GUI_UICLOSE</UniqueID>
+		<Korean>UI닫기</Korean>
+		<English>UI Close</English>
+		<Japenese>UI閉じる</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_GUI_UIOPEN</UniqueID>
+		<Korean>UI열기</Korean>
+		<English>UI Open</English>
+		<Japenese>UI開ける</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_GUI_ITEM</UniqueID>
+		<Korean>아이템</Korean>
+		<English>Item</English>
+		<Japenese>アイテム</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_GUI_ATTACK</UniqueID>
+		<Korean>공격</Korean>
+		<English>Attack</English>
+		<Japenese>攻撃</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_GUI_MOVE</UniqueID>
+		<Korean>이동</Korean>
+		<English>Move</English>
+		<Japenese>移動</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_GUI_SKILL</UniqueID>
+		<Korean>스킬</Korean>
+		<English>Skill</English>
+		<Japenese>スキル</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_GUI_CANCEL</UniqueID>
+		<Korean>취소</Korean>
+		<English>Cancel</English>
+		<Japenese>キャンセル</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_AUTOPLAY</UniqueID>
+		<Korean>자동전투</Korean>
+		<English>AutoPlay</English>
+		<Japenese>オートプレイ</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_RESULT_LOBBY</UniqueID>
+		<Korean>로비</Korean>
+		<English>Lobby</English>
+		<Japenese>ロビー</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_RESULT_WORLDMAP</UniqueID>
+		<Korean>월드맵</Korean>
+		<English>WorldMap</English>
+		<Japenese>ワールドマップ</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_RESULT_REPLAY</UniqueID>
+		<Korean>재입장</Korean>
+		<English>Retry</English>
+		<Japenese>再入場</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_RESULT_NEXTLEVEL</UniqueID>
+		<Korean>다음 레벨</Korean>
+		<English>Next Level</English>
+		<Japenese>次のレベル</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_RESULT_NEXTSTAGE</UniqueID>
+		<Korean>다음 지역</Korean>
+		<English>Next Stage</English>
+		<Japenese>次の地域</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_RESULT_FAILD_MESSAGE</UniqueID>
+		<Korean>날개가 부족 합니다. 로비로 돌아갑니다.</Korean>
+		<English>Not enough wings. Return to the lobby.</English>
+		<Japenese>翼が足りません。ロビーに戻ります。</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_MESSAGE_1</UniqueID>
+		<Korean>MP가 부족하여 스킬을 사용할 수 없습니다</Korean>
+		<English>Not enough MP for this skill.</English>
+		<Japenese>MPが足りなくてスキルを使えません</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_MESSAGE_2</UniqueID>
+		<Korean>타깃이 범위 안에 없습니다.</Korean>
+		<English>Target is not in range.</English>
+		<Japenese>ターゲットが範囲内にいません。</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_MESSAGE_3</UniqueID>
+		<Korean>사용 가능한 아이템이 없습니다.</Korean>
+		<English>No items availabel.</English>
+		<Japenese>使用可能なアイテムがありません</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_MESSAGE_4</UniqueID>
+		<Korean>스킬 시전할 범위가 부족합니다.</Korean>
+		<English>There is not enough range to cast skill.</English>
+		<Japenese>スキルを発揮するための範囲が足りません</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_CHAOS_RESULT</UniqueID>
+		<Korean>카오스던젼 결과</Korean>
+		<English>Chaos dungeon result</English>
+		<Japenese>カオスダンジョンの結果</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_RESULT_NEXTSTAGE_FAILD</UniqueID>
+		<Korean>더 이상 스테이지를 진행할 수 없습니다.</Korean>
+		<English>You can no longer stage.</English>
+		<Japenese>これ以上ステージを進めません</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_RESULT_NEXTLEVEL_FAILD</UniqueID>
+		<Korean>최대 레벨 입니다.</Korean>
+		<English>The maximum level.</English>
+		<Japenese>最大レベルです。</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_RESULT_NEXTLEVEL_FAILD2</UniqueID>
+		<Korean>레벨 오류. 최대치를 넘었습니다.</Korean>
+		<English>Level error.</English>
+		<Japenese>レベルエラー。最大値を超えました</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_RESULT_WEEK_FAILD</UniqueID>
+		<Korean>현재 요일과 달라 로비로 돌아갑니다.</Korean>
+		<English>It is different from the current day.</English>
+		<Japenese>現在の曜日と異なりロビーに戻ります</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>MESSAGE_DIALOG_NAME</UniqueID>
+		<Korean>알림</Korean>
+		<English>Notice.</English>
+		<Japenese>お知らせ</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>MESSAGE_DIALOG_OK</UniqueID>
+		<Korean>확인</Korean>
+		<English>OK</English>
+		<Japenese>確認</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>MESSAGE_DIALOG_YES</UniqueID>
+		<Korean>그래</Korean>
+		<English>Yes</English>
+		<Japenese>はい</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>MESSAGE_DIALOG_NO</UniqueID>
+		<Korean>아니</Korean>
+		<English>No</English>
+		<Japenese>いいえ</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_NICKNAME</UniqueID>
+		<Korean>닉네임</Korean>
+		<English>Nickname</English>
+		<Japenese>ニックネーム</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_ENTER_STAGE</UniqueID>
+		<Korean>모험입장</Korean>
+		<English>Enter Stage</English>
+		<Japenese>ステージ入場</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_PACKAGE</UniqueID>
+		<Korean>패키지</Korean>
+		<English>Package</English>
+		<Japenese>パッケージ</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_PACKAGELIST</UniqueID>
+		<Korean>패키지 목록</Korean>
+		<English>Package List</English>
+		<Japenese>パッケージリスト</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_PACKAGE_BUY_ONE</UniqueID>
+		<Korean>계정당 1회까지 구매가능</Korean>
+		<English>Up to 1 purchase per account</English>
+		<Japenese>アカウントごと１回まで購入可能</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_PACKAGE_BUY_IMPOSSIBLE</UniqueID>
+		<Korean>구매할 수 없습니다.</Korean>
+		<English>Can not purchase.</English>
+		<Japenese>購入できません</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_PACKAGE_BUY_ONE_FAILED</UniqueID>
+		<Korean>단 한번 구매 가능한 패키지 입니다.</Korean>
+		<English>This package can be purchased only once.</English>
+		<Japenese>一回だけ購入可能なパッケージです</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_PACKAGE_BUY_SUCCESS</UniqueID>
+		<Korean>상품이 우편함으로 발송 되었습니다.</Korean>
+		<English>Your item has been shipped to your mailbox.</English>
+		<Japenese>アイテムがポストに送られました</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_PACKAGE_BUY_MONTH_FAILED</UniqueID>
+		<Korean>아직 구매할 수 없습니다.</Korean>
+		<English>Not available for purchase.</English>
+		<Japenese>まだ購入できません</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_PACKAGE_BUY_FAILED</UniqueID>
+		<Korean>이미 구매한 패키지 입니다.</Korean>
+		<English>Already purchased.</English>
+		<Japenese>既に購入したパッケージです。</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_PACKAGE_BUY_MONTH</UniqueID>
+		<Korean>30일에 한번 구매가능</Korean>
+		<English>Available once every 30 days</English>
+		<Japenese>30日に一回購入可能</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>7일에 한번 구매가능</UniqueID>
+		<Korean>7일에 한번 구매가능</Korean>
+		<English>Available once every 7 days</English>
+		<Japenese>7日に一回購入可能</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>5회 한정</UniqueID>
+		<Korean>5회 한정</Korean>
+		<English>5Times</English>
+		<Japenese>5回限定</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_PACKAGE_BUY_REPEAT</UniqueID>
+		<Korean>반복 구매 가능</Korean>
+		<English>Repeat purchases available</English>
+		<Japenese>繰り返し購入可能</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_PACKAGE_BUY</UniqueID>
+		<Korean>매번 구매 가능</Korean>
+		<English>Available every time</English>
+		<Japenese>毎回購入可能</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_PACKAGE_BEIGNNER</UniqueID>
+		<Korean>초급자 패키지</Korean>
+		<English>Beginner package</English>
+		<Japenese>初級者パッケージ</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_PACKAGE_BEIGNNER_PRODUCT_1</UniqueID>
+		<Korean>5성 장비</Korean>
+		<English>5 Star Equipment</English>
+		<Japenese>５星装備</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_PACKAGE_BEIGNNER_PRODUCT_2</UniqueID>
+		<Korean>보석 30개</Korean>
+		<English>30 Jewels</English>
+		<Japenese>宝石30個</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_PACKAGE_BEIGNNER_PRODUCT_3</UniqueID>
+		<Korean>10,000 골드</Korean>
+		<English>10,000 Gold</English>
+		<Japenese>10,000ゴールド</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_PACKAGE_PLATINUM</UniqueID>
+		<Korean>플래티넘 패키지</Korean>
+		<English>Platinum package</English>
+		<Japenese>プラチナパッケージ</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_PACKAGE_PLATINUM_PRODUCT_1</UniqueID>
+		<Korean>보석 2,000개</Korean>
+		<English>2,000 Jewels</English>
+		<Japenese>宝石2,000個</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_PACKAGE_PLATINUM_PRODUCT_2</UniqueID>
+		<Korean>날개 300개</Korean>
+		<English>300 Wings</English>
+		<Japenese>翼300個</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_PACKAGE_PLATINUM_PRODUCT_3</UniqueID>
+		<Korean>300,000 골드</Korean>
+		<English>300,000 Gold</English>
+		<Japenese>300,000ゴールド</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_PACKAGE_DAILY</UniqueID>
+		<Korean>매일매일 패키지</Korean>
+		<English>Daily Package</English>
+		<Japenese>毎日パッケージ</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_PACKAGE_DAILY_PRODUCT_1</UniqueID>
+		<Korean>보석 50개*30일</Korean>
+		<English>50 Jewels x 30 days</English>
+		<Japenese>宝石50個*30日</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_PACKAGE_DAILY_PRODUCT_2</UniqueID>
+		<Korean>날개 20개*30일</Korean>
+		<English>20 Wings x 30 days</English>
+		<Japenese>翼20個*30日</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_PACKAGE_DAILY_PRODUCT_3</UniqueID>
+		<Korean>10,000골드 *30일</Korean>
+		<English>10,000 Gold x 30 days</English>
+		<Japenese>10,000ゴールド*30日</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_PACKAGE_RELIC</UniqueID>
+		<Korean>유물재료 패키지</Korean>
+		<English>Relic material package</English>
+		<Japenese>遺物材料パッケージ</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>RELIC_MATERIAL</UniqueID>
+		<Korean>유물재료</Korean>
+		<English>Relic material</English>
+		<Japenese>遺物材料</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_PACKAGE_RELIC_PRODUCT_1</UniqueID>
+		<Korean>보석 330개</Korean>
+		<English>330 jewels</English>
+		<Japenese>宝石330個</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_PACKAGE_RELIC_PRODUCT_2</UniqueID>
+		<Korean>모든 유물 재료 5,000개</Korean>
+		<English>5,000 x All relic materials</English>
+		<Japenese>全ての遺物材料5,000個</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_PACKAGE_RELIC_PRODUCT_3</UniqueID>
+		<Korean>110,000 골드</Korean>
+		<English>110,000 Gold</English>
+		<Japenese>110,000ゴールド</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_PACKAGE_EXP</UniqueID>
+		<Korean>경험치 구슬 패키지</Korean>
+		<English>Exp. Marble package</English>
+		<Japenese>経験値玉パッケージ</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_PACKAGE_EXP_PRODUCT_1</UniqueID>
+		<Korean>보석 330개</Korean>
+		<English>330 jewels</English>
+		<Japenese>宝石330個</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_PACKAGE_EXP_PRODUCT_2</UniqueID>
+		<Korean>경험치 구슬(5단계)\n1,000,000 경험치 x3</Korean>
+		<English>Exp. Marble(level 5)\n1,000,000 Exp x3</English>
+		<Japenese>経験値玉（レベル5）\n1,000,000経験値 x3</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_PACKAGE_EXP_PRODUCT_3</UniqueID>
+		<Korean>110,000 골드</Korean>
+		<English>110,000 Gold</English>
+		<Japenese>110,000ゴールド</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_PACKAGE_SKILL_SMALL</UniqueID>
+		<Korean>스킬강화석 패키지(소)</Korean>
+		<English>Skill Enhancement Stone Package(Small)</English>
+		<Japenese>スキル強化石パッケージ（小）</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_PACKAGE_SKILL_SMALL_PRODUCT_1</UniqueID>
+		<Korean>보석 30개</Korean>
+		<English>30 Jewels</English>
+		<Japenese>宝石30個</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_PACKAGE_SKILL_SMALL_PRODUCT_2</UniqueID>
+		<Korean>스킬강화석 100개</Korean>
+		<English>100 Skill Enhancement Stones</English>
+		<Japenese>スキル強化石100個</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_PACKAGE_SKILL_SMALL_PRODUCT_3</UniqueID>
+		<Korean>10,000 골드</Korean>
+		<English>10,000 Gold</English>
+		<Japenese>10,000ゴールド</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_PACKAGE_EXP_MEDIUM</UniqueID>
+		<Korean>스킬강화석 패키지(중)</Korean>
+		<English>Skill Enhancement Stone Package(Medium)</English>
+		<Japenese>スキル強化石パッケージ（中）</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_PACKAGE_EXP_MEDIUM_PRODUCT_1</UniqueID>
+		<Korean>보석 330개</Korean>
+		<English>330 jewels</English>
+		<Japenese>宝石330個</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_PACKAGE_EXP_MEDIUM_PRODUCT_2</UniqueID>
+		<Korean>스킬강화석 1100개</Korean>
+		<English>1,100 Skill Enhancement Stones</English>
+		<Japenese>スキル強化石1100個</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_PACKAGE_EXP_MEDIUM_PRODUCT_3</UniqueID>
+		<Korean>110,000 골드</Korean>
+		<English>110,000 Gold</English>
+		<Japenese>110,000ゴールド</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>중급자 패키지</UniqueID>
+		<Korean>중급자 패키지</Korean>
+		<English>Intermediate Package</English>
+		<Japenese>中級者パッケージ</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>8성 장비</UniqueID>
+		<Korean>8성 장비</Korean>
+		<English>8 Star Equipment</English>
+		<Japenese>8星装備</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>보석 300개</UniqueID>
+		<Korean>보석 300개</Korean>
+		<English>300 jewels</English>
+		<Japenese>宝石300個</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>100,000 골드</UniqueID>
+		<Korean>100,000 골드</Korean>
+		<English>100,000 Gold</English>
+		<Japenese>100,000ゴールド</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>날개 패키지</UniqueID>
+		<Korean>날개 패키지</Korean>
+		<English>Wing Package</English>
+		<Japenese>翼パッケージ</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>Max 날개 증가 +5</UniqueID>
+		<Korean>Max 날개 증가 +5</Korean>
+		<English>Max Wing increase +5</English>
+		<Japenese>Max 翼増加+5</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>날개 100개</UniqueID>
+		<Korean>날개 100개</Korean>
+		<English>100 Wings</English>
+		<Japenese>翼100個</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>10,000 골드</UniqueID>
+		<Korean>10,000 골드</Korean>
+		<English>10,000 Gold</English>
+		<Japenese>10,000ゴールド</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>3배속 패키지</UniqueID>
+		<Korean>3배속 패키지</Korean>
+		<English>3Times Speed Package</English>
+		<Japenese>3倍速パッケージ</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>2배속 -&gt; 3배속 *7일</UniqueID>
+		<Korean>2배속 -&gt; 3배속 *7일</Korean>
+		<English>2Speed -&gt; 3Speed *7Day</English>
+		<Japenese>2倍速 -&gt; 3倍速 *7日</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_JEWELBOX</UniqueID>
+		<Korean>보석 상자</Korean>
+		<English>Jewel Box</English>
+		<Japenese>宝石箱</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_JEWELBOX_MESSAGE</UniqueID>
+		<Korean>광고를 시청 하시겠습니까? \n (광고를 시청 하시면 보석이 지급 됩니다.)</Korean>
+		<English>View Ad? \n(View ad and receive jewels)</English>
+		<Japenese>宣伝を視聴しますか？\n（宣伝を視聴すると宝石が支給されます）</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_JEWELBOX_MESSAGE_FAILED</UniqueID>
+		<Korean>시청할 수 있는 동영상 광고가 없습니다.\n(잠시 후 다시 시도해주세요.)</Korean>
+		<English>No ads available.\n(Please try again later.)</English>
+		<Japenese>視聴できる宣伝動画がありません。\n（しばらくしてから再び試してください）</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_ACHIEVE</UniqueID>
+		<Korean>업적</Korean>
+		<English>Achieve</English>
+		<Japenese>業績</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_ACHIEVE_REWARD</UniqueID>
+		<Korean>보상 받기</Korean>
+		<English>Get</English>
+		<Japenese>獲得</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_ACHIEVE_DAILY</UniqueID>
+		<Korean>일간 업적</Korean>
+		<English>Daily achievements</English>
+		<Japenese>デイリー業績</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_ACHIEVE_DAILY_1</UniqueID>
+		<Korean>[일간]모든 일간 업적 완료!!</Korean>
+		<English>[Daily] Daily achievements complete</English>
+		<Japenese>[日刊]全てのデイリー業績完了!!</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_ACHIEVE_DAILY_1_DSC</UniqueID>
+		<Korean>모든 일간 업적을 완료하세요.</Korean>
+		<English>Complete all daily achievements.</English>
+		<Japenese>全てのデイリー業績を完了させてください</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_ACHIEVE_DAILY_2</UniqueID>
+		<Korean>[일간]장비 강화하기!</Korean>
+		<English>[Daily] Enhance equipment!</English>
+		<Japenese>[日刊]装備強化！</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_ACHIEVE_DAILY_2_DSC</UniqueID>
+		<Korean>가방에서 장비를 1회 강화하세요.</Korean>
+		<English>Enhance equipment from bag once.</English>
+		<Japenese>カバンから装備を１回強化させてください</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_ACHIEVE_DAILY_3</UniqueID>
+		<Korean>[일간]카오스 던전 입장.</Korean>
+		<English>[Daily] Enter Chaos Dungeon</English>
+		<Japenese>[日刊]カオスダンジョン入場</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_ACHIEVE_DAILY_3_DSC</UniqueID>
+		<Korean>카오스 던전을 1회 도전하세요.</Korean>
+		<English>Challenge Chaos Dungeon once.</English>
+		<Japenese>カオスダンジョンを一回挑戦してください</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_ACHIEVE_DAILY_4</UniqueID>
+		<Korean>[일간]알바하기!</Korean>
+		<English>[Daily] Work</English>
+		<Japenese>[日刊]アルバイト!</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_ACHIEVE_DAILY_4_DSC</UniqueID>
+		<Korean>로비에서 알바를 3회 시키세요.</Korean>
+		<English>Work 3 times a day in the Lobby.</English>
+		<Japenese>ロビーでアルバイトを３回させてください</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_ACHIEVE_DAILY_5</UniqueID>
+		<Korean>[일간]모험 스테이지 입장</Korean>
+		<English>[Daily] Enter adventure stage</English>
+		<Japenese>[日刊]冒険ステージ入場</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_ACHIEVE_DAILY_5_DSC</UniqueID>
+		<Korean>모험 스테이지를 3회 도전하세요.</Korean>
+		<English>Challenge the Adventure Stage 3 times.</English>
+		<Japenese>冒険ステージを３回挑戦してください</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_ACHIEVE_DAILY_6</UniqueID>
+		<Korean>[일간]대륙탐험 스테이지 입장!</Korean>
+		<English>[Daily] Enter continental exploration stage!</English>
+		<Japenese>[日刊]大陸探検ステージ入場!</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_ACHIEVE_DAILY_6_DSC</UniqueID>
+		<Korean>대륙탐험 스테이지를 3회 도전하세요.</Korean>
+		<English>Challenge the continent exploration stage 3 times.</English>
+		<Japenese>大陸探検ステージを３回挑戦してください</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_ACHIEVE_DAILY_7</UniqueID>
+		<Korean>[일간]장비 판매하기!</Korean>
+		<English>[Daily] Sell Equipment!</English>
+		<Japenese>[日刊]装備売り!</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_ACHIEVE_DAILY_7_DSC</UniqueID>
+		<Korean>가방에서 장비를 1회 판매하세요.</Korean>
+		<English>Sell equipment from your bag 1 time.</English>
+		<Japenese>カバンから装備を１回売ってください</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_ACHIEVE_DAILY_8</UniqueID>
+		<Korean>[일간]장비 소환하기!</Korean>
+		<English>[Daily] Summon equipment!</English>
+		<Japenese>[日刊]装備召還!</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_ACHIEVE_DAILY_8_DSC</UniqueID>
+		<Korean>상점에서 장비를 1회 소환하세요.</Korean>
+		<English>Summon equipment at the store 1 time.</English>
+		<Japenese>ショップで装備を１回召還してください</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_ACHIEVE_DAILY_9</UniqueID>
+		<Korean>[일간]소모물약 사용</Korean>
+		<English>[Daily] Use Potion</English>
+		<Japenese>[日刊]水薬使用</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_ACHIEVE_DAILY_9_DSC</UniqueID>
+		<Korean>소모물약을 1회 사용하세요.</Korean>
+		<English>Use Potion 1 time.</English>
+		<Japenese>水薬を１回使用してください</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_ACHIEVE_DAILY_10</UniqueID>
+		<Korean>[일간]요일 던전 입장!</Korean>
+		<English>[Daily] Entry daily dungeon!</English>
+		<Japenese>[日刊]曜日ダンジョン入場!</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_ACHIEVE_DAILY_10_DSC</UniqueID>
+		<Korean>요일 던전을 3회 입장하세요.</Korean>
+		<English>Enter daily dungeon 3 times.</English>
+		<Japenese>曜日ダンジョンを３回入場してください</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_ACHIEVE_ADVENTURE</UniqueID>
+		<Korean>모험 보상</Korean>
+		<English>Adventure reward</English>
+		<Japenese>冒険補償</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_ACHIEVE_ADVENTURE_NAME</UniqueID>
+		<Korean>모험 스테이지 클리어 보상!!</Korean>
+		<English>Adventure Stage Clear Reward!!</English>
+		<Japenese>冒険ステージクリア補償!!</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_ACHIEVE_EXPLORE</UniqueID>
+		<Korean>탐험 보상</Korean>
+		<English>Exploration Reward</English>
+		<Japenese>探検補償</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_ACHIEVE_EXPLORE_NAME</UniqueID>
+		<Korean>탐험 스테이지 클리어 보상!!</Korean>
+		<English>Exploration Stage Clear Reward!!</English>
+		<Japenese>探検ステージクリア補償!!</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_ACHIEVE_STAGE_DSC</UniqueID>
+		<Korean>스테이지를 클리어 하세요.</Korean>
+		<English>Clear stage</English>
+		<Japenese>ステージをクリアしてください</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_POST</UniqueID>
+		<Korean>우편함</Korean>
+		<English>Postbox</English>
+		<Japenese>ポスト</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>COUNT</UniqueID>
+		<Korean>개</Korean>
+		<English>Count</English>
+		<Japenese>個</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>HOUR</UniqueID>
+		<Korean>시간</Korean>
+		<English>Hour</English>
+		<Japenese>時間</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>DAY</UniqueID>
+		<Korean>일</Korean>
+		<English>Day</English>
+		<Japenese>日</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_POST_TIME</UniqueID>
+		<Korean>남은 시간:</Korean>
+		<English>Time:</English>
+		<Japenese>残り時間：</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_POST_RECEIVE</UniqueID>
+		<Korean>받기</Korean>
+		<English>Receive</English>
+		<Japenese>受け取る</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_BAG</UniqueID>
+		<Korean>가방</Korean>
+		<English>Bag</English>
+		<Japenese>カバン</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_INVENTORY_STATUS</UniqueID>
+		<Korean>상세 정보</Korean>
+		<English>More Info</English>
+		<Japenese>詳細情報</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_INVENTORY_WEAPON</UniqueID>
+		<Korean>무기</Korean>
+		<English>Weapon</English>
+		<Japenese>武器</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_INVENTORY_EQUIPMENT</UniqueID>
+		<Korean>방어구</Korean>
+		<English>Armor</English>
+		<Japenese>防具</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_INVENTORY_COSTUME</UniqueID>
+		<Korean>꾸미기</Korean>
+		<English>Costume</English>
+		<Japenese>コスチューム</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_INVENTORY_ITEM</UniqueID>
+		<Korean>소모품</Korean>
+		<English>Consumables</English>
+		<Japenese>消耗品</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_INVENTORY_SLOT_COUNT</UniqueID>
+		<Korean>슬롯 카운트</Korean>
+		<English>Slot Count</English>
+		<Japenese>スロットカウント</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_INVENTORY_HAVE_ITEM</UniqueID>
+		<Korean>보유아이템</Korean>
+		<English>Items possessed</English>
+		<Japenese>保有アイテム</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_INVENTORY_EQUIP_FAILD</UniqueID>
+		<Korean>타입이 맞지 않습니다.</Korean>
+		<English>Wrong type</English>
+		<Japenese>タイプが合いません</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_INVENTORY_FULL</UniqueID>
+		<Korean>인벤토리가 슬롯이 부족합니다</Korean>
+		<English>Inventory low on slots.</English>
+		<Japenese>インベントリスロットが足りません</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_INVENTORY_SLOT_EXTEND</UniqueID>
+		<Korean>인벤토리 슬롯확장</Korean>
+		<English>Expand inventory slots</English>
+		<Japenese>インベントリスロット拡張</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_INVENTORY_SLOT_EXTEND_CURRENT</UniqueID>
+		<Korean>기존 슬롯</Korean>
+		<English>Current slot</English>
+		<Japenese>既存スロット</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_INVENTORY_SLOT_EXTEND_NEXT</UniqueID>
+		<Korean>변경 슬롯</Korean>
+		<English>Change slot</English>
+		<Japenese>変更スロット</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_INVENTORY_SLOT_EXTEND_DSC</UniqueID>
+		<Korean>인벤토리 슬롯을 확장하시겠습니까?</Korean>
+		<English>Expand inventory slots?</English>
+		<Japenese>インベントリスロットを拡張させますか？</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_INVENTORY_SLOT_EXTEND_FAILD</UniqueID>
+		<Korean>보석이 부족합니다.</Korean>
+		<English>Not enough jewels</English>
+		<Japenese>宝石が足りません</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>STATUS_LEVEL</UniqueID>
+		<Korean>레벨</Korean>
+		<English>Level</English>
+		<Japenese>レベル</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>STATUS_ATTACK</UniqueID>
+		<Korean>공격력</Korean>
+		<English>Attack</English>
+		<Japenese>攻撃力</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>STATUS_ELEMENT</UniqueID>
+		<Korean>기본 속성</Korean>
+		<English>Attributes</English>
+		<Japenese>基本属性</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>STATUS_HP_TEXT</UniqueID>
+		<Korean>방어력</Korean>
+		<English>Defense</English>
+		<Japenese>防御力</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>STATUS_HP</UniqueID>
+		<Korean>방어력(HP)</Korean>
+		<English>Defense(HP)</English>
+		<Japenese>防御力(HP)</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>STATUS_MOVEMENT</UniqueID>
+		<Korean>이동력</Korean>
+		<English>Move</English>
+		<Japenese>移動力</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>STATUS_MP</UniqueID>
+		<Korean>마나력(MP)</Korean>
+		<English>Mana(MP)</English>
+		<Japenese>マナ力(MP)</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>STATUS_MISS_RATIO</UniqueID>
+		<Korean>회피율</Korean>
+		<English>Evasion rate</English>
+		<Japenese>回避率</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>STATUS_CRITICAL_RATIO</UniqueID>
+		<Korean>치명타율</Korean>
+		<English>Critical Blow rate</English>
+		<Japenese>打撃率</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>STATUS_CRITICAL_DAMAGE</UniqueID>
+		<Korean>치명타 데미지</Korean>
+		<English>Critical Blow Damage</English>
+		<Japenese>打撃ダメージ</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>STATUS_PHYSICAL_RESISTANT</UniqueID>
+		<Korean>물리 속성 저항력</Korean>
+		<English>Physical resistance</English>
+		<Japenese>物理属性抵抗力</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>STATUS_LIGHTNING_RESISTANT</UniqueID>
+		<Korean>전격 속성 저항력</Korean>
+		<English>Lightning Resistance</English>
+		<Japenese>雷属性抵抗力</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>STATUS_FIRE_RESISTANT</UniqueID>
+		<Korean>화 속성 저항력</Korean>
+		<English>Fire resistance</English>
+		<Japenese>火属性抵抗力</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>STATUS_WATER_RESISTANT</UniqueID>
+		<Korean>수 속성 저항력</Korean>
+		<English>Water resistance</English>
+		<Japenese>水属性抵抗力</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>STATUS_LIGHT_RESISTANT</UniqueID>
+		<Korean>광 속성 저항력</Korean>
+		<English>Light resistance</English>
+		<Japenese>光属性抵抗力</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>STATUS_DARK_RESISTANT</UniqueID>
+		<Korean>암 속성 저항력</Korean>
+		<English>Dark resistance</English>
+		<Japenese>闇属性抵抗力</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_INVENTORY_CONFIRM_ENCHANT</UniqueID>
+		<Korean>장비 강화</Korean>
+		<English>Enhance equipment</English>
+		<Japenese>装備強化</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_INVENTORY_CONFIRM_EQUIP</UniqueID>
+		<Korean>장비 착용</Korean>
+		<English>Wear equipment</English>
+		<Japenese>装備着用</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_INVENTORY_CONFIRM_EQUIP_CANCEL</UniqueID>
+		<Korean>장비 해제</Korean>
+		<English>Cancel equipment</English>
+		<Japenese>装備解除</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_INVENTORY_CONFIRM_GRADE_NUMBER</UniqueID>
+		<Korean>//장비단계:</Korean>
+		<English>Rating</English>
+		<Japenese>//装備段階:</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_INVENTORY_CONFIRM_GRADE_NAME</UniqueID>
+		<Korean>//장비등급:</Korean>
+		<English>Grade</English>
+		<Japenese>//装備グレード:</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_INVENTORY_CONFIRM_CLASS_NAME</UniqueID>
+		<Korean>착용 클래스:</Korean>
+		<English>Class Name</English>
+		<Japenese>クラスネーム：</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_INVENTORY_CONFIRM_PRICE</UniqueID>
+		<Korean>팔기</Korean>
+		<English>Sell</English>
+		<Japenese>売る</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_INVENTORY_CONFIRM_PRICE_MESSAGE</UniqueID>
+		<Korean>판매하시겠습니까?</Korean>
+		<English>Do you want to sell?</English>
+		<Japenese>売りますか？</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_ENCHANT</UniqueID>
+		<Korean>강화하기</Korean>
+		<English>Enhancement</English>
+		<Japenese>強化する</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_ENCHANT_PERCENT</UniqueID>
+		<Korean>강화확률:</Korean>
+		<English>Enhancement probability</English>
+		<Japenese>強化確率:</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_ENCHANT_CHARGE</UniqueID>
+		<Korean>강화비용</Korean>
+		<English>Enhancement Cost</English>
+		<Japenese>強化費用</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_ENCHANT_SELECT_MATERIAL</UniqueID>
+		<Korean>재료를 선택해 주세요.</Korean>
+		<English>Select Material</English>
+		<Japenese>材料を選んでください</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_ENCHANT_SUCCESS</UniqueID>
+		<Korean>강화 성공</Korean>
+		<English>Enhancement Complete</English>
+		<Japenese>強化成功</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_ENCHANT_SUCCESS_DSC</UniqueID>
+		<Korean>강화에 성공하였습니다!</Korean>
+		<English>Enhancement Complete</English>
+		<Japenese>強化に成功しました!</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_ENCHANT_FAILED</UniqueID>
+		<Korean>강화 실패</Korean>
+		<English>Enhancement Failure</English>
+		<Japenese>強化失敗</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_ENCHANT_FAILED_DSC</UniqueID>
+		<Korean>강화에 실패하였습니다!</Korean>
+		<English>Enhancement Failure</English>
+		<Japenese>強化に失敗しました!</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_ENCHANT_FULL</UniqueID>
+		<Korean>더 이상 강화할 수 없습니다.</Korean>
+		<English>You can not enhance anymore.</English>
+		<Japenese>これ以上強化できません</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_ENCHANT_FAILD_GOLD</UniqueID>
+		<Korean>골드가 부족합니다.</Korean>
+		<English>Not enough Gold</English>
+		<Japenese>ゴールドが足りません</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_INVENTORY_EQUIP</UniqueID>
+		<Korean>착용</Korean>
+		<English>Wear</English>
+		<Japenese>着用</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_INVENTORY_EQUIP_CANCEL</UniqueID>
+		<Korean>해제</Korean>
+		<English>Cancel</English>
+		<Japenese>キャンセル</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_INVENTORY_EXP_CURRENT_VALUE</UniqueID>
+		<Korean>경험치량:</Korean>
+		<English>Experience Point:</English>
+		<Japenese>経験値量:</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_INVENTORY_EXP_GET_VALUE</UniqueID>
+		<Korean>경험치 획득</Korean>
+		<English>Acquire Exp.</English>
+		<Japenese>経験値獲得</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_INVENTORY_EXP_USE_COUNT</UniqueID>
+		<Korean>사용 개수</Korean>
+		<English>Use Count</English>
+		<Japenese>使用個数</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_INVENTORY_EXP_DSC</UniqueID>
+		<Korean>경험치 구슬을 사용하시겠습니까?</Korean>
+		<English>Do you want to use Exp. Marble?</English>
+		<Japenese>経験値玉を使用ますか？</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_INVENTORY_EXP_SUCCESS</UniqueID>
+		<Korean>경험치를 획득했습니다.</Korean>
+		<English>You gained Exp.</English>
+		<Japenese>経験値を獲得しました</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_INVENTORY_EXP_FAILED</UniqueID>
+		<Korean>경험치구슬이 부족합니다.</Korean>
+		<English>Not enough Exp.Marble</English>
+		<Japenese>経験値玉が足りません</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_SKILL</UniqueID>
+		<Korean>스킬</Korean>
+		<English>Skill</English>
+		<Japenese>スキル</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_SKILL_INFO</UniqueID>
+		<Korean>스킬 정보</Korean>
+		<English>Skill Info</English>
+		<Japenese>スキル情報</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_SKILL_CHARACTER</UniqueID>
+		<Korean>캐릭터</Korean>
+		<English>Character</English>
+		<Japenese>キャラクター</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_SKILL_ENCHANT_STONE</UniqueID>
+		<Korean>스킬 강화석</Korean>
+		<English>Skill Enhancement Stone</English>
+		<Japenese>スキル強化石</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_SKILL_ENCHANT</UniqueID>
+		<Korean>스킬 강화</Korean>
+		<English>Skill Enhancement</English>
+		<Japenese>スキル強化</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_SKILL_ENCHANT_BEFORE</UniqueID>
+		<Korean>강화 전</Korean>
+		<English>Before enhancement</English>
+		<Japenese>強化前</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_SKILL_ENCHANT_AFTER</UniqueID>
+		<Korean>강화 후</Korean>
+		<English>After enhancement</English>
+		<Japenese>強化後</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_SKILL_ENCHANT_NEED_STONE</UniqueID>
+		<Korean>소모 강화석</Korean>
+		<English>Used Enhancement Stone</English>
+		<Japenese>消耗強化石</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_SKILL_ENCHANT_NEED_GOLD</UniqueID>
+		<Korean>소모 골드</Korean>
+		<English>Used Gold</English>
+		<Japenese>消耗ゴールド</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_SKILL_ENCHANT_DSC</UniqueID>
+		<Korean>강화석과 골드를 사용하여 스킬을 강화하시겠습니까?</Korean>
+		<English>Would you like to enhance your skills with Gold and Enhancement Stones?</English>
+		<Japenese>強化石とゴールドを使用してスキルを強化させますか？</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_SKILL_ENCHANT_FAILD_STONE</UniqueID>
+		<Korean>강화석이 부족합니다.</Korean>
+		<English>Not enough Enhancement Stones.</English>
+		<Japenese>強化石が足りません</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_SHOP</UniqueID>
+		<Korean>상점</Korean>
+		<English>Shop</English>
+		<Japenese>ショップ</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_SHOP_MESSAGE_BUY</UniqueID>
+		<Korean>구매하시겠습니까?</Korean>
+		<English>Do you want to buy?</English>
+		<Japenese>購入しますか？</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_SHOP_MESSAGE_BUY_SUCCESS</UniqueID>
+		<Korean>자상하시네요.\n또 들려주세요.</Korean>
+		<English>You're so kind.\nPlease come again.</English>
+		<Japenese>優しいですね。\nまたお越しください</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_SHOP_PRODUCTLIST</UniqueID>
+		<Korean>상품 목록</Korean>
+		<English>Product list</English>
+		<Japenese>商品リスト</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_SHOP_ITEM</UniqueID>
+		<Korean>소모품</Korean>
+		<English>Consumables</English>
+		<Japenese>消耗品</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_SHOP_HPPOTION_SMALL</UniqueID>
+		<Korean>HP물약(소)</Korean>
+		<English>HP Potion(Small)</English>
+		<Japenese>HP水薬(小)</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_SHOP_MPPOTION_SMALL</UniqueID>
+		<Korean>MP물약(소)</Korean>
+		<English>MP Potion(Small)</English>
+		<Japenese>MP水薬(小)</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_SHOP_HEALING_POTION</UniqueID>
+		<Korean>회복물약</Korean>
+		<English>Healing Potion</English>
+		<Japenese>回復薬</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_SHOP_BUY</UniqueID>
+		<Korean>구매</Korean>
+		<English>Buy</English>
+		<Japenese>購入</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_SHOP_MESSAGE_BUY_2</UniqueID>
+		<Korean>용사님. [{0}] 를 구매 하시겠어요?.</Korean>
+		<English>Would you like to buy [{0}]?</English>
+		<Japenese>勇士様、[{0}] を購入されますか？</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_SHOP_COSTUME</UniqueID>
+		<Korean>꾸미기</Korean>
+		<English>Costume</English>
+		<Japenese>コスチューム</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_SHOP_CHANGE_JEWEL</UniqueID>
+		<Korean>보석 구매 전환</Korean>
+		<English>Change to Jewelry purchase</English>
+		<Japenese>宝石購入転換</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_SHOP_CHANGE_GOLD</UniqueID>
+		<Korean>골드 구매 전환</Korean>
+		<English>Change to Gold purchase</English>
+		<Japenese>ゴールド購入転換</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_SHOP_COSTUME_FACE</UniqueID>
+		<Korean>페이스</Korean>
+		<English>Face</English>
+		<Japenese>顔</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_SHOP_COSTUME_HAIR</UniqueID>
+		<Korean>헤어</Korean>
+		<English>Hair</English>
+		<Japenese>ヘア</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_SHOP_COSTUME_BODY</UniqueID>
+		<Korean>바디</Korean>
+		<English>Body</English>
+		<Japenese>ボディー</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_SHOP_COSTUME_DSC</UniqueID>
+		<Korean>꾸미기템은 장착하지 않아도 능력이 적용됩니다.</Korean>
+		<English>Ability applied regardless of wearing the costume.</English>
+		<Japenese>コスチュームアイテムは装着しなくても能力が適用されます</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_SHOP_COSTUME_BUY_SUCCESS</UniqueID>
+		<Korean>구매 완료</Korean>
+		<English>Purchase Complete</English>
+		<Japenese>購入完了</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_SHOP_COSTUME_MESSAGE_FULL</UniqueID>
+		<Korean>인벤토리가 가득차서 구매할수 없습니다.인벤토리를 늘이거나  비워주세요.</Korean>
+		<English>Inventory is full and can not be purchased. Please extend or empty your inventory.</English>
+		<Japenese>インベントリがいっぱいで購入できません。インベントリを広げるか空けてください。</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_SHOP_COSTUME_MESSAGE_CHARACTER</UniqueID>
+		<Korean>캐릭터를 습득 후 구매할 수 있습니다.</Korean>
+		<English>Acquire character in order to purchase.</English>
+		<Japenese>キャラクターを拾得後、購入できます</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_SHOP_MERCENARY</UniqueID>
+		<Korean>용병고용</Korean>
+		<English>Hire mercenary</English>
+		<Japenese>傭兵雇用</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_SHOP_MESSAGE_GET_MERCENARY</UniqueID>
+		<Korean>획득하였습니다.</Korean>
+		<English>Acquired</English>
+		<Japenese>獲得しました</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_SHOP_GACHYA</UniqueID>
+		<Korean>장비소환</Korean>
+		<English>Summon equipment</English>
+		<Japenese>装備召還</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_SHOP_GACHYA_NORMAL</UniqueID>
+		<Korean>일반 장비 소환</Korean>
+		<English>Summon normal equipment</English>
+		<Japenese>ノーマル装備召還</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_SHOP_GACHYA_NORMAL_DSC</UniqueID>
+		<Korean>1~6성 장비 소환</Korean>
+		<English>Summon 1~6 star equipment</English>
+		<Japenese>1～6星装備召還</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_SHOP_GACHYA_HIGH</UniqueID>
+		<Korean>고급 장비 소환</Korean>
+		<English>Summon advanced equipment</English>
+		<Japenese>高級装備召還</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_SHOP_GACHYA_HIGH_DSC</UniqueID>
+		<Korean>4~9성 장비 소환</Korean>
+		<English>Summon 4~9 star equipment</English>
+		<Japenese>4～9星装備召還</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_SHOP_GACHYA_MESSAGE</UniqueID>
+		<Korean>장비를 뽑으러 오셨군요.\n행운의 여신이 그대 곁에 있을거에요.</Korean>
+		<English>I see you summoned equipment.\nMay the goddess of Luck be on your side.</English>
+		<Japenese>装備を召還しに来たんですね。\n幸運の女神があなたのそばにいるでしょう。</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>WING</UniqueID>
+		<Korean>날개</Korean>
+		<English>Wing</English>
+		<Japenese>翼</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_SHOP_WING</UniqueID>
+		<Korean>날개구매</Korean>
+		<English>Purchase Wing</English>
+		<Japenese>翼購入</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_SHOP_WING_MESSAGE</UniqueID>
+		<Korean>모험을 떠나실려면 날개가 필요해요. [{0}] 를 구매하시겠어요?</Korean>
+		<English>You need wings for this adventure. Would you like to buy [{0}]?</English>
+		<Japenese>冒険に出る時は翼が必要です。[{0}]を購入されますか。</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>JEWEL</UniqueID>
+		<Korean>보석</Korean>
+		<English>Jewel</English>
+		<Japenese>宝石</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_SHOP_JEWEL</UniqueID>
+		<Korean>보석구매</Korean>
+		<English>Buy Jewelry</English>
+		<Japenese>宝石購入</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_SHOP_MESSAGE_BUY_JEWEL</UniqueID>
+		<Korean>용사님.[{0}] 를 구매 하시겠어요?\n선물로 보석을 더 드릴게요.</Korean>
+		<English>Would you buy [{0}]?\nI'll give you more jewels as a gift.</English>
+		<Japenese>勇士様、[{0}] を購入されますか？\nプレゼントで宝石をもう少し差し上げます</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_SHOP_GOLD</UniqueID>
+		<Korean>골드구매</Korean>
+		<English>Buy Gold</English>
+		<Japenese>ゴールド購入</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GOLD</UniqueID>
+		<Korean>골드</Korean>
+		<English>Gold</English>
+		<Japenese>ゴールド</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_SHOP_MESSAGE_BUY_GOLD</UniqueID>
+		<Korean>그 보석 저에게 파실래요?\n[{0}] 를 드리죠. 어때요?</Korean>
+		<English>Do you want to sell me the jewelry?\nI'll give you [{0}]. How about it?</English>
+		<Japenese>その宝石私に売りませんか。\n[{0}]を差し上げます。どうですか？</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_SHOP_MESSAGE_BUY_JEWEL_FAILED</UniqueID>
+		<Korean>보석이 부족해요.\n보석을 구하러 가시겠어요?</Korean>
+		<English>Not enough jewelry.\nWould you like to go acquire more jewelry?</English>
+		<Japenese>宝石が足りません。\n宝石を入手しに行きますか？</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_SHOP_MESSAGE_BUY_GOLD_FAILED</UniqueID>
+		<Korean>음... 보자.. 가지고 있는 골드가 부족한 것 같네요.\n골드도 파는데 조금 사볼래요?</Korean>
+		<English>Well…let me see...not enough gold.\nDo you want to buy more gold?</English>
+		<Japenese>うん.. そうですね.. 持っているゴールドが足りませんね\nゴールドも売っていますが買いますか？</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_RELIC</UniqueID>
+		<Korean>유물</Korean>
+		<English>Relic</English>
+		<Japenese>遺物</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_RELIC_MATERIAL</UniqueID>
+		<Korean>유물 재료</Korean>
+		<English>Relic material</English>
+		<Japenese>遺物材料</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_RELIC_MATERIAL_LIST</UniqueID>
+		<Korean>유물 리스트</Korean>
+		<English>relic list</English>
+		<Japenese>遺物リスト</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_RELIC_DSC</UniqueID>
+		<Korean>유물은 1성부터 구매가능하며 능력은 중첩됩니다.</Korean>
+		<English>Relics can be purchased from 1 star and the abilities overlap.</English>
+		<Japenese>遺物は1星から購入可能で能力は重なります</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_RELIC_COUNT</UniqueID>
+		<Korean>획득 수량:</Korean>
+		<English>Relic count:</English>
+		<Japenese>獲得数量:</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_RELIC_NEED_MATERIAL</UniqueID>
+		<Korean>필요 유물재료</Korean>
+		<English>Necessary relic material</English>
+		<Japenese>必要な遺物材料</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_RELIC_BUY</UniqueID>
+		<Korean>유물 구매</Korean>
+		<English>Buy relic</English>
+		<Japenese>遺物購入</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_RELIC_MESSAGE</UniqueID>
+		<Korean>유물을 구매하시겠습니까?</Korean>
+		<English>Would you like to buy relic?</English>
+		<Japenese>遺物を購入されますか。</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_RELIC_MESSAGE_FAILED</UniqueID>
+		<Korean>유물 재료가 부족합니다.</Korean>
+		<English>Not enough relic</English>
+		<Japenese>遺物の材料が足りません</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_RELIC_MESSAGE_SUCCESS</UniqueID>
+		<Korean>유물을 구매에 성공하셨습니다.</Korean>
+		<English>Relic purchase complete</English>
+		<Japenese>遺物の購入に成功しました。</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_RELIC_MESSAGE_FAILED_GRADE</UniqueID>
+		<Korean>이전 등급의 유물을 구매하셔야 합니다.</Korean>
+		<English>You must purchase relics from the previous grade.</English>
+		<Japenese>以前のグレードの遺物を購入しなければなりません。</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_RELIC_ALL_HERO</UniqueID>
+		<Korean>모든 영웅</Korean>
+		<English>All heroes</English>
+		<Japenese>全ての英雄</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>RELIC_STATUS_ALL_REGIST</UniqueID>
+		<Korean>모든 저항력</Korean>
+		<English>All resistance</English>
+		<Japenese>あらゆる抵抗力</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>RELIC_STATUS_JOB</UniqueID>
+		<Korean>알바하기 재화</Korean>
+		<English>Work Gold</English>
+		<Japenese>アルバイト　財貨</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_MODE</UniqueID>
+		<Korean>모드</Korean>
+		<English>Mode</English>
+		<Japenese>モード</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_CHAOS</UniqueID>
+		<Korean>카오스 던전</Korean>
+		<English>Chaos Dungeon</English>
+		<Japenese>カオスダンジョン</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_CHAOS_DSC</UniqueID>
+		<Korean>혼돈의 던전을 클리어해 자신의 강함을 증명하라!</Korean>
+		<English>Clear the dungeon of Chaos to prove your strength!</English>
+		<Japenese>カオスダンジョンをクリアして自分の強さを証明せよ！</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_CHAOS_NORMAL_RANK</UniqueID>
+		<Korean>일반 랭킹</Korean>
+		<English>Normal ranking</English>
+		<Japenese>一般ランキング</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_CHAOS_ACCRUE_RANK</UniqueID>
+		<Korean>누적 랭킹</Korean>
+		<English>Accumulated ranking</English>
+		<Japenese>累積ランキング</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_CHAOS_HALLOFFAME</UniqueID>
+		<Korean>명예의 전당</Korean>
+		<English>Hall of Fame</English>
+		<Japenese>名誉の殿堂</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_CHAOS_1ST</UniqueID>
+		<Korean>위</Korean>
+		<English>ST</English>
+		<Japenese>位</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_CHAOS_2ND</UniqueID>
+		<Korean>위</Korean>
+		<English>ND</English>
+		<Japenese>位</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_CHAOS_3RD</UniqueID>
+		<Korean>위</Korean>
+		<English>RD</English>
+		<Japenese>位</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_CHAOS_4TH</UniqueID>
+		<Korean>위</Korean>
+		<English>TH</English>
+		<Japenese>位</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_CHAOS_RANK</UniqueID>
+		<Korean>위</Korean>
+		<English>RANK</English>
+		<Japenese>位</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_CHAOS_RANK_DSC</UniqueID>
+		<Korean>일반 랭킹, 누적 랭킹은 매주 초기화됩니다.</Korean>
+		<English>The Normal and Accumulated rankings are reset every week.</English>
+		<Japenese>一般ランキング、累積ランキングは毎週リセットされます。</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_CHAOS_FLOOR</UniqueID>
+		<Korean>층</Korean>
+		<English>Floor</English>
+		<Japenese>階</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_CHAOS_SCORE</UniqueID>
+		<Korean>점</Korean>
+		<English>POINT</English>
+		<Japenese>ポイント</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_CHAOS_FLOOR2</UniqueID>
+		<Korean>층</Korean>
+		<English>F</English>
+		<Japenese>階</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_CHAOS_SCORE2</UniqueID>
+		<Korean>점</Korean>
+		<English>P</English>
+		<Japenese>ポイント</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_CHAOS_MY_RANK</UniqueID>
+		<Korean>내 랭킹 기록</Korean>
+		<English>My ranking</English>
+		<Japenese>私のランキング記録</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_CHAOS_MY_RANK_NORMAL</UniqueID>
+		<Korean>일반 순위</Korean>
+		<English>Normal ranking</English>
+		<Japenese>一般順位</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_CHAOS_MY_RANK_ACCRUE</UniqueID>
+		<Korean>누적 순위</Korean>
+		<English>Accumulated ranking</English>
+		<Japenese>累積順位</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_CHAOS_WEEK</UniqueID>
+		<Korean>주간 최고기록</Korean>
+		<English>Weekly record</English>
+		<Japenese>週間最高記録</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_CHAOS_NAME</UniqueID>
+		<Korean>플레이어 네임</Korean>
+		<English>Player name</English>
+		<Japenese>プレイアネーム</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_CHAOS_MAX_FLOOR</UniqueID>
+		<Korean>돌파 층수</Korean>
+		<English>Cleared floors</English>
+		<Japenese>突破階数</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_CHAOS_MAX_KILL</UniqueID>
+		<Korean>해치운 적 수</Korean>
+		<English>Max Kill</English>
+		<Japenese>やってけた敵の数</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_CHAOS_KILL_COUNT</UniqueID>
+		<Korean>마리</Korean>
+		<English>Kill Count</English>
+		<Japenese>匹</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_CHAOS_WEEK_NORMAL_SCORE</UniqueID>
+		<Korean>일반 점수</Korean>
+		<English>Normal score</English>
+		<Japenese>一般点数</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_CHAOS_WEEK_ACCRUE_SCORE</UniqueID>
+		<Korean>누적 점수</Korean>
+		<English>Accumulated score</English>
+		<Japenese>累積点数</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_CHAOS_BEST_SCORE</UniqueID>
+		<Korean>획득 점수</Korean>
+		<English>Best score</English>
+		<Japenese>獲得点数</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_CHAOS_BEST_RANK</UniqueID>
+		<Korean>명예 순위</Korean>
+		<English>Best rank</English>
+		<Japenese>名誉順位</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_CHAOS_REWARDLIST</UniqueID>
+		<Korean>보상 목록</Korean>
+		<English>Reward list</English>
+		<Japenese>補償リスト</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_CHAOS_ENTER</UniqueID>
+		<Korean>입장</Korean>
+		<English>Enter</English>
+		<Japenese>入場</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_CHAOS_REWARD_RANK</UniqueID>
+		<Korean>순위</Korean>
+		<English>Ranking</English>
+		<Japenese>順位</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_NICKNAME_DEFAULT_TEXT</UniqueID>
+		<Korean>닉네임을 입력하세요.</Korean>
+		<English>Enter nickname</English>
+		<Japenese>ニックネームを入力してください</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_NICKNAME_DSC</UniqueID>
+		<Korean>닉네임을 변경하시겠습니까?</Korean>
+		<English>Do you want to change your nickname?</English>
+		<Japenese>ニックネームを変更しますか。</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_NICKNAME_MESSAGE</UniqueID>
+		<Korean>으로 변경하시겠습니까?</Korean>
+		<English>Do you want to change?</English>
+		<Japenese>に変更しますか。</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_NICKNAME_SUCCESS</UniqueID>
+		<Korean>닉네임이 변경 되었습니다.</Korean>
+		<English>Nickname changed.</English>
+		<Japenese>ニックネームが変更されました。</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_DAILYDUNGEON</UniqueID>
+		<Korean>요일던전</Korean>
+		<English>Daily Dungeon</English>
+		<Japenese>曜日ダンジョン</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_DAILYDUNGEON_DSC</UniqueID>
+		<Korean>요일 별로 달라지는 속성! 유물을 획득하라!</Korean>
+		<English>Contents change by the day! Earn relics!</English>
+		<Japenese>曜日ごとに変わる属性！遺物を獲得せよ！</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_DAILYDUNGEON_SUN</UniqueID>
+		<Korean>일요일</Korean>
+		<English>Sunday</English>
+		<Japenese>日曜日</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_DAILYDUNGEON_MON</UniqueID>
+		<Korean>월요일</Korean>
+		<English>Monday</English>
+		<Japenese>月曜日</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_DAILYDUNGEON_TUE</UniqueID>
+		<Korean>화요일</Korean>
+		<English>Tuesday</English>
+		<Japenese>火曜日</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_DAILYDUNGEON_WED</UniqueID>
+		<Korean>수요일</Korean>
+		<English>Wednesday</English>
+		<Japenese>水曜日</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_DAILYDUNGEON_THU</UniqueID>
+		<Korean>목요일</Korean>
+		<English>Thursday</English>
+		<Japenese>木曜日</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_DAILYDUNGEON_FRI</UniqueID>
+		<Korean>금요일</Korean>
+		<English>Friday</English>
+		<Japenese>金曜日</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_DAILYDUNGEON_SAT</UniqueID>
+		<Korean>토요일</Korean>
+		<English>Saturday</English>
+		<Japenese>土曜日</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_DAILYDUNGEON_LEVEL</UniqueID>
+		<Korean>던전 설명</Korean>
+		<English>Dungeon description</English>
+		<Japenese>ダンジョン説明</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_DAILYDUNGEON_LEVEL_DSC</UniqueID>
+		<Korean>요일 별로 몬스터의 속성 저항력이 변화합니다.레벨 설정은 이전 레벨을 클리어시 상위 레벨로 진행 가능합니다.</Korean>
+		<English>Monster's resistance level changes every day. Clear previous level, in order to advance to the upper level.</English>
+		<Japenese>曜日ごとにモンスターの属性抵抗力が変化します。レベル設定は以前のレベルをクリアした時、上位レベルに進めます。</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_DAILYDUNGEON_LEVEL_SET</UniqueID>
+		<Korean>레벨 설정</Korean>
+		<English>Level settings</English>
+		<Japenese>レベル設定</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_DAILYDUNGEON_REWARD</UniqueID>
+		<Korean>보상 정보</Korean>
+		<English>Reward info</English>
+		<Japenese>補償情報</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_DAILYDUNGEON_REWARD_DSC</UniqueID>
+		<Korean>요일 별로 유물 재료가 바뀌며 던전 레벨에 따라 재료 개수가 달라집니다.</Korean>
+		<English>Relic material change by the day and the number of materials change according to the dungeon level.</English>
+		<Japenese>曜日ごとに遺物の材料が変わりダンジョンのレベルによって材料の数が変わります。</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_DAILYDUNGEON_MESSAGE_FALED</UniqueID>
+		<Korean>현재 요일과 다릅니다.</Korean>
+		<English>Wrong day of the week.</English>
+		<Japenese>現在の曜日と異なります。</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_EXPLORE</UniqueID>
+		<Korean>대륙 탐험</Korean>
+		<English>Explore continent</English>
+		<Japenese>大陸探検</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_EXPLORE_DSC</UniqueID>
+		<Korean>모험보다 쉬운 탐험! 경험치구슬을 획득하라!</Korean>
+		<English>Explorations are easier than Adventures! Earn Exp. marbles!</English>
+		<Japenese>冒険より容易な探検！経験値玉を獲得せよ！</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_RAID</UniqueID>
+		<Korean>레이드 던전</Korean>
+		<English>Raid dungeon</English>
+		<Japenese>レイドダンジョン</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_RAID_DSC</UniqueID>
+		<Korean>추후 업데이트 예정</Korean>
+		<English>Will be updated later</English>
+		<Japenese>後にアップデート予定</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_OPTION</UniqueID>
+		<Korean>옵션</Korean>
+		<English>Option</English>
+		<Japenese>オプション</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_OPTION_BACKGROUNDMUSIC</UniqueID>
+		<Korean>배경음</Korean>
+		<English>Background music</English>
+		<Japenese>BGM</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_OPTION_GAMESOUND</UniqueID>
+		<Korean>효과음</Korean>
+		<English>Game sound</English>
+		<Japenese>効果音</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_OPTION_SPEECHBUBBLE</UniqueID>
+		<Korean>말풍선</Korean>
+		<English>Speech balloon</English>
+		<Japenese>吹き出し</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_OPTION_TALK</UniqueID>
+		<Korean>대사</Korean>
+		<English>Talk</English>
+		<Japenese>台詞</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_OPTION_GAMEVERSION</UniqueID>
+		<Korean>게임 버전</Korean>
+		<English>Game version</English>
+		<Japenese>ゲームバージョン</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_OPTION_CREDIT</UniqueID>
+		<Korean>크렛딧</Korean>
+		<English>Credit</English>
+		<Japenese>クレジット</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_OPTION_CREDIT_DEVELOPER</UniqueID>
+		<Korean>개발자</Korean>
+		<English>Developer</English>
+		<Japenese>開発者</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_OPTION_CREDIT_ASSIST</UniqueID>
+		<Korean>도운이</Korean>
+		<English>Assist</English>
+		<Japenese>アシスト</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_OPTION_COUPON</UniqueID>
+		<Korean>쿠폰 등록</Korean>
+		<English>Register coupon</English>
+		<Japenese>クーポン登録</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_OPTION_COUPON_DSC</UniqueID>
+		<Korean>쿠폰 번호를 입력하세요.</Korean>
+		<English>Input coupon number.</English>
+		<Japenese>クーポン番号を入力してください</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_OPTION_TUTORIAL</UniqueID>
+		<Korean>튜토리얼</Korean>
+		<English>Tutorial</English>
+		<Japenese>チュートリアル</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_OPTION_GOOGLE</UniqueID>
+		<Korean>구글연동</Korean>
+		<English>Google interlock</English>
+		<Japenese>グーグル連動</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_OPTION_RESET</UniqueID>
+		<Korean>계정초기화</Korean>
+		<English>Account reset</English>
+		<Japenese>アカウントの初期化</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_OPTION_LOGOUT</UniqueID>
+		<Korean>로그아웃</Korean>
+		<English>Logout</English>
+		<Japenese>ログアウト</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_OPTION_LANGUAGE</UniqueID>
+		<Korean>언어 변경</Korean>
+		<English>Language</English>
+		<Japenese>言語変更</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>CHATTING_ALL</UniqueID>
+		<Korean>전체 채팅</Korean>
+		<English>All chat</English>
+		<Japenese>全体チャット</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>CHATTING_DEFAULT</UniqueID>
+		<Korean>채팅 내용을 입력하세요.</Korean>
+		<English>Enter message</English>
+		<Japenese>チャット内容を入力してください</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>CHATTING_ENCHANT_SUCCESS</UniqueID>
+		<Korean>강화에 성공하였습니다.</Korean>
+		<English>Enhancement Complete</English>
+		<Japenese>強化に成功しました</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GRADE</UniqueID>
+		<Korean>성</Korean>
+		<English>Grade</English>
+		<Japenese>星</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_DAILYCHECK</UniqueID>
+		<Korean>출석 보상</Korean>
+		<English>Attendance Reward</English>
+		<Japenese>出席補償</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_DAILYCHECK_DSC1</UniqueID>
+		<Korean>매일 연속으로 로그인하면 보상의 가치가 늘어납니다. 보상은 7일마다 또는 출석이 중단된 경우에 리셋됩니다.</Korean>
+		<English>Login daily to increase your rewards. Rewards are reset every 7 days.</English>
+		<Japenese>毎日連続にログインすると補償の価値が増えます。補償は7日ごとまたは出席が中断された場合リセットします。</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_DAILYCHECK_DSC2</UniqueID>
+		<Korean>연속으로 {0}일동안 출석했습니다.</Korean>
+		<English>Attended for {0} days in a row.</English>
+		<Japenese>連続で{0}日間出席しました。</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_DAILYCHECK_REWARD_MESSAGE</UniqueID>
+		<Korean>출석체크 보상이 우편함으로 발송되었습니다.</Korean>
+		<English>Attendance reward sent to your mailbox.</English>
+		<Japenese>出席チェック補償がポストに送られました。</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_DAILYCHECK_REWARD</UniqueID>
+		<Korean>보상 획득</Korean>
+		<English>Received Reward</English>
+		<Japenese>補償獲得</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_JOB</UniqueID>
+		<Korean>알바하기</Korean>
+		<English>Work</English>
+		<Japenese>アルバイト</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_LUCY_TALK_1</UniqueID>
+		<Korean>개발자가 굶고 있다던데...</Korean>
+		<English>The developers are starving…</English>
+		<Japenese>開発者が飢えているらしいが、、</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_LUCY_TALK_2</UniqueID>
+		<Korean>난 루시! 해적왕이 될 거야!! 음 이게 아닌데..</Korean>
+		<English>I'm Lucy! I want to become a Pirate King!</English>
+		<Japenese>私はルーシー！海賊王になる！！うん、こうじゃないんだけど、、</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_LUCY_TALK_3</UniqueID>
+		<Korean>전투의 기본은 측면, 후면 공격이야!</Korean>
+		<English>The basics of battle are side and back attacks.</English>
+		<Japenese>戦闘の基本は側面、後面の攻撃だ！</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_LUCY_TALK_4</UniqueID>
+		<Korean>카오스 던전은 위험해. 진형을 잘 갖추지 않으면 전멸하고 말 거야.</Korean>
+		<English>The chaos dungeon is dangerous. We need to maintain battle formation to survive.</English>
+		<Japenese>カオスダンジョンは危険だ。陣形をしっかり揃えないと全滅してしまうだろう</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_LUCY_TALK_5</UniqueID>
+		<Korean>난 광속성이야. 광속성은 암흑 속성에도 내성을 지니고 있다고.</Korean>
+		<English>I have the light element. Light is strong against the dark.</English>
+		<Japenese>私は光属性だ。光属性は闇属性にも耐性を持っているよ</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_LUCY_TALK_6</UniqueID>
+		<Korean>내가 왜 엘리나를 도와주냐고? 그건...</Korean>
+		<English>Why should I help Elena? That's…</English>
+		<Japenese>僕がなぜエリナを助けてあげるかって？それは、、</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_LUCY_TALK_7</UniqueID>
+		<Korean>알바는 힘들어.. 모든 아르바이트생들 존경합니다.</Korean>
+		<English>Part-time jobs are hard. I admire all part-time workers.</English>
+		<Japenese>バイトは大変だ..バイト生達を尊敬します</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_LUCY_TALK_8</UniqueID>
+		<Korean>가방에서는 장비를 착용하거나 강화할 수 있어.</Korean>
+		<English>You can wear or enhance equipment in your bag.</English>
+		<Japenese>カバンからは装備を着用したり強化したりすることができるよ</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_LUCY_TALK_9</UniqueID>
+		<Korean>보석 상자? 음.. 상부상조랄까?</Korean>
+		<English>Jewelry box? It's kind of a win-win?</English>
+		<Japenese>宝石箱？うん、、お互い様というか？</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_LUCY_TALK_10</UniqueID>
+		<Korean>블레이드는 멀리 있는 적도 공격할 수 있어. 대단하지?</Korean>
+		<English>Blades can attack enemies far away. Isn't it great?</English>
+		<Japenese>ブレイドは遠くにいる敵も攻撃できるよ。すごいだろう？</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_LUCY_TALK_11</UniqueID>
+		<Korean>꾸미기 템은 장착하지 않아도 능력이 부여된다고.</Korean>
+		<English>You can use the costume item's power even if you don't wear it.</English>
+		<Japenese>コスチュームアイテムは装着しなくても能力が与えられるよ！</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_LUCY_TALK_12</UniqueID>
+		<Korean>스킬 정보? 스킬 버튼을 눌러보면 확인할 수 있어.</Korean>
+		<English>Skill info? You can check it by pressing the skill button.</English>
+		<Japenese>スキル情報？スキルボタンを押せば確認できるよ。</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_LUCY_TALK_13</UniqueID>
+		<Korean>갑자기 전투에서 졌다면 승리 조건을 잘 확인해봐.</Korean>
+		<English>If you lose a battle, check the conditions for victory.</English>
+		<Japenese>急に戦闘で負けたら勝利の条件をよく確認してね。</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_LUCY_TALK_14</UniqueID>
+		<Korean>나에 대해 자세히 알고 싶어? 가방에서 상세정보를 클릭해봐.</Korean>
+		<English>Do you want to know more about me? Click on the details in the bag.</English>
+		<Japenese>私についてもっと知りたい？カバンから詳細情報をクリックしてみて。</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_LUCY_TALK_15</UniqueID>
+		<Korean>감출 수 없는 댄스 본능~</Korean>
+		<English>Can't hide my dance fever.</English>
+		<Japenese>隠し切れないダンスの本能～</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_LUCY_TALK_16</UniqueID>
+		<Korean>전투 중 캐릭터 이미지를 터치하면 상세정보를 볼 수 있어.</Korean>
+		<English>Touch the character image during combat to see detailed information.</English>
+		<Japenese>戦闘中キャラのイメージをタッチすると詳細情報を見れるよ。</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_ELINA_TALK_1</UniqueID>
+		<Korean>전사라 쓰고 몸빵이라 읽는다.</Korean>
+		<English>Warriors are made to be Tankers.</English>
+		<Japenese>戦士と書いてタンカーと読む。</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_ELINA_TALK_2</UniqueID>
+		<Korean>왕국을 되찾기 위해...</Korean>
+		<English>To regain the kingdom ...</English>
+		<Japenese>王国を取り戻すため、、、</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_ELINA_TALK_3</UniqueID>
+		<Korean>공주에게 교양은 기본이지.</Korean>
+		<English>To be a princess, one needs culture and refinement.</English>
+		<Japenese>姫に教養は基本中の基本でしょう。</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_ELINA_TALK_4</UniqueID>
+		<Korean>찬란한 영광을 위하여.</Korean>
+		<English>For glorious honor.</English>
+		<Japenese>燦爛な栄光のために</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_ELINA_TALK_5</UniqueID>
+		<Korean>전면 공격은 80%의 효과밖에 얻지 못해.</Korean>
+		<English>Front attacks are only 80% effective.</English>
+		<Japenese>前面の攻撃は80%の効果しか得られない</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_ELINA_TALK_6</UniqueID>
+		<Korean>난 물리 속성을 지니고 있어. 화, 수, 전기 내성도 조금은 익히고 있지.</Korean>
+		<English>I am of the physical element. I'm learning to be fire, water, and lightning resistant.</English>
+		<Japenese>私は物理属性を持っているよ。火、水、雷に対する耐性も少し身につけているよ。</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_ELINA_TALK_7</UniqueID>
+		<Korean>먼지 터는 건 엄청 힘든 일이네.</Korean>
+		<English>Dusting is really tough.</English>
+		<Japenese>ホコリをはらうのは大変だね。</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_ELINA_TALK_8</UniqueID>
+		<Korean>루시는 태양 같은 존재야 내가 가야 할 길을 비춰주거든</Korean>
+		<English>Lucy is like the sun, she shines the path for me.</English>
+		<Japenese>ルーシーは太陽みたいな存在。私が行くべき道を照らしてくれるんだ</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_ELINA_TALK_9</UniqueID>
+		<Korean>카오스 던전? 엄청 위험하지만 빠르게 성장할 수 있을지도.</Korean>
+		<English>Chaos Dungeon? It can be very dangerous, but we can grow fast.</English>
+		<Japenese>カオスダンジョン？すごく危険だけど早く成長できるかも</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_ELINA_TALK_10</UniqueID>
+		<Korean>조만간 버프 스킬을 익힐 수 있지 않을까?</Korean>
+		<English>Can I learn the buff skill soon?</English>
+		<Japenese>そのうちバフスキルを身につけられるんじゃない？</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_ELINA_TALK_11</UniqueID>
+		<Korean>장비 등급에 따라 강화 수치가 다르구나.</Korean>
+		<English>The level of enhancement depends on the equipment grade.</English>
+		<Japenese>装備のレベルによって強化数値が違うんだね</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_ELINA_TALK_12</UniqueID>
+		<Korean>전투 중 스킬 버튼을 누르고 있으면 툴팁이 나온다고.</Korean>
+		<English>During battle, hold down the skill button for tooltips.</English>
+		<Japenese>戦闘中スキルボタンを押せばツールチップが出るよ</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_ELINA_TALK_13</UniqueID>
+		<Korean>전투 중 몬스터 이미지를 터치하면 상세정보를 볼 수 있어.</Korean>
+		<English>Touch the monster image during battle to see more information.</English>
+		<Japenese>戦闘中モンスターのイメージをタッチすると詳細情報を見れるよ</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_SCARLET_TALK_1</UniqueID>
+		<Korean>무엇이 필요한가요?</Korean>
+		<English>What do you need?</English>
+		<Japenese>何か必要ですか？</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_SCARLET_TALK_2</UniqueID>
+		<Korean>당신의 운명에 거대한...</Korean>
+		<English>I see something huge in your destiny…</English>
+		<Japenese>あなたの運命に巨大な、、</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_SCARLET_TALK_3</UniqueID>
+		<Korean>오늘은 운이 좋을 거 같군요. 장비 소환 어때요?</Korean>
+		<English>I feel lucky today. How about summoning equipment?</English>
+		<Japenese>今日は運が良さそうですね。装備召還どうですか？</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_SCARLET_TALK_4</UniqueID>
+		<Korean>보석이 없다고요? 저도 땅 파서 장사하는 게 아니에요</Korean>
+		<English>No jewelry? Do you think I'm running a charity here?</English>
+		<Japenese>宝石がないですって？私もただで稼いでるわけじゃありませんよ</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_SCARLET_TALK_5</UniqueID>
+		<Korean>전 스칼렛 마법사에요. 점술 집을 운영하고 있죠.</Korean>
+		<English>I'm Scarlett the Wizard. I run a fortune shop.</English>
+		<Japenese>私はスカーレット魔法士です。占い屋を運営しているんです</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_SCARLET_TALK_6</UniqueID>
+		<Korean>기본 속성요? 화속성이죠. 전 불마법만 쓸 수 있답니다.</Korean>
+		<English>Basic element? Fire, I can only use fire magic.</English>
+		<Japenese>基本属性ですか？火属性です。私は火魔法だけ使えます</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_SCARLET_TALK_7</UniqueID>
+		<Korean>화속성이란 게 전기 속성에 강해서인지 조금의 전기 내성도 있어요.</Korean>
+		<English>Fire is strong against Lightning, having some resistance against it.</English>
+		<Japenese>火属性というのが雷属性に強いためか少し雷に耐性があります。</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_SCARLET_TALK_8</UniqueID>
+		<Korean>마린과 무슨 사이냐고요? 돈만 밝히는....</Korean>
+		<English>What's my relationship with Marine? Only cares about money…</English>
+		<Japenese>マリンとはどういう関係ですかって？金目当ての、、</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_SCARLET_TALK_9</UniqueID>
+		<Korean>적의 후면을 공격하면 120% 대미지를 줄 수 있다고 해요.</Korean>
+		<English>If you attack the enemy from behind, you can damage it 120%.</English>
+		<Japenese>敵の後面を攻撃すれば120％ダメージを与えられるそうです。</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_SCARLET_TALK_10</UniqueID>
+		<Korean>전술요? 글쎄요. 탱, 딜, 힐이 포메이션을 잘 이루어야 강할 거 같아요.</Korean>
+		<English>Tactics? I guess a strong formation is what makes us strong.</English>
+		<Japenese>戦術ですか？そうですね。テン、ディル、ヒルがフォーメーションをよく成し遂げれば強いと思います。</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_MARIA_TALK_1</UniqueID>
+		<Korean>전 사제예요. 대지의 신 가이아를 섬기죠.</Korean>
+		<English>I'm a priest. I serve the earth god, Gaia.</English>
+		<Japenese>私は司祭です。大地の神ガイアを仕えています。</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_MARIA_TALK_2</UniqueID>
+		<Korean>지금 마시는 거 술 아니냐고요? 노코멘트할게요.</Korean>
+		<English>Am I drinking alcohol now? No comment.</English>
+		<Japenese>今飲んでるの酒じゃないかって？ノーコメントします。</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_MARIA_TALK_3</UniqueID>
+		<Korean>당신의 앞날에 가이아의 축복이 있기를...</Korean>
+		<English>May Gaia bless your future.</English>
+		<Japenese>未来のあなたにガイアの祝福がありますように、、</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_MARIA_TALK_4</UniqueID>
+		<Korean>서빙은 힘들어요. 네. 네. 지금 가요.</Korean>
+		<English>Serving is really hard. Yes. Yes. Coming right away.</English>
+		<Japenese>ホールは大変です。はい、はい、今行きます。</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_MARIA_TALK_5</UniqueID>
+		<Korean>힐 윈드는 일정 범위를 회복할 수 있어요. 모이세요~</Korean>
+		<English>Heal Wind can heal within a certain range. Please gather ~</English>
+		<Japenese>ヒールウィンドは一定範囲を回復させられます。集まってください～</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_MARIA_TALK_6</UniqueID>
+		<Korean>전 공격 스킬이 없어요. 하지만 후방에서 아군을 지원해줄 수 있죠.</Korean>
+		<English>I don't have any attack skills. But I can support our allies from the back.</English>
+		<Japenese>私は攻撃スキルがないです。しかし後方から味方を助けてあげられます</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_MARIA_TALK_7</UniqueID>
+		<Korean>강해지는 법이오? 상점에서 장비 소환을 해보는 건 어떨까요?</Korean>
+		<English>How to get stronger? Try summoning equipment from the store.</English>
+		<Japenese>強くなる方法ですか？ショップで装備召還をしてみるのはどうですか？</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_MARIA_TALK_8</UniqueID>
+		<Korean>엘리나를 따르는 이유요? 가이아의 부름이 절 이끄는 거죠.</Korean>
+		<English>Why do I follow Elena? The call of Gaia leads me.</English>
+		<Japenese>エリナを従う理由ですか？ガイアの呼び出しが私を導いているんです</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_MARIA_TALK_9</UniqueID>
+		<Korean>카오스 던전은 주 단위로 보상을 준다고해요.</Korean>
+		<English>The Chaos dungeon gives out rewards every week.</English>
+		<Japenese>カオスダンジョンは週単位で補償をくれるそうです</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_MARIA_TALK_10</UniqueID>
+		<Korean>장비 단계에 따라 강화 확률이 달라진다고 해요.</Korean>
+		<English>Enhancement probability depends on the equipment stage.</English>
+		<Japenese>装備段階によって強化確率が変わるそうです</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_CAMILLA_TALK_1</UniqueID>
+		<Korean>화가 난다.</Korean>
+		<English>I'm angry.</English>
+		<Japenese>腹立つな</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_CAMILLA_TALK_2</UniqueID>
+		<Korean>창술사는 창에 달인이지.</Korean>
+		<English>A lancer is a master of the spear.</English>
+		<Japenese>槍術士は槍の達人だ</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_CAMILLA_TALK_3</UniqueID>
+		<Korean>난 카밀라 창술사야.</Korean>
+		<English>I'm Camilla, the lancer.</English>
+		<Japenese>僕はカミラ槍術士。</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_CAMILLA_TALK_4</UniqueID>
+		<Korean>푼돈 때문에 이 고생이라니.</Korean>
+		<English>This is hard work just for pennies.</English>
+		<Japenese>目腐れ金のせいでこんな苦労だなんて</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_CAMILLA_TALK_5</UniqueID>
+		<Korean>용병은 돈과 동료만 믿지.</Korean>
+		<English>Mercenaries only trust money and fellow soldiers.</English>
+		<Japenese>傭兵は金と仲間だけ信じる</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_CAMILLA_TALK_6</UniqueID>
+		<Korean>관통해 주겠어!</Korean>
+		<English>I'll penetrate you.</English>
+		<Japenese>貫いてやる!</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_CAMILLA_TALK_7</UniqueID>
+		<Korean>스킬은 언제 늘여 주는 거야!</Korean>
+		<English>When do I learn new skills?</English>
+		<Japenese>スキルはいつ増やしてくれるんだ!</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_CAMILLA_TALK_8</UniqueID>
+		<Korean>보석 상자를 열면 꽤 이득이겠어.</Korean>
+		<English>Opening this jewelry box is going to be rewarding.</English>
+		<Japenese>宝石箱を開ければ結構もうけになれそうだな</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_CAMILLA_TALK_9</UniqueID>
+		<Korean>카오스 던전은 어떤 몬스터가 나올지 모른다고.</Korean>
+		<English>We don't know what kind of monsters lurk in the Chaos Dungeon.</English>
+		<Japenese>カオスダンジョンはどんなモンスターが現れるか知らないってば</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_CAMILLA_TALK_10</UniqueID>
+		<Korean>용병의 삶은 언제나 죽음이 따르지.</Korean>
+		<English>A Mercenary life always follows death.</English>
+		<Japenese>傭兵の人生はいつも死が付き物だぜ</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_RAINA_TALK_1</UniqueID>
+		<Korean>따끔 따끔 전기는 간지러워요.</Korean>
+		<English>Electricity tickles.</English>
+		<Japenese>チクチク電気はくすぐったいですね</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_RAINA_TALK_2</UniqueID>
+		<Korean>따뜻해.</Korean>
+		<English>It's warm.</English>
+		<Japenese>温かい</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_RAINA_TALK_3</UniqueID>
+		<Korean>레이나가 상대하겠어요.</Korean>
+		<English>Reina will deal with you.</English>
+		<Japenese>レイナが相手します</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_RAINA_TALK_4</UniqueID>
+		<Korean>턴 수가 증가하면 몬스터에게 감지당해버려요.</Korean>
+		<English>Monsters will detect you, if the number of turns increase.</English>
+		<Japenese>ターン数が増加するとモンスターに感知されてしまいます</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_RAINA_TALK_5</UniqueID>
+		<Korean>불이 꺼지면 안 되는데.</Korean>
+		<English>The fire shouldn't go off.</English>
+		<Japenese>火が消えると駄目です</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_RAINA_TALK_6</UniqueID>
+		<Korean>레이나를 터치하면 알바하기를 할 수 있어요.</Korean>
+		<English>Touch Reina to work a part-time job.</English>
+		<Japenese>レイナをタッチするとアルバイトできます</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_RAINA_TALK_7</UniqueID>
+		<Korean>유물이 필요해.</Korean>
+		<English>Relic required.</English>
+		<Japenese>遺物が必要だ</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_RAINA_TALK_8</UniqueID>
+		<Korean>전투 중 상태창에 이미지를 터치해봐요.</Korean>
+		<English>Touch the status window image, during battle.</English>
+		<Japenese>戦闘中ステータスバーのイメージをタッチしてみてください</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_CHAEL_TALK_1</UniqueID>
+		<Korean>이것이 젊음 인가?</Korean>
+		<English>Is this youth?</English>
+		<Japenese>これが青春なのか？</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_CHAEL_TALK_2</UniqueID>
+		<Korean>푸른 불꽃을 사용하는 신이 있다지.</Korean>
+		<English>There is a god who uses blue flames.</English>
+		<Japenese>青い火花を使う神がいるそうだね</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_CHAEL_TALK_3</UniqueID>
+		<Korean>호오~ 한번 보도록 할까. 전장을 해쳐온 그대들의 실력을</Korean>
+		<English>Hoo~ Let's see your battle skills.</English>
+		<Japenese>ホォ～一旦見てみようか。戦場で戦ってきたそなた達の実力を</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_CHAEL_TALK_4</UniqueID>
+		<Korean>크리드의 수장 카엘이다.</Korean>
+		<English>I am the head of creed, Kael.</English>
+		<Japenese>クリードの首長カエルだ</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_CHAEL_TALK_5</UniqueID>
+		<Korean>수리는 남자의 일인가?</Korean>
+		<English>Is repairs a job for a man?</English>
+		<Japenese>修理は男の仕事か？</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_CHAEL_TALK_6</UniqueID>
+		<Korean>세계가 구원될 것이라 생각되는가?</Korean>
+		<English>Do you think the world will be saved?</English>
+		<Japenese>世界が救われると思うのか？</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_CHAEL_TALK_7</UniqueID>
+		<Korean>새로운 세계를 열려면 멈춰있지 마라.</Korean>
+		<English>Don't stop, if you want to open a new world.</English>
+		<Japenese>新しい世界を開くためには立ち止まっているな</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_CHAEL_TALK_8</UniqueID>
+		<Korean>유다..</Korean>
+		<English>Judah..</English>
+		<Japenese>ユダ、、</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_MARIN_TALK_1</UniqueID>
+		<Korean>돈도 안되는 일 따위.</Korean>
+		<English>It's not worth it.</English>
+		<Japenese>金にならないことなんて</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_MARIN_TALK_2</UniqueID>
+		<Korean>돈은 무엇보다 아름답구나.</Korean>
+		<English>Money is more beautiful than anything else.</English>
+		<Japenese>金は何より美しいな</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_MARIN_TALK_3</UniqueID>
+		<Korean>난 냉기 법사 모든 것을 얼려주겠어요.</Korean>
+		<English>I'm a frost wizard, I'll freeze everything.</English>
+		<Japenese>私は氷魔法士。全てを凍らしてあげますよ</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_MARIN_TALK_4</UniqueID>
+		<Korean>사람들은 날 악녀라 부르지요. 하지만 난 그저..</Korean>
+		<English>People call me a witch. But I'm just ...</English>
+		<Japenese>人々は私を悪女と呼びます。しかし私はただ..</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_MARIN_TALK_5</UniqueID>
+		<Korean>네스마 제국의 재정을 담당하고 있어요.</Korean>
+		<English>I'm in charge of finances for the Nesma Empire.</English>
+		<Japenese>ネマス帝国の財政を担当しています</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_MARIN_TALK_6</UniqueID>
+		<Korean>속성을 잘 파악하는게 승리의 길이에요.</Korean>
+		<English>Understand the elements, in order to win.</English>
+		<Japenese>属性をちゃんと把握するのが勝利の道です</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_MARIN_TALK_7</UniqueID>
+		<Korean>푼돈모아 푼돈..</Korean>
+		<English>Saving petty money for pennies.</English>
+		<Japenese>ちりも積もれば山、、、</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_MARIN_TALK_8</UniqueID>
+		<Korean>수족 냉증이...</Korean>
+		<English>I have cold hands and feet.</English>
+		<Japenese>冷え症が、、</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_MARIN_TALK_9</UniqueID>
+		<Korean>곧 유물이 나올꺼라는데 탐나네요.</Korean>
+		<English>Soon there will be relics.</English>
+		<Japenese>もうすぐ遺物が出るらしいけれど欲しいですね</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_MARIN_TALK_10</UniqueID>
+		<Korean>스칼렛과는 마법 동기에요</Korean>
+		<English>Scarlett and I learned magic together.</English>
+		<Japenese>スカーレットとは魔法同期です</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_MARIN_TALK_11</UniqueID>
+		<Korean>내 마음을 녹여줄 사람은 없을까...</Korean>
+		<English>Is there anyone who can melt my heart ...</English>
+		<Japenese>私の心を癒してくれる人はいないかな、、</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>TUTORIAL_MESSAGE_1</UniqueID>
+		<Korean>반가워요. 제가 당신의 여정을 잠시 도와주려고 해요.</Korean>
+		<English>Nice to meet you. I'm going to help you on your journey.</English>
+		<Japenese>お会い出来て嬉しいです。私があなたの旅を少し手伝ってあげようと思います</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>TUTORIAL_MESSAGE_2</UniqueID>
+		<Korean>오른쪽 하단에 모험입장 버튼을 클릭하면 스테이지 선택 화면으로 들어갈 수 있어요.</Korean>
+		<English>Click on the adventure enter button in the bottom right corner to enter and select the stage.</English>
+		<Japenese>右の下に冒険入場ボタンをクリックするとステージ選択画面に行けます</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>TUTORIAL_MESSAGE_3</UniqueID>
+		<Korean>스테이지 1_1을 클릭해 주세요.</Korean>
+		<English>Click stage 1_1.</English>
+		<Japenese>ステージ1_1をクリックしてください</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>TUTORIAL_MESSAGE_4</UniqueID>
+		<Korean>전투 편성에서 출진 캐릭터를 선택할 수 있어요.</Korean>
+		<English>You can choose your character from the battle formation.</English>
+		<Japenese>戦闘編成で出陣キャラクターを選べます</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>TUTORIAL_MESSAGE_5</UniqueID>
+		<Korean>현재 영웅이 한 명밖에 없으니 출진 버튼을 눌러주세요.</Korean>
+		<English>You only have one hero, press the enter button.</English>
+		<Japenese>現在英雄が一人しかいないので出陣ボタンを押してください</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>TUTORIAL_MESSAGE_6</UniqueID>
+		<Korean>클리어 조건은 모든 적을 제한된 턴수 안에 해치우면 되는군요.</Korean>
+		<English>To clear mission, destroy all enemies within a limited number of turns.</English>
+		<Japenese>クリア条件は全ての敵を制限されたターン数内でやっつければいいんですね</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>TUTORIAL_MESSAGE_7</UniqueID>
+		<Korean>이제 간단한 조작법을 설명해 드릴게요.</Korean>
+		<English>Now let me explain, the simple instructions.</English>
+		<Japenese>それでは簡単な操作法を説明します</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>TUTORIAL_MESSAGE_8</UniqueID>
+		<Korean>중앙에 보이는 버튼 중 이동을 눌러주세요.</Korean>
+		<English>Press the move button in the middle.</English>
+		<Japenese>中央に見えるボタンの中で移動を押してください</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>TUTORIAL_MESSAGE_9</UniqueID>
+		<Korean>바닥에 이동할 수 있는 범위가 표시되죠. 이제 몬스터에게 다가가 주세요.</Korean>
+		<English>You'll see the moving range on the floor. Now move close to a monster.</English>
+		<Japenese>下に移動出来る範囲が表示されていますね。それではモンスターに近づいてください</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>TUTORIAL_MESSAGE_10</UniqueID>
+		<Korean>이동하고 나서 아직 행동을 더 할 수 있답니다.</Korean>
+		<English>You can still do more after you move.</English>
+		<Japenese>移動してからもまだ行動を取れますよ</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>TUTORIAL_MESSAGE_11</UniqueID>
+		<Korean>만약 행동을 종료하고 싶으면 턴 종료 버튼을 누르시면 돼요.</Korean>
+		<English>If you want to end action, press the end of turn button.</English>
+		<Japenese>もし行動を終了したいならターン終了ボタンを押せばいいです</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>TUTORIAL_MESSAGE_12</UniqueID>
+		<Korean>하지만 아직 몬스터를 공격할 수 있겠네요.</Korean>
+		<English>But you can still attack monsters.</English>
+		<Japenese>しかしまだモンスターを攻撃出来ますね</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>TUTORIAL_MESSAGE_13</UniqueID>
+		<Korean>스킬 버튼을 눌러주세요.</Korean>
+		<English>Press the skill button.</English>
+		<Japenese>スキルボタンを押してください</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>TUTORIAL_MESSAGE_14</UniqueID>
+		<Korean>다양한 스킬들이 보이시죠. 블레이드라는 원거리 공격을 사용해볼 거예요.</Korean>
+		<English>You can see various skills. Now let's use a range attack called Blade.</English>
+		<Japenese>様々なスキルが見えますね。ブレイドという遠距離攻撃を使用してみましょう。</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>TUTORIAL_MESSAGE_15</UniqueID>
+		<Korean>타겟을 지정하여 슬라임을 공격하세요.</Korean>
+		<English>Target, and attack the slime.</English>
+		<Japenese>ターゲットを決めてスライムを攻撃してください</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>TUTORIAL_MESSAGE_16</UniqueID>
+		<Korean>잘했어요.아직 몬스터 한 마리가 더 남았네요.</Korean>
+		<English>Well done. You still have one more monster left.</English>
+		<Japenese>よく出来ました。まだモンスターが一匹残っていますね</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>TUTORIAL_MESSAGE_17</UniqueID>
+		<Korean>일반 공격은 mp를 소모하지 않고 스킬은 mp를 소모하니 스킬 버튼을 꾹 눌러서 툴팁을 꼭 확인해주세요.</Korean>
+		<English>Normal attacks don't consume Mp, but skills, so check the tooltip by pressing the skill button.</English>
+		<Japenese>一般攻撃はmpを消耗しなくてスキルはmpを消耗するのでスキルボタンを押してツールチップを必ず確認してください</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>TUTORIAL_MESSAGE_18</UniqueID>
+		<Korean>이제 자동전투를 사용해 몬스터를 처치해주세요.</Korean>
+		<English>Now use autoplay to kill the monsters.</English>
+		<Japenese>それではオートプレイを使用してモンスターをやっつけてください</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>TUTORIAL_MESSAGE_19</UniqueID>
+		<Korean>모든 적을 처리하고 보상을 획득하셨군요.</Korean>
+		<English>You destroyed all enemies and received rewards.</English>
+		<Japenese>全ての敵をやっつけてので補償を獲得したんですね</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>TUTORIAL_MESSAGE_20</UniqueID>
+		<Korean>이제 로비 버튼을 눌러 주세요.</Korean>
+		<English>Now press the lobby button.</English>
+		<Japenese>それではロビーボタンを押してください</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>TUTORIAL_MESSAGE_21</UniqueID>
+		<Korean>훌륭한 전투였어요.</Korean>
+		<English>Great battle</English>
+		<Japenese>立派な戦闘でした</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>TUTORIAL_MESSAGE_22</UniqueID>
+		<Korean>가방에서는 획득한 전리품을 착용하거나 강화할 수 있고</Korean>
+		<English>You can wear or enhance your loot in your bag</English>
+		<Japenese>カバンからは獲得した戦利品を着用したり強化したりすることが出来るし</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>TUTORIAL_MESSAGE_23</UniqueID>
+		<Korean>상점에서는 소모품 장비 뽑기 및 다양한 꾸미기 장비들을 구매할 수 있답니다.</Korean>
+		<English>You can select consumable equipment and purchase costumes in the shop.</English>
+		<Japenese>ショップでは消耗品装備がちゃ及び様々なコスチューム装備を購入出来ますよ</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>TUTORIAL_MESSAGE_24</UniqueID>
+		<Korean>그럼 전 이만 물러날게요. 전 상점에 항상 있으니 자주 들려주세요.</Korean>
+		<English>Goodbye. I'm always in the shop, please come again.</English>
+		<Japenese>それじゃ私はこれで。私はショップにいつもいますのでまたお越しください</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>TUTORIAL_MESSAGE_25</UniqueID>
+		<Korean>당신의 여정에 행운이 있길 빌어요.</Korean>
+		<English>Wish you luck on your journey.</English>
+		<Japenese>あなたの旅の幸運を祈ります</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>1장 1화를 클릭해 주세요</UniqueID>
+		<Korean>1장 1화를 클릭해 주세요</Korean>
+		<English>Please click on 1 chapter 1</English>
+		<Japenese>1枚1話をクリックしてください</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>여정에 필요한 여비를 준비했어요.</UniqueID>
+		<Korean>여정에 필요한 여비를 준비했어요.</Korean>
+		<English>I prepared your travel expenses.</English>
+		<Japenese>私はあなたの旅費を準備した。</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>여비도 생겼으니 장비를 소환해보죠</UniqueID>
+		<Korean>여비도 생겼으니 장비를 소환해보죠</Korean>
+		<English>We have an expedition, so let's summon the equipment.</English>
+		<Japenese>旅費もできたので装備を召喚してみましょう</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>굉장한 장비가 나왔군요.</UniqueID>
+		<Korean>굉장한 장비가 나왔군요.</Korean>
+		<English>Great equipment came out.</English>
+		<Japenese>すばらしい機器が出てきたんですね。</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>획득한 장비를 장착해 보아요</UniqueID>
+		<Korean>획득한 장비를 장착해 보아요</Korean>
+		<English>Attach the acquired equipment.</English>
+		<Japenese>獲得した装備を装着して見ましょう</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>수고하셨어요. 그럼, 오른쪽 상단의 메인 퀘스트를 통해 게임을 진행해 보세요.</UniqueID>
+		<Korean>수고하셨어요. 그럼, 오른쪽 상단의 메인 퀘스트를 통해 게임을 진행해 보세요.</Korean>
+		<English>Thanks for your efforts. Then, proceed through the main quest in the upper right corner.</English>
+		<Japenese>お疲れさま。では、右上のメインクエストを介してゲームを進めてみてください。</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>TUTORIAL_MESSAGE_START</UniqueID>
+		<Korean>튜토리얼을 보시겠습니까?</Korean>
+		<English>Start tutorial?</English>
+		<Japenese>チュートリアルを見ますか？</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>TUTORIAL_MESSAGE_EXIT</UniqueID>
+		<Korean>튜토리얼을 종료하시겠습니까?\n(종료 시 튜토리얼 보상을 받을 수 없습니다.)</Korean>
+		<English>Exit tutorial?\n(You can not receive tutorial compensation on exit.)</English>
+		<Japenese>チュートリアルを終了しますか？\n（終了時のチュートリアルの補償を受けることができません。）</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>TUTORIAL_MESSAGE_EXIT2</UniqueID>
+		<Korean>튜토리얼을 종료하시겠습니까?\n(종료 시 튜토리얼 보상을 받을 수 없습니다.)</Korean>
+		<English>Exit tutorial?\n(You can not receive tutorial compensation on exit.)</English>
+		<Japenese>チュートリアルを終了しますか？\n（終了時のチュートリアルの補償を受けることができません。）</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>TUTORIAL_MESSAGE_COMPLETE</UniqueID>
+		<Korean>튜토리얼 완료 보상이 우편함으로 발송되었습니다.</Korean>
+		<English>Tutorial Complete Reward has been sent to your post box.</English>
+		<Japenese>チュートリアル完了補償がポストに送られました</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_CHARACTER_GET_MESSAGE</UniqueID>
+		<Korean>획득하였습니다.</Korean>
+		<English>Acquired</English>
+		<Japenese>獲得しました</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_NEWUSER_REWARD_MESSAGE</UniqueID>
+		<Korean>신규 유저 보상이 우편함으로 발송되었습니다.</Korean>
+		<English>The new user reward was sent to your post box.</English>
+		<Japenese>新規ユーザ補償がポストに送られました</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_OPENEVENT_REWARD_MESSAGE</UniqueID>
+		<Korean>오픈 이벤트 보상이 우편함으로 발송되었습니다.</Korean>
+		<English>The open event reward was sent to your post box.</English>
+		<Japenese>オープンイベント補償がポストに送られました</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_REVIEW_MESSAGE</UniqueID>
+		<Korean>리뷰 작성하러 가시겠습니까?</Korean>
+		<English>Would you like to write a review?</English>
+		<Japenese>レビューを作成しますか？</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>POST_MESSAGE_NEWUSER</UniqueID>
+		<Korean>신규유저 지원 보상</Korean>
+		<English>New User Support Reward</English>
+		<Japenese>新規ユーザ支援補償</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>POST_MESSAGE_REWARD_NORMAL_RANK</UniqueID>
+		<Korean>카오스 주간 일반랭킹 보상입니다.</Korean>
+		<English>Chaos Normal ranking Reward</English>
+		<Japenese>カオス週間一般ランキングの補償です</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>POST_MESSAGE_REWARD_ACCRUE_RANK</UniqueID>
+		<Korean>카오스 주간 누적랭킹 보상입니다.</Korean>
+		<English>Chaos Accumulated ranking Reward</English>
+		<Japenese>カオス週間累積ランキングの補償です</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>POST_MESSAGE_FULL</UniqueID>
+		<Korean>인벤토리가 초과 되어 전리품이 우편함으로 이동하였습니다.</Korean>
+		<English>The inventory was full. The Item has moved to the mailbox.</English>
+		<Japenese>インベントリがいっぱいで、戦利品がポストに移動しました</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>POST_MESSAGE_BEGINNER</UniqueID>
+		<Korean>초급자 패키지 보상입니다.</Korean>
+		<English>Beginner package.</English>
+		<Japenese>初級者パッケージ補償です</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>중급자 패키지 보상입니다.</UniqueID>
+		<Korean>중급자 패키지 보상입니다.</Korean>
+		<English>Intermediate package.</English>
+		<Japenese>中級者パッケージ補償です</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>3배속 패키지 보상입니다.</UniqueID>
+		<Korean>3배속 패키지 보상입니다.</Korean>
+		<English>3Times Speed package.</English>
+		<Japenese>3倍速パッケージ補償です</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>날개 패키지 보상입니다.</UniqueID>
+		<Korean>날개 패키지 보상입니다.</Korean>
+		<English>Wing package.</English>
+		<Japenese>翼パッケージ補償です</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>6Day Event 보상입니다.</UniqueID>
+		<Korean>6Day Event 패키지 보상입니다.</Korean>
+		<English>6Day Event Reward</English>
+		<Japenese>6Day Event 補償です</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>POST_MESSAGE_DAD</UniqueID>
+		<Korean>매일매일 패키지 보상입니다.</Korean>
+		<English>Daily Package</English>
+		<Japenese>デイリーパッケージ補償です</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>POST_MESSAGE_PLATINUM</UniqueID>
+		<Korean>플래티넘 패키지 보상입니다.</Korean>
+		<English>Platinum package</English>
+		<Japenese>プラチナパッケージ補償です</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>POST_MESSAGE_OPEN_EVENT</UniqueID>
+		<Korean>오픈 이벤트 보상입니다.</Korean>
+		<English>Open Event Reward</English>
+		<Japenese>オープンイベント補償です</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>POST_MESSAGE_CAFE_JOIN_EVENT</UniqueID>
+		<Korean>카페 가입 이벤트 보상입니다.</Korean>
+		<English>Open Event Reward</English>
+		<Japenese>カフェ加入イベント補償です</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>POST_MESSAGE_SNS_EVENT</UniqueID>
+		<Korean>SNS 이벤트 보상입니다.</Korean>
+		<English>Open Event Reward</English>
+		<Japenese>SNSイベント補償です</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>신규유저 지원 보상.</UniqueID>
+		<Korean>신규유저 지원 보상.</Korean>
+		<English>New user support compensation.</English>
+		<Japenese>新規ユーザをサポート補償します。</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>스킬 강화석 패키지(소) 입니다.</UniqueID>
+		<Korean>스킬 강화석 패키지(소) 입니다.</Korean>
+		<English>Skill Enhancement Stone Package(Small)</English>
+		<Japenese>スキル強化石パッケージ（小）です</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>스킬 강화석 패키지(중) 입니다.</UniqueID>
+		<Korean>스킬 강화석 패키지(중) 입니다.</Korean>
+		<English>Skill Enchancement Stone Package(Medium)</English>
+		<Japenese>スキル強化石パッケージ（中）です</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>경험치 구슬 패키지 입니다.</UniqueID>
+		<Korean>경험치 구슬 패키지 입니다.</Korean>
+		<English>Exp.Marble Package</English>
+		<Japenese>経験値玉パッケージです</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>유물 재료 패키지 입니다.</UniqueID>
+		<Korean>유물 재료 패키지 입니다.</Korean>
+		<English>Relic material package</English>
+		<Japenese>遺物材料パッケージです</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>POST_MESSAGE_GIFT</UniqueID>
+		<Korean>선물.</Korean>
+		<English>GIFT</English>
+		<Japenese>ギフト</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>POST_MESSAGE_ATTEND_CHECK</UniqueID>
+		<Korean>출석 체크 보상 입니다.</Korean>
+		<English>Daily Rewards</English>
+		<Japenese>出席チェック補償です</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>POST_MESSAGE_REWARD_PVP</UniqueID>
+		<Korean>결투장 보상 입니다.</Korean>
+		<English>It is a challenge reward.</English>
+		<Japenese>決闘補償です。</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>POST_MESSAGE_SERVERCHECK</UniqueID>
+		<Korean>점검보상.</Korean>
+		<English>SERVER CHECK Reawd</English>
+		<Japenese>点検補償</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_PAUSE_CONTINUE</UniqueID>
+		<Korean>계속 하기</Korean>
+		<English>Continue</English>
+		<Japenese>続ける</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_PAUSE_QUIT</UniqueID>
+		<Korean>게임 종료</Korean>
+		<English>Quit</English>
+		<Japenese>ゲーム終了</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>PRICE_JEWEL1</UniqueID>
+		<Korean>\3,300</Korean>
+		<English>$2.92</English>
+		<Japenese>330円</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>PRICE_JEWEL2</UniqueID>
+		<Korean>\5,500</Korean>
+		<English>$4.86</English>
+		<Japenese>550円</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>PRICE_JEWEL3</UniqueID>
+		<Korean>\11,000</Korean>
+		<English>$9.73</English>
+		<Japenese>1100円</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>PRICE_JEWEL4</UniqueID>
+		<Korean>\33,000</Korean>
+		<English>$29.18</English>
+		<Japenese>3300円</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>PRICE_JEWEL5</UniqueID>
+		<Korean>\55,000</Korean>
+		<English>$48.63</English>
+		<Japenese>5500円</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>PRICE_JEWEL6</UniqueID>
+		<Korean>\110,000</Korean>
+		<English>$97.26</English>
+		<Japenese>11000円</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>PRICE_BEGINNER</UniqueID>
+		<Korean>\1,100</Korean>
+		<English>$0.97</English>
+		<Japenese>110円</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>PRICE_DAILY</UniqueID>
+		<Korean>\11,000</Korean>
+		<English>$9.73</English>
+		<Japenese>1100円</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>PRICE_DAILY_Event</UniqueID>
+		<Korean>\7,700</Korean>
+		<English>$6.6</English>
+		<Japenese>770円</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>PRICE_PLATINUM</UniqueID>
+		<Korean>\110,000</Korean>
+		<English>$97.26</English>
+		<Japenese>11000円</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>PRICE_PLATINUM_Event</UniqueID>
+		<Korean>\77,000</Korean>
+		<English>$65.5</English>
+		<Japenese>7700円</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>PRICE_EXP</UniqueID>
+		<Korean>\55,000</Korean>
+		<English>$48.63</English>
+		<Japenese>5500円</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>PRICE_EXP_Event</UniqueID>
+		<Korean>\33,000</Korean>
+		<English>$29.9</English>
+		<Japenese>3300円</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>PRICE_RELIC</UniqueID>
+		<Korean>\55,000</Korean>
+		<English>$48.63</English>
+		<Japenese>5500円</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>PRICE_RELIC_Event</UniqueID>
+		<Korean>\33,000</Korean>
+		<English>$29.9</English>
+		<Japenese>3300円</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>PRICE_SKILL1</UniqueID>
+		<Korean>\5,500</Korean>
+		<English>$4.86</English>
+		<Japenese>550円</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>PRICE_SKILL1_Event</UniqueID>
+		<Korean>\3,300</Korean>
+		<English>$2.99</English>
+		<Japenese>330円</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>PRICE_SKILL2</UniqueID>
+		<Korean>\55,000</Korean>
+		<English>$48.63</English>
+		<Japenese>5500円</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>PRICE_SKILL2_Event</UniqueID>
+		<Korean>\33,000</Korean>
+		<English>$29.9</English>
+		<Japenese>3300円</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>CHALLENGE_RESULT</UniqueID>
+		<Korean>결투장 결과</Korean>
+		<English>Callenge result</English>
+		<Japenese>決闘の結果</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>CHALLENGE_POINT</UniqueID>
+		<Korean>승점</Korean>
+		<English>Point</English>
+		<Japenese>勝ち点</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>CHALLENGE_WIN_COUNT</UniqueID>
+		<Korean>승리횟수</Korean>
+		<English>Victory</English>
+		<Japenese>勝利回数</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>CHALLENGE_LOSE_COUNT</UniqueID>
+		<Korean>패배횟수</Korean>
+		<English>Defeat</English>
+		<Japenese>敗北回数</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>CHALLENGE</UniqueID>
+		<Korean>결투장</Korean>
+		<English>Challenge</English>
+		<Japenese>決闘</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>CHALLENGE_GRADE</UniqueID>
+		<Korean>등급</Korean>
+		<English>Grade</English>
+		<Japenese>評価</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>CHALLENGE_DSC</UniqueID>
+		<Korean>최강의 자리에 도전하세요.</Korean>
+		<English>Challenge your best place.</English>
+		<Japenese>最強の立場になる。</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>CHALLENGE_TOP_RANKING</UniqueID>
+		<Korean>상위 랭킹</Korean>
+		<English>Top ranking</English>
+		<Japenese>上位ランキング</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>CHALLENGE_RESET</UniqueID>
+		<Korean>결투장 랭킹은 매주 초기화 됩니다.</Korean>
+		<English>Duel ranking is reset every week.</English>
+		<Japenese>決闘ランキングは毎週初期化されます。</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>CHALLENGE_AUTO_MATCHING</UniqueID>
+		<Korean>매일 5번 자동매칭이 이루어집니다.</Korean>
+		<English>Automatically matches 5 times a day.</English>
+		<Japenese>毎日5回、自動マッチングが行われます。</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>CHALLENGE_PROTECT</UniqueID>
+		<Korean>결투의 보호</Korean>
+		<English>Duel Protection</English>
+		<Japenese>決闘の保護</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>CHALLENGE_ATTACK</UniqueID>
+		<Korean>공격</Korean>
+		<English>Atk</English>
+		<Japenese>攻撃</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>CHALLENGE_DEFENSE</UniqueID>
+		<Korean>방어</Korean>
+		<English>Dfs</English>
+		<Japenese>防御</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>CHALLENGE_WIN</UniqueID>
+		<Korean>승리</Korean>
+		<English>Victory</English>
+		<Japenese>勝利</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>CHALLENGE_LOSE</UniqueID>
+		<Korean>패배</Korean>
+		<English>Defeat</English>
+		<Japenese>敗北</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>CHALLENGE_LEGEND</UniqueID>
+		<Korean>레전드</Korean>
+		<English>Legend</English>
+		<Japenese>Legend</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>CHALLENGE_MASTER</UniqueID>
+		<Korean>마스터</Korean>
+		<English>Master</English>
+		<Japenese>Master</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>CHALLENGE_GOLD</UniqueID>
+		<Korean>골드</Korean>
+		<English>Gold</English>
+		<Japenese>Gold</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>CHALLENGE_CROWN</UniqueID>
+		<Korean>크라운</Korean>
+		<English>Crown</English>
+		<Japenese>Crown</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>CHALLENGE_SILVER</UniqueID>
+		<Korean>실버</Korean>
+		<English>Silver</English>
+		<Japenese>Silver</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>CHALLENGE_BRONZE</UniqueID>
+		<Korean>브론즈</Korean>
+		<English>Bronze</English>
+		<Japenese>Bronze</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>CHALLENGE_SCORE_1ST</UniqueID>
+		<Korean>1위</Korean>
+		<English>1ST</English>
+		<Japenese>1位</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>CHALLENGE_SCORE_LEGEND</UniqueID>
+		<Korean>3000점 이상</Korean>
+		<English>3000 points or more</English>
+		<Japenese>3000点以上</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>CHALLENGE_SCORE_MASTER</UniqueID>
+		<Korean>2500점 이상</Korean>
+		<English>2500 points or more</English>
+		<Japenese>2500点以上</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>CHALLENGE_SCORE_GOLD</UniqueID>
+		<Korean>2000점 이상</Korean>
+		<English>2000 points or more</English>
+		<Japenese>2000点以上</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>CHALLENGE_SCORE_CROWN</UniqueID>
+		<Korean>1500점 이상</Korean>
+		<English>1500 points or more</English>
+		<Japenese>1500点以上</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>CHALLENGE_SCORE_SILVER</UniqueID>
+		<Korean>1100점 이상</Korean>
+		<English>1100 points or more</English>
+		<Japenese>1100点以上</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>CHALLENGE_SCORE_BRONZE</UniqueID>
+		<Korean>0점 이상</Korean>
+		<English>0 points or more</English>
+		<Japenese>0点以上</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>CHALLENGE_CLEAR_MESSAGE</UniqueID>
+		<Korean>스테이지1_6 클리어 후 도전이 가능 합니다.</Korean>
+		<English>After stage 1_6 clear, challenge is possible.</English>
+		<Japenese>ステージ1_6クリア後に挑戦が可能です。</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>SERVER_CHECING</UniqueID>
+		<Korean>서버 점검 중 입니다.</Korean>
+		<English>Server maintenance is in progress.</English>
+		<Japenese>サーバーメンテナンス中です.</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>SERVER_CONNECT_FAILED</UniqueID>
+		<Korean>서버와 연결이 실패하였습니다.</Korean>
+		<English>The connection with the server failed.</English>
+		<Japenese>サーバーとの接続が失敗しました.</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>SERVER_CONNECT_REPREAT</UniqueID>
+		<Korean>네트워크에 연결 할 수 없습니다.\n다시 시도 하시겠습니까?</Korean>
+		<English>I can not connect to the network.\nDo you want to try again?</English>
+		<Japenese>ネットワークに接続することができません.\n再試行しますか？</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>SERVER_CONNECT_REPREAT_RESET</UniqueID>
+		<Korean>재시작</Korean>
+		<English>Restart</English>
+		<Japenese>再起動</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>SERVER_CONNECT_REPREAT_RETRY</UniqueID>
+		<Korean>연결시도</Korean>
+		<English>Connect</English>
+		<Japenese>接続しようと</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>SERVER_BLOCK_USER</UniqueID>
+		<Korean>해당 계정이 블록 되었습니다.</Korean>
+		<English>Your account has been blocked.</English>
+		<Japenese>アカウントがブロックされました.</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>강화</UniqueID>
+		<Korean>강화</Korean>
+		<English>Enchant</English>
+		<Japenese>強化</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>획득</UniqueID>
+		<Korean>획득</Korean>
+		<English>Get</English>
+		<Japenese>獲得</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>도감 정보</UniqueID>
+		<Korean>도감 정보</Korean>
+		<English>Book Info</English>
+		<Japenese>図鑑の情報</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>장비 도감</UniqueID>
+		<Korean>장비 도감</Korean>
+		<English>Equipment book</English>
+		<Japenese>機器図鑑</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>달성 수</UniqueID>
+		<Korean>달성 수</Korean>
+		<English>Count</English>
+		<Japenese>Count</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>도감</UniqueID>
+		<Korean>도감</Korean>
+		<English>book</English>
+		<Japenese>図鑑</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>접속 보상 EVENT!!</UniqueID>
+		<Korean>접속 보상 EVENT!!</Korean>
+		<English>6Day Reawd EVENT!!</English>
+		<Japenese>接続補償 EVENT!!</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>6일간 접속 보상 GET!!</UniqueID>
+		<Korean>6일간 접속 보상 GET!!</Korean>
+		<English>6Day Reawd GET!!</English>
+		<Japenese>6日間接続補償GET！</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>1 일</UniqueID>
+		<Korean>1 일</Korean>
+		<English>1 day</English>
+		<Japenese>1日</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>2 일</UniqueID>
+		<Korean>2 일</Korean>
+		<English>2 day</English>
+		<Japenese>2日</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>3 일</UniqueID>
+		<Korean>3 일</Korean>
+		<English>3 day</English>
+		<Japenese>3日</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>4 일</UniqueID>
+		<Korean>4 일</Korean>
+		<English>4 day</English>
+		<Japenese>4日</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>5 일</UniqueID>
+		<Korean>5 일</Korean>
+		<English>5 day</English>
+		<Japenese>5日</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>6 일</UniqueID>
+		<Korean>6 일</Korean>
+		<English>6 day</English>
+		<Japenese>6日</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>현재 스테이지는 잠겨있습니다.\n스테이지를 열고 싶으면 \n이전 스테이지를 클리어하세요.</UniqueID>
+		<Korean>현재 스테이지는 잠겨있습니다.\n스테이지를 열고 싶으면 \n이전 스테이지를 클리어하세요.</Korean>
+		<English>The stage is now locked.</English>
+		<Japenese>現在のステージはロックされています.</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>6일 접속 보상이 우편함으로 지급되었습니다.</UniqueID>
+		<Korean>6일 접속 보상이 우편함으로 지급되었습니다.</Korean>
+		<English>6Day event reward was sent to your post box.</English>
+		<Japenese>6Dayイベント補償がポストに送られました</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>다음 퀘스트를 기대해주세요.</UniqueID>
+		<Korean>다음 퀘스트를 기대해주세요.</Korean>
+		<English>Plese look foward to the next quest.</English>
+		<Japenese>次のクエストを楽しみにしてください。</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>퀘스트 완료</UniqueID>
+		<Korean>퀘스트 완료</Korean>
+		<English>Completed Quest</English>
+		<Japenese>クエスト完了</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>다음 퀘스트</UniqueID>
+		<Korean>다음 퀘스트</Korean>
+		<English>Next Quest</English>
+		<Japenese>次のクエスト</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>더 이상 퀘스트를 진행할 수 없습니다.</UniqueID>
+		<Korean>더 이상 퀘스트를 진행할 수 없습니다.</Korean>
+		<English>You can not proceed any more quests.</English>
+		<Japenese>さらにクエストを進行することができません。</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>모험 {0} 클리어.</UniqueID>
+		<Korean>모험 {0} 클리어.</Korean>
+		<English>Adventure {0} Clear.</English>
+		<Japenese>冒険{0}クリア。</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>탐험 {0} 클리어.</UniqueID>
+		<Korean>탐험 {0} 클리어.</Korean>
+		<English>Explore {0} clear.</English>
+		<Japenese>探索{0}クリア。</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>몬스터 {0} 처치.</UniqueID>
+		<Korean>{0} 처치.</Korean>
+		<English>{0} Kill.</English>
+		<Japenese>{0} 処置。</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>카오스던전 {0}층 클리어.</UniqueID>
+		<Korean>카오스던전 {0}층 클리어.</Korean>
+		<English>Chaos Dungeon Clear {0} floor.</English>
+		<Japenese>カオスダンジョン{0}層クリア。</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>요일던전 레벨{0} 클리어.</UniqueID>
+		<Korean>요일던전 레벨{0} 클리어.</Korean>
+		<English>Day of Dungeon Level {0} Clear.</English>
+		<Japenese>曜日ダンジョンレベル{0}クリア。</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>마법 감정</UniqueID>
+		<Korean>마법 감정</Korean>
+		<English>Magic appraisal</English>
+		<Japenese>魔法の鑑定</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>마법 감정을 시도하시겠습니까?(재시도 시 보석이 증가합니다.)</UniqueID>
+		<Korean>마법 감정을 시도하시겠습니까?\n(재시도 시 보석이 증가합니다.)</Korean>
+		<English>Would you like to try the magic appraisal? \n (The gem will increase when you retry.)</English>
+		<Japenese>魔法の鑑定をしようとしますか？\n（再試行時の宝石が増加します。）</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>퀘스트</UniqueID>
+		<Korean>퀘스트</Korean>
+		<English>Quest</English>
+		<Japenese>クエスト</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>스칼렛</UniqueID>
+		<Korean>스칼렛</Korean>
+		<English>SCARLET</English>
+		<Japenese>スカーレット</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>퀘스트를 진행하시겠어요?</UniqueID>
+		<Korean>퀘스트를 진행하시겠어요?</Korean>
+		<English>Would you like to proceed with the quest?</English>
+		<Japenese>クエストを進行しますか？</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>바로 가기</UniqueID>
+		<Korean>바로 가기</Korean>
+		<English>Shortcuts</English>
+		<Japenese>ショートカット</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>제 {0}장</UniqueID>
+		<Korean>제 {0}장</Korean>
+		<English>{0} Chapter</English>
+		<Japenese>第{0}枚</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>{0}화</UniqueID>
+		<Korean>{0}화</Korean>
+		<English>{0} episode</English>
+		<Japenese>{0}化</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>구글 계정으로 연동하시겠습니까?</UniqueID>
+		<Korean>구글 계정으로 연동하시겠습니까?</Korean>
+		<English>Would you like to work with your Google account?</English>
+		<Japenese>グーグルアカウントに連動しますか？</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>이 계정은 이미 구글 연동이 되어있습니다.</UniqueID>
+		<Korean>이 계정은 이미 구글 연동이 되어있습니다.</Korean>
+		<English>This account is already Google-linked.</English>
+		<Japenese>このアカウントはすでに、Google連動になっています。</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>계정 연동에 실패히였습니다.구글 계정이 잘못 됐거나 이미 등록된 계정입니다.</UniqueID>
+		<Korean>계정 연동에 실패하였습니다.\n구글 계정이 잘못 됐거나 이미 등록된 계정입니다.</Korean>
+		<English>Account link failed. \nThe Google account is either invalid or already registered.</English>
+		<Japenese>アカウント連動に失敗しました。\n、Googleアカウントが抜けて、既に登録されているアカウントです。</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>구글 연동에 성공했습니다.재접속을 시도합니다.</UniqueID>
+		<Korean>구글 연동에 성공했습니다.\n재접속을 시도합니다.</Korean>
+		<English>Google interlock succeeded. \nTry to reconnect.</English>
+		<Japenese>グーグル連動に成功しました。\n再接続を試みます。</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>게스트 로그인 확인 중..</UniqueID>
+		<Korean>게스트 로그인 확인 중..</Korean>
+		<English>Checking guest login ...</English>
+		<Japenese>ゲストログイン確認中。</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>게스트 로그인 성공.</UniqueID>
+		<Korean>게스트 로그인 성공.</Korean>
+		<English>Guest login success.</English>
+		<Japenese>ゲストログイン成功。</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>게스트 계정은 앱 삭제 및 재설치 시 기기 변경 시 게임 플레이 정보 및 결제 내역 보호가 불가능 합니다.또 사라진 게스트 계정 데이터는 어떠한 경우에도 복구가 불가능 합니다.(안전한 데이터 보관을 위해서 구글 로그인을 권장합니다.)</UniqueID>
+		<Korean>게스트 계정은 앱 삭제 및 재설치 시 기기 변경 시 게임 플레이 정보 및 결제 내역 보호가 불가능 합니다.\n또 사라진 게스트 계정 데이터는 어떠한 경우에도 복구가 불가능 합니다.\n(안전한 데이터 보관을 위해서 구글 로그인을 권장합니다.)</Korean>
+		<English>Guest account is not able to protect game play information and payment history when changing device when deleting / reinstalling app. \nThe missing guest account data can not be restored under any circumstances. \n (We recommend Google login to secure data storage. .)</English>
+		<Japenese>ゲストアカウントはアプリの削除と再インストール時に機器の変更時にゲームプレイ情報や支払い履歴の保護ができません。\nまた消えたゲストアカウントのデータは、いかなる場合にも回復が不可能です。\n（安全なデータ保管のために、Googleのログインをお勧めします。）</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>퀘스트 보상 입니다.</UniqueID>
+		<Korean>퀘스트 보상 입니다.</Korean>
+		<English>Quest rewards.</English>
+		<Japenese>クエストの報酬です。</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>구글 로그인</UniqueID>
+		<Korean>구글 로그인</Korean>
+		<English>Google login</English>
+		<Japenese>グーグルログイン</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>게스트 로그인</UniqueID>
+		<Korean>게스트 로그인</Korean>
+		<English>Guest login</English>
+		<Japenese>ゲストログイン</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>정말로 게스트 계정을 초기화하시겠습니까?(계정 초기화 시 데이터 복구가 불가능합니다.)</UniqueID>
+		<Korean>정말로 게스트 계정을 초기화하시겠습니까?\n(계정 초기화 시 데이터 복구가 불가능합니다.)</Korean>
+		<English>Do you really want to initialize the guest account? \n(Data recovery is not possible during account initialization.)</English>
+		<Japenese>本当にゲストアカウントを初期化しますか？\n（アカウントの初期化時にデータ復旧が不可能です。）</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>경험치구슬({0}단계) {1}개</UniqueID>
+		<Korean>경험치구슬({0}단계) {1}개</Korean>
+		<English>{1} exp.marble ({0} level)</English>
+		<Japenese>経験値玉（ステップ{0}）{1}個</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>스킬 강화석 {0}개</UniqueID>
+		<Korean>스킬 강화석 {0}개</Korean>
+		<English>{0} skill enchancement stone</English>
+		<Japenese>スキル強化石{0}個</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>스킬 강화석</UniqueID>
+		<Korean>스킬 강화석</Korean>
+		<English>Skill enchancement stone</English>
+		<Japenese>スキル強化石</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>경험치 구슬</UniqueID>
+		<Korean>경험치 구슬</Korean>
+		<English>Exp.marble</English>
+		<Japenese>経験値玉</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>경험치구슬({0}단계) {1}개 구매</UniqueID>
+		<Korean>경험치구슬({0}단계) {1}개 구매</Korean>
+		<English>Buy {1} exp.marble\n ({0} level)</English>
+		<Japenese>経験値玉（ステップ{0}）{1}個購入</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>스킬 강화석 {0}개 구매</UniqueID>
+		<Korean>스킬 강화석 {0}개 구매</Korean>
+		<English>Buy {0} skill enchancement stone</English>
+		<Japenese>スキル強化石{0}個購入</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>더 이상 경험치를 획득할 수 없습니다.</UniqueID>
+		<Korean>더 이상 경험치를 획득할 수 없습니다.</Korean>
+		<English>You can no longer gain experience.</English>
+		<Japenese>もっと経験値を獲得することはできません。</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>승급 레벨99 에 도달하지 못했습니다.</UniqueID>
+		<Korean>승급 레벨99 에 도달하지 못했습니다.</Korean>
+		<English>You should reach on level 99 to upgrade.</English>
+		<Japenese>アップグレードレベル99に到達しませんでした。</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>상위 클래스로 승급하시겠습니까?</UniqueID>
+		<Korean>상위 클래스로 승급하시겠습니까?</Korean>
+		<English>Would you like to upgrade to the parent class?</English>
+		<Japenese>上位クラスにアップグレードしますか？</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>(승급 시 레벨은 1부터 시작하며 스테이터스는 유지됩니다 그리고 레벨업 증가 능력치가 전보다 상승합니다.)</UniqueID>
+		<Korean>(승급 시 레벨은 1부터 시작하며 스테이터스는 유지됩니다.\n레벨업 증가 능력치가 전보다 상승합니다.)</Korean>
+		<English>(When upgrading, the level starts at 1, the status is maintained, and the level-up ability increases.)</English>
+		<Japenese>（アップグレード時のレベルは1から始まり、ステータスは維持されそしてレベルアップの増加能力値が前より上昇します。）</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>한계 레벨을 증가시키겠습니까?(한계 돌파 시 최대 레벨 5 증가)</UniqueID>
+		<Korean>한계 레벨을 증가시키겠습니까?\n(한계 돌파 시 최대 레벨 5 증가)</Korean>
+		<English>Do you want to increase the maximum level?\n(maximum level 5 increase.)</English>
+		<Japenese>限界レベルを増加させるか？\n（限界突破時最大レベル5増加）</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>한계 레벨을 증가시키겠습니까?</UniqueID>
+		<Korean>한계 레벨을 증가시키겠습니까?</Korean>
+		<English>Do you want to increase the maximum level?</English>
+		<Japenese>限界レベルを増加させるか？</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>(한계 돌파 시 최대 레벨 5 증가)</UniqueID>
+		<Korean>(한계 돌파 시 최대 레벨 5 증가)</Korean>
+		<English>(maximum level 5 increase.)</English>
+		<Japenese>（限界突破時最大レベル5増加）</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>한계 레벨에 도달하지 못했습니다.</UniqueID>
+		<Korean>한계 레벨에 도달하지 못했습니다.</Korean>
+		<English>The maximum level has not been reached.</English>
+		<Japenese>限界レベルに達していません。</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>클래스 승급</UniqueID>
+		<Korean>클래스 승급</Korean>
+		<English>Class Upgrades</English>
+		<Japenese>クラスアップグレード</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>한계 돌파</UniqueID>
+		<Korean>한계 돌파</Korean>
+		<English>Break through</English>
+		<Japenese>限界突破</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>쿠폰 지급 아이템 입니다.</UniqueID>
+		<Korean>쿠폰 지급 아이템 입니다.</Korean>
+		<English>Coupon payment item.</English>
+		<Japenese>クーポン支給アイテムです。</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>거대 보스 발록을 처치하세요.레벨 설정은 이전 레벨을 클리어 시 상위 레벨로 진행이 가능합니다.</UniqueID>
+		<Korean>거대 보스 발록을 처치하세요.\n레벨 설정은 이전 레벨을 클리어 시 상위 레벨로 진행이 가능합니다.</Korean>
+		<English>Kill the giant boss Balrog.\nThe level setting can be advanced to the upper level by clearing the previous level.</English>
+		<Japenese>巨大ボスバルログを倒して下さい。\nレベル設定は、前のレベルをクリアすることによって上位レベルに進めることができます。</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>히든 스텟</UniqueID>
+		<Korean>히든 스텟</Korean>
+		<English>Hidden stat</English>
+		<Japenese>ヒドゥン段階</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>필드 디버프 (공포)</UniqueID>
+		<Korean>필드 디버프 (공포)</Korean>
+		<English>Field Debuff (Fear)</English>
+		<Japenese>フィールドデバフ（恐怖）</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>스턴 저항력</UniqueID>
+		<Korean>스턴 저항력</Korean>
+		<English>Stun resistance</English>
+		<Japenese>スタン耐性</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>거대 보스 처치!유니크 장비를 획득하라!</UniqueID>
+		<Korean>거대 보스 처치!\n유니크 장비를 획득하라!</Korean>
+		<English>Kill the Giant boss!\nGet Unique Equipment!</English>
+		<Japenese>巨大なボス退治！ユニーク装備を獲得せよ！</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>모든 저항력 50% 감소</UniqueID>
+		<Korean>모든 저항력 50% 감소</Korean>
+		<English>All resistances are reduced by 50%.</English>
+		<Japenese>すべての抵抗力を50％削減</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>영웅</UniqueID>
+		<Korean>영웅</Korean>
+		<English>Hero</English>
+		<Japenese>英雄</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>영웅 목록</UniqueID>
+		<Korean>영웅 목록</Korean>
+		<English>Hero list</English>
+		<Japenese>英雄 リスト</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>획득 완료</UniqueID>
+		<Korean>획득 완료</Korean>
+		<English>Acquired</English>
+		<Japenese>獲得完了</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>미획득</UniqueID>
+		<Korean>미획득</Korean>
+		<English>Not Acquired</English>
+		<Japenese>未獲得</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>(보석 450 영웅 로비 미등장)</UniqueID>
+		<Korean>(보석 450 영웅 로비 미등장)</Korean>
+		<English>(Jewelry 450 Hero does not appear in the lobby)</English>
+		<Japenese>（ジュエリー450のヒーローはロビーには現れません）</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_SHOP_GACHYA_HIGH_10</UniqueID>
+		<Korean>고급 장비 소환 x10</Korean>
+		<English>Summon advanced equipment x10</English>
+		<Japenese>高級装備召還 x10</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>LOBBY_SHOP_GACHYA_HIGH_10_DSC</UniqueID>
+		<Korean>4~9성 장비 소환 x10</Korean>
+		<English>Summon 4~9 star equipment x10</English>
+		<Japenese>4～9星装備召還 x10</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>소환 결과</UniqueID>
+		<Korean>소환 결과</Korean>
+		<English>Summon result</English>
+		<Japenese>召喚結果</Japenese>
+	</Data>
+</Localizing>

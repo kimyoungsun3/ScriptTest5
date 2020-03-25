@@ -18,8 +18,8 @@ public class VectorTest : MonoBehaviour {
 		}
 	}
 
-	Vector3[] arrayV3 = new Vector3[100];
-	List<Vector3> listV3 = new List<Vector3>();
+	Vector3[] arrayV3		= new Vector3[100];
+	List<Vector3> listV3	= new List<Vector3>();
 	Dictionary<Vector3, Vector3> dicV3 = new Dictionary<Vector3, Vector3>();
 	void Fun2(){
 		Debug.Log (" foreach Test");
@@ -39,7 +39,7 @@ public class VectorTest : MonoBehaviour {
 	}
 
 	void Fun1(){
-		int count = 100000;
+		int count = 1000000;
 		Vector3 v0 = Vector3.zero;
 		Vector3 v;
 

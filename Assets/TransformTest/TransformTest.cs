@@ -24,9 +24,9 @@ public class TransformTest : MonoBehaviour {
 			Fun3 ();
 
 			t [3] = Time.realtimeSinceStartup;
-			Debug.Log("Fun1:" + (t[1] - t[0]));
-			Debug.Log("Fun2:" + (t[2] - t[1]));
-			Debug.Log("Fun3:" + (t[3] - t[2]));
+			Debug.Log("Fun1 trans:" + (t[1] - t[0]));
+			Debug.Log("Fun2 transform:" + (t[2] - t[1]));
+			Debug.Log("Fun3 GetComponent<Transform>:" + (t[3] - t[2]));
 		}else if (Input.GetKeyDown (KeyCode.Alpha2)) {			
 			t [0] = Time.realtimeSinceStartup;
 			Fun2 ();
@@ -38,9 +38,9 @@ public class TransformTest : MonoBehaviour {
 			Fun1 ();
 
 			t [3] = Time.realtimeSinceStartup;
-			Debug.Log("Fun2:" + (t[1] - t[0]));
-			Debug.Log("Fun3:" + (t[2] - t[1]));
-			Debug.Log("Fun1:" + (t[3] - t[2]));
+			Debug.Log("Fun2 transform:" + (t[1] - t[0]));
+			Debug.Log("Fun3 GetComponent<Transform>:" + (t[2] - t[1]));
+			Debug.Log("Fun1 trans:" + (t[3] - t[2]));
 		}else if (Input.GetKeyDown (KeyCode.Alpha3)) {			
 			t [0] = Time.realtimeSinceStartup;
 			Fun3 ();
@@ -52,9 +52,9 @@ public class TransformTest : MonoBehaviour {
 			Fun2 ();
 
 			t [3] = Time.realtimeSinceStartup;
-			Debug.Log("Fun3:" + (t[1] - t[0]));
-			Debug.Log("Fun1:" + (t[2] - t[1]));
-			Debug.Log("Fun2:" + (t[3] - t[2]));
+			Debug.Log("Fun3 GetComponent<Transform>:" + (t[1] - t[0]));
+			Debug.Log("Fun1 trans:" + (t[2] - t[1]));
+			Debug.Log("Fun2 transform:" + (t[3] - t[2]));
 		}
 	}
 

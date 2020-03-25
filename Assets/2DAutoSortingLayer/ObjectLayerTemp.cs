@@ -4,7 +4,19 @@ using UnityEngine;
 
 
 [ExecuteInEditMode]
-public class ObjectLayerTemp : ObjectLayer {	
+public class ObjectLayerTemp : ObjectLayer
+{
+	//private void Awake()
+	//{
+	//	Debug.Log("Awake");
+	//	Destroy(this);
+	//}
+
+	//private void Start()
+	//{
+	//	Debug.Log("Start");
+	//}
+
 	void Update(){
 		//Debug.Log (Application.isPlaying + ":" + render);
 		if (Application.isPlaying) 

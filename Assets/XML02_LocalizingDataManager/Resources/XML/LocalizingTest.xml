@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Localizing xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Data>
+		<UniqueID>아침인사</UniqueID>
+		<Korean>아침인사</Korean>
+		<English>Good morning</English>
+		<Japenese>ルーシー</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>저녁인사</UniqueID>
+		<Korean>저녁인사</Korean>
+		<English>Good Afternoon</English>
+		<Japenese>エリナ</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>점심인사</UniqueID>
+		<Korean>점심인사</Korean>
+		<English>Evening</English>
+		<Japenese>マリア</Japenese>
+	</Data>
+
+	<Data>
+		<UniqueID>JOB_NAME_KNIGHT</UniqueID>
+		<Korean>룬나이트</Korean>
+		<English>Runic Knight</English>
+		<Japenese>ーンナイト</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>10001</UniqueID>
+		<Korean>성직자</Korean>
+		<English>Priest</English>
+		<Japenese>祭司</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>10002</UniqueID>
+		<Korean>소서러</Korean>
+		<English>Sorcerer</English>
+		<Japenese>ソザーラ</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>10003</UniqueID>
+		<Korean>창기사</Korean>
+		<English>Spear Knight</English>
+		<Japenese>父の記事</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>10004</UniqueID>
+		<Korean>소서러</Korean>
+		<English>Sorcerer</English>
+		<Japenese>ソザーラ</Japenese>
+	</Data>
+</Localizing>

@@ -42,20 +42,20 @@ public class RollingCube : MonoBehaviour {
 	{
 		isMoving = true;
 		Vector3 _basePoint	= transform.position + _direction / 2 + Vector3.down / 2;
-		Vector3 _axis		= Vector3.Cross(_direction, Vector3.up).normalized;
+		Vector3 _baseAxis	= Vector3.Cross(Vector3.up, _direction).normalized;
 		moveParent.position = _basePoint;
 		moveParent.rotation = Quaternion.identity;
 		transform.SetParent(moveParent);
 		//Debug.Log("_axis:" + _axis);
 
 		Quaternion _startQ	= moveParent.rotation;
-		Vector3 _endEuler	= moveParent.rotation.eulerAngles - _axis * 90f;
-		Quaternion _endQ = Quaternion.Euler(_endEuler);
+		Vector3 _endEuler	= moveParent.rotation.eulerAngles + _baseAxis * 90f;
+		Quaternion _endQ	= Quaternion.Euler(_endEuler);
 		float _time = 0;
 		while(_time < 1f)
 		{
 			_time += Time.deltaTime / moveTime;
-			moveParent.rotation = Quaternion.Lerp(_startQ, _endQ, _time);
+			moveParent.rotation = Quaternion.Lerp(_startQ, _endQ, cure.Evaluate( _time ));
 			yield return null;
 		}
 

@@ -58,16 +58,19 @@ namespace PoolManager7{
 		Dictionary<int, GameObject> poolListName 		= new Dictionary<int, GameObject>();
 
 		void Awake(){
-			if (ins == null) {
-				ins = this;
+			if (ins != null) {
+				Destroy(gameObject);
+				return;
 			}
 
+			DontDestroyOnLoad(gameObject);
+			ins = this;
 			init ();
 			ReleaseMemoryPrefab ();
 		}
 
 		//-----------------------------------------
-		private void ReleaseMemoryPrefab(){
+		void ReleaseMemoryPrefab(){
 			if (transMemoryPrefabRoot != null) {
 				Transform _t = transMemoryPrefabRoot;
 				GameObject _g;
@@ -80,7 +83,7 @@ namespace PoolManager7{
 			}
 		}
 
-		private void init(){
+		void init(){
 			GameObject _go, _prefab;
 			int _len = objList.Count;
 			List<GameObject> _list;
@@ -156,16 +159,27 @@ namespace PoolManager7{
 			return _rtnObject;
 		}
 
-		private GameObject InstantiateInner(GameObject _prefab, Vector3 _pos, Quaternion _qua){
+		GameObject InstantiateInner(GameObject _prefab, Vector3 _pos, Quaternion _qua){
 			if (!poolList.ContainsKey (_prefab)) {
 				Debug.LogError ("풀링에 없음 _name[" + _prefab.name + "]");
 				return null;
 			}
+			//ArgumentNullException: Argument cannot be null.
+			//Parameter name: key
+			//System.Collections.Generic.Dictionary`2[UnityEngine.GameObject, PoolManager7.PoolManager + GameObjectData].ContainsKey(UnityEngine.GameObject key)(at / Users / builduser / buildslave / mono / build / mcs /class/corlib/System.Collections.Generic/Dictionary.cs:458)
+			//PoolManager7.PoolManager.InstantiateInner(UnityEngine.GameObject _prefab, Vector3 _pos, Quaternion _qua) (at Assets/PoolManager/PoolManager7_CircleUI/PoolManager.cs:160)
+			//PoolManager7.PoolManager.Instantiate(UnityEngine.GameObject _go, Vector3 _pos, Quaternion _qua) (at Assets/PoolManager/PoolManager7_CircleUI/PoolManager.cs:152)
+			//CoinEat.MouseClick.Spawn_GameObject(Int32 _idx) (at Assets/CoinEat/MouseClick.cs:44)
+			//CoinEat.MouseClick.Update() (at Assets/CoinEat/MouseClick.cs:16)
+
 
 			GameObject _rtn = null;
 			GameObjectData _dataList 	= poolList [_prefab];
 			List<GameObject> _list 		= _dataList.list;
-			if (!_list [_dataList.front].activeInHierarchy) {
+			//Debug.Log(12);
+			if (!_list [_dataList.front].activeInHierarchy)
+			{
+				//Debug.Log(13);
 				//Not use gameobject > return data
 				_rtn = _list [_dataList.front];
 				//Debug.Log ("used > f");
@@ -178,9 +192,13 @@ namespace PoolManager7{
 				if (_dataList.front >= _dataList.max) {
 					_dataList.front = 0;
 				}
-			} else if (willGrow) {
+			}
+			else if (willGrow)
+			{
+				//Debug.Log(14);
 				int _idx = CheckAccessTime (_dataList, _list);
-				if (_idx != -1) {
+				if (_idx != -1)
+				{
 					//Debug.Log (" > Enmpy find ");
 					//재검색... 빈곳 찾기....
 					_dataList.front = _idx;
@@ -196,7 +214,10 @@ namespace PoolManager7{
 					if (_dataList.front >= _dataList.max) {
 						_dataList.front = 0;
 					}
-				}else{
+				}
+				else
+				{
+					//Debug.Log(16);
 					//not found the pooling gameobject and create gameobject 
 					//GameObject _goTemp = Instantiate (_prefab, _pos, _qua) as GameObject; 
 					//이상하게 위치 잡고 생성하면 오류나고 이렇게 해야만 한다...
@@ -247,7 +268,9 @@ namespace PoolManager7{
 			} else {
 				Debug.LogWarning (" 성장이 아닌데 여유가 없다 > 논리 오류");
 			}
+			//Debug.Log(191);
 			_dataList.accessTime 		= Time.time;
+			//Debug.Log(192);
 
 			return _rtn;
 		}

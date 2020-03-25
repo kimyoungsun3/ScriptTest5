@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<lvmonster>                           
+		<itemcode/>                   
+		<name/>                   
+		<type/>                   
+		<health/>                   
+		<attacktime/>                   
+		<attackpower/>                   
+		<attackspeed/>                   
+		<waittime/>                   
+		<speedmove/>                   
+		<speedchase/>                   
+		<speedturn/>                   
+		<radius/>                   
+		<radiusattack/>                   
+		<radiustorelease/> 
+	</lvmonster>
+	<lvmonster>                           
+		<itemcode/>                   
+		<name/>                   
+		<type/>                   
+		<health/>                   
+		<attacktime/>                   
+		<attackpower/>                   
+		<attackspeed/>                   
+		<waittime/>                   
+		<speedmove/>                   
+		<speedchase/>                   
+		<speedturn/>                   
+		<radius/>                   
+		<radiusattack/>                   
+		<radiustorelease/> 
+	</lvmonster>
+</root>

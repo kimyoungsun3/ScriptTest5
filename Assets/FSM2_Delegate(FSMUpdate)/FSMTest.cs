@@ -4,18 +4,18 @@ using UnityEngine;
 using UnityEngine.UI;
 
 namespace FSM2_Delegate{
-	public class FSMTest : FSMObject<GAME_STATE> {	
+	public class FSMTest : FSMObject<eGameState> {	
 		public Text text;
 		int count;
 		// Use this for initialization
 		void Start () {
-			AddState (GAME_STATE.Ready, 	pInReady, 	modifyReady, 	pOutReady);
+			AddState (eGameState.Ready, 	pInReady, 	modifyReady, 	pOutReady);
 			//AddState (GAME_STATE.Ready, 	pInReady, 	modifyReady, 	outReady);
-			AddState (GAME_STATE.Round, 	pInRound, 	modifyRound, 	null);
-			AddState (GAME_STATE.Gaming, 	pInGaming, 	modifyGaming, 	null);
-			AddState (GAME_STATE.Result, 	pInResult, 	modifyResult, 	null);
+			AddState (eGameState.Round, 	pInRound, 	modifyRound, 	null);
+			AddState (eGameState.Gaming, 	pInGaming, 	modifyGaming, 	null);
+			AddState (eGameState.Result, 	pInResult, 	modifyResult, 	null);
 
-			MoveState (GAME_STATE.Ready);
+			MoveState (eGameState.Ready);
 		}
 
 		//-----------------------------------------------------------
@@ -27,7 +27,7 @@ namespace FSM2_Delegate{
 
 		void modifyReady(){
 			if (Input.anyKeyDown) {
-				MoveState (GAME_STATE.Round);
+				MoveState (eGameState.Round);
 				return;
 			}
 
@@ -48,7 +48,7 @@ namespace FSM2_Delegate{
 
 		void modifyRound(){
 			if (Input.anyKeyDown) {
-				MoveState (GAME_STATE.Gaming);
+				MoveState (eGameState.Gaming);
 				return;
 			}
 
@@ -65,7 +65,7 @@ namespace FSM2_Delegate{
 
 		void modifyGaming(){
 			if (Input.anyKeyDown) {
-				MoveState (GAME_STATE.Result);
+				MoveState (eGameState.Result);
 				return;
 			}
 
@@ -84,7 +84,7 @@ namespace FSM2_Delegate{
 
 		void modifyResult(){
 			if (Input.anyKeyDown) {
-				MoveState (GAME_STATE.Ready);
+				MoveState (eGameState.Ready);
 				return;
 			}
 		}

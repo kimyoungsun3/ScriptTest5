@@ -52,7 +52,10 @@ public class HOTweenDemoBrain : MonoBehaviour
 
         // Tween the sample floating point number while creating TweenParms first,
         // and then assigning it to HOTween.
-        TweenParms tweenParms = new TweenParms().Prop("SampleFloat", 27.5f).Ease(EaseType.Linear).Loops(-1, LoopType.Yoyo);
+        TweenParms tweenParms = new TweenParms()
+			.Prop("SampleFloat", 27.5f)
+			.Ease(EaseType.Linear)
+			.Loops(-1, LoopType.Yoyo);
         HOTween.To(this, 3, tweenParms);
 
         // SEQUENCE CREATION

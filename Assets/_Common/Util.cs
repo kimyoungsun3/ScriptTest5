@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using Holoville.HOTween;
 
 public static class Util{
 	public static Vector3 GetDirFromAngle(float _angle){
@@ -158,5 +159,25 @@ public static class Util{
 
 	public static bool CheckBoundsRay(Collider _col, Ray _ray, out float _distance){
 		return _col.bounds.IntersectRay (_ray, out _distance);
+	}
+
+	//----------------------------------------------------
+	public static void ClearHotween(ref Tweener _twn)
+	{
+		if(_twn != null)
+		{
+			_twn.Kill();
+		}
+		_twn = null;
+	}
+
+	public static void SafeCall(ref VOID_FUN_VOID _on)
+	{
+		VOID_FUN_VOID _dummy = _on;
+		_on = null;
+		if(_dummy != null)
+		{
+			_dummy();
+		}
 	}
 }

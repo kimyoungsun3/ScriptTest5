@@ -1,0 +1,2679 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Localizing xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Data>
+		<UniqueID>GAME_TALK_NAME_1</UniqueID>
+		<Korean>루  시</Korean>
+		<English>LUCY</English>
+		<Japenese>ルーシー</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_NAME_2</UniqueID>
+		<Korean>오  크</Korean>
+		<English>Orc</English>
+		<Japenese>オーク</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_NAME_3</UniqueID>
+		<Korean>엘 리 나</Korean>
+		<English>ELINA</English>
+		<Japenese>エリナ</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_NAME_4</UniqueID>
+		<Korean>슬 라 임</Korean>
+		<English>Slime</English>
+		<Japenese>スライム</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_NAME_5</UniqueID>
+		<Korean>유  다</Korean>
+		<English>JUDAS</English>
+		<Japenese>ユダ</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_NAME_6</UniqueID>
+		<Korean>고 블 린</Korean>
+		<English>Goblin</English>
+		<Japenese>ゴブリン</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_NAME_7</UniqueID>
+		<Korean>탈 영 병</Korean>
+		<English>Deserter</English>
+		<Japenese>脱走兵</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_NAME_8</UniqueID>
+		<Korean>마 리 아</Korean>
+		<English>MARIA</English>
+		<Japenese>マリア</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_NAME_9</UniqueID>
+		<Korean>해골 병사</Korean>
+		<English>Skeleton</English>
+		<Japenese>スケルトン兵士</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_NAME_10</UniqueID>
+		<Korean>고 린</Korean>
+		<English>Gorin</English>
+		<Japenese>ゴリン</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_NAME_11</UniqueID>
+		<Korean>스 칼 렛</Korean>
+		<English>SCARLET</English>
+		<Japenese>スカーレット</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_NAME_12</UniqueID>
+		<Korean>네스마 제국군</Korean>
+		<English>Imperial Soldier</English>
+		<Japenese>ネスマ帝国軍</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_NAME_13</UniqueID>
+		<Korean>촌 장</Korean>
+		<English>Village head</English>
+		<Japenese>村長</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_NAME_14</UniqueID>
+		<Korean>마 린</Korean>
+		<English>MARIN</English>
+		<Japenese>マリン</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_NAME_15</UniqueID>
+		<Korean>오 우 거</Korean>
+		<English>Ogre</English>
+		<Japenese>オーガ</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_NAME_16</UniqueID>
+		<Korean>스 파 라 임</Korean>
+		<English>Spalime</English>
+		<Japenese>スパライム</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_NAME_17</UniqueID>
+		<Korean>불멸자 리치킹</Korean>
+		<English>Rich King</English>
+		<Japenese>不滅者リッチキング</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_NAME_18</UniqueID>
+		<Korean>해골 전사</Korean>
+		<English>Skeleton Warrior</English>
+		<Japenese>スケルトン戦士</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_NAME_19</UniqueID>
+		<Korean>스톤 골램</Korean>
+		<English>Stone Golem</English>
+		<Japenese>ストーンゴーレム</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_NAME_20</UniqueID>
+		<Korean>사막 전사</Korean>
+		<English>Desert Warrior</English>
+		<Japenese>砂漠戦士</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_NAME_21</UniqueID>
+		<Korean>이민족</Korean>
+		<English>Immigrants</English>
+		<Japenese>移民族</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_NAME_22</UniqueID>
+		<Korean>카 엘</Korean>
+		<English>CHAEL</English>
+		<Japenese>カエル</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_NAME_23</UniqueID>
+		<Korean>카 밀 라</Korean>
+		<English>CAMILLA</English>
+		<Japenese>カミラ</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_NAME_24</UniqueID>
+		<Korean>레 이 나</Korean>
+		<English>RAINA</English>
+		<Japenese>レイナ</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_NAME_25</UniqueID>
+		<Korean>십자군 전사</Korean>
+		<English>Warrior.Crusades</English>
+		<Japenese>十字軍戦士</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_NAME_26</UniqueID>
+		<Korean>십자군 사령관</Korean>
+		<English>Commander.Crusades</English>
+		<Japenese>十字軍司令官</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_1_1</UniqueID>
+		<Korean>(여행 도중 고향이 침공당했다는 소식을 듣고 돌아오긴 했는데..)</Korean>
+		<English>(I rushed home after I heard that my hometown was invaded during my trip..)</English>
+		<Japenese>（旅の途中で故郷が侵攻されたという知らせを聞いて戻って来たが、、）</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_1_2</UniqueID>
+		<Korean>거기 인간!!</Korean>
+		<English>Hey, you!!</English>
+		<Japenese>そこの人間！</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_1_3</UniqueID>
+		<Korean>슬라임? 성 외곽까지 몬스터가 있다니!</Korean>
+		<English>Slime? Monsters even in the outskirts of the castle!</English>
+		<Japenese>スライム？城の外郭にまでモンスターがいるなんて！</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_1_4</UniqueID>
+		<Korean>가진 걸 다 놓고 간다면 살려는 주마</Korean>
+		<English>Leave everything you have, and I'll let you live.</English>
+		<Japenese>持ってるもの全部よこせば助けてやるぜ</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_1_5</UniqueID>
+		<Korean>헤-, 슬라임 따위 덤벼라!</Korean>
+		<English>Huh, come on Slime!</English>
+		<Japenese>へー、スライムなんかかかってこいや</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_2_1</UniqueID>
+		<Korean>슬라임들 어디로 도망친 거지 !! 저건?</Korean>
+		<English>Where did the slimes escape !! What is that?</English>
+		<Japenese>スライム達どこに逃げたんだ！あれは？</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_2_2</UniqueID>
+		<Korean>취취칙, 더 이상 도망칠 곳은 없다</Korean>
+		<English>There's nowhere to run away.</English>
+		<Japenese>これ以上逃げ場はないぞ</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_2_3</UniqueID>
+		<Korean>여기서 끝인가..</Korean>
+		<English>Is this the end?</English>
+		<Japenese>ここで終わりなのか、、</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_2_4</UniqueID>
+		<Korean>다 같이 포위해서 공격해라</Korean>
+		<English>Surround them and attack altogether.</English>
+		<Japenese>一斉に包囲して攻撃しろ</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_2_5</UniqueID>
+		<Korean>크윽</Korean>
+		<English>Uhh</English>
+		<Japenese>ウッ</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_2_6</UniqueID>
+		<Korean>상황을 보니 도와줘야겠는걸</Korean>
+		<English>I think they need my help.</English>
+		<Japenese>状況を見ると助けてやらなきゃ</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_2_7</UniqueID>
+		<Korean>취취칙, 인간 방해한다면 너도 죽는다</Korean>
+		<English>Human. If you interfere, you die.</English>
+		<Japenese>人間、邪魔したらお前も殺すぞ</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_2_8</UniqueID>
+		<Korean>날 죽일 수 있을까?</Korean>
+		<English>Do you think you can kill me?</English>
+		<Japenese>俺を殺せるか？</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_3_1</UniqueID>
+		<Korean>아, 그래 놓쳤다고</Korean>
+		<English>Yes, I lost track of them.</English>
+		<Japenese>あ、そうだ。逃した</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_3_2</UniqueID>
+		<Korean>취취칙, 중간에 훼방꾼이 나타났다</Korean>
+		<English>An unexpected disrupter appeared.</English>
+		<Japenese>途中で邪魔者が現れた</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_3_3</UniqueID>
+		<Korean>훼방꾼이라</Korean>
+		<English>A disrupter</English>
+		<Japenese>邪魔者か</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_3_4</UniqueID>
+		<Korean>한번 더 기회를..</Korean>
+		<English>One more chance</English>
+		<Japenese>もう一回チャンスを..</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_3_5</UniqueID>
+		<Korean>내가 제일 싫어하는 게 뭔 줄 알아?</Korean>
+		<English>You know what I hate the most?</English>
+		<Japenese>俺が一番嫌いなのが何だか分かるか？</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_3_6</UniqueID>
+		<Korean>똑같은 짓을 반복하는 거야 (칼로 베어버린다)</Korean>
+		<English>Repeating the same thing(cuts him down with a sword)</English>
+		<Japenese>同じ事を繰り返すことだ（刀で切ってしまう）</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_3_7</UniqueID>
+		<Korean>끄어억</Korean>
+		<English>Ahh..</English>
+		<Japenese>あぁ、、</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_3_8</UniqueID>
+		<Korean>(툭툭) 창세기의 마지막 혈육이 살아남은 건가</Korean>
+		<English>Did the last blood of Genisis survive?</English>
+		<Japenese>創世記の最後の血縁だけが生き延びたのか</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_3_9</UniqueID>
+		<Korean>도와줘서 고마워</Korean>
+		<English>Thank you for the help</English>
+		<Japenese>助けてくれてありがとう</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_3_10</UniqueID>
+		<Korean>뭐 당연한걸. 몬스터한테는 왜 쫓기고 있었던 거야?</Korean>
+		<English>Of course. Why were monsters after you?</English>
+		<Japenese>当たり前なことを。モンスターにはなんで追われていたんだ？</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_3_11</UniqueID>
+		<Korean>(믿을 수 있을까) 그게..</Korean>
+		<English>(Believe it or not) It's…</English>
+		<Japenese>（信じれる人かな）それが..</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_3_12</UniqueID>
+		<Korean>근처 엔트리 마을로 가는 도중 몬스터를 만나서 하하</Korean>
+		<English>I encountered a monster on my way to entry village nearby</English>
+		<Japenese>近所のエントリー村に向かってる途中、モンスターにバッタリ会っちゃって、ハハ</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_3_13</UniqueID>
+		<Korean>하긴 마도의 침공으로 곳곳에 몬스터들이 출몰하고 있으니까</Korean>
+		<English>Monsters are popping up everywhere due to the invasion of MADO</English>
+		<Japenese>確かにマドの侵攻で、所々でモンスターが出没しているからな</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_3_14</UniqueID>
+		<Korean>아직 위험할지 모르니 엔트리 마을까지 같이 가자</Korean>
+		<English>It may still be dangerous, so let's go to the entry village together</English>
+		<Japenese>まだ危険かもしれないからエントリー村まで一緒に行こう</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_4_1</UniqueID>
+		<Korean>엔트리 마을은 아직인 거야?</Korean>
+		<English>Are we there yet?</English>
+		<Japenese>エントリー村はまだなのか？</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_4_2</UniqueID>
+		<Korean>이제 조금만 더 가면 돼</Korean>
+		<English>Just a bit further.</English>
+		<Japenese>もう少し行けばいい</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_4_3</UniqueID>
+		<Korean>비 맞았더니 배고프고 추워..</Korean>
+		<English>I'm hungry and cold because of the rain</English>
+		<Japenese>雨に濡れて寒くなってきたし、お腹まですいてきた。。</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_4_4</UniqueID>
+		<Korean>(은근히 피곤한 스타일이야)</Korean>
+		<English>(You're really a lot of work)</English>
+		<Japenese>（何気に面倒なスタイルだな）</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_4_5</UniqueID>
+		<Korean>어이, 거기!</Korean>
+		<English>Hey, there!</English>
+		<Japenese>おい、そこ！</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_4_6</UniqueID>
+		<Korean>슬라임?? 고블린까지 있네</Korean>
+		<English>Slime?? Even goblins</English>
+		<Japenese>スライム？ゴブリンまでいるな</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_4_7</UniqueID>
+		<Korean>이전일의 복수다.</Korean>
+		<English>This is revenge for the past.</English>
+		<Japenese>この前の復讐だ</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_4_8</UniqueID>
+		<Korean>무슨 복수??</Korean>
+		<English>What revenge??</English>
+		<Japenese>何の復讐??</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_4_9</UniqueID>
+		<Korean>....</Korean>
+		<English>…</English>
+		<Japenese>....</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_5_1</UniqueID>
+		<Korean>드디어 엔트리에 도착했네</Korean>
+		<English>Finally, arrived at Entry</English>
+		<Japenese>やっとエントリーに着いた</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_5_2</UniqueID>
+		<Korean>?? 마을에 웬 병사들이지</Korean>
+		<English>?? Why are there soldiers in the village?</English>
+		<Japenese>？？何で村に兵士達が？</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_5_3</UniqueID>
+		<Korean>탈영병인가 봐 전쟁에 패배한 나라에서 흔한 일이잖아</Korean>
+		<English>They must be runaways, it's a common thing in a country that lost a war.</English>
+		<Japenese>脱走兵みたいだな。戦争で敗北した国ではよくある事だろう</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_5_4</UniqueID>
+		<Korean>(패배한 나라...)</Korean>
+		<English>(A defeated country ...)</English>
+		<Japenese>（敗北した国...)</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_5_5</UniqueID>
+		<Korean>흐흐, 이리 와서 술 한 잔 따라봐</Korean>
+		<English>Come here and pour me a drink.</English>
+		<Japenese>フフッ、ここに来て一杯注いでみろ</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_5_6</UniqueID>
+		<Korean>왜 이래요</Korean>
+		<English>Why should I?</English>
+		<Japenese>何ですか</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_5_7</UniqueID>
+		<Korean>이거 왜 이래 먼저 눈웃음치면서 꼬신건 그쪽이잖아</Korean>
+		<English>You're the one who started flirting with me smiling with your eyes</English>
+		<Japenese>何だ、先に微笑みながら誘ったのはそっちだろう</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_5_8</UniqueID>
+		<Korean>전 사제입니다 술이라니 말도 안 돼요</Korean>
+		<English>I am a priest. Drinking? It's ridiculous.</English>
+		<Japenese>私は司祭です。酒なんてとんでもありません</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_5_9</UniqueID>
+		<Korean>그러지 말고 여기 앉아봐</Korean>
+		<English>Just come, and sit here.</English>
+		<Japenese>そう言わないでここに座ってみな</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_5_10</UniqueID>
+		<Korean>그만두지 못해!!</Korean>
+		<English>Stop that!!</English>
+		<Japenese>止めろ！</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_5_11</UniqueID>
+		<Korean>나라의 병사로써 백성을 지키지는 못할망정 오히려 괴롭히다니</Korean>
+		<English>Soldiers who should defend the people, how dare you harass them</English>
+		<Japenese>国の兵士として百姓を守らないどころかむしろ苛めるなんて</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_5_12</UniqueID>
+		<Korean>오호!~ 여기도 괜찮은 여자가 둘이나 있군</Korean>
+		<English>Ohh! I see two pretty ladies here.</English>
+		<Japenese>オホ！～ここにも良い女が二人もいるな</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_5_13</UniqueID>
+		<Korean>얘들아 붙잡아라!</Korean>
+		<English>Gang, hold them!</English>
+		<Japenese>こいつを捕らえろ！</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_6_1</UniqueID>
+		<Korean>보고하라</Korean>
+		<English>Report</English>
+		<Japenese>報告しろ</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_6_2</UniqueID>
+		<Korean>취취칙, 현재 엔트리 마을에 숨어있는 거 같다</Korean>
+		<English>I think they're hiding in the entry village now.</English>
+		<Japenese>現在エントリー村に隠れているようだ</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_6_3</UniqueID>
+		<Korean>엔트리 마을을 포위하고</Korean>
+		<English>Surround entry village</English>
+		<Japenese>エントリー村を包囲して</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_6_4</UniqueID>
+		<Korean>엘리나 공주의 숨통을 끊어와라!!</Korean>
+		<English>Kill princess ELINA!</English>
+		<Japenese>エリナ姫を殺せ!!</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_6_5</UniqueID>
+		<Korean>ZZZ..쿨쿨 냠냠..Zzz</Korean>
+		<English>ZZZ…Zzz</English>
+		<Japenese>ZZZ...Zzz</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_6_6</UniqueID>
+		<Korean>일어나요! 일어나라구욧!!</Korean>
+		<English>Wake up! I said, wake up!!</English>
+		<Japenese>起きて!起きてってば!!</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_6_7</UniqueID>
+		<Korean>으-음, 왜 깨워..</Korean>
+		<English>Why did you wake me?</English>
+		<Japenese>う、うん、、何で起こすんだ..</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_6_8</UniqueID>
+		<Korean>큰일 났어요. 지금 몬스터들이</Korean>
+		<English>Oh no. The monsters…</English>
+		<Japenese>大変です。今モンスター達が</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_6_9</UniqueID>
+		<Korean>마을을 완전히 포위하고 있다고요!!</Korean>
+		<English>They're surrounding the village.</English>
+		<Japenese>村を完全に包囲していますよ！！</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_6_10</UniqueID>
+		<Korean>헉!! 뭐라고?</Korean>
+		<English>Ugh!! What?</English>
+		<Japenese>嘘！！何だって？</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_6_11</UniqueID>
+		<Korean>아아, 날 잡으러 온 거야</Korean>
+		<English>Alas, they came for me</English>
+		<Japenese>ああ、私を捕まえに来たんだな</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_6_12</UniqueID>
+		<Korean>뭐? 그게 무슨 소리야</Korean>
+		<English>What? What are you talking about?</English>
+		<Japenese>何？どういうことだ</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_6_13</UniqueID>
+		<Korean>일단 이곳을 빠져나가요</Korean>
+		<English>First, let's get out of here</English>
+		<Japenese>取り敢えず、ここを抜け出しましょう</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_7_1</UniqueID>
+		<Korean>마을이 온통 몬스터 천지잖아!</Korean>
+		<English>Monsters everywhere in the village</English>
+		<Japenese>村全体がモンスターだらけじゃないか！</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_7_2</UniqueID>
+		<Korean>아아, 나 때문에 마을 사람들이</Korean>
+		<English>Alas, because of me</English>
+		<Japenese>ああ、私のせいで村の人々が</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_7_3</UniqueID>
+		<Korean>포위망을 뚫는 게 쉽지 않아 보여요</Korean>
+		<English>It doesn't seem easy to break through the siege</English>
+		<Japenese>包囲網を突破するのは容易じゃなさそうです</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_7_4</UniqueID>
+		<Korean>일단 주변 몬스터를 정리하고 마을에서 벗어나야 해</Korean>
+		<English>Get rid of the monsters around you, and let’s get out of this village</English>
+		<Japenese>まずは周りのモンスターを片付けて村から外れなきゃ</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_7_5</UniqueID>
+		<Korean>왼쪽 포위망이 약한 거 같아요</Korean>
+		<English>I think the left side is weak.</English>
+		<Japenese>左の包囲網が弱そうです</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_7_6</UniqueID>
+		<Korean>좋아, 왼쪽부터 돌파하자</Korean>
+		<English>Okay, let's break from the left.</English>
+		<Japenese>オッケー、左から突破しよう</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_8_1</UniqueID>
+		<Korean>뭐!! 네가 공주!!</Korean>
+		<English>What? Are you the princess?</English>
+		<Japenese>何だって！お前が姫だって！！</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_8_2</UniqueID>
+		<Korean>마도의 침공으로 모두 죽고 나만..</Korean>
+		<English>Only I survived the invasion of MADO</English>
+		<Japenese>マドの侵攻でみんな死んで私だけ..</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_8_3</UniqueID>
+		<Korean>숨긴 건 미안해. 하지만 누구도 믿을 수 없었어</Korean>
+		<English>Sorry, I kept it a secret. But I couldn't trust anybody</English>
+		<Japenese>隠してたのは悪い。だけど誰も信じれなかったの</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_8_4</UniqueID>
+		<Korean>그런..</Korean>
+		<English>then…</English>
+		<Japenese>そんな..</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_8_5</UniqueID>
+		<Korean>이야기 도중 죄송하지만 제 이야기를 들어주세요</Korean>
+		<English>I'm sorry to interrupt, but listen to what I have to say</English>
+		<Japenese>話の途中で悪いけど私の話を聞いてください</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_8_6</UniqueID>
+		<Korean>전 신탁을 받고 소맥의 수도 마그나로 가는 중이였어요</Korean>
+		<English>I received an oracle and was on my way to Magna, the capital of SOMAX</English>
+		<Japenese>私は神託を受けてソマックスの首都マグナに行く所でした</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_8_7</UniqueID>
+		<Korean>신탁의 내용이?</Korean>
+		<English>What was the oracle about?</English>
+		<Japenese>神託の内容が？</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_8_8</UniqueID>
+		<Korean>-어둠이 빛을 삼킬지니 마지막 빛을 찾아 보필하라-</Korean>
+		<English>The darkness will swallow the light, seek out and assist the last light -</English>
+		<Japenese>-闇が光を呑み込むであろうに最後の光を探し補佐せよ-</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_8_9</UniqueID>
+		<Korean>전 엘리나 공주님이 마지막 남은 빛이라고 생각해요</Korean>
+		<English>I believe you are the last light, princess ELINA</English>
+		<Japenese>私はエリナ姫様が最後の光だと思います</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_9_1</UniqueID>
+		<Korean>이제 어떻게 할 생각이야</Korean>
+		<English>What are we going to do now?</English>
+		<Japenese>これからどうするつもりだ</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_9_2</UniqueID>
+		<Korean>일단 동맹국인 네스마 제국으로 가보려고</Korean>
+		<English>Let's go to the Empire of NESMA</English>
+		<Japenese>取り敢えず同盟国のネスマ帝国に行って見ようと考えている</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_9_3</UniqueID>
+		<Korean>네스마제국은 현재 강압정책으로 국민들의 불만이 엄청나다고 해요</Korean>
+		<English>I hear the people of NESMA are sick of the current arm-twisting policy</English>
+		<Japenese>現在、ネスマ帝国は強圧政策で国民達の不満がすごいそうです</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_9_4</UniqueID>
+		<Korean>그들이 도와줄까요?</Korean>
+		<English>Do you think they will help?</English>
+		<Japenese>彼らが手伝ってくれるでしょうか？</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_9_5</UniqueID>
+		<Korean>하지만 동맹 협정에는 타 세력의 침공이 있을 시 서로 돕기로 되어있어</Korean>
+		<English>The alliance treaty states support when invaded by foreign forces</English>
+		<Japenese>しかし同盟の協定に他勢力に侵攻された時お互い助け合う事になっている</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_9_6</UniqueID>
+		<Korean>협정에 따라 도와달라고 하면 거부하지 못할 꺼야</Korean>
+		<English>They can't refuse our request according to the alliance treaty</English>
+		<Japenese>協定に従って助けて欲しいと言えば拒否は出来ないだろう</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_9_7</UniqueID>
+		<Korean>좋아 일단 네스마 제국으로 가자</Korean>
+		<English>Okay, let's go to the Empire of NESMA.</English>
+		<Japenese>よし、取り敢えずネスマ帝国に行こう</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_10_1</UniqueID>
+		<Korean>네스마 제국으로 가는 길에 몬스터가 너무 많아</Korean>
+		<English>There will be many monsters on the way</English>
+		<Japenese>ネスマ帝国に行く道にはモンスターが多過ぎるよ</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_10_2</UniqueID>
+		<Korean>어떻게 돌파할 수 없을까</Korean>
+		<English>How can we break through the monsters?</English>
+		<Japenese>何とか突破出来ないかな</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_10_3</UniqueID>
+		<Korean>이대로 돌파하는 건 무리야</Korean>
+		<English>We can't break through this way.</English>
+		<Japenese>このまま突破するのは無理だ</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_10_4</UniqueID>
+		<Korean>북쪽으로 조금 더 가면 네스마제국으로 이어지는 동굴이 있다고 들었어요</Korean>
+		<English>I hear there's a cave in the north that leads to the Empire of NESMA</English>
+		<Japenese>北の方に少し行けばネスマ帝国に繋がる洞窟があると聞いたことがあります</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_10_5</UniqueID>
+		<Korean>그쪽으로 가보자</Korean>
+		<English>Let's go that way</English>
+		<Japenese>それじゃ、そっちの方に行ってみよう</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_10_6</UniqueID>
+		<Korean>크크, 아무도 빠져나갈 수 없다</Korean>
+		<English>Nobody can escape</English>
+		<Japenese>ククッ、誰もここから出れないぞ</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_11_1</UniqueID>
+		<Korean>입구를 찾긴 했는데..</Korean>
+		<English>I found the entrance</English>
+		<Japenese>入り口は見つけたが、、</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_11_2</UniqueID>
+		<Korean>동굴 지도 없이 이동하는 건 위험하지 않을까요?</Korean>
+		<English>Wouldn't it be dangerous to move without a map of the cave?</English>
+		<Japenese>洞窟の地図なしで移動するのは危険じゃないですか？</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_11_3</UniqueID>
+		<Korean>마을에 가서 지도 살 여유는 없어.</Korean>
+		<English>We can't afford to go back to the village for a map</English>
+		<Japenese>村に行って地図を買う余裕なんてないぞ</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_11_4</UniqueID>
+		<Korean>그래도..</Korean>
+		<English>But still…</English>
+		<Japenese>でも、、</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_11_5</UniqueID>
+		<Korean>걱정 없어 날 믿어!</Korean>
+		<English>Don’t worry, trust me!</English>
+		<Japenese>大丈夫俺を信じろ！</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_12_1</UniqueID>
+		<Korean>잠깐 루시! 너 또 길 잃었지?</Korean>
+		<English>Wait a minute, LUCY! Are you lost again?</English>
+		<Japenese>待ってルーシー！あんたまた道忘れただろう？</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_12_2</UniqueID>
+		<Korean>걸어도 걸어도 출구가 안 나오잖아!</Korean>
+		<English>We've been walking forever, and still no exit.</English>
+		<Japenese>歩いても歩いても出口が出ないじゃないか！</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_12_3</UniqueID>
+		<Korean>그,그럴리가 조금만 더가면..</Korean>
+		<English>No way, just a bit further</English>
+		<Japenese>そ、そんなはずがもう少し行けば、、</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_12_4</UniqueID>
+		<Korean>삐그덕 삐그덕</Korean>
+		<English>Creak, creak</English>
+		<Japenese>ギシギシ</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_12_5</UniqueID>
+		<Korean>무슨소리 안들려?</Korean>
+		<English>Do you hear something?</English>
+		<Japenese>何か聞こえないか？</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_12_6</UniqueID>
+		<Korean>자비의 신이시여..</Korean>
+		<English>God of mercy..</English>
+		<Japenese>慈悲の神様、、</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_13_1</UniqueID>
+		<Korean>드디어 출구가 보이네요</Korean>
+		<English>Finally, I see the exit</English>
+		<Japenese>やっと出口が見えますね</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_13_2</UniqueID>
+		<Korean>이것 봐 나만 믿으라니까</Korean>
+		<English>Told you to trust me</English>
+		<Japenese>ホラ、俺を信じろって</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_13_3</UniqueID>
+		<Korean>(한대 때려주고 싶다)</Korean>
+		<English>(For crying out loud)</English>
+		<Japenese>（一発殴ってやりたい）</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_13_4</UniqueID>
+		<Korean>신이시여 저희들을 인도해주셔서 감사합니다</Korean>
+		<English>God, thank you for guiding us.</English>
+		<Japenese>神様私達を導いてくださり、ありがとうございます</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_14_1</UniqueID>
+		<Korean>이게 얼마 만에 바깥공기람</Korean>
+		<English>Finally some air</English>
+		<Japenese>いつぶりの新鮮な空気なんだ</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_14_2</UniqueID>
+		<Korean>네스마 제국 영토네요</Korean>
+		<English>This is NESMA Empire territory</English>
+		<Japenese>ネスマ帝国の領土ですね</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_14_3</UniqueID>
+		<Korean>아직 수도까진 거리가 있지만 마도군의 포위망에서 벗어난 것만으로도 다행이야</Korean>
+		<English>We're still far from the capital, but at least we escaped the MADO forces</English>
+		<Japenese>まだ首都までは距離がありますがマド軍の包囲網から逃れただけでも良かった</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_14_4</UniqueID>
+		<Korean>취취칙.  취취칙.</Korean>
+		<English>(che..che..)</English>
+		<Japenese>ジジッ 。ジジッ</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_14_5</UniqueID>
+		<Korean>마도군의 정찰병!!</Korean>
+		<English>MADO scouts!!</English>
+		<Japenese>マド軍の偵察兵！</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_14_6</UniqueID>
+		<Korean>이곳 역시 마도군의 침공에서 벗어나진 못했나 보네요</Korean>
+		<English>I guess, even NESMA could not get away from the invasion of MADO.</English>
+		<Japenese>ここもやっぱりマド軍の侵攻から逃れなかったみたいですね</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_14_7</UniqueID>
+		<Korean>눈치채기 전에 해치우고 이동하자</Korean>
+		<English>Let's get rid of them and move on before they notice us</English>
+		<Japenese>気づかれる前にさっさとやっつけて動こう</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_15_1</UniqueID>
+		<Korean>마도군이 벌써 네스마 제국 영토까지 들어와 있다니..</Korean>
+		<English>MADO forces already invading NESMA territory..</English>
+		<Japenese>マド軍がもうネスマ帝国の領土にまでやって来たとは..</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_15_2</UniqueID>
+		<Korean>근처 마을이 걱정이야</Korean>
+		<English>I worried about the village nearby.</English>
+		<Japenese>近所の村が心配だ</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_15_3</UniqueID>
+		<Korean>근처에 엘파크 마을이 있어요</Korean>
+		<English>There's ELPARK village nearby</English>
+		<Japenese>近所にエルパーク村があります</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_15_4</UniqueID>
+		<Korean>아직 그곳까지 진군하진 못했겠지. 마도 군이 쳐들어 오고 있다는 걸 알려야 해</Korean>
+		<English>We have to let them know that the MADO forces are coming</English>
+		<Japenese>まだそこまで進軍出来なかっただろうな。マド軍が攻めて来ているのを知らせないと</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_15_5</UniqueID>
+		<Korean>서두르자</Korean>
+		<English>Let's hurry</English>
+		<Japenese>急ごう</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_16_1</UniqueID>
+		<Korean>벌써 마을이 마도군에게 공격당하고 있어요</Korean>
+		<English>MADO forces are attacking the village already</English>
+		<Japenese>既に村がマド軍に攻撃されています</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_16_2</UniqueID>
+		<Korean>그냥 지나칠 순 없어 아직 선발 부대인 거 같으니 격퇴하자</Korean>
+		<English>We can't just go. They look like an advance party, let's take care of them.</English>
+		<Japenese>素通り出来ないよ。まだ先発部隊のようだから撃退しよう</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_16_3</UniqueID>
+		<Korean>앞장설 테니 뒤를 부탁해!</Korean>
+		<English>I'll take the lead, take care of the back</English>
+		<Japenese>先頭に立つから後ろをお願い！</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_17_1</UniqueID>
+		<Korean>마을 사람들은 다 대피시킨 건가</Korean>
+		<English>Did all the villagers evacuate?</English>
+		<Japenese>村の人々は皆避難させたのかな</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_17_2</UniqueID>
+		<Korean>대부분 무사히 빠져나간 거 같아요</Korean>
+		<English>Most of them seem to have escaped safely.</English>
+		<Japenese>大体無事に抜け出したようです</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_17_3</UniqueID>
+		<Korean>우리도 조금 휴식을 취한 뒤 바로 이동해야 해</Korean>
+		<English>We should take a little break and move on</English>
+		<Japenese>私達も少し休んでからすぐ動かなきゃ</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_17_4</UniqueID>
+		<Korean>그럴 시간도 없어 보이는 걸</Korean>
+		<English>We don't have enough time.</English>
+		<Japenese>そんな時間もなさそうだけど</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_17_5</UniqueID>
+		<Korean>크크, 공격해라!</Korean>
+		<English>Attack!</English>
+		<Japenese>ククッ、攻撃しろ！</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_18_1</UniqueID>
+		<Korean>마도군의 진군 속도가 엄청난걸</Korean>
+		<English>The MADO forces are invading too fast</English>
+		<Japenese>マド軍の進軍速度がすごいな</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_18_2</UniqueID>
+		<Korean>유다라는 지휘관이 통솔하고 있어</Korean>
+		<English>Office JUDAS is commanding the attack</English>
+		<Japenese>ユダという指揮官が率いている</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_18_3</UniqueID>
+		<Korean>유다?</Korean>
+		<English>JUDAS?</English>
+		<Japenese>ユダ？</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_18_4</UniqueID>
+		<Korean>악마에게 영혼을 넘긴 자야 \n소마 대전에서 그의 힘은 두려움 그 자체였어</Korean>
+		<English>He sold his soul to the devil\nHis power in the Soma war was fear itself</English>
+		<Japenese>悪魔に魂を売ったやつだ\nソマ対戦で彼の力は恐ろしいそのものだった</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_18_5</UniqueID>
+		<Korean>유다라.. 언젠가 만나겠지</Korean>
+		<English>JUDAS..We'll meet sometime</English>
+		<Japenese>ユダか、、いつか会うだろうな</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_18_6</UniqueID>
+		<Korean>어서 빨리 네스마제국 수도 에투로가서 마도군의 침공 소식을 전해야 해요</Korean>
+		<English>We need to hurry to Etoo, the capital of NESMA and report about the MADO invasion.</English>
+		<Japenese>早くネスマ帝国の首都エトゥに行ってマド軍の侵攻の知らせを伝えなければ</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_19_1</UniqueID>
+		<Korean>곧 수도 에투에 도착할 거야 네스마 제국이 정말 도와줄 거라 생각해?</Korean>
+		<English>We're almost there. Do you think they will help?</English>
+		<Japenese>まもなく首都エトゥに着くよ。ネスマ帝国が本当に手伝ってくれると思うか？</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_19_2</UniqueID>
+		<Korean>네스마 제국도 지금 침공을 당하고 있어. 이대로 지켜만 보진 않을 꺼야</Korean>
+		<English>The NESMA empire is already being invaded. They will not just watch.</English>
+		<Japenese>ネスマ帝国も今侵攻を受けているよ。このまま見守るわけにはいかない</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_19_3</UniqueID>
+		<Korean>위에 놈들은 변방의 마을이 어떻게 되든 신경 안 쓴다고 수도에 위협이 가해지기 전에는 눈 하나 꿈쩍 안 할 걸</Korean>
+		<English>The authorities can care less about a distant village. They won't give a shit unless the capital is threatened.</English>
+		<Japenese>上のやつらは辺境の村がどうなろうが気にしないよ。首都に脅威が加わる前まではぴくっともしないだろう</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_19_4</UniqueID>
+		<Korean>네스마 제국은 국민들의 고혈을 빨아먹는다고 소문이 자자해서 저 역시 기대가 안 가요</Korean>
+		<English>I don’t expect much either, rumor has it that the NESMA empire sucks the people's blood out.</English>
+		<Japenese>ネスマ帝国は国民の膏血を絞るという噂まで広まって私もやっぱり期待出来ません</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_19_5</UniqueID>
+		<Korean>하지만 지금 기댈 수 있는 건 동맹국인 네스마 제국뿐이야</Korean>
+		<English>But still, NESMA empire is the only hope we have</English>
+		<Japenese>しかし今頼れるのは同盟国であるネスマ帝国だけだ</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_20_1</UniqueID>
+		<Korean>난 왕궁에 갔다 올 테니까 숙소 잡고 기다리고 있어</Korean>
+		<English>I'll go to the palace, get a room and wait for me</English>
+		<Japenese>私は王国に行ってくるから宿を取って待ってて</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_20_2</UniqueID>
+		<Korean>길었던 여정도 이로써 끝이네</Korean>
+		<English>This is the end of a long journey</English>
+		<Japenese>長かった旅もこれで終わりだね</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_20_3</UniqueID>
+		<Korean>거기 잠시만!!</Korean>
+		<English>Just a moment there!!</English>
+		<Japenese>ちょっと!!</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_20_4</UniqueID>
+		<Korean>??!!</Korean>
+		<English>??!!</English>
+		<Japenese>??!!</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_20_5</UniqueID>
+		<Korean>그대의 운명에 거대한 소용돌이가 보이는군요</Korean>
+		<English>I see a huge whirlpool in your fate</English>
+		<Japenese>そなたの運命に巨大な渦が見えますね</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_20_6</UniqueID>
+		<Korean>무슨 소리야?</Korean>
+		<English>What do you mean?</English>
+		<Japenese>どういう意味です？</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_20_7</UniqueID>
+		<Korean>궁금하신가요? 제 점괘에 의하면..</Korean>
+		<English>Curious, are you? According to my fortune..</English>
+		<Japenese>知りたいですか？私の占いによれば..</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_20_8</UniqueID>
+		<Korean>저기있다.여기서 장사하지 마라고 했을텐데</Korean>
+		<English>There you are. I told you to get out of here.</English>
+		<Japenese>あそこにいる。ここで商売するなと言ったはずだが</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_20_9</UniqueID>
+		<Korean>이런, 다시 보게 될꺼에요</Korean>
+		<English>Damn, we'll meet again</English>
+		<Japenese>やれやれ、またお会いしましょう</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_20_10</UniqueID>
+		<Korean>저놈들도 한패일거다 잡아라</Korean>
+		<English>Catch them all</English>
+		<Japenese>あいつらも仲間かもしれない。捕らえろ</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_20_11</UniqueID>
+		<Korean>헤엑~,우린 아니라고\n 마리아 일단 도망치자</Korean>
+		<English>Hell no\n MARIA, run for it</English>
+		<Japenese>エッ、私達は違うってば\n マリア一旦逃げよう</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_21_1</UniqueID>
+		<Korean>백성들이 대부분 강제 노역에 시달리고 있어요</Korean>
+		<English>Most people are suffering from forced labor.</English>
+		<Japenese>百姓達のほとんどが強制労役に苦しんでいます</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_21_2</UniqueID>
+		<Korean>소문으로 들었지만 실제로보니 더 심각한걸 오히려 변방 마을이 더 살기 좋아보여</Korean>
+		<English>It's even more serious than the rumor. The frontier villages look more peaceful.</English>
+		<Japenese>噂で聞いたが実際に見るともっとひどいな。むしろ辺境の村の方が住み良さそうだな</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_21_3</UniqueID>
+		<Korean>백성들의 노역으로 지배층만이 배불리 살고 있겠죠</Korean>
+		<English>Only the ruling class enjoy riches from the forced labor of the people</English>
+		<Japenese>百姓達の労役で支配層だげ豊かな暮らしをするでしょう</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_21_4</UniqueID>
+		<Korean>노닥거리지 말고 일해라 버러지들아</Korean>
+		<English>Quit talking and work you scums</English>
+		<Japenese>しゃべってないで働け、野郎ども</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_21_5</UniqueID>
+		<Korean>어제는 철야 오늘은 야근 이렇게 일해서는 버티지 못합니다</Korean>
+		<English>We worked all night yesterday, and overtime today? We can't stand this.</English>
+		<Japenese>昨日は徹夜、今日は夜勤。こういう風に働いてはやってらんないです</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_21_6</UniqueID>
+		<Korean>버러지들이 시키면 시키는 데로 할 것이지 퍽퍽!!</Korean>
+		<English>You'll do as you're told scum</English>
+		<Japenese>野郎どもが言われた通りにすればいいんだよ。ばしばし!!</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_21_7</UniqueID>
+		<Korean>도저히 못봐주겠군!! 엘리나에게는 미안하지만 그냥 지나칠수없어</Korean>
+		<English>I've seen enough. Sorry ELINA, but I can't let this go</English>
+		<Japenese>見てらんないな!!エリナには申し訳ないけど素通りにできないよ</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_21_8</UniqueID>
+		<Korean>말려도 소용없겠죠</Korean>
+		<English>No use in stopping him</English>
+		<Japenese>止めても無駄でしょうね</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_22_1</UniqueID>
+		<Korean>오랜만입니다. 엘리나 공주님</Korean>
+		<English>Long time no see, Princess ELINA</English>
+		<Japenese>お久しぶりです。エリナ姫様</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_22_2</UniqueID>
+		<Korean>마린님. 오랜만이에요</Korean>
+		<English>MARIN, it’s been a while.</English>
+		<Japenese>マリン様。お久しぶりです。</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_22_3</UniqueID>
+		<Korean>현재 발제브님은 연합 일로 부재중이십니다</Korean>
+		<English>BEELZEB is absent, due to alliance matters</English>
+		<Japenese>現在ベルゼブ様は連合のことで不在です</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_22_4</UniqueID>
+		<Korean>그렇군요 저희 왕국의 소식은 들으셨겠죠</Korean>
+		<English>Right, I believe you heard about our kingdom?</English>
+		<Japenese>そうですか。我が王国の話はご存知でしょうね</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_22_5</UniqueID>
+		<Korean>내부 사정이 좋지 않아 도우러 가지 못했지만 발제브님도 안타까워하고 계십니다</Korean>
+		<English>We couldn't help due to internal affairs, but BEELZEB is very sorry</English>
+		<Japenese>内部事情があまりよくなくて助けてやれなかったことをベルゼブ様も非常に残念に思っております</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_22_6</UniqueID>
+		<Korean>지금 네스마제국으로 마도군이 침공하고 있는 것도 알고 계신가요?</Korean>
+		<English>Did you know that the MADO forces are invading the NESMA empire as well?</English>
+		<Japenese>今ネスマ帝国にマド軍が侵攻しているのもご存知ですか？</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_22_7</UniqueID>
+		<Korean>흠칫!, 아직 소식은 듣지 못했지만 연락을 받지 못한 걸 보면 큰일은 아닐듯합니다</Korean>
+		<English>I'm unaware of it, but I'm sure it's not a big deal</English>
+		<Japenese>エッ！まだその話は聞いてないんですが何の便りがないのをみると大変なことではなさそうです</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_22_8</UniqueID>
+		<Korean>마린님! 이렇게 안심하고 있을 때가 아니에요</Korean>
+		<English>MARIN! This is not the time to be relieved.</English>
+		<Japenese>マリン様！こう安心している場合ではありません</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_22_9</UniqueID>
+		<Korean>저희 제국의 일은 걱정 마세요 공주님</Korean>
+		<English>Don't worry about our empire, princess</English>
+		<Japenese>私達の帝国のことはご心配なさらないでください、お姫様</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_22_10</UniqueID>
+		<Korean>그렇군요. 그럼 동맹 협정에 따라 군사를 지원해주셨으면 해요</Korean>
+		<English>Okay, then I request military support according to our alliance treaty</English>
+		<Japenese>そうですか。それでは同盟の協定に従って軍事を支援していただきたいです</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_22_11</UniqueID>
+		<Korean>그것은 발제브님이 돌아오시는 데로 상의해보겠습니다</Korean>
+		<English>I'll talk to BEELZEB about it, as soon as he comes back</English>
+		<Japenese>それはベルゼブ様がお戻り次第ご相談致します。</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_22_12</UniqueID>
+		<Korean>알겠어요. 숙소로 가 기다리고 있겠어요</Korean>
+		<English>Ok, I'll wait until he returns.</English>
+		<Japenese>分かりました。宿に戻り、待っております</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_22_13</UniqueID>
+		<Korean>........</Korean>
+		<English>........</English>
+		<Japenese>........</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_22_14</UniqueID>
+		<Korean>(돈도 안 되는 일 따위) \n 조용히 병사들을 소집해!</Korean>
+		<English>(This isn't worth it)\nQuietly gather some soldiers</English>
+		<Japenese>(金にならない事なんか)\n静かに兵士達を集めろ！</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_22_15</UniqueID>
+		<Korean>알겠습니다 마린님!</Korean>
+		<English>Yes, MARIN</English>
+		<Japenese>ご承知いたしました。マリン様!</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_22_16</UniqueID>
+		<Korean>훗, 너만 사라져준다면 협정 따위 무슨 소용이겠어 오호호!</Korean>
+		<English>Huh, if only I can get you to leave, what good is a treaty?</English>
+		<Japenese>フッ、あんたさえ消えてくれれば協定なんか無駄だ。オホホ！</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_23_1</UniqueID>
+		<Korean>그만 포기하시죠. 엘리나 공주님</Korean>
+		<English>Why don't you give up, princess ELINA?</English>
+		<Japenese>もう諦めなさい。エリナ姫様</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_23_2</UniqueID>
+		<Korean>마린! 대의를 저버리고 무사할 거 같으냐</Korean>
+		<English>MARIN! Do you think you'll be safe ignoring the higher cause!</English>
+		<Japenese>マリン！大義を忘れて無事だと思うのか！</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_23_3</UniqueID>
+		<Korean>당신만 죽는다면 누가 그 대의를 알겠어요</Korean>
+		<English>Who will know, if you die</English>
+		<Japenese>あんただけ死ねば誰がその大儀を分かりますか</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_23_4</UniqueID>
+		<Korean>크윽</Korean>
+		<English>MARIN!!</English>
+		<Japenese>マリン！</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_23_5</UniqueID>
+		<Korean>!! 응, 저건 엘리나 아냐?</Korean>
+		<English>!! Is that ELINA?</English>
+		<Japenese>!!あれはエリナじゃない？</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_23_6</UniqueID>
+		<Korean>병사들에게 포위된 거 같아요</Korean>
+		<English>She's surrounded by soliders</English>
+		<Japenese>兵士達に包囲されたようです</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_23_7</UniqueID>
+		<Korean>무슨 일이지? 가보자</Korean>
+		<English>What's going on? Let's find out</English>
+		<Japenese>何だ？行ってみよう</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_24_1</UniqueID>
+		<Korean>어째서 이곳에서조차 쫓기는 신세냐고!</Korean>
+		<English>Why are we being chased even here?</English>
+		<Japenese>なぜここでも追われる身なんだよ！</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_24_2</UniqueID>
+		<Korean>발제브... 마린..</Korean>
+		<English>BEELZEB... MARIN..</English>
+		<Japenese>ベルゼブ... マリン..</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_24_3</UniqueID>
+		<Korean>병사들이 계속해서 쫓아오고 있어요</Korean>
+		<English>The soldiers keep chasing me</English>
+		<Japenese>兵士達が次々と追って来ます</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_24_4</UniqueID>
+		<Korean>안녕~</Korean>
+		<English>Hi~</English>
+		<Japenese>ハイ～</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_24_5</UniqueID>
+		<Korean>넌!! 너 때문에 얼마나 고생한 줄 알아</Korean>
+		<English>You!! I know how much I suffered because of you.</English>
+		<Japenese>あんた！！あんたのせいでどんなに苦労してると思うの</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_24_6</UniqueID>
+		<Korean>다시 볼 거라고 했잖아요. 이번엔 제가 도와드릴게요</Korean>
+		<English>I told you we'll meet again. Let me help you this time.</English>
+		<Japenese>また会うって言ったでしょう。今回は私が助けてやりましょう</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_24_7</UniqueID>
+		<Korean>스칼렛! 괜히 끼어들어서 명을 재촉하지 마시죠</Korean>
+		<English>SCARLET! Don't interfere and push your luck</English>
+		<Japenese>スカーレット！余計に割り込んで死を早めないでください</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_24_8</UniqueID>
+		<Korean>여전히 못된 짓을 하고 있군요. 마린!</Korean>
+		<English>Still up to your dirty tricks, MARIN!</English>
+		<Japenese>未だに悪事を働いているんですね。マリン！</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_25_1</UniqueID>
+		<Korean>오히려 잘 됐어! 이런 나라와 동맹을 이어나갈 필요는 없어</Korean>
+		<English>It's rather good! There's no need for an alliance with this kingdom</English>
+		<Japenese>むしろ良かったよ！こんな国と同盟を続ける必要はない</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_25_2</UniqueID>
+		<Korean>이 나라는 너무 부패해있어요</Korean>
+		<English>This country is so corrupt.</English>
+		<Japenese>この国はあまりに腐ってる</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_25_3</UniqueID>
+		<Korean>저 역시 에투에서 점술 집을 운영했었지만 이런 나라에서는 도저히 살 수가 없었죠</Korean>
+		<English>I ran a fortune shop in Etoo, but I can't live in this country anymore</English>
+		<Japenese>私もエトゥで占い店をやっていたがこんな国では到底生きることができなかったのです</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_25_4</UniqueID>
+		<Korean>네스마와의 동맹은 오늘로서 끝이야</Korean>
+		<English>The alliance with NESMA ends today</English>
+		<Japenese>ネスマとの同盟は今日で終わりだ</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_26_1</UniqueID>
+		<Korean>어디까지 포위하고 있는 거지</Korean>
+		<English>How deep is the siege?</English>
+		<Japenese>どこまで包囲しているんだろう</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_26_2</UniqueID>
+		<Korean>엘리나 공주님을 그냥 보내지 않겠다는 거겠죠</Korean>
+		<English>I don't think they want Princess ELINA to escape</English>
+		<Japenese>エリナ姫様をただで行かせないということでしょう</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_26_3</UniqueID>
+		<Korean>동맹국이 공주를 공격했다는 게 알려지면 그들도 곤란할 테니까요</Korean>
+		<English>If people find out that allies attacked the princess, they will be in trouble.</English>
+		<Japenese>同盟国が姫を攻撃したというのが知らされると彼らも困るでしょうから</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_26_4</UniqueID>
+		<Korean>이대론 네스마 제국의 추격을 따돌릴 수 없어</Korean>
+		<English>We can't shake off the NESMA troops this way</English>
+		<Japenese>このままではネスマ帝国の追撃を振り切れない</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_26_5</UniqueID>
+		<Korean>조금 더 가면 라임 숲이 있어요</Korean>
+		<English>Just a little bit further to Lime Forest</English>
+		<Japenese>もう少し行けばライム森があります</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_26_6</UniqueID>
+		<Korean>몬스터들이 많이 출몰하는 지역이라\n제국 군도 이곳까지 추격하진 않을 거예요</Korean>
+		<English>This area is full of monsters\nThe empire won't follow us here</English>
+		<Japenese>モンスター達がたくさん出没する地域なので\n帝国軍もここまでは追撃しないと思います</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_27_1</UniqueID>
+		<Korean>몬스터들의 공격성향이 너무강해</Korean>
+		<English>The monsters are too aggressive</English>
+		<Japenese>モンスター達の攻撃性が強すぎる</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_27_2</UniqueID>
+		<Korean>마도군이 침공을 시작하고부터 라임 숲 몬스터 역시 공격 성향이 짙어졌어요</Korean>
+		<English>The monsters grow more aggressive ever since the MADO invasion began</English>
+		<Japenese>マド軍が侵攻を始めてからライム森のモンスターもやはり攻撃性が強くなりました</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_27_3</UniqueID>
+		<Korean>제국군은 더 이상 추격하지 않지만 몬스터 또한 엄청난 위협인 걸</Korean>
+		<English>The Imperial army is on longer chasing us, but the Monsters are also a huge threat</English>
+		<Japenese>帝国軍はこれ以上追撃してこないがモンスターもまた非常に脅威的だよ</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_27_4</UniqueID>
+		<Korean>일단 주변 몬스터부터 정리하고 휴식을 취하자</Korean>
+		<English>Let's get rid of the monsters around us and get some rest</English>
+		<Japenese>取り敢えず周りのモンスターから片付けて休もう</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_28_1</UniqueID>
+		<Korean>그건 그렇고 이제 어디로 가야 하지?</Korean>
+		<English>By the way, where do we go from here?</English>
+		<Japenese>それはそれでこれからどこに行けばいいだろう？</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_28_2</UniqueID>
+		<Korean>유일한 희망이었던 네스마 제국이 배신해버려서..</Korean>
+		<English>Now that our only hope NESMA Empire betrayed us</English>
+		<Japenese>唯一の希望だったネスマ帝国が裏切ってしまって、、</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_28_3</UniqueID>
+		<Korean>아직 희망은 남아있죠. 크리드 반란군에 합류하는 게 어때요?</Korean>
+		<English>There's still hope. Why don't we join the CREED Rebellion?</English>
+		<Japenese>まだ希望があります。クリード反乱軍に合流するのはどうですか？</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_28_4</UniqueID>
+		<Korean>크리드!!??</Korean>
+		<English>CREED!!??</English>
+		<Japenese>クリード!!??</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_28_5</UniqueID>
+		<Korean>쓰리캐슬 연합의 강압정책에 반감을 가지고 일어선 세력이에요</Korean>
+		<English>They rose against the pressure from the three castle alliance</English>
+		<Japenese>ツリーキャッスル連合の強圧政策に反感を持ち、立ち上がった勢力です</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_28_6</UniqueID>
+		<Korean>국가의 형태를 갖춘 건 아니지만 강력한 세력을 가지고 있죠</Korean>
+		<English>They're not a country, but they have powerful forces</English>
+		<Japenese>国家の形を整えたわけではないが強力な勢力を持っています</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_28_7</UniqueID>
+		<Korean>혹시 스칼렛 당신도?</Korean>
+		<English>SCARLET, you too?</English>
+		<Japenese>もしかして、スカーレットあなたも？</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_28_8</UniqueID>
+		<Korean>후훗</Korean>
+		<English>huh.</English>
+		<Japenese>フフッ</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_29_1</UniqueID>
+		<Korean>그러니까 크리드 반란군 수장이 카엘이라는 자고</Korean>
+		<English>So the CREED rebel leader is CHAEL</English>
+		<Japenese>だからクリード反乱軍の首長がカエルという者で</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_29_2</UniqueID>
+		<Korean>그에게 도움을 요청하면 들어줄 거라는 거지?</Korean>
+		<English>If we ask him for help, he'll accept?</English>
+		<Japenese>彼に助けを求めば聞いてくれるということだな？</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_29_3</UniqueID>
+		<Korean>그래요 크리드 반란군 또한 현재 세력 규합의 명분을 제공해줄 인물이 필요하고</Korean>
+		<English>Yes, the Rebellion needs a character to provide a rightful cause for their current forces.</English>
+		<Japenese>はい、クリード反乱軍も現在勢力の糾合の名分を提供してくれる人が必要で</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_29_4</UniqueID>
+		<Korean>엘리나 공주 역시 강력한 군대가 필요한 상태죠</Korean>
+		<English>Princess Elina needs a strong army as well</English>
+		<Japenese>エリナ姫もやはり強力な軍隊が必要な状況です</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_29_5</UniqueID>
+		<Korean>이만큼 서로 이가 통할 수 있을까요?</Korean>
+		<English>Do you think we will understand each other?</English>
+		<Japenese>それだけお互いに意気投合しますかね？</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_29_6</UniqueID>
+		<Korean>카엘이라.. 어릴 적 만난 적이 있어\n엄청 수려한 외모에 강인한 눈빛이었지</Korean>
+		<English>I met CHAEL when I was a child\nHe was very handsome with strong eyes.</English>
+		<Japenese>カエルか..幼い頃会ったことがある\nすごくハンサムで強靭な目つきだった</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_29_7</UniqueID>
+		<Korean>만나적이 있었군요. 현재 대륙에서 그에게 검술로 맞설 수 있는 자가 많지 않을 거예요</Korean>
+		<English>So, you've met. There's not many who can match his swordsmanship</English>
+		<Japenese>会ったことがあるんですね。現在大陸で彼に剣術で対抗できる者はほとんどいません。</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_29_8</UniqueID>
+		<Korean>그렇게 대단한가요? 빨리 만나보고싶어요</Korean>
+		<English>Very impressive. I can't wait to meet him</English>
+		<Japenese>そんなにすごいんですか？早く会ってみたいです</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_30_1</UniqueID>
+		<Korean>크리드 반란군은 가로스 성에 중심 거점을 두고 있어요</Korean>
+		<English>The CREED Rebellion centers around Castle Garros</English>
+		<Japenese>クリード反乱軍はガロス城に中心拠点を置いています</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_30_2</UniqueID>
+		<Korean>살기 힘든 사람들이 가로스 성으로 모인다더니 크리드 반란군의 중심 거점이었군요</Korean>
+		<English>I heard about hard-scrabbling people gathering in Castle Garros, so it's the center of the rebellion</English>
+		<Japenese>世知辛い人々がガロス城に集まると聞いたがクリード反乱軍の中心拠点だったんですね</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_30_3</UniqueID>
+		<Korean>현재 아스가르드 대륙에 백성들이 편히 살 수 있는 곳이 몇 군데 없으니까</Korean>
+		<English>There are only a few places where people can live comfortably on Asgard.</English>
+		<Japenese>現在アスガルドの大陸に百姓達が安心して暮らせる所があまりないから</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_30_4</UniqueID>
+		<Korean>가로스까지 가려면 다시 힘든 여정이 이어질 거야 다들 나와 같이 가주겠어?</Korean>
+		<English>It'll be a hard journey to Garros again. Will you join me?</English>
+		<Japenese>ガロスまで行くにはまた大変な旅が続くだろう。皆俺と一緒に行ってくれるか？</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_30_5</UniqueID>
+		<Korean>뭐 그런 당연한 걸 물어봐</Korean>
+		<English>No need to ask</English>
+		<Japenese>何当たり前な事を聞くんだ</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_30_6</UniqueID>
+		<Korean>새로운 여정의 시작이네요</Korean>
+		<English>Beginning of a new journey</English>
+		<Japenese>新しい旅の始まりですね</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_30_7</UniqueID>
+		<Korean>잠깐!! 저건?</Korean>
+		<English>Wait!! That's?</English>
+		<Japenese>待て!! あれは?</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_30_8</UniqueID>
+		<Korean>오.. 오우거야!!</Korean>
+		<English>Ogre!!</English>
+		<Japenese>オ.. オーガだ!!</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_30_9</UniqueID>
+		<Korean>더,더.. 이상 들어오지마라!</Korean>
+		<English>Don't come in anymore!</English>
+		<Japenese>こ、これ..以上来るな！</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_30_10</UniqueID>
+		<Korean>미안하지만 그럴순없어!</Korean>
+		<English>Sorry, but I have to</English>
+		<Japenese>悪いけどそうは行かないぞ！</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_31_1</UniqueID>
+		<Korean>마린, 우리가 이렇게 만날 사이던가?</Korean>
+		<English>MARIN, what are the odds?</English>
+		<Japenese>マリン、私達がこういう風に会う仲だったのか？</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_31_2</UniqueID>
+		<Korean>훗, 악마에게 영혼까지 넘겼으면서 아직도 저희를 못마땅히 여기는군요.</Korean>
+		<English>You sell your soul to the devil, and yet you still disapprove us</English>
+		<Japenese>フッ、悪魔に魂まで売ったくせにまだ俺達を不満に思うんですね</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_31_3</UniqueID>
+		<Korean>용건이나 말하고 꺼져!</Korean>
+		<English>Make it brief and disappear</English>
+		<Japenese>用件だけ言って消えろ！</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_31_4</UniqueID>
+		<Korean>그 까칠한 성격 어떻게 할 수 없어요?</Korean>
+		<English>Do something about your crazy personality</English>
+		<Japenese>その尖った性格はなんとかならないんですか？</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_31_5</UniqueID>
+		<Korean>본론만 말해라</Korean>
+		<English>Just get down to business</English>
+		<Japenese>用件だけ言え</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_31_6</UniqueID>
+		<Korean>엘리나 공주가 라임 숲으로 들어갔어요</Korean>
+		<English>Princess Elina entered the lime forest.</English>
+		<Japenese>エリナ姫がライム森の方に向かいました</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_31_7</UniqueID>
+		<Korean>그들의 동선으로 봐선 크리드 반란군과 접촉하려는 거 같더군요</Korean>
+		<English>It looks as though they want to meet the CREED rebels</English>
+		<Japenese>彼らの動きによるとクリード反乱軍と接続しようとするみたいです</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_31_8</UniqueID>
+		<Korean>(꿈틀) 크리드!? 그것을 알려주는 이유가 뭐지?</Korean>
+		<English>(Wince) CREED !? What is the reason for that?</English>
+		<Japenese>（ビクッ）クリード!? それを教えてくれる理由はなんだ？</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_31_9</UniqueID>
+		<Korean>잠시 진군을 멈춰준다면 라임 숲으로 가는 길을 열어 드리죠</Korean>
+		<English>Stop your march, and I'll open the way to the lime forest.</English>
+		<Japenese>しばらく進軍を止めてくれれば、ライム森に行く道を開いてあげます</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_31_10</UniqueID>
+		<Korean>엘리나 공주가 크리드에 합류하는 건 원하지 않겠죠?</Korean>
+		<English>You don't want Princess ELINA to join the CREED Rebellion</English>
+		<Japenese>エリナ姫がクリードに合流するのは望まないでしょうね？</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_31_11</UniqueID>
+		<Korean>흥, 진군을 멈출 생각 따위 없다!!</Korean>
+		<English>Huh, I have no intention to stop the march!</English>
+		<Japenese>フン、進軍を止める気なんてない!!</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_31_12</UniqueID>
+		<Korean>가로막고 있는 적 따위 다 쓸어버리면 그만인 것을..</Korean>
+		<English>I'll wipe out all enemies that stand in my way</English>
+		<Japenese>妨げている敵なんか皆殺しすればいいものを、、</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_31_13</UniqueID>
+		<Korean>저희를 너무 우습게 보는군요. 협상은 결렬이에요</Korean>
+		<English>You underestimate us. There will be no more negotiations</English>
+		<Japenese>僕達を甘く見過ぎましたね。交渉は決裂です</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_31_14</UniqueID>
+		<Korean>(크리드.. 카엘..)</Korean>
+		<English>(CREED..CHAEL..)</English>
+		<Japenese>（クリード.. カエル.. ）</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_32_1</UniqueID>
+		<Korean>너무 힘들어. 벌써 며칠째 야영인 거야</Korean>
+		<English>I'm so tired. We've been camping for days now.</English>
+		<Japenese>もう疲れた。もう何日目野宿なんだ</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_32_2</UniqueID>
+		<Korean>네스마 제국이 길을 막고 있어서</Korean>
+		<English>NESMA Empire is blocking the road</English>
+		<Japenese>ネスマ帝国が道を塞いでいて</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_32_3</UniqueID>
+		<Korean>라임 숲을 가로지르는 방법 말곤 크리드로 갈 방법이 없어요</Korean>
+		<English>The only way to CREED is through the Lime Forest</English>
+		<Japenese>ライム森を横切る方法しかクリードに行く道はないですよ</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_32_4</UniqueID>
+		<Korean>식량도 얼마 안 남았고 큰일이네요</Korean>
+		<English>We're running low on food</English>
+		<Japenese>食糧もあとわずかで大変ですね</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_32_5</UniqueID>
+		<Korean>오늘은 이곳에서 야영하고 내일부터는 식량을 보급할 수 있는 곳으로 빠르게 이동해야겠어</Korean>
+		<English>We'll camp here today, and move on to somewhere we can find food tomorrow</English>
+		<Japenese>今日はここで野宿して明日からは食糧を補給できる所に行こう</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_33_1</UniqueID>
+		<Korean>앗!? 식량이 없어!!</Korean>
+		<English>Oh!? There is no food !!</English>
+		<Japenese>あっ!?食糧がない!!</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_33_2</UniqueID>
+		<Korean>야영하는 사이 누군가 훔쳐 갔나 봐요</Korean>
+		<English>Somebody must have stolen it, while we're camping.</English>
+		<Japenese>野宿している間、誰か盗んだみたいです</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_33_3</UniqueID>
+		<Korean>크크크, 내가 훔쳐 갔다!</Korean>
+		<English>HAHA, I stole it!</English>
+		<Japenese>クククッ、俺が盗んだぞ！</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_33_4</UniqueID>
+		<Korean>슬라임!! 여기까지 쫓아오다니</Korean>
+		<English>Slime! You followed us here</English>
+		<Japenese>スライム！！ここまで追っかけて来たなんて</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_33_5</UniqueID>
+		<Korean>나의 복수는 이제 시작이다. 식량을 되찾고 싶다면 쫓아와보던지</Korean>
+		<English>My revenge just began. If you want your food back, follow me</English>
+		<Japenese>俺の復讐はこれからだ。食糧を取り戻したいなら追っかけて来てみな</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_33_6</UniqueID>
+		<Korean>놓치기 전에 뒤쫓아야 해 서둘러</Korean>
+		<English>Hurry, follow him</English>
+		<Japenese>見逃す前に追いかけなければ。急げ</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_34_1</UniqueID>
+		<Korean>이 동굴로 도망친 거 같은데..</Korean>
+		<English>I think he ran into this cave.</English>
+		<Japenese>この洞窟に逃げたようだが…</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_34_2</UniqueID>
+		<Korean>동굴... 안 좋은 기억이 떠오르네요</Korean>
+		<English>Cave ... I have a bad memory.</English>
+		<Japenese>洞窟...嫌な思い出が浮かびますね</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_34_3</UniqueID>
+		<Korean>내 전문이군. 길 찾는 건 나한테 맡겨</Korean>
+		<English>It's my specialty. Leave it to me to find the way.</English>
+		<Japenese>俺の専門だ。道探しは俺に任せろ</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_34_4</UniqueID>
+		<Korean>그대는 길을 여는 자. 당신을 따라간다면 길이 열리겠죠</Korean>
+		<English>Pathfinder, I believe you will find the way</English>
+		<Japenese>そなたは道を開く者。あなたについて行けば開くでしょう</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_34_5</UniqueID>
+		<Korean>.......</Korean>
+		<English>.......</English>
+		<Japenese>.......</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_35_1</UniqueID>
+		<Korean>또 막혔어요</Korean>
+		<English>It's a dead end again</English>
+		<Japenese>また行き詰ったです</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_35_2</UniqueID>
+		<Korean>아닛?! 반대쪽 길이었나</Korean>
+		<English>What?! Maybe it's the opposite way</English>
+		<Japenese>何？！反対側に道があったっけ</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_35_3</UniqueID>
+		<Korean>길치면서 당당히 앞서 가지 말라고</Korean>
+		<English>Don't lead the way, if you have a bad sense of directions</English>
+		<Japenese>方向音痴なら堂々と先頭に立つなよ</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_35_4</UniqueID>
+		<Korean>제가 뭐라고 했었죠? 기억이 안 나네요</Korean>
+		<English>What did I say? I can't remember.</English>
+		<Japenese>私がなんて言いました？思い出せないです</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_35_5</UniqueID>
+		<Korean>(삐그덕.. 삐그덕..)</Korean>
+		<English>(Creak.. Creak..)</English>
+		<Japenese>（ギシギシ..ギシギシ..）</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_35_6</UniqueID>
+		<Korean>익숙한 소린데..</Korean>
+		<English>Sounds familiar</English>
+		<Japenese>聞き慣れた音だが、、</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_35_7</UniqueID>
+		<Korean>신이시여..</Korean>
+		<English>Oh, God..</English>
+		<Japenese>神様..</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_36_1</UniqueID>
+		<Korean>이게 뭐지?</Korean>
+		<English>What is this?</English>
+		<Japenese>これは何だ？</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_36_2</UniqueID>
+		<Korean>다크 스톤이에요. 엄청 사악한 마나가 모여져서 만들어진 돌이죠</Korean>
+		<English>Dark stone. A stone made of very evil mana.</English>
+		<Japenese>ダークストーンです。すごく邪悪なマナが集まって作られた石です</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_36_3</UniqueID>
+		<Korean>이곳에 스켈레톤이 모여있는 이유가 그 돌 때문인가 봐요</Korean>
+		<English>I think this is why the skeletons are gathering here</English>
+		<Japenese>ここにスケルトンが集まっている理由がその石のせいみたいです</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_36_4</UniqueID>
+		<Korean>흠.. 좋아 이돌은 내가 가져가겠어</Korean>
+		<English>Hmm .. Okay, I'll take this stone</English>
+		<Japenese>フン..よし。この石は俺が持ち帰るぜ</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_36_5</UniqueID>
+		<Korean>함부로 가져가도 될까?</Korean>
+		<English>I don't think that's a good idea</English>
+		<Japenese>勝手に持ってってもいいんですか？</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_36_6</UniqueID>
+		<Korean>(드드득.. 드드득..)</Korean>
+		<English>(Creak.. Creak..)</English>
+		<Japenese>（ギシギシ、、ギシギシ、、）</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_36_7</UniqueID>
+		<Korean>!!??</Korean>
+		<English>!!??</English>
+		<Japenese>!!??</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_36_8</UniqueID>
+		<Korean>어리석은 필멸자여. 죽음의 공포를 맛보아라</Korean>
+		<English>Foolish mortal. Taste the fear of death</English>
+		<Japenese>愚かな必滅者よ。死の恐怖を味わえ</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_37_1</UniqueID>
+		<Korean>헉헉, 이대론 끝이 없어</Korean>
+		<English>Huh, there's no end to this</English>
+		<Japenese>はあはあ、このままだときりがないな</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_37_2</UniqueID>
+		<Korean>죽지 않는 자, 그들은 끝없이 공격해오죠</Korean>
+		<English>Immortals, their attack will never end</English>
+		<Japenese>不死身よ、彼らは果てしなく攻撃してくるでしょう</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_37_3</UniqueID>
+		<Korean>아무거나 함부로 건드리니까 이렇게 되잖아</Korean>
+		<English>I told you it wasn't a good idea</English>
+		<Japenese>何でも勝手に触るからこうなるじゃない</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_37_4</UniqueID>
+		<Korean>더는 안되겠어요, 일단 왔던 길로 도망쳐요</Korean>
+		<English>I can't take it anymore, let's retreat for now</English>
+		<Japenese>もうこれ以上駄目です。来た道に逃げましょう</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_37_5</UniqueID>
+		<Korean>필멸자여. 살아서 나갈 수 없다</Korean>
+		<English>Foolish mortal. You can't leave alive</English>
+		<Japenese>必滅者よ。生きて帰れないぞ</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_38_1</UniqueID>
+		<Korean>간신히 도망친 거 같아요</Korean>
+		<English>I think we just barely escaped.</English>
+		<Japenese>やっと逃げ切れたようです</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_38_2</UniqueID>
+		<Korean>어쩌지 슬라임은 완전히 놓친 거 같아</Korean>
+		<English>I think we lost track of Slime completely</English>
+		<Japenese>どうしよう。スライムを完全に逃したみたい</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_38_3</UniqueID>
+		<Korean>그렇지도 않은 걸, 저기 앞을 봐!</Korean>
+		<English>I don't think so, look over there</English>
+		<Japenese>そうでもないぞ、前を見ろ！</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_38_4</UniqueID>
+		<Korean>흠칫! 아직 살아 있다니..</Korean>
+		<English>What? I can't believe you're still alive</English>
+		<Japenese>何！まだ生きているとは、、</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_38_5</UniqueID>
+		<Korean>기다려라 슬라임!</Korean>
+		<English>Wait, slime!</English>
+		<Japenese>待ちなスライム！</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_38_6</UniqueID>
+		<Korean>훗, 따라올 수 있다면 따라와봐</Korean>
+		<English>Catch me if you can</English>
+		<Japenese>フッ、ついてこれるならついてこい</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_39_1</UniqueID>
+		<Korean>더 이상 도망칠 곳은 없어!</Korean>
+		<English>There is nowhere to run away!</English>
+		<Japenese>これ以上逃げ場はないぞ！</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_39_2</UniqueID>
+		<Korean>내가 도망쳐 온 거 같아?</Korean>
+		<English>Do you think I ran away?</English>
+		<Japenese>俺が逃げてたと思う？</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_39_3</UniqueID>
+		<Korean>너희를 이곳으로 유인한 거란 말이지. 형님!!</Korean>
+		<English>I lured you to this place</English>
+		<Japenese>お前らをここに誘き寄せたんだ。兄貴！！</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_39_4</UniqueID>
+		<Korean>(두둥) 디스 이즈 스파라임!!</Korean>
+		<English>This is Sparime!!</English>
+		<Japenese>（ドン）ディスイズスパライム！</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_39_5</UniqueID>
+		<Korean>......</Korean>
+		<English>......</English>
+		<Japenese>......</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_40_1</UniqueID>
+		<Korean>드디어 동굴 탈출이네요</Korean>
+		<English>Finally, we escaped the cave</English>
+		<Japenese>やっと洞窟脱出ですね</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_40_2</UniqueID>
+		<Korean>온종일 전투를 치렀더니 온몸이 아픈 거 같아</Korean>
+		<English>I've been fighting all day and it hurts everywhere</English>
+		<Japenese>一日中戦っていたら体中があちこち痛いな</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_40_3</UniqueID>
+		<Korean>식량도 되찾았고 이제 빨리 라임 숲을 빠져나가요</Korean>
+		<English>Let's get our food and get out of Lime Forest</English>
+		<Japenese>食糧も取り戻せたし早くライム森を抜け出しましょう</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_40_4</UniqueID>
+		<Korean>쿵. 쿵. 쿵.</Korean>
+		<English>thud. thud. thud.</English>
+		<Japenese>クン.クン.クン.</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_40_5</UniqueID>
+		<Korean>!? 이 진동은?</Korean>
+		<English>!? What is this vibration?</English>
+		<Japenese>!?この揺れは?</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_40_6</UniqueID>
+		<Korean>스..스톤 골램!!.</Korean>
+		<English>Stone Golem!!.</English>
+		<Japenese>ス..ストーンゴーレム!!.</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_40_7</UniqueID>
+		<Korean>라임 숲을 쉽게 빠져나갈 순 없을 거 같네요</Korean>
+		<English>I do not think it'll be easy escaping lime forest.</English>
+		<Japenese>ライム森を簡単に抜け出れなさそうですね</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_41_1</UniqueID>
+		<Korean>라임 숲 외각까지 나왔군요.</Korean>
+		<English>We reached the end of the lime forest.</English>
+		<Japenese>ライム森の外郭まで来たんですね</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_41_2</UniqueID>
+		<Korean>이제 어디로 가야 하지?</Korean>
+		<English>Where do we go from here?</English>
+		<Japenese>これからどこに行けばいいだろう？</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_41_3</UniqueID>
+		<Korean>드래이크 산맥을 우회하면 가로스 성이 나올 거예요.</Korean>
+		<English>We'll reach Castle Garros, if we bypass the Drake Mountains</English>
+		<Japenese>ドレイク山脈を遠回りするとガロス城が出ると思います</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_41_4</UniqueID>
+		<Korean>너무 강행군이었어. 그전에 쉴 수 있는 곳은 없을까?</Korean>
+		<English>Is there a place to rest before we march again?</English>
+		<Japenese>強行軍だったな。その前に休める所ないか？</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_41_5</UniqueID>
+		<Korean>조금만 더 가면 파르고 마을이 있어요. 거기서 조금 쉬었다가 가죠.</Korean>
+		<English>If you go a little further there's PARGO village. We can rest there.</English>
+		<Japenese>もう少し行けばパルゴ村があります。そこで少し休みましょう</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_42_1</UniqueID>
+		<Korean>스칼렛. 크리드 반란군은 어떤 곳이야?</Korean>
+		<English>SCARLET, tell me about the CREED Rebels?</English>
+		<Japenese>スカーレット。クリード反乱軍はどういう所だ？</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_42_2</UniqueID>
+		<Korean>크리드 반란군은 사막 민족과 용병들로 이루어진 집단이에요.</Korean>
+		<English>The CREED Rebellion is a group of desert people and mercenaries.</English>
+		<Japenese>クリード反乱軍は砂漠の民族と傭兵達で出来た集団です</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_42_3</UniqueID>
+		<Korean>전투민족인 사막민족과 호전적인 용병들이라 통솔하기 힘들지만 카엘 수장이 잘 이끌고 있죠.</Korean>
+		<English>It's hard to lead both warrior desert people and aggressive mercenaries, but CHAEL is leading them well</English>
+		<Japenese>戦闘民族である砂漠の民族と好戦的な傭兵達なので統率は大変だけどカエル首長が上手く率いています</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_42_4</UniqueID>
+		<Korean>사막 민족에 용병이라.. 정규군 느낌은 아니겠는걸.</Korean>
+		<English>Desert people and mercenaries..they don't seem like a regular army</English>
+		<Japenese>砂漠の民族に傭兵か..正規軍の感じではないだろうな</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_42_5</UniqueID>
+		<Korean>현재는 네그스노제국과 국경을 맞대고 대치중이에요.</Korean>
+		<English>Currently, they are face to face with the NESMA Empire at the border</English>
+		<Japenese>現在はネグスノ帝国と国境を挟んで対置中です</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_42_6</UniqueID>
+		<Korean>이쪽도 이쪽 나름대로 힘든 상황이네요.</Korean>
+		<English>It's a tough situation here too.</English>
+		<Japenese>こっちもこっちなりに大変な状況ですね</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_43_1</UniqueID>
+		<Korean>네그스노와의 전쟁보다 현재 더 급한 건 이민족과 사막민족과의 갈등이에요.</Korean>
+		<English>The conflict between the immigrants and desert people is more urgent than the war against NAKNO</English>
+		<Japenese>ネグスノ帝国との戦争より現在至急なのは移民族と砂漠の民族との葛藤です</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_43_2</UniqueID>
+		<Korean>이민족과 사막민족의 갈등?</Korean>
+		<English>A conflict between immigrants and desert people?</English>
+		<Japenese>移民族と砂漠の民族との葛藤？</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_43_3</UniqueID>
+		<Korean>마도군의 침공으로 전쟁을 피해 너무 많은 피난민이 몰려서</Korean>
+		<English>So many refugees fled from the invasion of MADO</English>
+		<Japenese>マド軍の侵攻で戦争を避けてあまりに多くの避難民が集まって</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_43_4</UniqueID>
+		<Korean>사막 인근이라 평소에도 부족한 식량과 식수가 현재는 동이 날 지경이죠.</Korean>
+		<English>Being near the desert, we're running short of food and water</English>
+		<Japenese>砂漠の辺りなので普段にも足りない食糧と飲水が現在は切れそうなんです</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_43_5</UniqueID>
+		<Korean>이민족들 때문에 자신들까지 피해를 입고 있다고 생각하겠군요.</Korean>
+		<English>They might think they're suffering because of the immigrants.</English>
+		<Japenese>移民族のせいで自分達まで被害を受けていると思うでしょうね</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_43_6</UniqueID>
+		<Korean>그렇죠. 이 상황을 곱게 보지 않는 사막 민족들이 있어요.</Korean>
+		<English>Indeed. Some desert people don't welcome this situation</English>
+		<Japenese>そうですね。この状況を良く思わない砂漠の民族達がいます</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_44_1</UniqueID>
+		<Korean>여긴 너희 이민족이 장사할 수 있는 곳이 아니야!</Korean>
+		<English>This is not a place for you immigrants to do business</English>
+		<Japenese>ここはお前ら移民族が商売出来る所じゃない！</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_44_2</UniqueID>
+		<Korean>하지만 저희도 먹고살려면 노점이라도 해야 살 수 있어요.</Korean>
+		<English>But we need these street stalls to survive</English>
+		<Japenese>しかし私達も生きるには出店でもしなければ生きていけません</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_44_3</UniqueID>
+		<Korean>그건 너희 사정이고 당장 철수시켜! (와당탕)</Korean>
+		<English>That's your problem, get out!</English>
+		<Japenese>それはお前らの事情だろうが。さっさと引揚げろ！</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_44_4</UniqueID>
+		<Korean>멈춰!!</Korean>
+		<English>Stop!!</English>
+		<Japenese>止めろ！</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_44_5</UniqueID>
+		<Korean>응?! 왜 참견이지? 이건 우리 사막 민족과 이 이민족과의 일이야.</Korean>
+		<English>Huh? It's not your concern. This is between us desert people and the immigrants</English>
+		<Japenese>うん?!なに口出ししてんだよ?これは俺らの砂漠の民族とこの移民族との問題だ</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_44_6</UniqueID>
+		<Korean>읔.. 하지만 힘없는 자를 이렇게 몰아세우는 건 두고 볼 수 없어.</Korean>
+		<English>But I can't stand you lashing out the weak</English>
+		<Japenese>しかしか弱い者をこういう風に責めつけるのは見てられなくてね</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_44_7</UniqueID>
+		<Korean>계속 참견한다면 쓴맛을 보여주지.</Korean>
+		<English>Mind your own business, or you'll regret it</English>
+		<Japenese>ずっと口出しするんだったら苦々しい経験をさせてやろう</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_45_1</UniqueID>
+		<Korean>엘리나 공주님! 그만하세요. 저희가 참견할 수 있는 일이 아니에요.</Korean>
+		<English>Princess ELINA! Please stop it. It's not something we can interfere with.</English>
+		<Japenese>エリナ姫様！お止めください。私達が口出しすることではありません</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_45_2</UniqueID>
+		<Korean>하지만.</Korean>
+		<English>But</English>
+		<Japenese>しかし</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_45_3</UniqueID>
+		<Korean>헉!! 엘리나 공주??</Korean>
+		<English>Princess ELINA??</English>
+		<Japenese>エッ!! エリナ姫??</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_45_4</UniqueID>
+		<Korean>당신이 마도군과의 전투 후 혼자 살아남아 복수를 다짐하고 수십 구의 오크를 씹어 먹었다는</Korean>
+		<English>You survived the battle with MADO, rescued yourself, vowed revenge, chewed up dozens of orcs</English>
+		<Japenese>あんたがマド軍との戦闘後、一人で生き延びて復讐を誓い数十体のオークをボリボリ食ったという</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_45_5</UniqueID>
+		<Korean>그 복수의 여왕 엘리나!</Korean>
+		<English>That Queen of revenge ELINA!</English>
+		<Japenese>その復讐の女王エリナ！</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_45_6</UniqueID>
+		<Korean>그렇다면 옆에 있는 저 노란 머리 소녀는</Korean>
+		<English>Then who is the yellow-haired girl next to you?</English>
+		<Japenese>それなら隣にいるあの黄色い髪の少女は</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_45_7</UniqueID>
+		<Korean>수천 구의 오크들을 단신으로 절단하고 복수의 여왕을 구했는다는 빛의 기사 루시!!</Korean>
+		<English>The knight of light LUCY, who cut down thousands of orcs and saved the queen of revenge !!</English>
+		<Japenese>一人で数千体のオーク達を切り復讐の女王を救い出したという光の騎士ルーシー</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_45_8</UniqueID>
+		<Korean>하아~뭔가 엄청 과장됐네요.</Korean>
+		<English>Don't exaggerate too much</English>
+		<Japenese>はあ～なんか大分大袈裟になってますね</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_46_1</UniqueID>
+		<Korean>저들인가. 마을 치안 병들을 공격했다는 자들이.</Korean>
+		<English>Is it them. Those who attacked the villagers.</English>
+		<Japenese>あいつらなのか。村の治安兵達を攻撃したというやつらが</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_46_2</UniqueID>
+		<Korean>또 일이 커졌네요.</Korean>
+		<English>Things are getting complicated, again.</English>
+		<Japenese>また大袈裟なことになりましたね</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_46_3</UniqueID>
+		<Korean>우린 단지 다툼을 막으려 했을 뿐이야. 그들은 너무 강압적으로 백성을 몰아세웠어.</Korean>
+		<English>We were just trying to stop the fight. They were pushing the people too hard.</English>
+		<Japenese>私達はだたケンカを止めようとしただけだ。彼らがあまりにも強圧的に百姓を責め立てていたから</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_46_4</UniqueID>
+		<Korean>자세한 이야기는 철창 안에서 듣지. 포박해!!</Korean>
+		<English>I'll listen to the details when you're behind bars. Arrest them!!</English>
+		<Japenese>詳しい話は檻の中で聞く。捕縛しろ！</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_46_5</UniqueID>
+		<Korean>말이 안 통하네.</Korean>
+		<English>This does not make sense.</English>
+		<Japenese>話が通じないな</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_47_1</UniqueID>
+		<Korean>이대로 여기서 오래 있을 순 없겠군요.</Korean>
+		<English>We can't stay here long</English>
+		<Japenese>このままここに長くいられなさそうですね</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_47_2</UniqueID>
+		<Korean>경비병들이 계속 몰아닥칠 거야.</Korean>
+		<English>The guards will keep coming.</English>
+		<Japenese>警備兵達も次々と押し寄せてくるだろう</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_47_3</UniqueID>
+		<Korean>잠시 쉴 틈도 없네요.</Korean>
+		<English>There's no time to rest.</English>
+		<Japenese>休んでる暇もないですね</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_47_4</UniqueID>
+		<Korean>서둘러 이동하자.</Korean>
+		<English>Hurry, let's move</English>
+		<Japenese>急いで動こう</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_48_1</UniqueID>
+		<Korean>저희는 가는 곳마다 매번 전투가 벌어지는 거 같아요.</Korean>
+		<English>There's trouble everywhere we go</English>
+		<Japenese>私達は行く先々で毎回戦闘が起きる感じがします</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_48_2</UniqueID>
+		<Korean>흠. 그건 어쩔 수 없어 코난도 가는 곳마다 살인사건이 일어난다고.</Korean>
+		<English>Hmm. We can't help it. There's a murder everywhere Conan goes.</English>
+		<Japenese>ふん。それはしょうがない。コナンも行く先々で殺人事件が起きるよ</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_48_3</UniqueID>
+		<Korean>네? 무슨 말이죠?</Korean>
+		<English>Excuse me? What do you mean?</English>
+		<Japenese>はい？どういうことですか？</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_48_4</UniqueID>
+		<Korean>하하. 아니야.</Korean>
+		<English>HAHA. Nevermind, forget it.</English>
+		<Japenese>ハハ。なんでもない。</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_49_1</UniqueID>
+		<Korean>오랜만이군. 스칼렛</Korean>
+		<English>It's been a while. SCARLET</English>
+		<Japenese>久しぶりですね。スカーレット</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_49_2</UniqueID>
+		<Korean>카엘??!! 카엘. 당신이군요.</Korean>
+		<English>CHAEL ??!! CHAEL. It's you.</English>
+		<Japenese>カエル??!! カエル。あなただったんですね。</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_49_3</UniqueID>
+		<Korean>사막전사들과의 마찰이 있다고 들어 급히 달려와봤다네.</Korean>
+		<English>I rushed here as soon as I heard there was trouble with the desert warriors.</English>
+		<Japenese>砂漠の戦士達と摩擦が起きてると聞いて急いで来てみたよ</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_49_4</UniqueID>
+		<Korean>하지만 와보니 굳이 오지 않아도 됐겠어.</Korean>
+		<English>And now that I'm here, maybe I didn't have to come</English>
+		<Japenese>しかしわざわざ来なくても良さそうだったな</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_49_5</UniqueID>
+		<Korean>그들은 용감하고 강하니까요.</Korean>
+		<English>Because they are brave and strong</English>
+		<Japenese>彼達は勇敢で強いですから</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_49_6</UniqueID>
+		<Korean>당신이 카엘님이군요. 어렸을 적 본 모습 그대로에요.</Korean>
+		<English>You're CHAEL. You look just the way when you were young</English>
+		<Japenese>あなたがカエル様ですね。幼い頃見た姿そのままですね</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_49_7</UniqueID>
+		<Korean>엘리나 공주님. 무사하셔서 다행입니다.</Korean>
+		<English>Princess ELINA. I'm glad you're safe.</English>
+		<Japenese>エリナ姫様。ご無事で何よりです</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_49_8</UniqueID>
+		<Korean>긴 이야기는 가로스성에 도착해서 하도록 하죠.</Korean>
+		<English>I'll tell you the long story when we arrive at Castle Garros</English>
+		<Japenese>長い話はガロス城に着いてからしましょう。</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_50_1</UniqueID>
+		<Korean>이쪽은 용병대 대장 카밀라.</Korean>
+		<English>This is Camilla, captain of the mercenaries</English>
+		<Japenese>こちらは傭兵隊大将カミラ</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_50_2</UniqueID>
+		<Korean>흥! 정말 이들이 그 소문의 전사들이 맞는 거야?</Korean>
+		<English>Huh! Are they really the famous warriors I heard about?</English>
+		<Japenese>フン！本当にこの方達が噂の戦士達なのか</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_50_3</UniqueID>
+		<Korean>공주님께 무례하군요.</Korean>
+		<English>Stop being rude to the princess</English>
+		<Japenese>お姫様になんて無礼な</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_50_4</UniqueID>
+		<Korean>공주? 하하. 난 돈을 주는 의뢰인만을 섬긴다고.</Korean>
+		<English>Princess? haha. I only serve clients who give money.</English>
+		<Japenese>姫？ハハ。俺はただお金をくれる依頼人を仕えるだけだ。</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_50_5</UniqueID>
+		<Korean>소문이 사실이었군. 용병은 돈만 주면 주인 구두라도 핥는다더니.</Korean>
+		<English>So the rumor is true. Mercenaries will even lick their master's shoe for money</English>
+		<Japenese>噂通りですね。傭兵は金さえあげれば主人の靴でも舐めると聞いたが？</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_50_6</UniqueID>
+		<Korean>뭐라고!! 그 말 후회하게 해주지.</Korean>
+		<English>What!! You'll regret saying that</English>
+		<Japenese>何だって！その言葉後悔させてやる</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_50_7</UniqueID>
+		<Korean>호오~ 한번 보도록 할까. 전장을 해쳐온 그대들의 실력을.</Korean>
+		<English>Hoo~ Let's see your battle skills.</English>
+		<Japenese>ホオ～一旦見てみようか。戦場で戦って来たそなた達の実力を</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_51_1</UniqueID>
+		<Korean>과연 소문대로 대단한 실력이군.</Korean>
+		<English>The rumors are true. You have great skills.</English>
+		<Japenese>噂の通りにすごい実力だな</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_51_2</UniqueID>
+		<Korean>칫. 오늘은 평소 실력이 안 나왔을 뿐이야!</Korean>
+		<English>Sheesh. You're lucky, I'm not as good as I usually am today.</English>
+		<Japenese>チェッ、今日はいつも通りに実力が発揮出来なかっただけだ!</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_51_3</UniqueID>
+		<Korean>네그스노제국군이 쳐들어온다는 급보입니다!!</Korean>
+		<English>News!! The NEGSNOW imperial army is attacking!!</English>
+		<Japenese>ネグスノ帝国軍がやってくるという急報です!!</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_51_4</UniqueID>
+		<Korean>이런 시국에 침공이라니...</Korean>
+		<English>An invasion in a situation like this…</English>
+		<Japenese>こんな時に侵攻とは…</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_51_5</UniqueID>
+		<Korean>저건 네그스노제국의 십자군이야!</Korean>
+		<English>That's the crusaders of the NEGSNOW empire!</English>
+		<Japenese>あれはネグスノ帝国軍の十字軍だ!</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_51_6</UniqueID>
+		<Korean>혼란을 틈타 더욱 세력을 넓히려 하다니.\n 일단 네그스노 제국과의 결전이다!</Korean>
+		<English>How can they take advantage of this confusion and try to gain more power\n It's war against the NEGSNOW empire!</English>
+		<Japenese>混乱を乗じてさらに勢力を拡大しようとするなんて。\n一旦ネグスノ帝国との決戦だ!</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_52_1</UniqueID>
+		<Korean>병력 차이가 많이 나는군요.</Korean>
+		<English>Our soldiers are outnumbered.</English>
+		<Japenese>兵力の差があまりにも大きいですね。</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_52_2</UniqueID>
+		<Korean>정찰병의 보고로는 두 배 정도 차이가 난다고 하더군.</Korean>
+		<English>According to the scout's report, they have two times as many troops.</English>
+		<Japenese>偵察兵の報告では二倍ぐらい差があるというな。</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_52_3</UniqueID>
+		<Korean>두 배라니... 걱정이네요.</Korean>
+		<English>Twice…that worries me.</English>
+		<Japenese>二倍なんて...心配ですね</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_52_4</UniqueID>
+		<Korean>걱정 마. 일 인당 두 명만 제압하면 되잖아.</Korean>
+		<English>Don't worry. We only need to kill two enemies per soldier.</English>
+		<Japenese>心配するな。一人当たり二人だけ制圧すればいいだろう。</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_52_5</UniqueID>
+		<Korean>하. 하.. 정말 간단한 논리네요.</Korean>
+		<English>Haha, if it were only that simple.</English>
+		<Japenese>は、は.. 本当に簡単な論理ですね。</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_53_1</UniqueID>
+		<Korean>척후병들의 정보로는 전방의 병력이 저희 절반 정도인듯합니다.</Korean>
+		<English>The scouts say that their front line matches half of the troops that we have.</English>
+		<Japenese>斥候兵達の情報では先方の兵力が私達の半分のようです。</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_53_2</UniqueID>
+		<Korean>마도군과의 교전을 위해 후방으로 전력을 분배했다는 정보는 사실인가 보군.</Korean>
+		<English>I guess it's true that they distributed their forces to the rear in order to fight the MADO army.</English>
+		<Japenese>マド軍との交戦のために、後方に戦力を分けたという情報が本当みたいだな</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_53_3</UniqueID>
+		<Korean>진격 준비를 하고 마법사 부대에 지원을 요청하도록!</Korean>
+		<English>Prepare to advance and ask the Wizards for help.</English>
+		<Japenese>進撃の準備をして魔法士部隊に支援の要請をしろ！</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_53_4</UniqueID>
+		<Korean>넵!</Korean>
+		<English>Yes!</English>
+		<Japenese>はい!</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_53_5</UniqueID>
+		<Korean>(마도군의 침공이 거세다는데.. \n아니! 난 네그스노제국 소속 마법사야. 다른 생각은 하지 말자)</Korean>
+		<English>(I heard that the MADO invasion is fierce.. \nNo! I'm a Wizard from the NEGSNOW Empire. Let's not think about anything else.)</English>
+		<Japenese>（マド軍の侵攻が激しいようだが.. \nいや！私はネグスノ帝国所属の魔法士だ。他のことは考えないようにしよう）</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_54_1</UniqueID>
+		<Korean>사령관님.</Korean>
+		<English>Lord Commander.</English>
+		<Japenese>司令官様。</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_54_2</UniqueID>
+		<Korean>무슨 일이지?</Korean>
+		<English>What is it?</English>
+		<Japenese>何だ？</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_54_3</UniqueID>
+		<Korean>이번 원정은 잘못된 거 같습니다.\n지금은 힘을 합쳐 마도군을 막아야 하지 않나요?</Korean>
+		<English>This expedition feels wrong.\nShouldn't we join forces to stop the MADO army?</English>
+		<Japenese>今回の遠征は何か間違っていると思います。\n今は力を合わせてマド軍を防がなければならないんじゃないですか？</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_54_4</UniqueID>
+		<Korean>그것을 판단하는 건 우리가 아니다. 우린 그저 추기경님의 지시만 따를 뿐이야!</Korean>
+		<English>That's not our decision to make. We just follow the Cardinal's orders.</English>
+		<Japenese>それを判断するのは私達じゃない。私達はただ枢機卿様の指示に従うだけだ！</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_54_5</UniqueID>
+		<Korean>하지만...</Korean>
+		<English>But…</English>
+		<Japenese>しかし…</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_54_6</UniqueID>
+		<Korean>더 이상의 반론은 그분을 욕되게 하는 것으로 받아들이겠다.</Korean>
+		<English>Any further argument will be considered as an act to dishonor the Cardinal.</English>
+		<Japenese>これ以上の反論はその方を辱めることとして受け止める。</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_54_7</UniqueID>
+		<Korean>(강한 신앙심으로 제대로 된 판단을 하지 못하고 있어)</Korean>
+		<English>(I'm not making the right decisions, because of strong religious beliefs) </English>
+		<Japenese>（強い信仰心でまともな判断が出来ていない）</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_55_1</UniqueID>
+		<Korean>저쪽 진형에도 굉장한 마법사가 있네요.</Korean>
+		<English>The enemy has a great wizard.</English>
+		<Japenese>あちらの陣形にもすごい魔法士がいますね</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_55_2</UniqueID>
+		<Korean>흥. 조금 따끔따끔했을 뿐이야.</Korean>
+		<English>Hmm. It just stings a bit.</English>
+		<Japenese>フン。ちょっとチクチクしただけだ</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_55_3</UniqueID>
+		<Korean>강한척하지 말고 마리아한테 치료받는 게 어때?</Korean>
+		<English>Stop pretending to be strong and let MARIA cure you.</English>
+		<Japenese>強がってないでマリアに治療してもらったら？</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_55_4</UniqueID>
+		<Korean>그쪽에서 그렇게까지 부탁한다면. 어쩔 수 없이 치료받아주지.</Korean>
+		<English>If that's what you want, I'll get treated.</English>
+		<Japenese>そっちがそんなにお願いするだったら。しょうがないな治療うけてやる。</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_55_5</UniqueID>
+		<Korean>부상당한 분들은 이쪽으로 모여주세요. 치료해 드리겠습니다.</Korean>
+		<English>Those who are injured, please gather over here. I'll treat you.</English>
+		<Japenese>負傷した方達はこちらに集まってください。治療してあげます。</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_55_6</UniqueID>
+		<Korean>오~ 마리아님. 여신이 있다면 마리아님이 분명해.</Korean>
+		<English>Oh~ MARIA. If there is a goddess, it must be MARIA.</English>
+		<Japenese>オ～マリア様。女神というのがいたらマリア様に違いない。</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_55_7</UniqueID>
+		<Korean>다들 전투준비를 서둘러줘. 곧 다음 전투다!</Korean>
+		<English>Everybody hurry and prepare for battle. The next battle is upon us.</English>
+		<Japenese>皆戦闘準備を急げ。もうすぐ次の戦闘だ！</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_56_1</UniqueID>
+		<Korean>다들 알겠지만. 상대 진형의 마법사 때문에 진격이 힘든 상황이다.</Korean>
+		<English>As everybody knows, it's difficult to advance because of the enemy's wizard.</English>
+		<Japenese>皆分かっていると思うけど。相手の陣形の魔法士のせいで進撃が難しい状況だ。</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_56_2</UniqueID>
+		<Korean>저희 일행이 적의 측면으로 돌아 마법사 부대를 공격하겠어요.</Korean>
+		<English>Our group will go around the enemy and attack the wizards.</English>
+		<Japenese>私達の一行が敵の側面の方に回って魔法士部隊を攻撃します。</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_56_3</UniqueID>
+		<Korean>좋은 생각이지만 굉장히 위험할 수도 있어.</Korean>
+		<English>It's a good idea, but also very dangerous.</English>
+		<Japenese>良い考えだが、かなり危険だぞ</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_56_4</UniqueID>
+		<Korean>누군가 하지 않으면 전세를 바꿀 수 없어요!</Korean>
+		<English>If somebody doesn't do it, we can't turn the tide of war.</English>
+		<Japenese>誰かやらなければ戦勢を変えられないですよ！</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_56_5</UniqueID>
+		<Korean>흠... 부탁하지.</Korean>
+		<English>Hmm..if that's the case please do so.</English>
+		<Japenese>フン... じゃお願いする</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_56_6</UniqueID>
+		<Korean>(조국을 위한 일이라지만 지금 서로 전쟁을 하는 게 옳은 일일까)</Korean>
+		<English>(Even if it's for my country, is it right to fight each other now?)</English>
+		<Japenese>（祖国のためのこととはいえ、今お互い戦争をするのは正しいことなのか）</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_56_7</UniqueID>
+		<Korean>(아니.. 일단 지금은 전투에 집중해야 해)</Korean>
+		<English>(No.. We have to focus on the battle now)</English>
+		<Japenese>（いや..今は戦闘に集中しなければ）</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_56_8</UniqueID>
+		<Korean>(외침) 적 부대가 나타났다!!</Korean>
+		<English>(Screaming) Enemy forces are here.</English>
+		<Japenese>（叫ぶ）敵の部隊が現れた!!</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_57_1</UniqueID>
+		<Korean>(아무리 생각해도 지금은 서로 싸울 때가 아니야)</Korean>
+		<English>(No matter what, this is not the time to fight each other)</English>
+		<Japenese>（いくら考えても今はお互い戦う時じゃない）</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_57_2</UniqueID>
+		<Korean>보고입니다. 레이나 마법사가 전선을 이탈했습니다.</Korean>
+		<English>Report. REINA the wizard has left the front.</English>
+		<Japenese>報告です。レイナ魔法士が戦線を離脱しました。</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_57_3</UniqueID>
+		<Korean>이탈?! 이런 이단자가..\n악마가 씐 게 분명하다.당장 잡아와!</Korean>
+		<English>What? Breakaway? Such a heretic…\nMust be possessed by demons. Capture her at once!</English>
+		<Japenese>離脱？！この異端者が..\n悪魔に取り憑かれたに違いない。今すぐ捕まえて来い！</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_57_4</UniqueID>
+		<Korean>넵! (외침) 이단자를 잡아라!</Korean>
+		<English>Yes! (Screaming) Catch the heretic!</English>
+		<Japenese>はい！（叫ぶ）異端者を捕まえろ!</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_57_5</UniqueID>
+		<Korean>!!?? 누가 이쪽으로 도망쳐 오고 있어요.</Korean>
+		<English>!!?? Somebody's running over here.</English>
+		<Japenese>!!??誰かこっちへ逃げて来ています</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_57_6</UniqueID>
+		<Korean>위험해 보이는데 가보자!</Korean>
+		<English>It looks dangerous. Let's go!</English>
+		<Japenese>危険そうだけど行ってみよう!</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_58_1</UniqueID>
+		<Korean>그 강력한 마법사잖아.</Korean>
+		<English>It's the powerful wizard.</English>
+		<Japenese>あの強力な魔法士じゃない。</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_58_2</UniqueID>
+		<Korean>어떻게 된 일이지?</Korean>
+		<English>What happened?</English>
+		<Japenese>どういうことだ？</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_58_3</UniqueID>
+		<Korean>제 이름은 레이나. 네그스노 제국 소속 마법사입니다.</Korean>
+		<English>My name is REINA. I'm a Wizard from the NEGSNOW empire.</English>
+		<Japenese>私の名前はレイナ。ネグスノ帝国所属の魔法士です。</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_58_4</UniqueID>
+		<Korean>이번 원정에 참여한 적군이지만 \n지금은 서로 전쟁을 할 때가 아니라 판단해서 전선을 이탈했어요.</Korean>
+		<English>Although I'm an enemy who took part in this expedition \nI left the front line because it's not the time to fight each other.</English>
+		<Japenese>今回の遠征に加わった敵軍ですが\n今はお互い戦争をする時じゃないと判断して戦線を離脱しました</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_58_5</UniqueID>
+		<Korean>(스스로 판단해 부대를 이탈했다는 건가)</Korean>
+		<English>(Did she decide to leave all by herself?)</English>
+		<Japenese>（自ら判断して部隊を離脱したというのか）</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_58_6</UniqueID>
+		<Korean>일단 후방에서 치료를 받도록.</Korean>
+		<English>For now, get treated in the rear.</English>
+		<Japenese>一旦後方で治療を受けるように。</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_58_7</UniqueID>
+		<Korean>고마워요.</Korean>
+		<English>Thank you.</English>
+		<Japenese>ありがとう</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_58_8</UniqueID>
+		<Korean>다들 들어라! 강력한 적군 마법사가 전선을 이탈했다.\n지금이 기회이니 전력으로 진격한다!!</Korean>
+		<English>Listen up everybody! A powerful enemy wizard left the front line.\nIt's time to advance forward with everything we've got!!</English>
+		<Japenese>皆聞け！強力な敵軍魔法士が戦線を離脱した。\n今がチャンスだ。全力で進撃するぞ！</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_59_1</UniqueID>
+		<Korean>이 정도 병력 차로도 밀리다니....</Korean>
+		<English>I can't believe we lost, even with the advantage in numbers…</English>
+		<Japenese>これほどの兵力の差でも押されるなんて....</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_59_2</UniqueID>
+		<Korean>크리드 쪽에도 강력한 지원군이 있는듯합니다.</Korean>
+		<English>It looks as though the CREED have strong reinforcements.</English>
+		<Japenese>クリードの方にも強力な支援軍がいるようです。</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_59_3</UniqueID>
+		<Korean>으..으.. 레이나 마법사만 이탈하지 않았어도..</Korean>
+		<English>Uh..Uh..if only REINA the Wizard didn't leave..</English>
+		<Japenese>ウッ..ウッ..レイナ魔法士さえ離脱していなかったら..</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_59_4</UniqueID>
+		<Korean>더는 버틸 수 없습니다 결단을..</Korean>
+		<English>We can't stand this anymore, we need to make a decision..</English>
+		<Japenese>これ以上は耐えられません。決断を..</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_59_5</UniqueID>
+		<Korean>(이대로 돌아가서 추기경님께 무어라 전한단 말인가...)</Korean>
+		<English>(Once we go back, what will we tell the Cardinal…)</English>
+		<Japenese>（このまま戻って枢機卿様になんて伝えたらいいんだ..）</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_59_6</UniqueID>
+		<Korean>전군... 퇴각 한다.</Korean>
+		<English>All forces… retreat.</English>
+		<Japenese>全軍..退却する。</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_60_1</UniqueID>
+		<Korean>나에게서 도망칠 수 없을걸.</Korean>
+		<English>You can't escape me.</English>
+		<Japenese>私から逃げられないぞ</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_60_2</UniqueID>
+		<Korean>적에게서 패전의 기운이 도는군요.</Korean>
+		<English>The enemy is defeated.</English>
+		<Japenese>敵から負のオーラが漂いますね。</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_60_3</UniqueID>
+		<Korean>마지막까지 방심하지마라.</Korean>
+		<English>Don't let your guard down until the end.</English>
+		<Japenese>最後まで油断するな</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_60_4</UniqueID>
+		<Korean>이번전투만 끝나면 우리의 승리야.</Korean>
+		<English>Once this battle is over, we'll be victorious.</English>
+		<Japenese>この戦闘さえ終われば私達の勝利だ</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_60_5</UniqueID>
+		<Korean>날 따라 오라고.</Korean>
+		<English>Follow me.</English>
+		<Japenese>私について来い</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_60_6</UniqueID>
+		<Korean>승리의 여신이 우리와 함께 하길..</Korean>
+		<English>May the goddess of victory be with us.</English>
+		<Japenese>勝利の女神が私達と共にしますよう..</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_60_7</UniqueID>
+		<Korean>급보입니다.\n네스마제국이 붕괴되고 마도군이 저희 쪽으로 진군중이라는 보고입니다.</Korean>
+		<English>Urgent news.\nThe NESMA empire is collapsing and the MADO forces are on their way toward us.</English>
+		<Japenese>急報です.\nネスマ帝国が崩壊されマド軍が僕達の方に進軍中だという報告です</Japenese>
+	</Data>
+	<Data>
+		<UniqueID>GAME_TALK_STAGE_60_8</UniqueID>
+		<Korean>(이렇게 빨리..) 남은 병력을 최대한 빨리 해치우고 돌아간다.</Korean>
+		<English>(So soon..) Finish off the remaining troops as soon as possible and return.</English>
+		<Japenese>（こんなに早く..）残りの兵力を出来る限りやっつけて帰るぞ。</Japenese>
+	</Data>
+</Localizing>

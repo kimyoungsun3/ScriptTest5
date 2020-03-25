@@ -101,7 +101,9 @@ namespace SpriteAnimationPreview
 
             public AnimationData(AnimationClip animationClip)
             {
+				if (animationClip == null) return;
                 var animationClipSettings = AnimationUtility.GetAnimationClipSettings(animationClip);
+				if (animationClipSettings == null) return;
 
                 spriteEditors = GetSpriteEditors(GetSprites(animationClip));
                 startTime = animationClipSettings.startTime;
