@@ -18,17 +18,20 @@ public class ObjectLayerTemp : ObjectLayer
 	//}
 
 	void Update(){
-		//Debug.Log (Application.isPlaying + ":" + render);
+		Debug.Log ("Update >> " + Application.isPlaying + ":" + render);
 		if (Application.isPlaying) 
-		{	
-			Destroy (this);
+		{
+			Debug.Log("Destroy");
+			DestroyImmediate (this);
 		}
 		else
 		{
 			if (render == null) 
 			{
+				Debug.Log("GetComponent");
 				render = GetComponent<SpriteRenderer> ();
 			}
+			Debug.Log("render.sortingOrder");
 			render.sortingOrder = -(int)(transform.position.y * 100f);
 		}
 	}
