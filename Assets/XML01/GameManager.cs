@@ -6,15 +6,14 @@ namespace XMLTest01
 {
 	public class GameManager : MonoBehaviour
 	{
-
-		public int itemcode = 10001;
-		private void Update()
+		public static GameManager ins;
+		public void Awake()
 		{
-			if (Input.GetKeyDown(KeyCode.Alpha1))
-			{
-				Debug.Log(GameData.ins.GetMonsterData(itemcode));
-			}
+			ins = this;
 		}
+		public void ChangeState()
+		{
 
+		}
 	}
 }

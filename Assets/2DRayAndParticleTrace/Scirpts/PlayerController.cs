@@ -13,9 +13,9 @@ namespace DMapJump3
 		Transform trans;
 		Plane plane;
 		Ray ray;
-		Camera cam;
+		Camera camera;
 		float v, h, distance;
-		Vector3 move, armView, hitPoint, hitView;
+		Vector3 move, armView, hitPoint, dirView;
 		Quaternion armQua;
 		public float speed = 2f;
 		public SpriteRenderer bodySpriteRenderer;
@@ -38,7 +38,7 @@ namespace DMapJump3
 		}
 
 		void Start () {
-			cam 	= Camera.main;
+			camera 	= Camera.main;
 			trans 	= transform;
 			plane 	= new Plane (Vector3.back, Vector3.zero);
 			aniShootHash = Animator.StringToHash ("Shoot");
@@ -63,30 +63,30 @@ namespace DMapJump3
 			v = Input.GetAxisRaw("Vertical");
 			h = Input.GetAxisRaw("Horizontal");
 			move.Set(h, v, 0);
-			move = move.normalized;
-			trans.Translate(move * speed * Time.deltaTime, Space.World);
+			if(h != 0 || v != 0)
+				trans.Translate(move.normalized * speed * Time.deltaTime, Space.World);
 		}
 
 	    void RotateArm() {
 			//방향...
-			ray = cam.ScreenPointToRay(Input.mousePosition);
+			ray = camera.ScreenPointToRay(Input.mousePosition);
 			if (plane.Raycast (ray, out distance)) {
-				hitPoint = ray.GetPoint (distance);
-				armView = hitPoint - armPointTransform.position;
+				hitPoint	= ray.GetPoint (distance);
+				armView		= hitPoint - armPointTransform.position;
 				armPointTransform.rotation = Util.GetQuaternionFromDir2D (armView);
 
 				if (armView.x < 0 && bodySpriteRenderer.flipX == false) {
-					bodySpriteRenderer.flipX = true;
-					gunSpriteRenderer.flipY = true;
+					bodySpriteRenderer.flipX	= true;
+					gunSpriteRenderer.flipY		= true;
 				} else if (armView.x >= 0 && bodySpriteRenderer.flipX == true) {
-					bodySpriteRenderer.flipX = false;
-					gunSpriteRenderer.flipY = false;
+					bodySpriteRenderer.flipX	= false;
+					gunSpriteRenderer.flipY		= false;
 				}
 
 				if (laserVisible) {
 					//Debug.Log (11);
 					//line position
-					hitView = hitPoint - spawnPoint.position;
+					dirView = hitPoint - spawnPoint.position;
 					laserPosition [0] = spawnPoint.position;
 					laserPosition [1] = hitPoint;
 					laserBeamLine.positionCount = 2;
@@ -125,15 +125,15 @@ namespace DMapJump3
 					//Quaternion _q;
 					//float _angle = Util.GetAngleFromDir(dirView) - _angleTotal / 2f;
 
-					Vector3 _p = spawnPoint.position + hitView / 2f;
-					Quaternion _q = Util.GetQuaternionFromDir2D (hitView);
-					float _d = hitView.magnitude;
+					Vector3 _p		= spawnPoint.position + dirView / 2f;
+					Quaternion _q	= Util.GetQuaternionFromDir2D (dirView);
+					float _d		= dirView.magnitude;
 					ParticleSystem _particle = PoolManager.ins.Instantiate ("LineEffect2", _p, _q).GetComponent<ParticleSystem> ();
-					var _shape = _particle.shape;					
-					_shape.radius = hitView.magnitude / 2f;
-					var _emission = _particle.emission;
-					burst.minCount = (short)(_d * particleEmissionPerCount);
-					burst.maxCount = (short)(_d * particleEmissionPerCount);
+					var _shape		= _particle.shape;					
+					_shape.radius	= dirView.magnitude / 2f;
+					var _emission	= _particle.emission;
+					burst.minCount	= (short)(_d * particleEmissionPerCount);
+					burst.maxCount	= (short)(_d * particleEmissionPerCount);
 					_emission.SetBurst(0, burst);
 
 					laserVisible = false;

@@ -9,6 +9,8 @@ namespace XMLTest01
 	{
 		public int itemcode;
 		public string name;
+		public string filedata;
+		public GameObject goFileData;
 		public eMonsterType type;
 		public float health;
 		public float attacktime;
@@ -21,6 +23,12 @@ namespace XMLTest01
 		public float radius;
 		public float radiusattack;
 		public float radiustorelease;
+
+		public void ReadFileData()
+		{
+			goFileData = Resources.Load<GameObject>("prefab/" + filedata);
+			Debug.Log(goFileData);
+		}
 
 		public override string ToString()
 		{

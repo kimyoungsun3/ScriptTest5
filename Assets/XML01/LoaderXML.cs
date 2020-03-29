@@ -21,12 +21,19 @@ namespace XMLTest01
 			}
 		}
 
+		//public static LoaderXML ins;
+		//private void Awake()
+		//{
+		//	ins = this;
+		//}
+
+		//LoaderXML.ins.LoadMonster(dic, "Monster_data2");
 		public void LoadMonster(Dictionary<int, MonsterData> _dic, string _xmlFile)
 		{
 			TextAsset _textAsset = Resources.Load<TextAsset>(_xmlFile);
 			if (_textAsset == null)
 			{
-				Debug.Log("TextAsset Load Failed");
+				Debug.LogError("TextAsset Load Failed");
 				return;
 			}
 			XmlDocument _xmldoc = new XmlDocument();
@@ -43,22 +50,34 @@ namespace XMLTest01
 				//xml data part label
 				_item			= _nodeList.Item(i);
 				_strItemcode	= _item.SelectSingleNode("itemcode").InnerText;
-				if (string.IsNullOrEmpty(_strItemcode))	Debug.LogError("itemcode is null");
+				if (string.IsNullOrEmpty(_strItemcode))
+				{
+					Debug.LogError("itemcode is null");
+					continue;
+				}
 				
 				_itemcode = int.Parse(_strItemcode);
-				if (_dic.ContainsKey(_itemcode))		Debug.LogError("Monster code double");
+				if (_dic.ContainsKey(_itemcode))
+				{
+					Debug.LogError("Monster code double");
+					continue;
+				}
 
 				//create data 
 				_data = new MonsterData();
 
 				//data parse;
-				_data.itemcode = _itemcode;
-				_data.name = _item.SelectSingleNode("name").InnerText;
+				_data.itemcode	= _itemcode;
+				_data.filedata	= _item.SelectSingleNode("filedata").InnerText;
+				_data.name		= _item.SelectSingleNode("name").InnerText;
+
+							   				 			  			  			 		   						   
+				_data.ReadFileData();
 				string _type = _item.SelectSingleNode("type").InnerText;
 				switch (_type)
 				{
 					case "A(1)":	_data.type = eMonsterType.GroupA;		break;
-					case "B(2)":	_data.type = eMonsterType.GroupA;		break;
+					case "B(2)":	_data.type = eMonsterType.GroupB;		break;
 					default:		Debug.LogError("type error");			break;
 				}
 

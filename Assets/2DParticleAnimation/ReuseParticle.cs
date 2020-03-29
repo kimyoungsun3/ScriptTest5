@@ -9,7 +9,7 @@ namespace _2DParticleAnimation
 
 		void Update()
 		{
-			if (Input.GetKeyDown(KeyCode.Alpha1))
+			if (Input.GetKeyDown(KeyCode.Space))
 			{
 				ParticleSystem _ps = GetComponent<ParticleSystem>();
 				if(_ps != null)

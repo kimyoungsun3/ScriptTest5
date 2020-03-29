@@ -30,6 +30,10 @@ public class ObjectLayerTemp : ObjectLayer
 			{
 				Debug.Log("GetComponent");
 				render = GetComponent<SpriteRenderer> ();
+				if(render == null)
+				{
+					render = GetComponentInChildren<SpriteRenderer>();
+				}
 			}
 			Debug.Log("render.sortingOrder");
 			render.sortingOrder = -(int)(transform.position.y * 100f);

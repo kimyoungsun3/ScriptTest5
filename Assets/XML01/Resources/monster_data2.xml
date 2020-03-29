@@ -2,9 +2,10 @@
 <root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<lvmonster>
 		<itemcode>10001</itemcode>
+		<filedata>Enemy_Knight</filedata>
 		<name>Knight</name>
 		<type>A(1)</type>
-		<health>100</health>
+		<health>222</health>
 		<attacktime>1</attacktime>
 		<attackpower>5</attackpower>
 		<attackspeed>0.66</attackspeed>
@@ -18,6 +19,7 @@
 	</lvmonster>
 	<lvmonster>
 		<itemcode>10002</itemcode>
+		<filedata>Enemy_Soldier</filedata>
 		<name>Soldier</name>
 		<type>A(1)</type>
 		<health>75</health>
@@ -34,6 +36,7 @@
 	</lvmonster>
 	<lvmonster>
 		<itemcode>10003</itemcode>
+		<filedata>Enemy_Unded</filedata>
 		<name>Unded</name>
 		<type>B(2)</type>
 		<health>100</health>
@@ -50,6 +53,7 @@
 	</lvmonster>
 	<lvmonster>
 		<itemcode>10004</itemcode>
+		<filedata>Enemy_Wolfrider</filedata>
 		<name>Wolfrider</name>
 		<type>B(2)</type>
 		<health>150</health>

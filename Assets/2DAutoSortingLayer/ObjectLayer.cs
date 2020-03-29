@@ -4,5 +4,5 @@ using UnityEngine;
 
 
 public class ObjectLayer : MonoBehaviour {
-	[HideInInspector] public SpriteRenderer render;
+	public SpriteRenderer render;
 }

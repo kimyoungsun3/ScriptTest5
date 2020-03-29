@@ -40,7 +40,7 @@ namespace Step99
 		Transform trans;
 		float searchTimeNext, attackTimeNext, waitTimeNext;
 		Animator animator;
-		[SerializeField] LayerMask maskTarget;
+		public LayerMask maskTarget;
 		public Vector3[] localPoint = new Vector3[0];
 		Vector3[] wayPoints = new Vector3[0];
 		int wayIndex = 0;
