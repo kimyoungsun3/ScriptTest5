@@ -10,14 +10,16 @@ public class MiniMap : MonoBehaviour {
 	Vector2 pos;
 	RectTransform rectTransform;
 	Rect rect;
+    Camera camera;
 
-	void Start () {		
-		rectTransform = transform.GetComponent<RectTransform> ();
-		rect = rectTransform.rect;
-	}
+    void Start () {
+        rectTransform   = transform.GetComponent<RectTransform> ();
+		rect            = rectTransform.rect;
+        camera          = Camera.main;
+    }
 
 	void Update () {
-		pos = Camera.main.WorldToViewportPoint (target.position);
+		pos = camera.WorldToViewportPoint (target.position);
 
 		targetMini.anchoredPosition = new Vector2(
 			pos.x * rect.size.x, 
