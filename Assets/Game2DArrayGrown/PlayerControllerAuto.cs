@@ -27,7 +27,7 @@ namespace DMapJump
 		public float gunAngleStep = 5f;
 		[Range(1, 10)] public int gunCount = 1;
 
-		UIJoyStick uiJoyStick;
+		Joystick_NGUI.NGUIJoyStick uiJoyStick;
 		Vector2 MIN, MAX;
 
 		//private void Awake()
@@ -40,7 +40,7 @@ namespace DMapJump
 			//plane		= new Plane(Vector3.back, Vector3.zero);
 			//cam		= Camera.main;
 			trans		= transform;
-			uiJoyStick	= UIJoyStick.ins;
+			uiJoyStick	= Joystick_NGUI.NGUIJoyStick.ins;
 
 			Camera _c = Camera.main;
 			float _h = _c.orthographicSize - 1f;
