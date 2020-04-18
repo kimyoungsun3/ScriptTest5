@@ -148,6 +148,34 @@ namespace Joystick_UGUI2
 			//}
 		}
 
+		public static bool GetKey(KeyCode _keycode)
+		{
+#if UNITY_EDITOR
+			return UnityEngine.Input.GetKey(_keycode) || GetKeyMobile(_keycode);
+#else
+			return GetKeyDownMobile(_keycode);
+#endif
+		}
+
+		public static bool GetKeyDown(KeyCode _keycode)
+		{
+#if UNITY_EDITOR
+			return UnityEngine.Input.GetKeyDown(_keycode) || GetKeyDownMobile(_keycode);
+#else
+			return GetKeyDownMobile(_keycode);
+#endif
+		}
+
+		public static bool GetKeyUp(KeyCode _keycode)
+		{
+#if UNITY_EDITOR
+			return UnityEngine.Input.GetKeyUp(_keycode) || GetKeyUpMobile(_keycode);
+#else
+			return GetKeyDownMobile(_keycode);
+#endif
+		}
+
+
 		#region Axis
 		static Vector2 moveDir;
 		public static void SetAxisMobile(Vector2 _moveDir)
@@ -157,7 +185,7 @@ namespace Joystick_UGUI2
 		public static float GetAxisMobile(string _axisName)
 		{
 			float _rtn = 0;
-			switch (_axisName)
+			switch (_axisName) 
 			{
 				case "Horizontal":	_rtn = VariableJoystick.ins.Horizontal; break;
 				case "Vertical":	_rtn = VariableJoystick.ins.Vertical; break;
@@ -190,11 +218,11 @@ namespace Joystick_UGUI2
 
 		public static string[] GetJoystickNames(){			return UnityEngine.Input.GetJoystickNames();	}
 		public static bool GetKey(string key){				return UnityEngine.Input.GetKey(key);			}
-		public static bool GetKey(KeyCode key){				return UnityEngine.Input.GetKeyUp(key);			}
+		//public static bool GetKey(KeyCode key){				return UnityEngine.Input.GetKeyUp(key);			}
 		public static bool GetKeyDown(string key){			return UnityEngine.Input.GetKeyDown(key);		}
-		public static bool GetKeyDown(KeyCode key){			return UnityEngine.Input.GetKeyDown(key);		}
+		//public static bool GetKeyDown(KeyCode key){		return UnityEngine.Input.GetKeyDown(key);		}
 		public static bool GetKeyUp(string key){			return UnityEngine.Input.GetKeyUp(key);}
-		public static bool GetKeyUp(KeyCode key){			return UnityEngine.Input.GetKeyUp(key);}
+		//public static bool GetKeyUp(KeyCode key){			return UnityEngine.Input.GetKeyUp(key);}
 		public static bool GetMouseButton(int button){		return UnityEngine.Input.GetMouseButton(button);}
 		public static bool GetMouseButtonDown(int button) { return UnityEngine.Input.GetMouseButtonDown(button); }
 		public static bool GetMouseButtonUp(int button)	{	return UnityEngine.Input.GetMouseButtonUp(button);}
@@ -235,7 +263,7 @@ namespace Joystick_UGUI2
 
 		private static List<string> ButtonsDown = new List<string>();
 		private static List<string> ButtonsHold = new List<string>();
-		private static List<string> ButtonsUp = new List<string>();
+		private static List<string> ButtonsUp	= new List<string>();
 		private static int lastFrameUpdated;
 		public static bool GetButtonDownMobile(string name)
 		{
@@ -334,7 +362,105 @@ namespace Joystick_UGUI2
 			lastFrameUpdated = Time.frameCount;
 			ButtonsUp.Add(_buttonName);
 		}
-		
 
+		#region keycode....
+		private static List<KeyCode> KeyDown = new List<KeyCode>();
+		private static List<KeyCode> KeyHold = new List<KeyCode>();
+		private static List<KeyCode> KeyUp = new List<KeyCode>();
+
+		public static bool GetKeyDownMobile(KeyCode _keycode)
+		{
+			if (KeyDown.Contains(_keycode))
+			{
+				if (Time.frameCount != lastFrameUpdated)
+				{
+					KeyDown.Clear();
+					KeyHold.Clear();
+					KeyUp.Clear();
+				}
+				else
+				{
+					return true;
+				}
+			}
+			return false;
+		}
+
+		public static bool GetKeyMobile(KeyCode _keycode)
+		{
+			if (KeyHold.Contains(_keycode))
+			{
+				if (Time.frameCount != lastFrameUpdated)
+				{
+					KeyDown.Clear();
+					KeyHold.Clear();
+					KeyUp.Clear();
+				}
+				else
+				{
+					return true;
+				}
+			}
+			return false;
+		}
+
+		public static bool GetKeyUpMobile(KeyCode _keycode)
+		{
+			if (KeyUp.Contains(_keycode))
+			{
+				if (Time.frameCount != lastFrameUpdated)
+				{
+					KeyDown.Clear();
+					KeyHold.Clear();
+					KeyUp.Clear();
+				}
+				else
+				{
+					return true;
+				}
+			}
+			return false;
+		}
+
+
+		public static void PressKeyDownMobile(KeyCode _keycode)
+		{
+			if (Time.frameCount != lastFrameUpdated)
+			{
+				KeyDown.Clear();
+				KeyHold.Clear();
+				KeyUp.Clear();
+			}
+
+			lastFrameUpdated = Time.frameCount;
+			KeyDown.Add(_keycode);
+		}
+
+		public static void PressKeyMobile(KeyCode _keycode)
+		{
+			if (Time.frameCount != lastFrameUpdated)
+			{
+				KeyDown.Clear();
+				KeyHold.Clear();
+				KeyUp.Clear();
+			}
+
+			lastFrameUpdated = Time.frameCount;
+			KeyHold.Add(_keycode);
+		}
+
+		public static void PressKeyUpMobile(KeyCode _keycode)
+		{
+			if (Time.frameCount != lastFrameUpdated)
+			{
+				KeyDown.Clear();
+				KeyHold.Clear();
+				KeyUp.Clear();
+			}
+
+			lastFrameUpdated = Time.frameCount;
+			KeyUp.Add(_keycode);
+		}
+		#endregion
 	}
 }

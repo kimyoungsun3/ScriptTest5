@@ -22,12 +22,15 @@ namespace PoolMaterial2{
 	}
 
 	public class PoolMaterial : MonoBehaviour {
+		#region singletone
 		public static PoolMaterial ins;
-		Dictionary<Material, Queue<MaterialData>> dicPools = new Dictionary<Material, Queue<MaterialData>>();
-		public int count;
 		void Awake(){
 			ins = this;
 		}
+		#endregion
+
+		public int count;
+		Dictionary<Material, Queue<MaterialData>> dic_Pools = new Dictionary<Material, Queue<MaterialData>>();
 
 		public MaterialData RegisterMaterial(Renderer _renderer){
 			MaterialData _data = null;
@@ -42,11 +45,11 @@ namespace PoolMaterial2{
 
 		//Material Init...
 		public void RegisterMaterial(Material _sharedMaterial, int _count = 5){
-			if (!dicPools.ContainsKey (_sharedMaterial)) {
+			if (!dic_Pools.ContainsKey (_sharedMaterial)) {
 				//Debug.Log (_srcSharedMaterial);
 				//register queue Material...
 				Queue<MaterialData> _q = new Queue<MaterialData> ();
-				dicPools.Add (_sharedMaterial, _q);
+				dic_Pools.Add (_sharedMaterial, _q);
 
 				//create material...
 				Material _m;
@@ -64,11 +67,11 @@ namespace PoolMaterial2{
 		//}
 
 		public void ClearMateril(Material _srcMaterial){
-			if (!dicPools.ContainsKey (_srcMaterial)) {
+			if (!dic_Pools.ContainsKey (_srcMaterial)) {
 				return;
 			}
 
-			Queue<MaterialData> _q = dicPools[_srcMaterial];
+			Queue<MaterialData> _q = dic_Pools[_srcMaterial];
 			MaterialData _md = null;
 			for (int i = 0, iMax = _q.Count; i < iMax; i++) {
 				_md = _q.Dequeue ();
@@ -80,11 +83,11 @@ namespace PoolMaterial2{
 		//1f	-> 1개정도로 커버됨...
 		//.5f 	-> 3개정도 필요...
 		public MaterialData GetMaterial(Material _srcMaterial){
-			if (!dicPools.ContainsKey (_srcMaterial)) {
+			if (!dic_Pools.ContainsKey (_srcMaterial)) {
 				Debug.LogError ("Material not register...");
 				return null;
 			}
-			Queue<MaterialData> _q = dicPools[_srcMaterial];
+			Queue<MaterialData> _q = dic_Pools[_srcMaterial];
 			//Debug.Log ("dicPools:" + dicPools.Count
 			//	+ " queueMat:" + queueMat.Count
 			//);
