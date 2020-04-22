@@ -9,17 +9,26 @@ namespace Joystick_UGUI2
 {
 	public class PlayerMove : MonoBehaviour
 	{
-		public float speed = 3f;
+		
 		Transform trans;
 		Vector3 move;
 		Vector3 zero = Vector3.zero;
+
+
+		[SerializeField] float speed = 3f;
+		[SerializeField] float speedTurn = 180f;
 		eSkillNumber skillNumber;
+		[SerializeField] Transform cameraRig;
+		[SerializeField] Vector2 cameraRigMinMax = new Vector2(-60f, +60f);
+		float angleCameraRigX;
+
 		[SerializeField] Bullet bullet;
 		[SerializeField] List<Transform> firepoint = new List<Transform>();
 
 		void Start()
 		{
 			trans = transform;
+			angleCameraRigX = cameraRig.localEulerAngles.x;
 		}
 
 		public void SetSkill(eSkillNumber _skill)
@@ -31,10 +40,28 @@ namespace Joystick_UGUI2
 		{
 			eSkillNumber _skill = skillNumber;
 			skillNumber			= eSkillNumber.None;
-			
-			move.Set(Input.GetAxisRaw("Horizontal"), 0, Input.GetAxisRaw("Vertical"));
-			if(move != zero)
+			float _v	= Input.GetAxisRaw("Vertical");
+			float _h	= Input.GetAxisRaw("Horizontal");
+			bool _bJump = Input.GetKeyDown(KeyCode.Space);
+			float _mx	= Input.GetAxis("Mouse X");
+			float _my	= Input.GetAxis("Mouse Y");
+			bool _press = Input.GetMouseButton(1);
+			move.Set(_h, 0, _v);
+			//float _
+
+
+			//move
+			if (move != zero)
 				trans.Translate(move.normalized * speed * Time.deltaTime);
+			//rotate
+			if (_mx != 0f && _press)
+				trans.Rotate(_mx * Vector3.up * speedTurn * Time.deltaTime);
+			if (_my != 0f && _press)
+			{
+				angleCameraRigX -= _my * speedTurn * Time.deltaTime;
+				angleCameraRigX = Mathf.Clamp(angleCameraRigX, cameraRigMinMax.x, cameraRigMinMax.y);
+				cameraRig.localRotation = Quaternion.Euler(Vector3.right * angleCameraRigX);
+			}
 
 			if (_skill != eSkillNumber.None)
 			{
