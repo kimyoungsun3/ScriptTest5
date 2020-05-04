@@ -2,8 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 using FSM6;
-using SoundManager7;
-using PoolManager7;
+using SoundManager8;
+using PoolManager8;
 
 namespace Number01_NumberUGUI
 {
