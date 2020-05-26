@@ -22,13 +22,13 @@ namespace DMapJump
 		public float gunAngleStep = 5f;
 		[Range(1, 10)] public int gunCount = 1;
 
-		Joystick_NGUI.NGUIJoyStick uiJoyStick;
+		Joystick_NGUI2.NGUIJoyStick uiJoyStick;
 		Vector2 MIN, MAX;
 
 		private void Start()
 		{
 			trans		= transform;
-			uiJoyStick	= Joystick_NGUI.NGUIJoyStick.ins;
+			uiJoyStick	= Joystick_NGUI2.NGUIJoyStick.ins;
 
 			Camera _c = Camera.main;
 			float _h = _c.orthographicSize - 1f;

@@ -7,40 +7,58 @@ using System.Threading;
 
 namespace ThreadTest
 {
+	[System.Serializable]public class MyClass
+	{
+		public int x1;
+		public float x2;
+		public string x3;
+		public MyClass(int _x1, float _x2, string _x3)
+		{
+			x1 = _x1;
+			x2 = _x2;
+			x3 = _x3;
+		}
+
+		public override string ToString()
+		{
+			return "x1:" + x1 + " x2:" + x2 + " x3:" + x3;
+		}
+	}
 	public class ThreadTest : MonoBehaviour
 	{
 		public Transform prefab;
 		Queue<GameObject> queue = new Queue<GameObject>();
 		Transform holder;
-		Transform mytran;
-		GameObject mygo;
+		Transform trans;
+		GameObject go;
 		int num = 0;
+		Queue<MyClass> queueClass = new Queue<MyClass>();
 
 		void Start()
 		{
 			Debug.Log("1, 2 Thread create/destroy gameobject");
-			mytran = transform;
-			mygo = gameObject;
-			latestScale = mytran.localScale;
+			trans	= transform;
+			go		= gameObject;
 
-			holder = mytran.Find("holder");
+			holder = trans.Find("holder");
 			if (holder == null)
 			{
 				holder = new GameObject("holder").transform;
 			}
-			holder.SetParent(mytran);
+			holder.SetParent(trans);
 		}
 
 
 		void Update()
 		{
+			Debug.Log("Update 01");
 			if (Input.GetKeyDown(KeyCode.Alpha1))
 			{
-				Test01();
+				Fun01();
 			}
 			else if (Input.GetKeyDown(KeyCode.Alpha2))
 			{
-				Test02();
+				Fun02();
 			}
 			else if (Input.GetKeyDown(KeyCode.Alpha3))
 			{
@@ -71,74 +89,117 @@ namespace ThreadTest
 				Test09();
 			}
 
-			if (mytran.localScale != latestScale)
+			if (trans.localScale != beforeScale)
 			{
-				mytran.localScale = latestScale;
+				trans.localScale = beforeScale;
 			}
 
-			bool _bQueue = false;
+			Debug.Log("Update 02");
 			lock (queue8)
 			{
 				if (queue8.Count > 0)
 				{
-					Debug.Log("Thread -> Queue(8) => Unity3d");
 					int _c = queue8.Dequeue();
-					Debug.Log(_c);
-					_bQueue = true;
+					Transform _t = Instantiate(prefab, UnityEngine.Random.onUnitSphere * 5f, Quaternion.identity) as Transform;
+					_t.SetParent(holder);
+					queue.Enqueue(_t.gameObject);
+
+					Debug.Log("Test08 Unity3d  <= Queue(8)  Thread ");
 				}
 			}
 
-			if (_bQueue)
-			{
-				Transform _t = Instantiate(prefab, UnityEngine.Random.onUnitSphere * 5f, Quaternion.identity) as Transform;
-				_t.SetParent(holder);
-				queue.Enqueue(_t.gameObject);
-			}
+			Debug.Log("Update 03");
 
+			Debug.Log("Update 04");
 			lock (actionQueue)
 			{
 				if(actionQueue.Count > 0)
 				{
+					Debug.Log("Test09 Unity3d  <=  Queue(9)    Thread ");
 					actionQueue.Dequeue().Invoke();
+				}
+			}
+			Debug.Log("Update 05");
+
+			lock (queueClass)
+			{	
+				while (queueClass.Count > 0)
+				{
+					Debug.Log(Time.frameCount + ":" + queueClass.Dequeue().ToString());
 				}
 			}
 		}
 
 		//error
-		void Test01()
+		void Fun01()
 		{
 			//무한루프.... 왜????
-			num++;
-			Debug.Log(11);
+
+			Debug.Log(" Fun01 1");
 			ThreadStart _ts = delegate ()
 			{
-				Debug.Log(12);
-				while (true)
-				{
-					Debug.Log(13);
-					Debug.Log("Thread(" + num + ") Instance -> Enqueue");
+				Debug.Log(" Fun01 2 >> ThreadStart 01");
+				//while(true)
+				//정상 처리로 벗어나게 해야함....
+				//안되면 무한 루프에 빠짐...
+				//compile로 빠짐....
+				//error로 빠짐...
+				int loop = 0;
 
-					Transform _t = Instantiate(prefab, UnityEngine.Random.onUnitSphere * 5f, Quaternion.identity) as Transform;
-					_t.SetParent(holder);
-					queue.Enqueue(_t.gameObject);
-					Thread.Sleep(100);
+				while (!bApplicationQuit)
+				{
+					Debug.Log(" Fun01 2 >> ThreadStart 02");
+
+					//float x = Screen.width;
+					//lock (queue6){ queue6.Enqueue("1");}
+					loop++;
+					lock (queueClass) {
+						queueClass.Enqueue(new MyClass(loop, loop, "" + loop));
+					}
+					//lock (actionQueue) {
+					//	actionQueue.Enqueue(delegate ()
+					//	{
+					//		Transform _t = Instantiate(prefab, UnityEngine.Random.onUnitSphere * 5f, Quaternion.identity) as Transform;
+					//		_t.SetParent(holder);
+					//	});
+					//}
+
+					//Vector3 _pos = Input.mousePosition;
+					//float _h = Input.GetAxisRaw("Horizontal");
+					//Camera _c = Camera.main;
+					//GameObject _go = gameObject;
+					//Transform _t = transform;
+					//Rigidbody _r = GetComponent<Rigidbody>();
+					//Transform _t = Instantiate(prefab, UnityEngine.Random.onUnitSphere * 5f, Quaternion.identity) as Transform;
+					//_t.SetParent(holder);
+					//queue.Enqueue(_t.gameObject);
+					Thread.Sleep(10);
+					Debug.Log(" Fun01 2 >> ThreadStart 03");
 				}
+				Debug.Log(" Fun01 2 >> ThreadStart 04");
 			};
+
+			Debug.Log(" Fun01 3");
 			Thread _tt = new Thread(_ts);
+
+			Debug.Log(" Fun01 4");
 			_tt.Start();
 			//_thread.Invoke ();
+			Debug.Log(" Fun01 5 "); 
 		}
 
-		void Test02()
+		void Fun02()
 		{
 			Debug.Log(" --- call nonstop count --- ");
 			ThreadStart _ts = new ThreadStart(delegate ()
 			{
+				Debug.Log(" ==== ThreadStart Start ===== ");
 				for (int i = 0; i < 5; i++)
 				{
 					Debug.Log("count : " + i);
 					Thread.Sleep(2000);
 				}
+				Debug.Log(" ==== ThreadStart End ===== ");
 			});
 			Thread _t = new Thread(_ts);
 			_t.Start();
@@ -159,7 +220,7 @@ namespace ThreadTest
 			});
 			Thread _t = new Thread(_ts);
 			_t.Start();
-			_t.Abort();
+			//_t.Abort();
 			Debug.Log("------Start/Abort Thread end-----");
 		}
 
@@ -170,6 +231,7 @@ namespace ThreadTest
 			{
 				for (int i = 0; i < 5; i++)
 				{
+					//Debug.Log(Time.deltaTime);
 					Debug.Log("count : " + i + ":" + Fun04());
 					Thread.Sleep(1000);
 				}
@@ -179,9 +241,11 @@ namespace ThreadTest
 			Debug.Log("------Start Thread end-----");
 		}
 
+		float f4v;
 		float Fun04()
 		{
-			return 1f;
+			f4v += 1f;
+			return f4v;
 			//return Time.realtimeSinceStartup;// error -> 구조상....
 		}
 
@@ -190,7 +254,7 @@ namespace ThreadTest
 			ThreadStart _ts = new ThreadStart(delegate ()
 			{
 				Debug.Log(12);
-				while (true)
+				while (!bApplicationQuit)
 				{
 					Debug.Log(13);
 					Debug.Log("Thread(" + num + ") Instance -> Enqueue");
@@ -202,22 +266,26 @@ namespace ThreadTest
 				}
 			});
 			Thread _thread = new Thread(_ts);
-			_thread.Start();
-
+			_thread.Start(); 
 		}
 
-		Queue<string> queue2 = new Queue<string>();
-		int count2, num2;
+		Queue<string> queue6 = new Queue<string>();
+		int count6, num6;
 		void Test06()
 		{
-			int _num = num2++;
+			int _num = num6++;
 			ThreadStart _ts = new ThreadStart(delegate ()
 			{
-				while (count2 < 1000)
+				string _msg;
+				while (count6 < 5)
 				{
-					count2++;
-					queue2.Enqueue(_num + ":" + count2);
-					Debug.Log(_num + ":" + count2);
+					count6++;
+					_msg = _num + ":" + count6;
+					lock (queue)
+					{
+						queue6.Enqueue(_msg);
+					}
+					Debug.Log(_msg);
 					Thread.Sleep(1000);
 				}
 			});
@@ -225,19 +293,24 @@ namespace ThreadTest
 			_thread.Start();
 		}
 
-		Vector3 latestScale;
+		[SerializeField]Vector3 beforeScale;
 		void Test07()
 		{
-			latestScale = mytran.localScale;
+			beforeScale = trans.localScale;
 			ThreadStart _ts = new ThreadStart(delegate ()
 			{
-				while (true)
+				while (!bApplicationQuit)
 				{
-					//Debug.Log(7);
-					//mytran.Translate(Vector3.forward * 1f);		-> error
+					Debug.Log("Test07 1");
+					Transform _t; //이것은 되는데 무쓸모....
+					//Transform _t2 = transform;				//error
+					//trans.position = Vector3.zero;			//error
+					//trans.Translate(Vector3.forward * 1f);    //-> error
 
-					//mytran.localScale += Vector3.one * 0.001f;	-> error
-					latestScale += Vector3.one * 0.001f;            //-> ok
+					//trans.localScale += Vector3.one * 0.001f;	//-> error
+					beforeScale += Vector3.one * 0.001f;        
+
+					Debug.Log("Test07 2");
 					Thread.Sleep(100);
 				}
 			});
@@ -250,28 +323,16 @@ namespace ThreadTest
 		int count8 = 0;
 		void Test08()
 		{
-			latestScale = mytran.localScale;
+			beforeScale = trans.localScale;
 			ThreadStart _ts = new ThreadStart(delegate ()
 			{
-				while (true)
+				//if (!Application.isPlaying)//error
+				while (!bApplicationQuit)
 				{
-					//Debug.Log(8);
-					//mytran.Translate(Vector3.forward * 1f);		-> error
-					Debug.Log("Thread => Queue(8) -> Unity3d");
+					Debug.Log("Test08 Unity3d   Queue(8) <= Thread");
 					lock (queue8)
 					{
 						queue8.Enqueue(count8++);
-					}
-
-					//if (!Application.isPlaying)	//error
-					//if(!Application.isEditor)		//error
-					//get_isEditor can only be called from the main thread.
-					//Constructors and field initializers will be executed from the loading thread when loading a scene.
-					//Don't use this function in the constructor or field initializers, instead move initialization code to the Awake or Start function.
-					if (bApplicationQuit)
-					{
-						Debug.Log(" >> Thread break");
-						break;
 					}
 					Thread.Sleep(1000);
 				}
@@ -280,7 +341,7 @@ namespace ThreadTest
 			_thread.Start();
 		}
 
-		bool bApplicationQuit = false;
+		[SerializeField] bool bApplicationQuit = false;
 		void OnApplicationQuit()
 		{
 			bApplicationQuit = true;
@@ -289,21 +350,18 @@ namespace ThreadTest
 		Queue<Action> actionQueue = new Queue<Action>();
 		void Test09()
 		{
-			Debug.Log(11);
 			ThreadStart _ts = delegate ()
 			{
-				Debug.Log(12);
-				while (true)
+				while (!bApplicationQuit)
 				{
-					Debug.Log(13);
-					Debug.Log("Thread(" + num + ") Instance -> Enqueue");
-
+					Debug.Log("Test09 Unity3d     Queue(9) <= Thread ");
 					Action _on = delegate (){
 						Transform _t = Instantiate(prefab, UnityEngine.Random.onUnitSphere * 5f, Quaternion.identity) as Transform;
 						_t.SetParent(holder);
 					};
+					//gameObject.SetActive(false);
 
-					lock (actionQueue)
+					lock (actionQueue) 
 					{ 
 						actionQueue.Enqueue(_on);
 					}

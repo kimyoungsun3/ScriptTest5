@@ -46,11 +46,10 @@ namespace AddUnitTest
 				if (Physics.Raycast(_ray, out _hit, distance, maskGrasp, QueryTriggerInteraction.Collide))
 				{
 					//Debug.Log(12);
-					scpTarget = _hit.collider.GetComponent<UnitItem>();
-					scpTarget.SetOrder(eUnitSelect.Select);
+					scpTarget = _hit.collider.GetComponent<UnitItem>();					
 					if (scpTarget != null)
 					{
-						//Debug.Log(13);
+						scpTarget.SetOrder(eUnitSelect.Select);
 						offset		= _hit.point - scpTarget.transform.position;
 						beforePos	= scpTarget.transform.position;
 					}

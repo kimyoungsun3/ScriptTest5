@@ -60,6 +60,7 @@ namespace ThreadTest
 			bApplicationQuit = false;
 			ThreadStart _ts = new ThreadStart(delegate ()
 			{
+				Debug.Log(" ==== ThreadStart Start ===== ");
 				int _loop = 0;
 				while (!bApplicationQuit)
 				{
@@ -71,6 +72,7 @@ namespace ThreadTest
 
 					Thread.Sleep(1000);
 				}
+				Debug.Log(" ==== ThreadStart End ===== ");
 			});
 			thread = new Thread(_ts);
 			thread.Start();

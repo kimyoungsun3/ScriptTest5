@@ -17,7 +17,10 @@ namespace ThreadTest
 		{
 			trans = transform;
 
-			holder = new GameObject("Holder").transform;
+			if(holder == null)
+			{
+				holder = new GameObject("Holder").transform;
+			}			
 		}
 
 		// Update is called once per frame
@@ -50,20 +53,27 @@ namespace ThreadTest
 		Thread thread;
 		void DoTest()
 		{
-			if (thread != null && thread.IsAlive) return;
+			Debug.Log(thread);
+			if (thread != null && thread.IsAlive)
+			{
+				Debug.Log(" return");
+				return;
+			}
 
 			ThreadStart _ts = new ThreadStart(delegate ()
 			{
+				Debug.Log(" ==== ThreadStart Start ===== ");
 				int _loop = 0;
 				while (true)
 				{
-					Debug.Log("Thread => Queue -> Unity");
+					Debug.Log("Thread("+Thread.CurrentThread.ManagedThreadId+") => Queue -> Unity");
 					lock (queue)
 					{
 						queue.Enqueue(_loop++);
 					}
 					Thread.Sleep(1000);
 				}
+				Debug.Log(" ==== ThreadStart End ===== ");
 			});
 			thread = new Thread(_ts);
 			thread.Start();
@@ -77,7 +87,7 @@ namespace ThreadTest
 			{
 				Debug.Log(thread.IsAlive);
 				thread.Interrupt();
-				thread.Abort();
+				thread.Abort(); 
 				//이방법은 문제가 있다... 스레드있느 개수만큼 강제 종료해줘야한다...
 			}
 		}

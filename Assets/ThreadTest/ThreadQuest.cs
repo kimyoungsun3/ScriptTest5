@@ -17,7 +17,10 @@ namespace ThreadTest
 		{
 			trans = transform;
 
-			holder = new GameObject("Holder").transform;
+			if(holder == null)
+			{
+				holder = new GameObject("Holder").transform;
+			}			
 		}
 
 		// Update is called once per frame
@@ -52,30 +55,25 @@ namespace ThreadTest
 		{
 			ThreadStart _ts = new ThreadStart(delegate ()
 			{
+				Debug.Log(" ==== ThreadStart Start ===== ");
 				int _loop = 0;
-				while (true)
+				while (!bApplicationQuit)
 				{
 					Debug.Log("Thread => Queue -> Unity");
 					lock (queue)
 					{
 						queue.Enqueue(_loop++);
 					}
-
-					if (bApplicationQuit)
-					{
-						Debug.Log(" >> Thread break");
-						break;
-					}
 					Thread.Sleep(1000);
 				}
+				Debug.Log(" ==== ThreadStart End ===== ");
 			});
 			thread = new Thread(_ts);
 			thread.Start();
 		}
 
 		//전체 스레드를 종료해준다..
-		//1개 정상...
-		//10개 정상종료...
+		//10개 모두 정상종료...
 		bool bApplicationQuit = false;
 		private void OnApplicationQuit()
 		{
