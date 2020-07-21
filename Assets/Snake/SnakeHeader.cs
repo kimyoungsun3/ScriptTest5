@@ -4,7 +4,8 @@ using UnityEngine;
 
 
 public class SnakeHeader : MonoBehaviour {
-	public float speed = 3.5f;
+	[SerializeField] float speed = 3.5f;
+	[SerializeField][Range(0, 1f)] float speedNotClickPercent = .3f;
 	public float speedTurn = 50f;
 	private float turnDir = 0f;
 	//public Transform header;
@@ -25,12 +26,12 @@ public class SnakeHeader : MonoBehaviour {
 		ground = new Plane(Vector3.forward, Vector3.zero);
 		camera = Camera.main;
 	}
-	
+
 	// Update is called once per frame
-	void Update () {
+	void Update() {
 		//InputKeyBoard();
 		InputMousePoint();
-
+		
 		//body
 		list[0].position = transform.position;
 		list[0].rotation = transform.rotation;
@@ -51,7 +52,10 @@ public class SnakeHeader : MonoBehaviour {
 	{
 		//move
 		if (Input.GetKey(KeyCode.W))
+		{
 			transform.Translate(Vector3.up * speed * Time.deltaTime);
+		}
+			
 
 		//rotation
 		if (Input.GetKey(KeyCode.A)) turnDir = +1f;
@@ -82,7 +86,10 @@ public class SnakeHeader : MonoBehaviour {
 				//transform.position += _direction.normalized * speed * Time.deltaTime;
 				//transform.rotation = Quaternion.LookRotation(Vector3.forward * _angle);
 			}
-
+		}
+		else
+		{
+			transform.Translate(Vector3.forward * speedNotClickPercent * speed * Time.deltaTime);
 		}
 	}
 
