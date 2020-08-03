@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <taskdata>
+		<itemcode>10001</itemcode>
+    <name>name_01</name>
+    <title>1.xxxIs the Subway Risky?</title>
+    <question>It May Be Safer Than You Think New studies in Europe and Asia suggest that riding public transportation is not a major source of transmission for the coronavirus.</question>
+		<filedata1>hand/hand_12</filedata1>
+    <filedata2>hand/hand_11</filedata2>    
+	</taskdata>
+  <taskdata>
+    <itemcode>10002</itemcode>
+    <name>name_02</name>
+    <title>2.yyyyIs the Subway Risky?</title>
+    <question>It May Be Safer Than You Think New studies in Europe and Asia suggest that riding public transportation is not a major source of transmission for the coronavirus.</question>
+    <filedata1>hand/hand_21</filedata1>
+    <filedata2>hand/hand_22</filedata2>
+  </taskdata>
+  <taskdata>
+    <itemcode>10003</itemcode>
+    <name>name_03</name>
+    <title>3.Is the Subway Risky?</title>
+    <question>It May Be Safer Than You Think New studies in Europe and Asia suggest that riding public transportation is not a major source of transmission for the coronavirus.</question>
+    <filedata1>hand/hand_31</filedata1>
+    <filedata2>hand/hand_31</filedata2>
+  </taskdata>
+  <taskdata>
+    <itemcode>10004</itemcode>
+    <name>name_04</name>
+    <title>4.Is the Subway Risky?</title>
+    <question>It May Be Safer Than You Think New studies in Europe and Asia suggest that riding public transportation is not a major source of transmission for the coronavirus.</question>
+    <filedata1>hand/hand_31</filedata1>
+    <filedata2>hand/hand_31</filedata2>
+  </taskdata>
+  <taskdata>
+    <itemcode>10005</itemcode>
+    <name>name_05</name>
+    <title>55555555</title>
+    <question></question>
+    <filedata1>hand/hand_31</filedata1>
+    <filedata2>hand/hand_31</filedata2>
+  </taskdata>
+</root>

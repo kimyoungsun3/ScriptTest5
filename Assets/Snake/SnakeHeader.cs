@@ -41,6 +41,7 @@ public class SnakeHeader : MonoBehaviour {
 			if (_dir.sqrMagnitude > distance)
 			{
 				//Debug.Log(i);
+				//Vector3.Angle()
 				list[i].position = Vector3.Lerp(list[i].position, list[i - 1].position, damping * Time.deltaTime);
 				if (_dir != Vector3.zero)
 					list[i].rotation = Quaternion.LookRotation(_dir);
