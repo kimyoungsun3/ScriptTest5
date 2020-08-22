@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace DoorTest
+namespace Platform2_Door_Elevator_Ladder_FreeView
 {
-	public class DoorController : MonoBehaviour
+	public class Platform_Door : MonoBehaviour
 	{
 		[SerializeField] Vector3 offset;
 		[SerializeField] float speed = 2f;
@@ -37,7 +37,6 @@ namespace DoorTest
 
 		private void OnTriggerExit(Collider _other)
 		{
-			Debug.Log(12);
 			if (_other.CompareTag("Player"))
 			{
 				StopCoroutine("Co_MoveToward");

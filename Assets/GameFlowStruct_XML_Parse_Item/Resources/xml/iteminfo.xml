@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <wearitem>
+		<itemcode>10001</itemcode>
+    <name>천갑옷</name>
+    <icon></icon>
+    <descript>천갑옷은 가볍고 튼튼합니다.</descript>
+    <def>10</def>
+    <plusdef>0</plusdef>
+	</wearitem>
+  <wearitem>
+    <itemcode>10002</itemcode>
+    <name>동갑옷</name>
+    <icon></icon>
+    <descript>동갑옷 설명이 들어감.</descript>
+    <def>20</def>
+    <plusdef>2</plusdef>
+  </wearitem>
+  
+  <weaponitem>
+    <itemcode>10101</itemcode>
+    <name>나무칼</name>
+    <icon></icon>
+    <descript>나무칼 가볍고 튼튼합니다.</descript>
+    <att>10</att>
+    <plusatt>0</plusatt>
+  </weaponitem>
+  <weaponitem>
+    <itemcode>10102</itemcode>
+    <name>나무칼2</name>
+    <icon></icon>
+    <descript>나무칼2 가볍고 튼튼합니다.</descript>
+    <att>20</att>
+    <plusatt>0</plusatt>
+  </weaponitem>
+</root>
