@@ -6,7 +6,7 @@ using UnityEngine;
 namespace Platform2_Door_Elevator_Ladder_FreeView
 {
 	[RequireComponent(typeof(Rigidbody))]
-	public class Player2 : MonoBehaviour
+	public class Player3 : MonoBehaviour
 	{
 		//이동변수....
 		public float speed = 2f;
@@ -16,7 +16,7 @@ namespace Platform2_Door_Elevator_Ladder_FreeView
 
 		//카메라 좌위회전
 		public float speedTurn = 90f;
-		float mouseX;
+		float mouseX, mouseY;
 
 
 		void Start()
@@ -32,15 +32,13 @@ namespace Platform2_Door_Elevator_Ladder_FreeView
 			v		= Input.GetAxisRaw("Vertical");
 			h		= Input.GetAxisRaw("Horizontal");
 			mouseX	= Input.GetAxisRaw("Mouse X");
-			if (Input.GetKeyDown(KeyCode.G))
-			{
-				rigidbody.useGravity = !rigidbody.useGravity;
-			}
+			mouseY	= Input.GetAxisRaw("Mouse Y");
+			//if (Input.GetKeyDown(KeyCode.G))
+			//{
+			//	rigidbody.useGravity = !rigidbody.useGravity;
+			//}
 
 
-			//2. 연산부분...
-			rigidbody.velocity			= Vector3.zero;
-			rigidbody.angularVelocity	= Vector3.zero;
 
 		}
 
@@ -60,7 +58,14 @@ namespace Platform2_Door_Elevator_Ladder_FreeView
 				trans.Rotate(mouseX* Vector3.up * speedTurn * Time.deltaTime);
 			}
 
+			if (mouseY != 0)
+			{
+				trans.Rotate(-mouseY * Vector3.right * speedTurn * Time.deltaTime);
+			}
 
+			//2. 연산부분...
+			//rigidbody.velocity = Vector3.zero;
+			//rigidbody.angularVelocity = Vector3.zero;
 		}
 	}
 }
