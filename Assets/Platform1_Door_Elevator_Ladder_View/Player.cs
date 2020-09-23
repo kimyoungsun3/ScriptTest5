@@ -89,9 +89,10 @@ namespace Platform_Door_Elevator
 
 		public void SetToCameraView(eCamearView _type)
 		{
-			Debug.Log("카메라 모드시도:" + _type);
+			//Debug.Log("카메라 모드시도:" + _type);
 			if (cameraType == _type) return;
-			Debug.Log(" >> 변경한다...");
+			//Debug.Log(" >> 변경한다...");
+
 			cameraType = _type;
 			cameraRig.SetToCameraView(_type);
 		}

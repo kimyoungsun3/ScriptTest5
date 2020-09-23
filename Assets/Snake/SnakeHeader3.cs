@@ -5,23 +5,23 @@ using UnityEngine;
 
 namespace Snake
 {
-	public class SnakeHeader : MonoBehaviour
+	public class SnakeHeader3 : MonoBehaviour
 	{
-		[SerializeField] float speed = 3.5f;
+		[SerializeField] float speed = 5f;
 		[SerializeField] [Range(0, 1f)] float speedNotClickPercent = .3f;
-		public float speedTurn = 50f;
-		private float turnDir = 0f;
+		//public float speedTurn = 400f;
+		//private float turnDir = 0f;
 		//public Transform header;
-		[Range(1f, 10f)] public float damping;
+		[Range(.1f, 10f)] public float distance = .5f;
 		public List<Transform> list = new List<Transform>();
-		private Vector3 dummySpeed;
-		public float distance = 1f;
-		public float tailSize = 0.8f;
+		//[Range(0.01f, 1f), SerializeField] float duration = 0.5f;
+		//private Vector3 dummySpeed;
+		public float tailSize = .8f;
+		public float speedTailAdd = 5f;
 
 
 		Plane ground;
 		Ray ray;
-		//RaycastHit hit;
 		float hitDistance;
 		Camera camera;
 		// Use this for initialization
@@ -38,37 +38,40 @@ namespace Snake
 			InputMousePoint();
 
 			//body
-			list[0].position = transform.position;
-			list[0].rotation = transform.rotation;
+			Transform _t0 = list[0];
+			Transform _t1 = null;			
 			for (int i = 1; i < list.Count; i++)
 			{
-				Vector3 _dir = list[i - 1].position - list[i].position;
-				if (_dir.sqrMagnitude > distance)
+				_t1 = list[i];
+				Vector3 _dir = _t0.position - _t1.position;				
+				if (_dir.sqrMagnitude > distance * distance)
 				{
-					//Debug.Log(i);
-					//Vector3.Angle()
-					list[i].position = Vector3.Lerp(list[i].position, list[i - 1].position, damping * Time.deltaTime);
+					_t1.position = _t0.position - _dir.normalized* distance;
+					//list[i].position = Vector3.Lerp(list[i].position, list[i - 1].position, damping * Time.deltaTime);
 					if (_dir != Vector3.zero)
+					{
 						list[i].rotation = Quaternion.LookRotation(_dir);
+					}
 				}
+				_t0 = _t1;
 			}
 		}
 
-		void InputKeyBoard()
-		{
-			//move
-			if (Input.GetKey(KeyCode.W))
-			{
-				transform.Translate(Vector3.up * speed * Time.deltaTime);
-			}
+		//void InputKeyBoard()
+		//{
+		//	//move
+		//	if (Input.GetKey(KeyCode.W))
+		//	{
+		//		transform.Translate(Vector3.up * speed * Time.deltaTime);
+		//	}
 
 
-			//rotation
-			if (Input.GetKey(KeyCode.A)) turnDir = +1f;
-			else if (Input.GetKey(KeyCode.D)) turnDir = -1f;
-			else turnDir = 0f;
-			transform.Rotate(Vector3.forward * turnDir * speedTurn * Time.deltaTime);
-		}
+		//	//rotation
+		//	if (Input.GetKey(KeyCode.A)) turnDir = +1f;
+		//	else if (Input.GetKey(KeyCode.D)) turnDir = -1f;
+		//	else turnDir = 0f;
+		//	transform.Rotate(Vector3.forward * turnDir * speedTurn * Time.deltaTime);
+		//}
 
 		void InputMousePoint()
 		{
@@ -103,12 +106,26 @@ namespace Snake
 		{
 			if (_other.CompareTag("Coin"))
 			{
+				// 기존에 작동하는 것들은 유지...
+				// 새롭게 추가된것들이 들어옴...
 				_other.transform.SetParent(null);
-				Destroy(_other.GetComponent<Collider>());
-				//_other.gameObject
 				_other.transform.localScale *= tailSize;
-				list.Add(_other.transform);
+				Destroy(_other.GetComponent<Collider>());
+				SnakeSpawner.ins.RemoveItem(_other.transform);
+				StartCoroutine(Co_AddSnakeTail(list[list.Count - 1], _other.transform));
 			}
+		}
+
+		IEnumerator Co_AddSnakeTail(Transform _t0, Transform _t1)
+		{
+			float _plusDistance = distance + 0.2f;
+			Vector3 _dir = (_t0.position - _t1.position).normalized * distance;
+			while (Vector3.Distance(_t0.position, _t1.position) > _plusDistance)
+			{
+				_t1.position = Vector3.Lerp(_t0.position - _dir, _t1.position, speedTailAdd * Time.deltaTime);
+				yield return null;
+			}
+			list.Add(_t1.transform);
 		}
 	}
 

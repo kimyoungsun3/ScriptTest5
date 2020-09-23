@@ -9,7 +9,8 @@ namespace Platform_Door_Elevator
 		None,
 		ToLOLView,
 		ToSideLeftView, ToSideRightView,
-		ToTopView
+		ToTopView,
+		ToForwardView
 	};
 
 	[System.Serializable]
@@ -35,8 +36,42 @@ namespace Platform_Door_Elevator
 
 		public void SetToCameraView(eCamearView _type)
 		{
-			StopCoroutine("Co_ChangeView");
-			StartCoroutine("Co_ChangeView", _type);
+			StopCoroutine("Co_ChangeView2");
+			StartCoroutine("Co_ChangeView2", _type);
+		}
+
+		IEnumerator Co_ChangeView2(eCamearView _type)
+		{
+			yield return null;
+
+			//3-1. 위치할 Transform 찾기 (position, rotation)
+			Transform _p = null;
+			for(int i = 0; i < list.Count; i++)
+			{
+				if(list[i].type == _type)
+				{
+					_p = list[i].trans;
+					break;
+				}
+			}
+
+			Vector3 _p0		= trans.position;
+			Quaternion _r0	= trans.rotation;
+			Vector3 _p1		= _p.position;
+			Quaternion _r1	= _p.rotation;
+
+			float _speed = 1f / duration;
+			float _percent = 0;
+			float _interval;
+			while(_percent < 1f)
+			{
+				_percent += _speed * Time.deltaTime;
+				_interval = curve.Evaluate(_percent);
+				trans.position = Vector3.Lerp(_p0, _p1, _interval);
+				trans.rotation = Quaternion.Lerp(_r0, _r1, _interval);
+				yield return null;
+			}
+
 		}
 
 		IEnumerator Co_ChangeView(eCamearView _type)
