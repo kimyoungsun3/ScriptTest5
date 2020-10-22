@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace FieldOfViewTest6
+namespace FindOfView
 {
 	[System.Serializable]
 	public class SpawnData

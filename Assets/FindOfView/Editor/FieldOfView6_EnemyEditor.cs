@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEditor;
 using UnityEngine;
 
-namespace FieldOfViewTest6
+namespace FindOfView
 {
 	[CustomEditor(typeof(FieldOfView6_Enemy))]
 	public class FieldOfView6_EnemyEditor : Editor

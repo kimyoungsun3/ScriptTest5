@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace FieldOfViewTest
+namespace FindOfView
 {
 	public class FieldOfView3 : MonoBehaviour {
 		Transform trans;

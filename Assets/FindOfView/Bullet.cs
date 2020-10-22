@@ -2,7 +2,7 @@
 using System.Collections;
 using PoolManager7;
 
-namespace FieldOfViewTest6
+namespace FindOfView
 {
 	public class Bullet : MonoBehaviour
 	{

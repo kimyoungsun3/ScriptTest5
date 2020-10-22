@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace FieldOfViewTest6
+namespace FindOfView
 {
 	public class PlayerMove : MonoBehaviour
 	{
